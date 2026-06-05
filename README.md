@@ -223,6 +223,7 @@
 |------|-------------|-------|--------|
 | [**uvm-neurobotics-lab/ANML**](https://github.com/uvm-neurobotics-lab/ANML) | A neuromodulatory meta-learning framework | ~150 | ✅ |
 | [**ShengranHu/Thought-Cloning**](https://github.com/ShengranHu/Thought-Cloning) | Imitation learning with language-based thinking | ~150 | ✅ |
+| [**wjlgatech/ToolUniverse**](https://github.com/wjlgatech/ToolUniverse) | Ecosystem (1000+ tools) for building AI scientist systems; MCP-native, async, composable | 🆕 | 🔥 |
 
 ---
 
@@ -304,6 +305,7 @@
 | **Lex Fridman Podcast: Automated AI Research** | Multiple guests | Lex Fridman | 2024–25 | [▶️](https://lexfridman.com/podcast) |
 | **NVIDIA Research: Eureka — Human-Level Reward Design** | Yecheng Jason Ma | NVIDIA Tech Blog | 2024 | [▶️](https://eureka-research.github.io) |
 | **Go-Explore: A New Type of Algorithm for Hard-Exploration Problems** | Jeff Clune (**Recursive**) | ReWork 2019 | 2019 | [▶️](https://jeffclune.com/videos.html) |
+| **Learning Beyond Gradients: Heuristic Learning & Continual Learning** | Jiayi Weng (**Recursive**) | Blog / Essay | 2025 | [💻](https://trinkle23897.github.io/learning-beyond-gradients/) |
 
 ---
 
