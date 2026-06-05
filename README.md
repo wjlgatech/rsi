@@ -19,7 +19,7 @@
 ---
 
 > **⚡ What makes this repo different from every other list?**
-> 1. **Recursive Lab–focused** — the only list featuring Shengran Hu, Mingchen Zhuge, Tim Rocktäschel, Jeff Clune, Josh Tobin, Richard Socher and their full publication graphs
+> 1. **Recursive Lab–focused** — the only list featuring all **8 co-founders**: Jeff Clune, Tim Rocktäschel, Richard Socher, Caiming Xiong, **Yuandong Tian**, Tim Shi, Mingchen Zhuge & Yingbo Zhou — with full publication graphs
 > 2. **Competitive analysis baked in** — citation counts, reproducibility status, and impact scores for every paper
 > 3. **Dual roadmaps** — one for absolute beginners, one for frontier researchers
 > 4. **Community-updated** — automated weekly freshness checks via GitHub Actions
@@ -125,6 +125,10 @@
 | [**OMNI-EPIC: Open-Endedness via Models of Human Notions of Interestingness**](https://arxiv.org/abs/2405.15568) | Faldor, Zhang, Cully, **Clune** | ICLR | 2025 | ~69 | [🔗](https://github.com/MaxenceFaldor/Omni-EPIC) |
 | [**Generative Teaching Networks**](https://arxiv.org/abs/1912.07768) | Such, Rawal, Lehman, Stanley, **Clune** | ICML | 2020 | ~249 | — |
 | [**PromptBreeder: Self-Referential Self-Improvement via Prompt Evolution**](https://arxiv.org/abs/2309.16797) | Fernando, Banarse, Michalewski, Osindero, **Rocktäschel** et al. (DeepMind) | arXiv | 2023 | ~538 | — |
+| [**Coconut: Training LLMs to Reason in a Continuous Latent Space**](https://arxiv.org/abs/2412.06769) | Hao, Sukhbaatar, Su, Li, Hu, Weston, **Y. Tian** (**Recursive** / Meta) | COLM | 2025 | ~570 | [🔗](https://github.com/facebookresearch/coconut) |
+| [**GaLore: Memory-Efficient LLM Training by Gradient Low-Rank Projection**](https://arxiv.org/abs/2403.03507) | Zhao, Zhang, Chen, Wang, Anandkumar, **Y. Tian** (Meta) | ICML Oral | 2024 | ~800 | [🔗](https://github.com/jiaweizzhao/GaLore) |
+| [**StreamingLLM: Efficient Streaming Language Models with Attention Sinks**](https://arxiv.org/abs/2309.17453) | Xiao, **Y. Tian**, Chen, Han, Lewis (Meta) | ICLR | 2024 | ~1,200 | [🔗](https://github.com/mit-han-lab/streaming-llm) |
+| [**ELF OpenGo: An Open Reimplementation of AlphaZero**](https://arxiv.org/abs/1902.04522) | **Y. Tian**, Ma, Gong, Sengupta et al. (Meta) | ICML Oral | 2019 | ~350 | [🔗](https://github.com/pytorch/ELF) |
 
 ### 🌐 Open-Ended Learning & Curriculum
 
@@ -224,22 +228,38 @@
 
 ## 👥 People & Labs to Follow
 
-### 🎯 Recursive Lab Members
+### 🎯 Recursive Lab — 8 Co-Founders & Key Members
 
-> **Recursive** (recursive.com) — "Recursive self-improving superintelligence to automate knowledge discovery." ~31 members, SF-based, 8K LinkedIn followers.
+> **Recursive** (recursive.com) — "Recursive self-improving superintelligence to automate knowledge discovery."
+> Founded May 2026 · Raised **$650M at $4.65B valuation** led by GV (Google Ventures) & Greycroft, with AMD Ventures & NVIDIA
+> Offices in San Francisco & London · 25+ team members from OpenAI, DeepMind, Meta AI, Google Brain, Salesforce AI, Uber AI
+
+#### The 8 Co-Founders
+
+| Person | Previous Roles | Research Focus | Key Papers | Links |
+|--------|---------------|----------------|------------|-------|
+| **Jeff Clune** | OpenAI, Uber AI | AI-GAs, open-ended learning, quality diversity, meta-learning | AI-GAs (2019), ADAS (2025), DGM (2026), AI Scientist (2026) | [🌐](https://jeffclune.com) [𝕏](https://x.com/jeffclune) [Scholar](https://scholar.google.com/citations?user=5eeQ9AkAAAAJ) [LinkedIn](https://www.linkedin.com/in/jeff-clune/) |
+| **Tim Rocktäschel** | Meta AI (FAIR), UCL | Open-endedness, RL, curriculum learning, ASI | PLR (2021), ACCEL (2022), PromptBreeder (2023), Open-Endedness Essential (2024) | [🌐](https://rockt.ai) [𝕏](https://x.com/_rockt) [Scholar](https://scholar.google.com/citations?user=gLskPY0AAAAJ) [LinkedIn](https://www.linkedin.com/in/tim-rocktaeschel/) |
+| **Richard Socher** | Salesforce AI (SVP), Stanford | NLP, LLMs, deep learning, you.com founder | GloVe (2014), Dynamic Memory Networks (2016), CoVe (2017) | [🌐](https://richard.socher.org) [𝕏](https://x.com/RichardSocher) [Scholar](https://scholar.google.com/citations?user=FaOcyfMAAAAJ) [LinkedIn](https://www.linkedin.com/in/richard-socher/) |
+| **Caiming Xiong** | Salesforce AI (SVP Research), Cresta | LLMs, code generation, multi-agent systems | CoVe / Learned in Translation (2017), OpenAgents (2023) | [𝕏](https://x.com/CaimingXiong) [Scholar](https://scholar.google.com/citations?user=vACNGQsAAAAJ) [LinkedIn](https://www.linkedin.com/in/caiming-xiong/) |
+| **Yuandong Tian** | Meta AI (Research Scientist Director), Google | LLM reasoning, RL, planning, self-supervised learning, NAS | Coconut/COLM (2025), GaLore/ICML Oral (2024), StreamingLLM/ICLR (2024), ELF OpenGo/ICML Oral (2019), DirectPred/ICML Outstanding (2021) | [🌐](https://yuandong-tian.com) [𝕏](https://x.com/yuandong_tian) [Scholar](https://scholar.google.com/citations?user=GR3ly80AAAAJ) [LinkedIn](https://www.linkedin.com/in/yuandong-tian/) |
+| **Tim Shi** | OpenAI (early), Cresta (Co-Founder) | Applied AI, LLM products | — | [𝕏](https://x.com/timshi) [LinkedIn](https://www.linkedin.com/in/timshi/) |
+| **Mingchen Zhuge** | KAUST | Multi-agent systems, recursive self-improvement, LLM optimization | GPTSwarm/ICML (2024), MetaGPT/ICLR (2024), Agent-as-a-Judge (2024), Mindstorms (2023) | [𝕏](https://x.com/MingchenZhuge) [Scholar](https://scholar.google.com/citations?user=MingchenZhuge) [LinkedIn](https://www.linkedin.com/in/mingchenzhuge/) |
+| **Yingbo Zhou** | Salesforce AI, Uber AI | LLMs, multi-agent, AI research automation | — | [LinkedIn](https://www.linkedin.com/in/yingbozhou/) |
+
+#### Founding Mission (from [stealth launch blog post](https://www.linkedin.com/pulse/we-emerging-from-stealth-bold-bet-self-improving-ai-recursive-si-9jwwc/), May 2026)
+
+> *"We are former research team leaders from OpenAI, Google DeepMind, Meta AI, Salesforce AI, and Uber AI. We raised $650M at $4.65 billion valuation to create AI that conducts experiments on how to safely improve itself—in an open-ended process of automated scientific discovery. This will likely be the fastest path to superintelligence."*
+
+#### Other Key Team Members
 
 | Person | Role | Research Focus | Links |
 |--------|------|----------------|-------|
-| **Shengran Hu** | Founding Member | Automated agentic systems, self-improvement, NAS | [🌐](https://shengranhu.com) [𝕏](https://x.com/ShengranHu) [Scholar](https://scholar.google.com/citations?user=ShengranHu) [GitHub](https://github.com/ShengranHu) [LinkedIn](https://linkedin.com/in/shengranhu) |
-| **Jeff Clune** | Co-Founder | AI-GAs, open-ended learning, quality diversity, meta-learning | [🌐](https://jeffclune.com) [𝕏](https://x.com/jeffclune) [Scholar](https://scholar.google.com/citations?user=5eeQ9AkAAAAJ) [LinkedIn](https://linkedin.com/in/jeff-clune) |
-| **Tim Rocktäschel** | Co-Founder | Open-endedness, RL, curriculum learning, ASI | [🌐](https://rockt.ai) [𝕏](https://x.com/_rockt) [Scholar](https://scholar.google.com/citations?user=gLskPY0AAAAJ) [LinkedIn](https://linkedin.com/in/tim-rocktaeschel) |
-| **Richard Socher** | CEO | NLP, LLMs, deep learning for NLP | [🌐](https://richard.socher.org) [𝕏](https://x.com/RichardSocher) [Scholar](https://scholar.google.com/citations?user=FaOcyfMAAAAJ) [LinkedIn](https://linkedin.com/in/richard-socher) |
-| **Caiming Xiong** | Co-Founder | LLMs, code generation, multi-agent systems | [𝕏](https://x.com/CaimingXiong) [Scholar](https://scholar.google.com/citations?user=vACNGQsAAAAJ) [LinkedIn](https://linkedin.com/in/caiming-xiong) |
-| **Mingchen Zhuge** | Founding Member | Multi-agent systems, recursive self-improvement, LLM optimization | [𝕏](https://x.com/MingchenZhuge) [Scholar](https://scholar.google.com/citations?user=MingchenZhuge) [LinkedIn](https://linkedin.com/in/mingchenzhuge) |
-| **Josh Tobin** | Member | Automated scientific discovery, sim-to-real robotics | [𝕏](https://x.com/josh_tobin_) [Scholar](https://scholar.google.com/citations?user=josh_tobin) [LinkedIn](https://linkedin.com/in/josh-tobin-4b3b10a) |
-| **Peter Norvig** | Researcher | AI foundations, education, rationality | [🌐](https://norvig.com) [Scholar](https://scholar.google.com/citations?user=2XoHRgEAAAAJ) [LinkedIn](https://linkedin.com/in/pnorvig) |
-| **Yingbo Zhou** | Founding Team | LLMs, multi-agent | [LinkedIn](https://linkedin.com/in/yingbozhou) |
-| **Tim Shi** | Co-Founder | Applied AI, early OpenAI | [𝕏](https://x.com/timshi) [LinkedIn](https://linkedin.com/in/timshi) |
+| **Shengran Hu** | Founding Member (PhD student, UBC under Jeff Clune) | Automated agentic systems, self-improvement, NAS | [🌐](https://shengranhu.com) [𝕏](https://x.com/ShengranHu) [Scholar](https://scholar.google.com/citations?user=ShengranHu) [GitHub](https://github.com/ShengranHu) [LinkedIn](https://www.linkedin.com/in/shengranhu/) |
+| **Josh Tobin** | Automating Scientific Discovery | Sim-to-real robotics, automated discovery | [𝕏](https://x.com/josh_tobin_) [Scholar](https://scholar.google.com/citations?user=josh_tobin) [LinkedIn](https://www.linkedin.com/in/josh-tobin-4b3b10a/) |
+| **Peter Norvig** | Researcher / Education Fellow Stanford | AI foundations, rationality, education | [🌐](https://norvig.com) [Scholar](https://scholar.google.com/citations?user=2XoHRgEAAAAJ) [LinkedIn](https://www.linkedin.com/in/pnorvig/) |
+| **Jianguo Zhang** | Founding Member | LLM agents, multi-agent | [LinkedIn](https://www.linkedin.com/in/jiguozhang/) |
+
 
 ### 🔬 Affiliated Researchers
 
@@ -325,6 +345,8 @@
        MLGym, MLE-Bench, BALROG — benchmark ecosystem matures
        ALMA — meta-learned agentic memory designs (S. Hu, Clune) — Best Paper
 2026  AI Scientist Nature paper published — Vol. 651, pp. 914–919
+       Recursive emerging from stealth: $650M at $4.65B valuation (GV, Greycroft, AMD, NVIDIA)
+       8 co-founders announced: Clune, Rocktäschel, Socher, Caiming Xiong, Yuandong Tian, Tim Shi, M. Zhuge, Y. Zhou
        AI with Recursive Self-Improvement workshop @ ICLR (M. Zhuge, Recursive)
        Recursive co-founded — Jeff Clune, Tim Rocktäschel, Richard Socher, Caiming Xiong
 ```
