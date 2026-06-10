@@ -6,6 +6,14 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 ## [Unreleased]
 
 ### Added
+- **"✨ Ask the field"** on the interactive map: grounded Q&A over the knowledge graph,
+  answered by frontier models on **NVIDIA's free NIM API** (GLM 5.1 / DeepSeek v4 /
+  Kimi K2.6). Visitors bring their own free key (build.nvidia.com/models, ~40 req/min);
+  it lives only in their browser's localStorage and reaches NVIDIA via a keyless CORS
+  bridge (nim-bridge.vercel.app — needed because NVIDIA's API only allows CORS from
+  build.nvidia.com). Answers cite graph nodes as clickable chips that select them on
+  the map. Retrieval is client-side over `knowledge/graph.json` — no backend, no
+  tracking, the page stays a static file.
 - **Living knowledge graph**: the README's tables now compile into a typed graph
   (`knowledge/graph.json`, 139 nodes · 246 edges: papers/repos/people/labs/talks/benchmarks
   with `authored_by`/`has_code`/`member_of`/`part_of`/`builds_on` edges) plus a

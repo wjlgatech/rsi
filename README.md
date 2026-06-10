@@ -62,6 +62,7 @@
 This list is not just tables — it **compiles**. Every paper, repo, person, lab, talk and benchmark below is a node in a typed knowledge graph, with `authored_by` / `has_code` / `member_of` / `builds_on` edges connecting them:
 
 - **🗺️ [Explore the interactive map](https://wjlgatech.github.io/awesome-auto-ai-research/)** — force-layout graph with search, type filters, and click-to-inspect (self-contained HTML; also works locally: open [`docs/index.html`](docs/index.html))
+- **✨ Ask the field** — hit the *Ask* button on the map for grounded Q&A: a frontier model (GLM 5.1 / DeepSeek v4 / Kimi K2.6 on **NVIDIA's free API**) answers from the graph and cites nodes as clickable chips. Bring your own free key from [build.nvidia.com/models](https://build.nvidia.com/models) — it stays in your browser
 - **🧩 [`knowledge/graph.json`](knowledge/graph.json)** — the full machine-readable graph (139 nodes · 246 edges) for your own agents, RAG pipelines, or analysis
 - **🧬 [`knowledge/enrichments.json`](knowledge/enrichments.json)** — curator-written lineage edges (Gödel Machine → AI-GAs → DGM …) that survive regeneration
 
