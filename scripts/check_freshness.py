@@ -17,6 +17,7 @@ Exit codes: 0 = all good (warnings allowed) · 1 = at least one dead link.
 from __future__ import annotations
 
 import re
+import socket
 import sys
 import urllib.error
 import urllib.request
@@ -43,6 +44,9 @@ def probe(url: str, timeout: int) -> tuple[str, int | str]:
         except Exception as e:  # DNS, timeout, TLS, redirect loops
             if method == "HEAD":
                 continue
+            reason = getattr(e, "reason", e)
+            if isinstance(reason, socket.gaierror):
+                return url, "dns-failure"  # domain itself is gone — a real death
             return url, type(e).__name__
     return url, "unreachable"
 
@@ -69,15 +73,21 @@ def main() -> None:
     with ThreadPoolExecutor(max_workers=workers) as ex:
         results = list(ex.map(lambda u: probe(u, timeout), urls))
 
+    # Classification policy: only "this resource is gone" fails the run. Bot-blocking
+    # statuses (403/405/406/429/999) and transport errors are WARN — they prove the
+    # prober was refused, not that the link is dead (GitHub runner IPs get bot-walled
+    # by far more domains than a residential machine).
+    _GONE = {404, 410, "dns-failure"}
     ok, warn, dead = [], [], []
     for url, status in results:
-        good = isinstance(status, int) and status < 400
-        if good:
+        if isinstance(status, int) and status < 400:
             ok.append((url, status))
         elif any(d in url for d in _BOT_WALLED):
             warn.append((url, status))
-        else:
+        elif status in _GONE:
             dead.append((url, status))
+        else:
+            warn.append((url, status))
 
     lines = [
         f"# Link freshness report",

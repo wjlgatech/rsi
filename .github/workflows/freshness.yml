@@ -5,7 +5,7 @@ on:
     - cron: "0 6 * * 1" # Mondays 06:00 UTC — the weekly check the README promises
   workflow_dispatch:
   push:
-    paths: ["README.md"]
+    paths: ["README.md", "scripts/check_freshness.py", ".github/workflows/freshness.yml"]
     branches: [main]
 
 jobs:
