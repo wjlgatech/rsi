@@ -521,8 +521,8 @@ body{background:#0b0c10;color:#e6e6ea;font:14px/1.45 -apple-system,Inter,system-
 <div id="ask">
   <header><b>✨ Ask the field</b>
     <select id="model">
-      <option value="z-ai/glm-5.1">GLM 5.1 · flagship</option>
       <option value="deepseek-ai/deepseek-v4-flash">DeepSeek v4 · fast</option>
+      <option value="z-ai/glm-5.1">GLM 5.1 · flagship (slow queue)</option>
       <option value="moonshotai/kimi-k2.6">Kimi K2.6 · agentic</option>
     </select>
     <span class="x" id="keygear" title="change API key">⚙</span>
@@ -696,7 +696,7 @@ const history=[];
 askform.onsubmit=async ev=>{ev.preventDefault();
   const q=document.getElementById('askq').value.trim();if(!q)return;
   document.getElementById('askq').value='';addMsg('user',q);
-  const thinking=addMsg('bot','…thinking');
+  const thinking=addMsg('bot','…thinking (free tier can queue 10–60s)');
   const r=retrieve(q);
   const sys='You are the guide to the "'+G.subject+'" living knowledge graph. Answer ONLY from '
     +'the CONTEXT below (nodes and typed edges compiled from the curated README). Cite the node '
