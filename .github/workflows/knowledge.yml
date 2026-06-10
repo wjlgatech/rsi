@@ -1,0 +1,34 @@
+name: knowledge
+
+# The repo is LIVING: any edit to the README (or the curator overlay) recompiles the
+# knowledge graph and the interactive map — contributors only ever touch the README.
+
+on:
+  push:
+    paths: ["README.md", "knowledge/enrichments.json", "scripts/awesome_kg.py"]
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  rebuild:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Recompile knowledge graph + interactive map
+        run: |
+          python3 scripts/awesome_kg.py build README.md \
+            --out knowledge/graph.json \
+            --html docs/index.html \
+            --enrich knowledge/enrichments.json \
+            --title "Awesome Automated AI Research"
+
+      - name: Commit if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add knowledge/graph.json docs/index.html
+          git diff --cached --quiet || git commit -m "chore: recompile knowledge graph from README [skip ci]"
+          git push

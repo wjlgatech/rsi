@@ -1,0 +1,20 @@
+{
+  "_comment": "Curator overlay merged into graph.json by awesome_kg.py --enrich. Lineage edges grounded in the README's own Taxonomy + Timeline sections (well-known successions only). Survives every regeneration — edit this, not graph.json.",
+  "nodes": [],
+  "edges": [
+    {"src": "paper:ai-generating-algorithms-ai-gas", "dst": "paper:g-del-machines-self-referential-universal-problem-solvers", "type": "builds_on"},
+    {"src": "paper:darwin-g-del-machine-open-ended-evolution-of-self-improving-", "dst": "paper:g-del-machines-self-referential-universal-problem-solvers", "type": "builds_on"},
+    {"src": "paper:darwin-g-del-machine-open-ended-evolution-of-self-improving-", "dst": "paper:ai-generating-algorithms-ai-gas", "type": "builds_on"},
+    {"src": "paper:the-ai-scientist-towards-fully-automated-open-ended-scientif", "dst": "paper:ai-generating-algorithms-ai-gas", "type": "builds_on"},
+    {"src": "paper:the-ai-scientist-v2-workshop-level-automated-scientific-disc", "dst": "paper:the-ai-scientist-towards-fully-automated-open-ended-scientif", "type": "builds_on"},
+    {"src": "paper:automated-design-of-agentic-systems-adas", "dst": "paper:ai-generating-algorithms-ai-gas", "type": "builds_on"},
+    {"src": "paper:darwin-g-del-machine-open-ended-evolution-of-self-improving-", "dst": "paper:automated-design-of-agentic-systems-adas", "type": "builds_on"},
+    {"src": "paper:alphaevolve-a-coding-agent-for-scientific-and-algorithmic-di", "dst": "paper:funsearch-mathematical-discoveries-from-program-search-with-", "type": "builds_on"},
+    {"src": "paper:agentrxiv-towards-collaborative-autonomous-research", "dst": "paper:agent-laboratory-using-llm-agents-as-research-assistants", "type": "builds_on"},
+    {"src": "paper:evolving-curricula-with-regret-based-environment-design", "dst": "paper:prioritized-level-replay", "type": "builds_on"},
+    {"src": "paper:learning-to-continually-learn-via-meta-learning-agentic-memo", "dst": "paper:learning-to-continually-learn-anml", "type": "builds_on"},
+    {"src": "paper:gptswarm-language-agents-as-optimizable-graphs", "dst": "paper:mindstorms-in-natural-language-based-societies-of-mind", "type": "builds_on"},
+    {"src": "paper:ai-with-recursive-self-improvement", "dst": "paper:darwin-g-del-machine-open-ended-evolution-of-self-improving-", "type": "builds_on"},
+    {"src": "paper:omni-epic-open-endedness-via-models-of-human-notions-of-inte", "dst": "paper:open-endedness-is-essential-for-artificial-superhuman-intell", "type": "builds_on"}
+  ]
+}

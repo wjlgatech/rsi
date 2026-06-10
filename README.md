@@ -29,6 +29,7 @@
 
 ## 📚 Table of Contents
 
+- [🕸️ Living Knowledge Graph](#-living-knowledge-graph)
 - [🏛️ Field Overview & Taxonomy](#-field-overview--taxonomy)
 - [📄 Papers](#-papers)
   - [🧬 Foundational & Visionary](#-foundational--visionary)
@@ -53,6 +54,30 @@
 - [🏆 Competitive Landscape Analysis](#-competitive-landscape-analysis)
 - [🤝 How to Contribute](#-how-to-contribute)
 - [📜 Citation](#-citation)
+
+---
+
+## 🕸️ Living Knowledge Graph
+
+This list is not just tables — it **compiles**. Every paper, repo, person, lab, talk and benchmark below is a node in a typed knowledge graph, with `authored_by` / `has_code` / `member_of` / `builds_on` edges connecting them:
+
+- **🗺️ [Explore the interactive map](https://wjlgatech.github.io/awesome-auto-ai-research/)** — force-layout graph with search, type filters, and click-to-inspect (self-contained HTML; also works locally: open [`docs/index.html`](docs/index.html))
+- **🧩 [`knowledge/graph.json`](knowledge/graph.json)** — the full machine-readable graph (139 nodes · 246 edges) for your own agents, RAG pipelines, or analysis
+- **🧬 [`knowledge/enrichments.json`](knowledge/enrichments.json)** — curator-written lineage edges (Gödel Machine → AI-GAs → DGM …) that survive regeneration
+
+**It stays alive automatically.** Editing the README is all a contributor ever does — on every merge, [a GitHub Action](.github/workflows/knowledge.yml) recompiles the graph and the map, and [a weekly freshness check](.github/workflows/freshness.yml) probes every link and opens an issue if any die.
+
+```bash
+# regenerate locally (stdlib-only, deterministic, zero LLM calls)
+python3 scripts/awesome_kg.py build README.md \
+  --out knowledge/graph.json --html docs/index.html \
+  --enrich knowledge/enrichments.json --title "Awesome Automated AI Research"
+
+# check every link is still alive
+python3 scripts/check_freshness.py README.md
+```
+
+> Built with the [`living-repo`](https://github.com/wjlgatech/sos/tree/main/plugins/sos/skills/living-repo) skill from the [sos toolkit](https://github.com/wjlgatech/sos) — point it at any awesome-list to get the same treatment.
 
 ---
 
@@ -99,7 +124,7 @@
 | [**AlphaEvolve: A Coding Agent for Scientific and Algorithmic Discovery**](https://arxiv.org/abs/2506.01882) | Novikov, Vũ, Eisenberger et al. (Google DeepMind) | arXiv | 2025 | ~696 | — |
 | [**FunSearch: Mathematical Discoveries from Program Search with LLMs**](https://www.nature.com/articles/s41586-023-06924-6) | Romera-Paredes, Barekatain, Novikov, Balog et al. (Google DeepMind) | *Nature* | 2024 | ~1,482 | [🔗](https://github.com/google-deepmind/funsearch) |
 | [**Agent Laboratory: Using LLM Agents as Research Assistants**](https://arxiv.org/abs/2501.04227) | Schmidgall, Su, Wang et al. | ACL Findings | 2025 | ~378 | [🔗](https://github.com/SamuelSchmidgall/AgentLaboratory) |
-| [**AgentRxiv: Towards Collaborative Autonomous Research**](https://arxiv.org/abs/2503.18102) | Schmidgall, Moor | arXiv | 2025 | ~62 | [🔗](https://github.com/SamuelSchmidgall/AgentRxiv) |
+| [**AgentRxiv: Towards Collaborative Autonomous Research**](https://arxiv.org/abs/2503.18102) | Schmidgall, Moor | arXiv | 2025 | ~62 | [🔗](https://agentrxiv.github.io) |
 
 ### 🤖 Automated Agentic System Design
 
@@ -148,7 +173,7 @@
 | [**Eureka: Human-Level Reward Design via Coding LLMs**](https://arxiv.org/abs/2310.12931) | Ma, Liang, Wang, Huang et al. (NVIDIA / CMU) | ICLR | 2024 | ~850 | [🔗](https://github.com/eureka-research/Eureka) |
 | [**OPRO: Large Language Models as Optimizers**](https://arxiv.org/abs/2309.03409) | Yang, Wang, Li, Fang et al. (Google DeepMind) | arXiv | 2023 | ~800 | [🔗](https://github.com/google-deepmind/opro) |
 | [**DSPy: Compiling Declarative Language Model Calls**](https://arxiv.org/abs/2310.03714) | Khattab, Singhvi, Maheshwari et al. (Stanford) | ICLR | 2024 | ~1,200 | [🔗](https://github.com/stanfordnlp/dspy) |
-| [**Accelerating Multi-Objective NAS by Random-Weight Evaluation**](https://link.springer.com/article/10.1007/s40747-021-00594-6) | **S. Hu**, Cheng, He, Lu, Wang, Zhang | Complex & Intelligent Systems | 2021 | ~80 | — |
+| [**Accelerating Multi-Objective NAS by Random-Weight Evaluation**](https://arxiv.org/abs/2110.05242) | **S. Hu**, Cheng, He, Lu, Wang, Zhang | Complex & Intelligent Systems | 2021 | ~80 | — |
 
 ### 📊 Benchmarks & Evaluation
 
@@ -166,7 +191,7 @@
 | Paper | Authors | Venue | Year | Citations |
 |-------|---------|-------|------|-----------|
 | [**Agentic AI for Scientific Discovery: A Survey**](https://arxiv.org/abs/2503.14517) | Gridach, Nanavati et al. | arXiv | 2025 | ~160 |
-| [**From Automation to Autonomy: A Survey on LLMs in Scientific Discovery**](https://aclanthology.org/2025.acl-long.xxx) | Zheng, Deng et al. | ACL | 2025 | ~89 |
+| [**From Automation to Autonomy: A Survey on LLMs in Scientific Discovery**](https://arxiv.org/abs/2505.13259) | Zheng, Deng et al. | ACL | 2025 | ~89 |
 | [**A Survey of Zero-Shot Generalisation in Deep RL**](https://jair.org/index.php/jair/article/view/14174) | Kirk, Zhang, Grefenstette, Rocktäschel | JAIR | 2023 | ~420 |
 | [**Automated Design of Agentic Systems: A Survey**](https://arxiv.org/abs/2408.08435) | Madžar, Mekterović | Preprints | 2026 | — |
 
@@ -241,7 +266,7 @@
 |--------|---------------|----------------|------------|-------|
 | **Jeff Clune** | OpenAI, Uber AI | AI-GAs, open-ended learning, quality diversity, meta-learning | AI-GAs (2019), ADAS (2025), DGM (2026), AI Scientist (2026) | [🌐](https://jeffclune.com) [𝕏](https://x.com/jeffclune) [Scholar](https://scholar.google.com/citations?user=5eeQ9AkAAAAJ) [LinkedIn](https://www.linkedin.com/in/jeff-clune/) |
 | **Tim Rocktäschel** | Meta AI (FAIR), UCL | Open-endedness, RL, curriculum learning, ASI | PLR (2021), ACCEL (2022), PromptBreeder (2023), Open-Endedness Essential (2024) | [🌐](https://rockt.ai) [𝕏](https://x.com/_rockt) [Scholar](https://scholar.google.com/citations?user=gLskPY0AAAAJ) [LinkedIn](https://www.linkedin.com/in/tim-rocktaeschel/) |
-| **Richard Socher** | Salesforce AI (SVP), Stanford | NLP, LLMs, deep learning, you.com founder | GloVe (2014), Dynamic Memory Networks (2016), CoVe (2017) | [🌐](https://richard.socher.org) [𝕏](https://x.com/RichardSocher) [Scholar](https://scholar.google.com/citations?user=FaOcyfMAAAAJ) [LinkedIn](https://www.linkedin.com/in/richard-socher/) |
+| **Richard Socher** | Salesforce AI (SVP), Stanford | NLP, LLMs, deep learning, you.com founder | GloVe (2014), Dynamic Memory Networks (2016), CoVe (2017) | [🌐](https://www.socher.org) [𝕏](https://x.com/RichardSocher) [Scholar](https://scholar.google.com/citations?user=FaOcyfMAAAAJ) [LinkedIn](https://www.linkedin.com/in/richard-socher/) |
 | **Caiming Xiong** | Salesforce AI (SVP Research), Cresta | LLMs, code generation, multi-agent systems | CoVe / Learned in Translation (2017), OpenAgents (2023) | [𝕏](https://x.com/CaimingXiong) [Scholar](https://scholar.google.com/citations?user=vACNGQsAAAAJ) [LinkedIn](https://www.linkedin.com/in/caiming-xiong/) |
 | **Yuandong Tian** | Meta AI (Research Scientist Director), Google | LLM reasoning, RL, planning, self-supervised learning, NAS | Coconut/COLM (2025), GaLore/ICML Oral (2024), StreamingLLM/ICLR (2024), ELF OpenGo/ICML Oral (2019), DirectPred/ICML Outstanding (2021) | [🌐](https://yuandong-tian.com) [𝕏](https://x.com/yuandong_tian) [Scholar](https://scholar.google.com/citations?user=GR3ly80AAAAJ) [LinkedIn](https://www.linkedin.com/in/yuandong-tian/) |
 | **Tim Shi** | OpenAI (early), Cresta (Co-Founder) | Applied AI, LLM products | — | [𝕏](https://x.com/timshi) [LinkedIn](https://www.linkedin.com/in/timshi/) |
@@ -297,7 +322,7 @@
 |-------|-----------|-------|------|------|
 | **Open-Ended and AI-Generating Algorithms in the Era of Foundation Models** | Jeff Clune (**Recursive**) | U Toronto / Vector Institute | 2025 | [▶️](https://jeffclune.com/videos.html) |
 | **Open-Ended and AI-Generating Algorithms in the Era of Foundation Models** | Jeff Clune (**Recursive**) | University of Oxford | 2024 | [▶️](https://jeffclune.com/videos.html) |
-| **ICLR 2025 Keynote: Open-Endedness & ASI** | Tim Rocktäschel (**Recursive** / UCL) | ICLR | 2025 | [▶️](https://iclr.cc/virtual/2025/invited-talk) |
+| **ICLR 2025 Keynote: Open-Endedness & ASI** | Tim Rocktäschel (**Recursive** / UCL) | ICLR | 2025 | [▶️](https://iclr.cc/virtual/2025/index.html) |
 | **Improving Deep RL via QD, Open-Ended and AI-Generating Algorithms** | Jeff Clune (**Recursive**) | MIT / CORL Keynote | 2023/2021 | [▶️](https://jeffclune.com/videos.html) |
 | **How Meta-Learning Could Help Us Accomplish Our Grandest AI Ambitions** | Jeff Clune (**Recursive**) | NeurIPS Meta-Learning Workshop | 2019 | [▶️](https://jeffclune.com/videos.html) |
 | **The AI Scientist: Fully Automated Scientific Discovery** | Chris Lu, David Ha (Sakana AI) | Various | 2024 | [▶️](https://sakana.ai/ai-scientist) |

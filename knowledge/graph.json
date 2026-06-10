@@ -1,0 +1,3001 @@
+{
+ "kind": "awesome",
+ "subject": "Awesome Automated AI Research",
+ "nodes": [
+  {
+   "id": "person:jeff-clune",
+   "type": "person",
+   "name": "Jeff Clune",
+   "links": [
+    "https://jeffclune.com",
+    "https://x.com/jeffclune",
+    "https://scholar.google.com/citations?user=5eeQ9AkAAAAJ",
+    "https://www.linkedin.com/in/jeff-clune/"
+   ],
+   "summary": "AI-GAs, open-ended learning, quality diversity, meta-learning",
+   "category": "The 8 Co-Founders",
+   "confidence": 0.6
+  },
+  {
+   "id": "person:tim-rockt-schel",
+   "type": "person",
+   "name": "Tim Rocktäschel",
+   "links": [
+    "https://rockt.ai",
+    "https://x.com/_rockt",
+    "https://scholar.google.com/citations?user=gLskPY0AAAAJ",
+    "https://www.linkedin.com/in/tim-rocktaeschel/"
+   ],
+   "summary": "Open-endedness, RL, curriculum learning, ASI",
+   "category": "The 8 Co-Founders",
+   "confidence": 0.6
+  },
+  {
+   "id": "person:richard-socher",
+   "type": "person",
+   "name": "Richard Socher",
+   "links": [
+    "https://www.socher.org",
+    "https://x.com/RichardSocher",
+    "https://scholar.google.com/citations?user=FaOcyfMAAAAJ",
+    "https://www.linkedin.com/in/richard-socher/"
+   ],
+   "summary": "NLP, LLMs, deep learning, you.com founder",
+   "category": "The 8 Co-Founders",
+   "confidence": 0.6
+  },
+  {
+   "id": "person:caiming-xiong",
+   "type": "person",
+   "name": "Caiming Xiong",
+   "links": [
+    "https://x.com/CaimingXiong",
+    "https://scholar.google.com/citations?user=vACNGQsAAAAJ",
+    "https://www.linkedin.com/in/caiming-xiong/"
+   ],
+   "summary": "LLMs, code generation, multi-agent systems",
+   "category": "The 8 Co-Founders",
+   "confidence": 0.6
+  },
+  {
+   "id": "person:yuandong-tian",
+   "type": "person",
+   "name": "Yuandong Tian",
+   "links": [
+    "https://yuandong-tian.com",
+    "https://x.com/yuandong_tian",
+    "https://scholar.google.com/citations?user=GR3ly80AAAAJ",
+    "https://www.linkedin.com/in/yuandong-tian/"
+   ],
+   "summary": "LLM reasoning, RL, planning, self-supervised learning, NAS",
+   "category": "The 8 Co-Founders",
+   "confidence": 0.6
+  },
+  {
+   "id": "person:tim-shi",
+   "type": "person",
+   "name": "Tim Shi",
+   "links": [
+    "https://x.com/timshi",
+    "https://www.linkedin.com/in/timshi/"
+   ],
+   "summary": "Applied AI, LLM products",
+   "category": "The 8 Co-Founders",
+   "confidence": 0.6
+  },
+  {
+   "id": "person:mingchen-zhuge",
+   "type": "person",
+   "name": "Mingchen Zhuge",
+   "links": [
+    "https://x.com/MingchenZhuge",
+    "https://scholar.google.com/citations?user=MingchenZhuge",
+    "https://www.linkedin.com/in/mingchenzhuge/"
+   ],
+   "summary": "Multi-agent systems, recursive self-improvement, LLM optimization",
+   "category": "The 8 Co-Founders",
+   "confidence": 0.6
+  },
+  {
+   "id": "person:yingbo-zhou",
+   "type": "person",
+   "name": "Yingbo Zhou",
+   "links": [
+    "https://www.linkedin.com/in/yingbozhou/"
+   ],
+   "summary": "LLMs, multi-agent, AI research automation",
+   "category": "The 8 Co-Founders",
+   "confidence": 0.6
+  },
+  {
+   "id": "person:shengran-hu",
+   "type": "person",
+   "name": "Shengran Hu",
+   "links": [
+    "https://shengranhu.com",
+    "https://x.com/ShengranHu",
+    "https://scholar.google.com/citations?user=ShengranHu",
+    "https://github.com/ShengranHu",
+    "https://www.linkedin.com/in/shengranhu/"
+   ],
+   "summary": "Automated agentic systems, self-improvement, NAS",
+   "category": "Other Key Team Members",
+   "confidence": 0.6
+  },
+  {
+   "id": "person:josh-tobin",
+   "type": "person",
+   "name": "Josh Tobin",
+   "links": [
+    "https://x.com/josh_tobin_",
+    "https://scholar.google.com/citations?user=josh_tobin",
+    "https://www.linkedin.com/in/josh-tobin-4b3b10a/"
+   ],
+   "summary": "Sim-to-real robotics, automated discovery",
+   "category": "Other Key Team Members",
+   "confidence": 0.6
+  },
+  {
+   "id": "person:peter-norvig",
+   "type": "person",
+   "name": "Peter Norvig",
+   "links": [
+    "https://norvig.com",
+    "https://scholar.google.com/citations?user=2XoHRgEAAAAJ",
+    "https://www.linkedin.com/in/pnorvig/"
+   ],
+   "summary": "AI foundations, rationality, education",
+   "category": "Other Key Team Members",
+   "confidence": 0.6
+  },
+  {
+   "id": "person:jianguo-zhang",
+   "type": "person",
+   "name": "Jianguo Zhang",
+   "links": [
+    "https://www.linkedin.com/in/jiguozhang/"
+   ],
+   "summary": "LLM agents, multi-agent",
+   "category": "Other Key Team Members",
+   "confidence": 0.6
+  },
+  {
+   "id": "person:cong-lu",
+   "type": "person",
+   "name": "Cong Lu",
+   "links": [
+    "https://x.com/CongLu_",
+    "https://scholar.google.com/citations?user=conglu",
+    "https://github.com/conglu1997"
+   ],
+   "summary": "AI Scientist, automated discovery",
+   "category": "Affiliated Researchers",
+   "confidence": 0.6
+  },
+  {
+   "id": "person:robert-tjarko-lange",
+   "type": "person",
+   "name": "Robert Tjarko Lange",
+   "links": [
+    "https://x.com/RobertTLange",
+    "https://scholar.google.com/citations?user=RobertTLange",
+    "https://github.com/RobertTLange"
+   ],
+   "summary": "AI Scientist, evolutionary methods",
+   "category": "Affiliated Researchers",
+   "confidence": 0.6
+  },
+  {
+   "id": "person:chris-lu",
+   "type": "person",
+   "name": "Chris Lu",
+   "links": [
+    "https://x.com/ChrisLu_RL",
+    "https://github.com/chrislu"
+   ],
+   "summary": "AI Scientist, RL",
+   "category": "Affiliated Researchers",
+   "confidence": 0.6
+  },
+  {
+   "id": "person:jakob-foerster",
+   "type": "person",
+   "name": "Jakob Foerster",
+   "links": [
+    "https://www.jakobfoerster.com",
+    "https://x.com/j_foerst"
+   ],
+   "summary": "Multi-agent RL, emergent communication",
+   "category": "Affiliated Researchers",
+   "confidence": 0.6
+  },
+  {
+   "id": "person:david-ha",
+   "type": "person",
+   "name": "David Ha",
+   "links": [
+    "https://otoro.net",
+    "https://x.com/hardmaru"
+   ],
+   "summary": "Generative models, AI for science",
+   "category": "Affiliated Researchers",
+   "confidence": 0.6
+  },
+  {
+   "id": "person:jack-parker-holder",
+   "type": "person",
+   "name": "Jack Parker-Holder",
+   "links": [
+    "https://x.com/jparkerholder"
+   ],
+   "summary": "Open-endedness, AutoRL",
+   "category": "Affiliated Researchers",
+   "confidence": 0.6
+  },
+  {
+   "id": "person:jenny-zhang",
+   "type": "person",
+   "name": "Jenny Zhang",
+   "links": [
+    "https://x.com/jennyzzt_",
+    "https://github.com/jennyzzt"
+   ],
+   "summary": "Darwin Gödel Machine, evolution",
+   "category": "Affiliated Researchers",
+   "confidence": 0.6
+  },
+  {
+   "id": "person:minqi-jiang",
+   "type": "person",
+   "name": "Minqi Jiang",
+   "links": [
+    "https://x.com/minqi_jiang",
+    "https://scholar.google.com/citations?user=minqi_jiang"
+   ],
+   "summary": "Curriculum learning, UED",
+   "category": "Affiliated Researchers",
+   "confidence": 0.6
+  },
+  {
+   "id": "lab:recursive-recursive-si",
+   "type": "lab",
+   "name": "Recursive (Recursive SI)",
+   "links": [
+    "https://recursive.com",
+    "https://linkedin.com/company/recursive-si",
+    "https://x.com/RecursiveSI"
+   ],
+   "summary": "Recursive self-improvement, automated knowledge discovery",
+   "category": "🏢 Key Labs",
+   "confidence": 0.6
+  },
+  {
+   "id": "lab:sakana-ai",
+   "type": "lab",
+   "name": "Sakana AI",
+   "links": [
+    "https://sakana.ai",
+    "https://x.com/SakanaAILabs",
+    "https://github.com/SakanaAI"
+   ],
+   "summary": "AI Scientist, evolutionary AI, foundation models",
+   "category": "🏢 Key Labs",
+   "confidence": 0.6
+  },
+  {
+   "id": "lab:google-deepmind-open-endedness",
+   "type": "lab",
+   "name": "Google DeepMind (Open-Endedness)",
+   "links": [
+    "https://deepmind.google",
+    "https://x.com/GoogleDeepMind"
+   ],
+   "summary": "Open-endedness, AlphaEvolve, FunSearch, AI Co-Scientist",
+   "category": "🏢 Key Labs",
+   "confidence": 0.6
+  },
+  {
+   "id": "lab:ucl-dark-lab-rockt-schel",
+   "type": "lab",
+   "name": "UCL DARK Lab (Rocktäschel)",
+   "links": [
+    "https://rockt.ai",
+    "https://x.com/_rockt"
+   ],
+   "summary": "Open-ended RL, curriculum learning",
+   "category": "🏢 Key Labs",
+   "confidence": 0.6
+  },
+  {
+   "id": "lab:ubc-clune-lab",
+   "type": "lab",
+   "name": "UBC (Clune Lab)",
+   "links": [
+    "https://jeffclune.com",
+    "https://x.com/jeffclune"
+   ],
+   "summary": "AI-GAs, quality diversity, self-improvement",
+   "category": "🏢 Key Labs",
+   "confidence": 0.6
+  },
+  {
+   "id": "lab:stanford-ai-lab-nlp-group",
+   "type": "lab",
+   "name": "Stanford AI Lab / NLP Group",
+   "links": [
+    "https://ai.stanford.edu",
+    "https://x.com/stanfordai"
+   ],
+   "summary": "DSPy, CodeAct, autonomous agents",
+   "category": "🏢 Key Labs",
+   "confidence": 0.6
+  },
+  {
+   "id": "lab:princeton-nlp",
+   "type": "lab",
+   "name": "Princeton NLP",
+   "links": [
+    "https://nlp.cs.princeton.edu",
+    "https://github.com/princeton-nlp"
+   ],
+   "summary": "SWE-bench, autonomous coding",
+   "category": "🏢 Key Labs",
+   "confidence": 0.6
+  },
+  {
+   "id": "lab:kaust-metaautoai",
+   "type": "lab",
+   "name": "KAUST (MetaAutoAI)",
+   "links": [
+    "https://github.com/metauto-ai"
+   ],
+   "summary": "Multi-agent systems, GPTSwarm",
+   "category": "🏢 Key Labs",
+   "confidence": 0.6
+  },
+  {
+   "id": "lab:openai",
+   "type": "lab",
+   "name": "OpenAI",
+   "links": [
+    "https://openai.com",
+    "https://x.com/OpenAI",
+    "https://github.com/openai"
+   ],
+   "summary": "MLE-Bench, Codex, autonomous agents",
+   "category": "🏢 Key Labs",
+   "confidence": 0.6
+  },
+  {
+   "id": "category:foundational-visionary",
+   "type": "category",
+   "name": "Foundational & Visionary",
+   "links": [],
+   "confidence": 0.6
+  },
+  {
+   "id": "paper:g-del-machines-self-referential-universal-problem-solvers",
+   "type": "paper",
+   "name": "Gödel Machines: Self-Referential Universal Problem Solvers",
+   "links": [
+    "https://arxiv.org/abs/cs/0309048"
+   ],
+   "category": "Foundational & Visionary",
+   "authors": "Jürgen Schmidhuber",
+   "venue": "arXiv",
+   "year": "2003",
+   "citations": 77,
+   "confidence": 0.77
+  },
+  {
+   "id": "paper:ai-generating-algorithms-ai-gas",
+   "type": "paper",
+   "name": "AI-Generating Algorithms (AI-GAs)",
+   "links": [
+    "https://arxiv.org/abs/1905.10985"
+   ],
+   "category": "Foundational & Visionary",
+   "authors": "Jeff Clune (UBC / Recursive)",
+   "venue": "arXiv",
+   "year": "2019",
+   "citations": 201,
+   "confidence": 0.83
+  },
+  {
+   "id": "paper:open-endedness-is-essential-for-artificial-superhuman-intell",
+   "type": "paper",
+   "name": "Open-Endedness is Essential for Artificial Superhuman Intelligence",
+   "links": [
+    "https://arxiv.org/abs/2406.04268"
+   ],
+   "category": "Foundational & Visionary",
+   "authors": "Hughes, Dennis, Parker-Holder, Rocktäschel et al. (DeepMind)",
+   "venue": "ICML Oral",
+   "year": "2024",
+   "citations": 111,
+   "confidence": 0.79
+  },
+  {
+   "id": "paper:why-i-work-on-self-improving-ai-despite-the-risks",
+   "type": "paper",
+   "name": "Why I Work on Self-Improving AI Despite the Risks",
+   "links": [
+    "https://jeffclune.com"
+   ],
+   "category": "Foundational & Visionary",
+   "authors": "Jeff Clune (Recursive)",
+   "venue": "Blog",
+   "year": "2024",
+   "confidence": 0.6
+  },
+  {
+   "id": "category:automated-scientific-discovery",
+   "type": "category",
+   "name": "Automated Scientific Discovery",
+   "links": [],
+   "confidence": 0.6
+  },
+  {
+   "id": "paper:the-ai-scientist-towards-fully-automated-open-ended-scientif",
+   "type": "paper",
+   "name": "The AI Scientist: Towards Fully Automated Open-Ended Scientific Discovery",
+   "links": [
+    "https://arxiv.org/abs/2408.06292",
+    "https://github.com/SakanaAI/AI-Scientist"
+   ],
+   "category": "Automated Scientific Discovery",
+   "authors": "C. Lu, C. Lu, Lange, Foerster, Clune, Ha, S. Hu et al. (Sakana AI / UBC)",
+   "venue": "Nature",
+   "year": "2024→2026",
+   "citations": 1027,
+   "confidence": 0.93
+  },
+  {
+   "id": "paper:the-ai-scientist-v2-workshop-level-automated-scientific-disc",
+   "type": "paper",
+   "name": "The AI Scientist-v2: Workshop-Level Automated Scientific Discovery",
+   "links": [
+    "https://arxiv.org/abs/2504.08066",
+    "https://github.com/SakanaAI/AI-Scientist-v2"
+   ],
+   "category": "Automated Scientific Discovery",
+   "authors": "Yamada, Lange, C. Lu, S. Hu, C. Lu, Foerster, Clune†, Ha† (Sakana AI / UBC)",
+   "venue": "arXiv",
+   "year": "2025",
+   "citations": 330,
+   "confidence": 0.86
+  },
+  {
+   "id": "paper:darwin-g-del-machine-open-ended-evolution-of-self-improving-",
+   "type": "paper",
+   "name": "Darwin Gödel Machine: Open-Ended Evolution of Self-Improving Agents",
+   "links": [
+    "https://arxiv.org/abs/2505.22954",
+    "https://github.com/jennyzzt/dgm"
+   ],
+   "category": "Automated Scientific Discovery",
+   "authors": "Zhang, S. Hu, C. Lu, Lange†, Clune† (UBC / Sakana AI)",
+   "venue": "ICLR",
+   "year": "2026",
+   "citations": 138,
+   "confidence": 0.81
+  },
+  {
+   "id": "paper:towards-an-ai-co-scientist",
+   "type": "paper",
+   "name": "Towards an AI Co-Scientist",
+   "links": [
+    "https://arxiv.org/abs/2502.18864"
+   ],
+   "category": "Automated Scientific Discovery",
+   "authors": "Gottweis, Weng, Daryin, Tu, Palepu et al. (Google DeepMind)",
+   "venue": "arXiv",
+   "year": "2025",
+   "citations": 533,
+   "confidence": 0.89
+  },
+  {
+   "id": "paper:alphaevolve-a-coding-agent-for-scientific-and-algorithmic-di",
+   "type": "paper",
+   "name": "AlphaEvolve: A Coding Agent for Scientific and Algorithmic Discovery",
+   "links": [
+    "https://arxiv.org/abs/2506.01882"
+   ],
+   "category": "Automated Scientific Discovery",
+   "authors": "Novikov, Vũ, Eisenberger et al. (Google DeepMind)",
+   "venue": "arXiv",
+   "year": "2025",
+   "citations": 696,
+   "confidence": 0.91
+  },
+  {
+   "id": "paper:funsearch-mathematical-discoveries-from-program-search-with-",
+   "type": "paper",
+   "name": "FunSearch: Mathematical Discoveries from Program Search with LLMs",
+   "links": [
+    "https://www.nature.com/articles/s41586-023-06924-6",
+    "https://github.com/google-deepmind/funsearch"
+   ],
+   "category": "Automated Scientific Discovery",
+   "authors": "Romera-Paredes, Barekatain, Novikov, Balog et al. (Google DeepMind)",
+   "venue": "Nature",
+   "year": "2024",
+   "citations": 1482,
+   "confidence": 0.96
+  },
+  {
+   "id": "paper:agent-laboratory-using-llm-agents-as-research-assistants",
+   "type": "paper",
+   "name": "Agent Laboratory: Using LLM Agents as Research Assistants",
+   "links": [
+    "https://arxiv.org/abs/2501.04227",
+    "https://github.com/SamuelSchmidgall/AgentLaboratory"
+   ],
+   "category": "Automated Scientific Discovery",
+   "authors": "Schmidgall, Su, Wang et al.",
+   "venue": "ACL Findings",
+   "year": "2025",
+   "citations": 378,
+   "confidence": 0.87
+  },
+  {
+   "id": "paper:agentrxiv-towards-collaborative-autonomous-research",
+   "type": "paper",
+   "name": "AgentRxiv: Towards Collaborative Autonomous Research",
+   "links": [
+    "https://arxiv.org/abs/2503.18102",
+    "https://agentrxiv.github.io"
+   ],
+   "category": "Automated Scientific Discovery",
+   "authors": "Schmidgall, Moor",
+   "venue": "arXiv",
+   "year": "2025",
+   "citations": 62,
+   "confidence": 0.76
+  },
+  {
+   "id": "category:automated-agentic-system-design",
+   "type": "category",
+   "name": "Automated Agentic System Design",
+   "links": [],
+   "confidence": 0.6
+  },
+  {
+   "id": "paper:automated-design-of-agentic-systems-adas",
+   "type": "paper",
+   "name": "Automated Design of Agentic Systems (ADAS)",
+   "links": [
+    "https://arxiv.org/abs/2408.08435",
+    "https://github.com/ShengranHu/ADAS"
+   ],
+   "category": "Automated Agentic System Design",
+   "authors": "S. Hu, C. Lu, J. Clune (UBC / Recursive)",
+   "venue": "ICLR 🏆 Outstanding",
+   "year": "2025",
+   "citations": 417,
+   "confidence": 0.88
+  },
+  {
+   "id": "paper:gptswarm-language-agents-as-optimizable-graphs",
+   "type": "paper",
+   "name": "GPTSwarm: Language Agents as Optimizable Graphs",
+   "links": [
+    "https://arxiv.org/abs/2402.16823",
+    "https://github.com/metauto-ai/GPTSwarm"
+   ],
+   "category": "Automated Agentic System Design",
+   "authors": "M. Zhuge, Wang, Kirsch, Faccio et al. (KAUST / Recursive)",
+   "venue": "ICML",
+   "year": "2024",
+   "citations": 300,
+   "confidence": 0.86
+  },
+  {
+   "id": "paper:metagpt-meta-programming-for-a-multi-agent-collaborative-fra",
+   "type": "paper",
+   "name": "MetaGPT: Meta Programming for a Multi-Agent Collaborative Framework",
+   "links": [
+    "https://arxiv.org/abs/2308.00352",
+    "https://github.com/geekan/MetaGPT"
+   ],
+   "category": "Automated Agentic System Design",
+   "authors": "Hong, M. Zhuge, Chen, Zheng et al.",
+   "venue": "ICLR",
+   "year": "2024",
+   "citations": 3015,
+   "confidence": 1.0
+  },
+  {
+   "id": "paper:agent-as-a-judge-evaluate-agents-with-agents",
+   "type": "paper",
+   "name": "Agent-as-a-Judge: Evaluate Agents with Agents",
+   "links": [
+    "https://arxiv.org/abs/2410.10934",
+    "https://github.com/metauto-ai/agent-as-a-judge"
+   ],
+   "category": "Automated Agentic System Design",
+   "authors": "M. Zhuge, Zhao, Ashley, Wang et al. (Recursive)",
+   "venue": "arXiv",
+   "year": "2024",
+   "citations": 196,
+   "confidence": 0.83
+  },
+  {
+   "id": "paper:intelligent-go-explore-standing-on-the-shoulders-of-giant-fo",
+   "type": "paper",
+   "name": "Intelligent Go-Explore: Standing on the Shoulders of Giant Foundation Models",
+   "links": [
+    "https://arxiv.org/abs/2405.15143",
+    "https://github.com/conglu1997/intelligent-go-explore"
+   ],
+   "category": "Automated Agentic System Design",
+   "authors": "C. Lu, S. Hu, J. Clune (UBC)",
+   "venue": "ICLR",
+   "year": "2025",
+   "citations": 80,
+   "confidence": 0.77
+  },
+  {
+   "id": "paper:automated-capability-discovery-via-foundation-model-self-exp",
+   "type": "paper",
+   "name": "Automated Capability Discovery via Foundation Model Self-Exploration",
+   "links": [
+    "https://arxiv.org/abs/2502.07577"
+   ],
+   "category": "Automated Agentic System Design",
+   "authors": "C. Lu, S. Hu, J. Clune (UBC / Recursive)",
+   "venue": "arXiv",
+   "year": "2025",
+   "citations": 30,
+   "confidence": 0.71
+  },
+  {
+   "id": "paper:mindstorms-in-natural-language-based-societies-of-mind",
+   "type": "paper",
+   "name": "Mindstorms in Natural Language-Based Societies of Mind",
+   "links": [
+    "https://arxiv.org/abs/2305.17066"
+   ],
+   "category": "Automated Agentic System Design",
+   "authors": "M. Zhuge, Liu, Faccio, Ashley et al.",
+   "venue": "arXiv",
+   "year": "2023",
+   "citations": 144,
+   "confidence": 0.81
+  },
+  {
+   "id": "paper:ai-with-recursive-self-improvement",
+   "type": "paper",
+   "name": "AI with Recursive Self-Improvement",
+   "links": [
+    "https://openreview.net/forum?id=RSI2026"
+   ],
+   "category": "Automated Agentic System Design",
+   "authors": "M. Zhuge, Zeng, Zhu, Yang, Chandra, Schmidhuber (Recursive)",
+   "venue": "ICLR Workshop",
+   "year": "2026",
+   "confidence": 0.6
+  },
+  {
+   "id": "category:meta-learning-self-improvement",
+   "type": "category",
+   "name": "Meta-Learning & Self-Improvement",
+   "links": [],
+   "confidence": 0.6
+  },
+  {
+   "id": "paper:thought-cloning-learning-to-think-while-acting-by-imitating-",
+   "type": "paper",
+   "name": "Thought Cloning: Learning to Think while Acting by Imitating Human Thinking",
+   "links": [
+    "https://arxiv.org/abs/2306.00323",
+    "https://github.com/ShengranHu/Thought-Cloning"
+   ],
+   "category": "Meta-Learning & Self-Improvement",
+   "authors": "S. Hu, J. Clune (UBC)",
+   "venue": "NeurIPS Spotlight",
+   "year": "2023",
+   "citations": 80,
+   "confidence": 0.77
+  },
+  {
+   "id": "paper:learning-to-continually-learn-via-meta-learning-agentic-memo",
+   "type": "paper",
+   "name": "Learning to Continually Learn via Meta-learning Agentic Memory Designs (ALMA)",
+   "links": [
+    "https://arxiv.org/abs/2602.07755"
+   ],
+   "category": "Meta-Learning & Self-Improvement",
+   "authors": "Y. Xiong, S. Hu, J. Clune (UBC / Recursive)",
+   "venue": "arXiv 🏆 Best Paper",
+   "year": "2026",
+   "citations": 30,
+   "confidence": 0.71
+  },
+  {
+   "id": "paper:learning-to-continually-learn-anml",
+   "type": "paper",
+   "name": "Learning to Continually Learn (ANML)",
+   "links": [
+    "https://arxiv.org/abs/2002.09571",
+    "https://github.com/uvm-neurobotics-lab/ANML"
+   ],
+   "category": "Meta-Learning & Self-Improvement",
+   "authors": "Beaulieu, Frati, Miconi, Lehman, Stanley, Clune et al.",
+   "venue": "arXiv",
+   "year": "2020",
+   "citations": 255,
+   "confidence": 0.85
+  },
+  {
+   "id": "paper:quality-diversity-through-ai-feedback-qdaif",
+   "type": "paper",
+   "name": "Quality-Diversity through AI Feedback (QDAIF)",
+   "links": [
+    "https://arxiv.org/abs/2310.13032"
+   ],
+   "category": "Meta-Learning & Self-Improvement",
+   "authors": "Bradley, Dai, Teufel, Zhang, Oostermeijer, Bellagente, Clune et al.",
+   "venue": "ICLR",
+   "year": "2024",
+   "citations": 82,
+   "confidence": 0.78
+  },
+  {
+   "id": "paper:omni-epic-open-endedness-via-models-of-human-notions-of-inte",
+   "type": "paper",
+   "name": "OMNI-EPIC: Open-Endedness via Models of Human Notions of Interestingness",
+   "links": [
+    "https://arxiv.org/abs/2405.15568",
+    "https://github.com/MaxenceFaldor/Omni-EPIC"
+   ],
+   "category": "Meta-Learning & Self-Improvement",
+   "authors": "Faldor, Zhang, Cully, Clune",
+   "venue": "ICLR",
+   "year": "2025",
+   "citations": 69,
+   "confidence": 0.77
+  },
+  {
+   "id": "paper:generative-teaching-networks",
+   "type": "paper",
+   "name": "Generative Teaching Networks",
+   "links": [
+    "https://arxiv.org/abs/1912.07768"
+   ],
+   "category": "Meta-Learning & Self-Improvement",
+   "authors": "Such, Rawal, Lehman, Stanley, Clune",
+   "venue": "ICML",
+   "year": "2020",
+   "citations": 249,
+   "confidence": 0.84
+  },
+  {
+   "id": "paper:promptbreeder-self-referential-self-improvement-via-prompt-e",
+   "type": "paper",
+   "name": "PromptBreeder: Self-Referential Self-Improvement via Prompt Evolution",
+   "links": [
+    "https://arxiv.org/abs/2309.16797"
+   ],
+   "category": "Meta-Learning & Self-Improvement",
+   "authors": "Fernando, Banarse, Michalewski, Osindero, Rocktäschel et al. (DeepMind)",
+   "venue": "arXiv",
+   "year": "2023",
+   "citations": 538,
+   "confidence": 0.89
+  },
+  {
+   "id": "paper:coconut-training-llms-to-reason-in-a-continuous-latent-space",
+   "type": "paper",
+   "name": "Coconut: Training LLMs to Reason in a Continuous Latent Space",
+   "links": [
+    "https://arxiv.org/abs/2412.06769",
+    "https://github.com/facebookresearch/coconut"
+   ],
+   "category": "Meta-Learning & Self-Improvement",
+   "authors": "Hao, Sukhbaatar, Su, Li, Hu, Weston, Y. Tian (Recursive / Meta)",
+   "venue": "COLM",
+   "year": "2025",
+   "citations": 570,
+   "confidence": 0.9
+  },
+  {
+   "id": "paper:galore-memory-efficient-llm-training-by-gradient-low-rank-pr",
+   "type": "paper",
+   "name": "GaLore: Memory-Efficient LLM Training by Gradient Low-Rank Projection",
+   "links": [
+    "https://arxiv.org/abs/2403.03507",
+    "https://github.com/jiaweizzhao/GaLore"
+   ],
+   "category": "Meta-Learning & Self-Improvement",
+   "authors": "Zhao, Zhang, Chen, Wang, Anandkumar, Y. Tian (Meta)",
+   "venue": "ICML Oral",
+   "year": "2024",
+   "citations": 800,
+   "confidence": 0.92
+  },
+  {
+   "id": "paper:streamingllm-efficient-streaming-language-models-with-attent",
+   "type": "paper",
+   "name": "StreamingLLM: Efficient Streaming Language Models with Attention Sinks",
+   "links": [
+    "https://arxiv.org/abs/2309.17453",
+    "https://github.com/mit-han-lab/streaming-llm"
+   ],
+   "category": "Meta-Learning & Self-Improvement",
+   "authors": "Xiao, Y. Tian, Chen, Han, Lewis (Meta)",
+   "venue": "ICLR",
+   "year": "2024",
+   "citations": 1200,
+   "confidence": 0.94
+  },
+  {
+   "id": "paper:elf-opengo-an-open-reimplementation-of-alphazero",
+   "type": "paper",
+   "name": "ELF OpenGo: An Open Reimplementation of AlphaZero",
+   "links": [
+    "https://arxiv.org/abs/1902.04522",
+    "https://github.com/pytorch/ELF"
+   ],
+   "category": "Meta-Learning & Self-Improvement",
+   "authors": "Y. Tian, Ma, Gong, Sengupta et al. (Meta)",
+   "venue": "ICML Oral",
+   "year": "2019",
+   "citations": 350,
+   "confidence": 0.87
+  },
+  {
+   "id": "category:open-ended-learning-curriculum",
+   "type": "category",
+   "name": "Open-Ended Learning & Curriculum",
+   "links": [],
+   "confidence": 0.6
+  },
+  {
+   "id": "paper:prioritized-level-replay",
+   "type": "paper",
+   "name": "Prioritized Level Replay",
+   "links": [
+    "https://arxiv.org/abs/2010.03934",
+    "https://github.com/facebookresearch/level-replay"
+   ],
+   "category": "Open-Ended Learning & Curriculum",
+   "authors": "Jiang, Grefenstette, Rocktäschel",
+   "venue": "ICML",
+   "year": "2021",
+   "citations": 266,
+   "confidence": 0.85
+  },
+  {
+   "id": "paper:evolving-curricula-with-regret-based-environment-design",
+   "type": "paper",
+   "name": "Evolving Curricula with Regret-Based Environment Design",
+   "links": [
+    "https://arxiv.org/abs/2203.01302",
+    "https://github.com/facebookresearch/minimax"
+   ],
+   "category": "Open-Ended Learning & Curriculum",
+   "authors": "Jiang et al., Rocktäschel",
+   "venue": "ICML",
+   "year": "2022",
+   "citations": 212,
+   "confidence": 0.83
+  },
+  {
+   "id": "paper:human-timescale-adaptation-in-an-open-ended-task-space",
+   "type": "paper",
+   "name": "Human-Timescale Adaptation in an Open-Ended Task Space",
+   "links": [
+    "https://arxiv.org/abs/2301.07608"
+   ],
+   "category": "Open-Ended Learning & Curriculum",
+   "authors": "OEL Team, Rocktäschel et al. (DeepMind)",
+   "venue": "ICML",
+   "year": "2023",
+   "citations": 82,
+   "confidence": 0.78
+  },
+  {
+   "id": "paper:a-survey-of-zero-shot-generalisation-in-deep-reinforcement-l",
+   "type": "paper",
+   "name": "A Survey of Zero-Shot Generalisation in Deep Reinforcement Learning",
+   "links": [
+    "https://jair.org/index.php/jair/article/view/14174"
+   ],
+   "category": "Open-Ended Learning & Curriculum",
+   "authors": "Kirk, Zhang, Grefenstette, Rocktäschel",
+   "venue": "JAIR",
+   "year": "2023",
+   "citations": 420,
+   "confidence": 0.88
+  },
+  {
+   "id": "paper:voyager-an-open-ended-embodied-agent-with-large-language-mod",
+   "type": "paper",
+   "name": "Voyager: An Open-Ended Embodied Agent with Large Language Models",
+   "links": [
+    "https://arxiv.org/abs/2305.16291",
+    "https://github.com/MineDojo/Voyager"
+   ],
+   "category": "Open-Ended Learning & Curriculum",
+   "authors": "G. Wang, Xie, Jiang, Mandlekar, Xiao, Zhu, Fan, Anandkumar (NVIDIA)",
+   "venue": "arXiv",
+   "year": "2023",
+   "citations": 2506,
+   "confidence": 0.99
+  },
+  {
+   "id": "paper:balrog-benchmarking-agentic-llm-and-vlm-reasoning-on-games",
+   "type": "paper",
+   "name": "BALROG: Benchmarking Agentic LLM and VLM Reasoning on Games",
+   "links": [
+    "https://arxiv.org/abs/2411.13543",
+    "https://github.com/balrog-ai/BALROG"
+   ],
+   "category": "Open-Ended Learning & Curriculum",
+   "authors": "Paglieri, Cupial, Parker-Holder, Rocktäschel",
+   "venue": "ICLR",
+   "year": "2025",
+   "citations": 116,
+   "confidence": 0.8
+  },
+  {
+   "id": "category:prompt-reward-code-automation",
+   "type": "category",
+   "name": "Prompt, Reward & Code Automation",
+   "links": [],
+   "confidence": 0.6
+  },
+  {
+   "id": "paper:eureka-human-level-reward-design-via-coding-llms",
+   "type": "paper",
+   "name": "Eureka: Human-Level Reward Design via Coding LLMs",
+   "links": [
+    "https://arxiv.org/abs/2310.12931",
+    "https://github.com/eureka-research/Eureka"
+   ],
+   "category": "Prompt, Reward & Code Automation",
+   "authors": "Ma, Liang, Wang, Huang et al. (NVIDIA / CMU)",
+   "venue": "ICLR",
+   "year": "2024",
+   "citations": 850,
+   "confidence": 0.92
+  },
+  {
+   "id": "paper:opro-large-language-models-as-optimizers",
+   "type": "paper",
+   "name": "OPRO: Large Language Models as Optimizers",
+   "links": [
+    "https://arxiv.org/abs/2309.03409",
+    "https://github.com/google-deepmind/opro"
+   ],
+   "category": "Prompt, Reward & Code Automation",
+   "authors": "Yang, Wang, Li, Fang et al. (Google DeepMind)",
+   "venue": "arXiv",
+   "year": "2023",
+   "citations": 800,
+   "confidence": 0.92
+  },
+  {
+   "id": "paper:dspy-compiling-declarative-language-model-calls",
+   "type": "paper",
+   "name": "DSPy: Compiling Declarative Language Model Calls",
+   "links": [
+    "https://arxiv.org/abs/2310.03714",
+    "https://github.com/stanfordnlp/dspy"
+   ],
+   "category": "Prompt, Reward & Code Automation",
+   "authors": "Khattab, Singhvi, Maheshwari et al. (Stanford)",
+   "venue": "ICLR",
+   "year": "2024",
+   "citations": 1200,
+   "confidence": 0.94
+  },
+  {
+   "id": "paper:accelerating-multi-objective-nas-by-random-weight-evaluation",
+   "type": "paper",
+   "name": "Accelerating Multi-Objective NAS by Random-Weight Evaluation",
+   "links": [
+    "https://arxiv.org/abs/2110.05242"
+   ],
+   "category": "Prompt, Reward & Code Automation",
+   "authors": "S. Hu, Cheng, He, Lu, Wang, Zhang",
+   "venue": "Complex & Intelligent Systems",
+   "year": "2021",
+   "citations": 80,
+   "confidence": 0.77
+  },
+  {
+   "id": "category:benchmarks-evaluation",
+   "type": "category",
+   "name": "Benchmarks & Evaluation",
+   "links": [],
+   "confidence": 0.6
+  },
+  {
+   "id": "benchmark:mle-bench",
+   "type": "benchmark",
+   "name": "MLE-Bench",
+   "links": [
+    "https://arxiv.org/abs/2410.07095",
+    "https://github.com/openai/mle-bench"
+   ],
+   "category": "Benchmarks & Evaluation",
+   "summary": "ML engineering (75 Kaggle tasks)",
+   "venue": "ICLR",
+   "year": "2025",
+   "citations": 349,
+   "confidence": 0.87
+  },
+  {
+   "id": "benchmark:swe-bench",
+   "type": "benchmark",
+   "name": "SWE-bench",
+   "links": [
+    "https://arxiv.org/abs/2310.06770",
+    "https://github.com/princeton-nlp/SWE-bench"
+   ],
+   "category": "Benchmarks & Evaluation",
+   "summary": "Software engineering (GitHub issues)",
+   "venue": "ICLR",
+   "year": "2024",
+   "citations": 1000,
+   "confidence": 0.93
+  },
+  {
+   "id": "benchmark:mlgym",
+   "type": "benchmark",
+   "name": "MLGym",
+   "links": [
+    "https://arxiv.org/abs/2502.14499",
+    "https://github.com/facebookresearch/MLGym"
+   ],
+   "category": "Benchmarks & Evaluation",
+   "summary": "AI research agent framework",
+   "venue": "arXiv",
+   "year": "2025",
+   "citations": 88,
+   "confidence": 0.78
+  },
+  {
+   "id": "benchmark:balrog",
+   "type": "benchmark",
+   "name": "BALROG",
+   "links": [
+    "https://arxiv.org/abs/2411.13543",
+    "https://github.com/balrog-ai/BALROG"
+   ],
+   "category": "Benchmarks & Evaluation",
+   "summary": "Agentic LLM reasoning on games",
+   "venue": "ICLR",
+   "year": "2025",
+   "citations": 116,
+   "confidence": 0.8
+  },
+  {
+   "id": "benchmark:exp-bench",
+   "type": "benchmark",
+   "name": "EXP-Bench",
+   "links": [
+    "https://arxiv.org/abs/2505.24785"
+   ],
+   "category": "Benchmarks & Evaluation",
+   "summary": "AI conducting AI research experiments",
+   "venue": "arXiv",
+   "year": "2025",
+   "citations": 23,
+   "confidence": 0.7
+  },
+  {
+   "id": "benchmark:agent-as-a-judge",
+   "type": "benchmark",
+   "name": "Agent-as-a-Judge",
+   "links": [
+    "https://arxiv.org/abs/2410.10934",
+    "https://github.com/metauto-ai/agent-as-a-judge"
+   ],
+   "category": "Benchmarks & Evaluation",
+   "summary": "Evaluating agents with agents",
+   "venue": "arXiv",
+   "year": "2024",
+   "citations": 196,
+   "confidence": 0.83
+  },
+  {
+   "id": "category:surveys-position-papers",
+   "type": "category",
+   "name": "Surveys & Position Papers",
+   "links": [],
+   "confidence": 0.6
+  },
+  {
+   "id": "paper:agentic-ai-for-scientific-discovery-a-survey",
+   "type": "paper",
+   "name": "Agentic AI for Scientific Discovery: A Survey",
+   "links": [
+    "https://arxiv.org/abs/2503.14517"
+   ],
+   "category": "Surveys & Position Papers",
+   "authors": "Gridach, Nanavati et al.",
+   "venue": "arXiv",
+   "year": "2025",
+   "citations": 160,
+   "confidence": 0.82
+  },
+  {
+   "id": "paper:from-automation-to-autonomy-a-survey-on-llms-in-scientific-d",
+   "type": "paper",
+   "name": "From Automation to Autonomy: A Survey on LLMs in Scientific Discovery",
+   "links": [
+    "https://arxiv.org/abs/2505.13259"
+   ],
+   "category": "Surveys & Position Papers",
+   "authors": "Zheng, Deng et al.",
+   "venue": "ACL",
+   "year": "2025",
+   "citations": 89,
+   "confidence": 0.78
+  },
+  {
+   "id": "paper:a-survey-of-zero-shot-generalisation-in-deep-rl",
+   "type": "paper",
+   "name": "A Survey of Zero-Shot Generalisation in Deep RL",
+   "links": [
+    "https://jair.org/index.php/jair/article/view/14174"
+   ],
+   "category": "Surveys & Position Papers",
+   "authors": "Kirk, Zhang, Grefenstette, Rocktäschel",
+   "venue": "JAIR",
+   "year": "2023",
+   "citations": 420,
+   "confidence": 0.88
+  },
+  {
+   "id": "paper:automated-design-of-agentic-systems-a-survey",
+   "type": "paper",
+   "name": "Automated Design of Agentic Systems: A Survey",
+   "links": [
+    "https://arxiv.org/abs/2408.08435"
+   ],
+   "category": "Surveys & Position Papers",
+   "authors": "Madžar, Mekterović",
+   "venue": "Preprints",
+   "year": "2026",
+   "confidence": 0.6
+  },
+  {
+   "id": "category:core-frameworks",
+   "type": "category",
+   "name": "Core Frameworks",
+   "links": [],
+   "confidence": 0.6
+  },
+  {
+   "id": "repo:sakanaai-ai-scientist",
+   "type": "repo",
+   "name": "SakanaAI/AI-Scientist",
+   "links": [
+    "https://github.com/SakanaAI/AI-Scientist"
+   ],
+   "category": "Core Frameworks",
+   "summary": "End-to-end automated ML research pipeline",
+   "stars": 10000,
+   "status": "🔥",
+   "confidence": 0.93
+  },
+  {
+   "id": "repo:sakanaai-ai-scientist-v2",
+   "type": "repo",
+   "name": "SakanaAI/AI-Scientist-v2",
+   "links": [
+    "https://github.com/SakanaAI/AI-Scientist-v2"
+   ],
+   "category": "Core Frameworks",
+   "summary": "Agentic tree search version; workshop-accepted papers",
+   "stars": 4000,
+   "status": "🔥 🆕",
+   "confidence": 0.88
+  },
+  {
+   "id": "repo:shengranhu-adas",
+   "type": "repo",
+   "name": "ShengranHu/ADAS",
+   "links": [
+    "https://github.com/ShengranHu/ADAS"
+   ],
+   "category": "Core Frameworks",
+   "summary": "Automated Design of Agentic Systems (Meta Agent Search)",
+   "stars": 800,
+   "status": "🔥",
+   "confidence": 0.81
+  },
+  {
+   "id": "repo:metauto-ai-gptswarm",
+   "type": "repo",
+   "name": "metauto-ai/GPTSwarm",
+   "links": [
+    "https://github.com/metauto-ai/GPTSwarm"
+   ],
+   "category": "Core Frameworks",
+   "summary": "Language agents as optimizable graphs",
+   "stars": 1,
+   "status": "🔥",
+   "confidence": 0.53
+  },
+  {
+   "id": "repo:geekan-metagpt",
+   "type": "repo",
+   "name": "geekan/MetaGPT",
+   "links": [
+    "https://github.com/geekan/MetaGPT"
+   ],
+   "category": "Core Frameworks",
+   "summary": "Multi-agent collaborative framework",
+   "stars": 48000,
+   "status": "🔥",
+   "confidence": 1.0
+  },
+  {
+   "id": "repo:metauto-ai-agent-as-a-judge",
+   "type": "repo",
+   "name": "metauto-ai/agent-as-a-judge",
+   "links": [
+    "https://github.com/metauto-ai/agent-as-a-judge"
+   ],
+   "category": "Core Frameworks",
+   "summary": "Agent-based evaluation framework",
+   "stars": 400,
+   "status": "🔥",
+   "confidence": 0.78
+  },
+  {
+   "id": "repo:samuelschmidgall-agentlaboratory",
+   "type": "repo",
+   "name": "SamuelSchmidgall/AgentLaboratory",
+   "links": [
+    "https://github.com/SamuelSchmidgall/AgentLaboratory"
+   ],
+   "category": "Core Frameworks",
+   "summary": "LLM agents as research assistants",
+   "stars": 2000,
+   "status": "🔥",
+   "confidence": 0.85
+  },
+  {
+   "id": "repo:google-deepmind-funsearch",
+   "type": "repo",
+   "name": "google-deepmind/funsearch",
+   "links": [
+    "https://github.com/google-deepmind/funsearch"
+   ],
+   "category": "Core Frameworks",
+   "summary": "LLM + evolutionary search for mathematical discovery",
+   "stars": 3000,
+   "status": "🔥",
+   "confidence": 0.87
+  },
+  {
+   "id": "repo:stanfordnlp-dspy",
+   "type": "repo",
+   "name": "stanfordnlp/dspy",
+   "links": [
+    "https://github.com/stanfordnlp/dspy"
+   ],
+   "category": "Core Frameworks",
+   "summary": "Declarative LM program optimization",
+   "stars": 22000,
+   "status": "🔥",
+   "confidence": 0.96
+  },
+  {
+   "id": "category:open-ended-learning",
+   "type": "category",
+   "name": "Open-Ended Learning",
+   "links": [],
+   "confidence": 0.6
+  },
+  {
+   "id": "repo:facebookresearch-level-replay",
+   "type": "repo",
+   "name": "facebookresearch/level-replay",
+   "links": [
+    "https://github.com/facebookresearch/level-replay"
+   ],
+   "category": "Open-Ended Learning",
+   "summary": "Prioritized Level Replay for RL generalization",
+   "stars": 300,
+   "status": "✅",
+   "confidence": 0.76
+  },
+  {
+   "id": "repo:facebookresearch-minimax",
+   "type": "repo",
+   "name": "facebookresearch/minimax",
+   "links": [
+    "https://github.com/facebookresearch/minimax"
+   ],
+   "category": "Open-Ended Learning",
+   "summary": "Unsupervised environment design (ACCEL, PLR)",
+   "stars": 250,
+   "status": "✅",
+   "confidence": 0.76
+  },
+  {
+   "id": "repo:minedojo-voyager",
+   "type": "repo",
+   "name": "MineDojo/Voyager",
+   "links": [
+    "https://github.com/MineDojo/Voyager"
+   ],
+   "category": "Open-Ended Learning",
+   "summary": "Open-ended LLM agent in Minecraft",
+   "stars": 5000,
+   "status": "✅",
+   "confidence": 0.89
+  },
+  {
+   "id": "repo:maxencefaldor-omni-epic",
+   "type": "repo",
+   "name": "MaxenceFaldor/Omni-EPIC",
+   "links": [
+    "https://github.com/MaxenceFaldor/Omni-EPIC"
+   ],
+   "category": "Open-Ended Learning",
+   "summary": "Open-endedness via human interestingness models",
+   "stars": 200,
+   "status": "🔥",
+   "confidence": 0.75
+  },
+  {
+   "id": "repo:jennyzzt-dgm",
+   "type": "repo",
+   "name": "jennyzzt/dgm",
+   "links": [
+    "https://github.com/jennyzzt/dgm"
+   ],
+   "category": "Open-Ended Learning",
+   "summary": "Darwin Gödel Machine: self-improving agents",
+   "stars": 600,
+   "status": "🔥 🆕",
+   "confidence": 0.8
+  },
+  {
+   "id": "category:reward-prompt-automation",
+   "type": "category",
+   "name": "Reward & Prompt Automation",
+   "links": [],
+   "confidence": 0.6
+  },
+  {
+   "id": "repo:eureka-research-eureka",
+   "type": "repo",
+   "name": "eureka-research/Eureka",
+   "links": [
+    "https://github.com/eureka-research/Eureka"
+   ],
+   "category": "Reward & Prompt Automation",
+   "summary": "Human-level reward design with LLMs",
+   "stars": 2000,
+   "status": "✅",
+   "confidence": 0.85
+  },
+  {
+   "id": "repo:google-deepmind-opro",
+   "type": "repo",
+   "name": "google-deepmind/opro",
+   "links": [
+    "https://github.com/google-deepmind/opro"
+   ],
+   "category": "Reward & Prompt Automation",
+   "summary": "LLMs as optimizers for prompts",
+   "stars": 1,
+   "status": "✅",
+   "confidence": 0.53
+  },
+  {
+   "id": "repo:openai-mle-bench",
+   "type": "repo",
+   "name": "openai/mle-bench",
+   "links": [
+    "https://github.com/openai/mle-bench"
+   ],
+   "category": "Benchmarks & Evaluation",
+   "summary": "ML engineering benchmark (75 Kaggle competitions)",
+   "stars": 2,
+   "status": "🔥",
+   "confidence": 0.55
+  },
+  {
+   "id": "repo:princeton-nlp-swe-bench",
+   "type": "repo",
+   "name": "princeton-nlp/SWE-bench",
+   "links": [
+    "https://github.com/princeton-nlp/SWE-bench"
+   ],
+   "category": "Benchmarks & Evaluation",
+   "summary": "Software engineering agent benchmark",
+   "stars": 5000,
+   "status": "🔥",
+   "confidence": 0.89
+  },
+  {
+   "id": "repo:facebookresearch-mlgym",
+   "type": "repo",
+   "name": "facebookresearch/MLGym",
+   "links": [
+    "https://github.com/facebookresearch/MLGym"
+   ],
+   "category": "Benchmarks & Evaluation",
+   "summary": "Framework for AI research agents",
+   "stars": 400,
+   "status": "🔥 🆕",
+   "confidence": 0.78
+  },
+  {
+   "id": "repo:balrog-ai-balrog",
+   "type": "repo",
+   "name": "balrog-ai/BALROG",
+   "links": [
+    "https://github.com/balrog-ai/BALROG"
+   ],
+   "category": "Benchmarks & Evaluation",
+   "summary": "LLM/VLM reasoning on games",
+   "stars": 300,
+   "status": "🔥",
+   "confidence": 0.76
+  },
+  {
+   "id": "repo:conglu1997-intelligent-go-explore",
+   "type": "repo",
+   "name": "conglu1997/intelligent-go-explore",
+   "links": [
+    "https://github.com/conglu1997/intelligent-go-explore"
+   ],
+   "category": "Benchmarks & Evaluation",
+   "summary": "Foundation model guided Go-Explore",
+   "stars": 200,
+   "status": "✅",
+   "confidence": 0.75
+  },
+  {
+   "id": "category:infrastructure-utilities",
+   "type": "category",
+   "name": "Infrastructure & Utilities",
+   "links": [],
+   "confidence": 0.6
+  },
+  {
+   "id": "repo:uvm-neurobotics-lab-anml",
+   "type": "repo",
+   "name": "uvm-neurobotics-lab/ANML",
+   "links": [
+    "https://github.com/uvm-neurobotics-lab/ANML"
+   ],
+   "category": "Infrastructure & Utilities",
+   "summary": "A neuromodulatory meta-learning framework",
+   "stars": 150,
+   "status": "✅",
+   "confidence": 0.73
+  },
+  {
+   "id": "repo:shengranhu-thought-cloning",
+   "type": "repo",
+   "name": "ShengranHu/Thought-Cloning",
+   "links": [
+    "https://github.com/ShengranHu/Thought-Cloning"
+   ],
+   "category": "Infrastructure & Utilities",
+   "summary": "Imitation learning with language-based thinking",
+   "stars": 150,
+   "status": "✅",
+   "confidence": 0.73
+  },
+  {
+   "id": "repo:wjlgatech-tooluniverse",
+   "type": "repo",
+   "name": "wjlgatech/ToolUniverse",
+   "links": [
+    "https://github.com/wjlgatech/ToolUniverse"
+   ],
+   "category": "Infrastructure & Utilities",
+   "summary": "Ecosystem (1000+ tools) for building AI scientist systems; MCP-native, async, composable",
+   "status": "🔥",
+   "confidence": 0.6
+  },
+  {
+   "id": "category:the-8-co-founders",
+   "type": "category",
+   "name": "The 8 Co-Founders",
+   "links": [],
+   "confidence": 0.6
+  },
+  {
+   "id": "category:other-key-team-members",
+   "type": "category",
+   "name": "Other Key Team Members",
+   "links": [],
+   "confidence": 0.6
+  },
+  {
+   "id": "category:affiliated-researchers",
+   "type": "category",
+   "name": "Affiliated Researchers",
+   "links": [],
+   "confidence": 0.6
+  },
+  {
+   "id": "category:key-labs",
+   "type": "category",
+   "name": "🏢 Key Labs",
+   "links": [],
+   "confidence": 0.6
+  },
+  {
+   "id": "category:talks-interviews-podcasts",
+   "type": "category",
+   "name": "Talks, Interviews & Podcasts",
+   "links": [],
+   "confidence": 0.6
+  },
+  {
+   "id": "talk:open-ended-and-ai-generating-algorithms-in-the-era-of-founda",
+   "type": "talk",
+   "name": "Open-Ended and AI-Generating Algorithms in the Era of Foundation Models",
+   "links": [
+    "https://jeffclune.com/videos.html"
+   ],
+   "category": "Talks, Interviews & Podcasts",
+   "authors": "Jeff Clune (Recursive)",
+   "venue": "U Toronto / Vector Institute",
+   "year": "2025",
+   "confidence": 0.6
+  },
+  {
+   "id": "talk:iclr-2025-keynote-open-endedness-asi",
+   "type": "talk",
+   "name": "ICLR 2025 Keynote: Open-Endedness & ASI",
+   "links": [
+    "https://iclr.cc/virtual/2025/index.html"
+   ],
+   "category": "Talks, Interviews & Podcasts",
+   "authors": "Tim Rocktäschel (Recursive / UCL)",
+   "venue": "ICLR",
+   "year": "2025",
+   "confidence": 0.6
+  },
+  {
+   "id": "talk:improving-deep-rl-via-qd-open-ended-and-ai-generating-algori",
+   "type": "talk",
+   "name": "Improving Deep RL via QD, Open-Ended and AI-Generating Algorithms",
+   "links": [
+    "https://jeffclune.com/videos.html"
+   ],
+   "category": "Talks, Interviews & Podcasts",
+   "authors": "Jeff Clune (Recursive)",
+   "venue": "MIT / CORL Keynote",
+   "year": "2023/2021",
+   "confidence": 0.6
+  },
+  {
+   "id": "talk:how-meta-learning-could-help-us-accomplish-our-grandest-ai-a",
+   "type": "talk",
+   "name": "How Meta-Learning Could Help Us Accomplish Our Grandest AI Ambitions",
+   "links": [
+    "https://jeffclune.com/videos.html"
+   ],
+   "category": "Talks, Interviews & Podcasts",
+   "authors": "Jeff Clune (Recursive)",
+   "venue": "NeurIPS Meta-Learning Workshop",
+   "year": "2019",
+   "confidence": 0.6
+  },
+  {
+   "id": "talk:the-ai-scientist-fully-automated-scientific-discovery",
+   "type": "talk",
+   "name": "The AI Scientist: Fully Automated Scientific Discovery",
+   "links": [
+    "https://sakana.ai/ai-scientist"
+   ],
+   "category": "Talks, Interviews & Podcasts",
+   "authors": "Chris Lu, David Ha (Sakana AI)",
+   "venue": "Various",
+   "year": "2024",
+   "confidence": 0.6
+  },
+  {
+   "id": "talk:why-i-work-on-self-improving-ai-despite-the-risks",
+   "type": "talk",
+   "name": "Why I Work on Self-Improving AI Despite the Risks",
+   "links": [
+    "https://jeffclune.com"
+   ],
+   "category": "Talks, Interviews & Podcasts",
+   "authors": "Jeff Clune (Recursive)",
+   "venue": "Blog / Essay",
+   "year": "2024",
+   "confidence": 0.6
+  },
+  {
+   "id": "talk:lex-fridman-podcast-automated-ai-research",
+   "type": "talk",
+   "name": "Lex Fridman Podcast: Automated AI Research",
+   "links": [
+    "https://lexfridman.com/podcast"
+   ],
+   "category": "Talks, Interviews & Podcasts",
+   "authors": "Multiple guests",
+   "venue": "Lex Fridman",
+   "year": "2024–25",
+   "confidence": 0.6
+  },
+  {
+   "id": "talk:nvidia-research-eureka-human-level-reward-design",
+   "type": "talk",
+   "name": "NVIDIA Research: Eureka — Human-Level Reward Design",
+   "links": [
+    "https://eureka-research.github.io"
+   ],
+   "category": "Talks, Interviews & Podcasts",
+   "authors": "Yecheng Jason Ma",
+   "venue": "NVIDIA Tech Blog",
+   "year": "2024",
+   "confidence": 0.6
+  },
+  {
+   "id": "talk:go-explore-a-new-type-of-algorithm-for-hard-exploration-prob",
+   "type": "talk",
+   "name": "Go-Explore: A New Type of Algorithm for Hard-Exploration Problems",
+   "links": [
+    "https://jeffclune.com/videos.html"
+   ],
+   "category": "Talks, Interviews & Podcasts",
+   "authors": "Jeff Clune (Recursive)",
+   "venue": "ReWork 2019",
+   "year": "2019",
+   "confidence": 0.6
+  },
+  {
+   "id": "talk:learning-beyond-gradients-heuristic-learning-continual-learn",
+   "type": "talk",
+   "name": "Learning Beyond Gradients: Heuristic Learning & Continual Learning",
+   "links": [
+    "https://trinkle23897.github.io/learning-beyond-gradients/"
+   ],
+   "category": "Talks, Interviews & Podcasts",
+   "authors": "Jiayi Weng (Recursive)",
+   "venue": "Blog / Essay",
+   "year": "2025",
+   "confidence": 0.6
+  },
+  {
+   "id": "category:benchmarks-leaderboards",
+   "type": "category",
+   "name": "Benchmarks & Leaderboards",
+   "links": [],
+   "confidence": 0.6
+  },
+  {
+   "id": "benchmark:swe-bench-verified",
+   "type": "benchmark",
+   "name": "SWE-bench Verified",
+   "links": [
+    "https://swebench.com"
+   ],
+   "category": "Benchmarks & Leaderboards",
+   "summary": "Fix real GitHub issues",
+   "confidence": 0.6
+  },
+  {
+   "id": "benchmark:ai-scientist-review-score",
+   "type": "benchmark",
+   "name": "AI Scientist Review Score",
+   "links": [
+    "https://github.com/SakanaAI/AI-Scientist"
+   ],
+   "category": "Benchmarks & Leaderboards",
+   "summary": "Auto-generated paper quality",
+   "confidence": 0.6
+  },
+  {
+   "id": "benchmark:aider-leaderboard",
+   "type": "benchmark",
+   "name": "Aider Leaderboard",
+   "links": [
+    "https://aider.chat/docs/leaderboards/"
+   ],
+   "category": "Benchmarks & Leaderboards",
+   "summary": "Code editing (SWE-bench style)",
+   "confidence": 0.6
+  },
+  {
+   "id": "category:existing-awesome-lists-what-s-missing",
+   "type": "category",
+   "name": "Existing \"Awesome\" Lists & What's Missing",
+   "links": [],
+   "confidence": 0.6
+  },
+  {
+   "id": "repo:yenanjing-awesome-ai-for-science",
+   "type": "repo",
+   "name": "yenanjing/awesome-ai-for-science",
+   "links": [
+    "https://github.com/yenanjing/awesome-ai-for-science"
+   ],
+   "category": "Existing \"Awesome\" Lists & What's Missing",
+   "stars": 4,
+   "confidence": 0.57
+  },
+  {
+   "id": "repo:elianovg-awesome-automated-research",
+   "type": "repo",
+   "name": "Elianovg/awesome-automated-research",
+   "links": [
+    "https://github.com/Elianovg/awesome-automated-research"
+   ],
+   "category": "Existing \"Awesome\" Lists & What's Missing",
+   "confidence": 0.6
+  },
+  {
+   "id": "repo:general-awesome-llm-agents-lists",
+   "type": "repo",
+   "name": "General \"awesome-llm-agents\" lists",
+   "links": [],
+   "category": "Existing \"Awesome\" Lists & What's Missing",
+   "stars": 1000,
+   "confidence": 0.82
+  }
+ ],
+ "edges": [
+  {
+   "src": "paper:g-del-machines-self-referential-universal-problem-solvers",
+   "dst": "category:foundational-visionary",
+   "type": "part_of"
+  },
+  {
+   "src": "paper:ai-generating-algorithms-ai-gas",
+   "dst": "category:foundational-visionary",
+   "type": "part_of"
+  },
+  {
+   "src": "paper:ai-generating-algorithms-ai-gas",
+   "dst": "person:jeff-clune",
+   "type": "authored_by"
+  },
+  {
+   "src": "paper:open-endedness-is-essential-for-artificial-superhuman-intell",
+   "dst": "category:foundational-visionary",
+   "type": "part_of"
+  },
+  {
+   "src": "paper:open-endedness-is-essential-for-artificial-superhuman-intell",
+   "dst": "person:jack-parker-holder",
+   "type": "authored_by"
+  },
+  {
+   "src": "paper:why-i-work-on-self-improving-ai-despite-the-risks",
+   "dst": "category:foundational-visionary",
+   "type": "part_of"
+  },
+  {
+   "src": "paper:why-i-work-on-self-improving-ai-despite-the-risks",
+   "dst": "person:jeff-clune",
+   "type": "authored_by"
+  },
+  {
+   "src": "paper:the-ai-scientist-towards-fully-automated-open-ended-scientif",
+   "dst": "category:automated-scientific-discovery",
+   "type": "part_of"
+  },
+  {
+   "src": "paper:the-ai-scientist-towards-fully-automated-open-ended-scientif",
+   "dst": "person:jeff-clune",
+   "type": "authored_by"
+  },
+  {
+   "src": "paper:the-ai-scientist-towards-fully-automated-open-ended-scientif",
+   "dst": "person:shengran-hu",
+   "type": "authored_by"
+  },
+  {
+   "src": "paper:the-ai-scientist-towards-fully-automated-open-ended-scientif",
+   "dst": "person:robert-tjarko-lange",
+   "type": "authored_by"
+  },
+  {
+   "src": "paper:the-ai-scientist-towards-fully-automated-open-ended-scientif",
+   "dst": "person:jakob-foerster",
+   "type": "authored_by"
+  },
+  {
+   "src": "paper:the-ai-scientist-towards-fully-automated-open-ended-scientif",
+   "dst": "person:david-ha",
+   "type": "authored_by"
+  },
+  {
+   "src": "paper:the-ai-scientist-v2-workshop-level-automated-scientific-disc",
+   "dst": "category:automated-scientific-discovery",
+   "type": "part_of"
+  },
+  {
+   "src": "paper:the-ai-scientist-v2-workshop-level-automated-scientific-disc",
+   "dst": "person:shengran-hu",
+   "type": "authored_by"
+  },
+  {
+   "src": "paper:the-ai-scientist-v2-workshop-level-automated-scientific-disc",
+   "dst": "person:jeff-clune",
+   "type": "authored_by"
+  },
+  {
+   "src": "paper:the-ai-scientist-v2-workshop-level-automated-scientific-disc",
+   "dst": "person:robert-tjarko-lange",
+   "type": "authored_by"
+  },
+  {
+   "src": "paper:the-ai-scientist-v2-workshop-level-automated-scientific-disc",
+   "dst": "person:jakob-foerster",
+   "type": "authored_by"
+  },
+  {
+   "src": "paper:the-ai-scientist-v2-workshop-level-automated-scientific-disc",
+   "dst": "person:david-ha",
+   "type": "authored_by"
+  },
+  {
+   "src": "paper:darwin-g-del-machine-open-ended-evolution-of-self-improving-",
+   "dst": "category:automated-scientific-discovery",
+   "type": "part_of"
+  },
+  {
+   "src": "paper:darwin-g-del-machine-open-ended-evolution-of-self-improving-",
+   "dst": "person:shengran-hu",
+   "type": "authored_by"
+  },
+  {
+   "src": "paper:darwin-g-del-machine-open-ended-evolution-of-self-improving-",
+   "dst": "person:jeff-clune",
+   "type": "authored_by"
+  },
+  {
+   "src": "paper:darwin-g-del-machine-open-ended-evolution-of-self-improving-",
+   "dst": "person:robert-tjarko-lange",
+   "type": "authored_by"
+  },
+  {
+   "src": "paper:towards-an-ai-co-scientist",
+   "dst": "category:automated-scientific-discovery",
+   "type": "part_of"
+  },
+  {
+   "src": "paper:alphaevolve-a-coding-agent-for-scientific-and-algorithmic-di",
+   "dst": "category:automated-scientific-discovery",
+   "type": "part_of"
+  },
+  {
+   "src": "paper:funsearch-mathematical-discoveries-from-program-search-with-",
+   "dst": "category:automated-scientific-discovery",
+   "type": "part_of"
+  },
+  {
+   "src": "paper:agent-laboratory-using-llm-agents-as-research-assistants",
+   "dst": "category:automated-scientific-discovery",
+   "type": "part_of"
+  },
+  {
+   "src": "paper:agentrxiv-towards-collaborative-autonomous-research",
+   "dst": "category:automated-scientific-discovery",
+   "type": "part_of"
+  },
+  {
+   "src": "paper:automated-design-of-agentic-systems-adas",
+   "dst": "category:automated-agentic-system-design",
+   "type": "part_of"
+  },
+  {
+   "src": "paper:automated-design-of-agentic-systems-adas",
+   "dst": "person:shengran-hu",
+   "type": "authored_by"
+  },
+  {
+   "src": "paper:automated-design-of-agentic-systems-adas",
+   "dst": "person:jeff-clune",
+   "type": "authored_by"
+  },
+  {
+   "src": "paper:gptswarm-language-agents-as-optimizable-graphs",
+   "dst": "category:automated-agentic-system-design",
+   "type": "part_of"
+  },
+  {
+   "src": "paper:gptswarm-language-agents-as-optimizable-graphs",
+   "dst": "person:mingchen-zhuge",
+   "type": "authored_by"
+  },
+  {
+   "src": "paper:metagpt-meta-programming-for-a-multi-agent-collaborative-fra",
+   "dst": "category:automated-agentic-system-design",
+   "type": "part_of"
+  },
+  {
+   "src": "paper:metagpt-meta-programming-for-a-multi-agent-collaborative-fra",
+   "dst": "person:mingchen-zhuge",
+   "type": "authored_by"
+  },
+  {
+   "src": "paper:agent-as-a-judge-evaluate-agents-with-agents",
+   "dst": "category:automated-agentic-system-design",
+   "type": "part_of"
+  },
+  {
+   "src": "paper:agent-as-a-judge-evaluate-agents-with-agents",
+   "dst": "person:mingchen-zhuge",
+   "type": "authored_by"
+  },
+  {
+   "src": "paper:intelligent-go-explore-standing-on-the-shoulders-of-giant-fo",
+   "dst": "category:automated-agentic-system-design",
+   "type": "part_of"
+  },
+  {
+   "src": "paper:intelligent-go-explore-standing-on-the-shoulders-of-giant-fo",
+   "dst": "person:shengran-hu",
+   "type": "authored_by"
+  },
+  {
+   "src": "paper:intelligent-go-explore-standing-on-the-shoulders-of-giant-fo",
+   "dst": "person:jeff-clune",
+   "type": "authored_by"
+  },
+  {
+   "src": "paper:automated-capability-discovery-via-foundation-model-self-exp",
+   "dst": "category:automated-agentic-system-design",
+   "type": "part_of"
+  },
+  {
+   "src": "paper:automated-capability-discovery-via-foundation-model-self-exp",
+   "dst": "person:shengran-hu",
+   "type": "authored_by"
+  },
+  {
+   "src": "paper:automated-capability-discovery-via-foundation-model-self-exp",
+   "dst": "person:jeff-clune",
+   "type": "authored_by"
+  },
+  {
+   "src": "paper:mindstorms-in-natural-language-based-societies-of-mind",
+   "dst": "category:automated-agentic-system-design",
+   "type": "part_of"
+  },
+  {
+   "src": "paper:mindstorms-in-natural-language-based-societies-of-mind",
+   "dst": "person:mingchen-zhuge",
+   "type": "authored_by"
+  },
+  {
+   "src": "paper:ai-with-recursive-self-improvement",
+   "dst": "category:automated-agentic-system-design",
+   "type": "part_of"
+  },
+  {
+   "src": "paper:ai-with-recursive-self-improvement",
+   "dst": "person:mingchen-zhuge",
+   "type": "authored_by"
+  },
+  {
+   "src": "paper:thought-cloning-learning-to-think-while-acting-by-imitating-",
+   "dst": "category:meta-learning-self-improvement",
+   "type": "part_of"
+  },
+  {
+   "src": "paper:thought-cloning-learning-to-think-while-acting-by-imitating-",
+   "dst": "person:shengran-hu",
+   "type": "authored_by"
+  },
+  {
+   "src": "paper:thought-cloning-learning-to-think-while-acting-by-imitating-",
+   "dst": "person:jeff-clune",
+   "type": "authored_by"
+  },
+  {
+   "src": "paper:learning-to-continually-learn-via-meta-learning-agentic-memo",
+   "dst": "category:meta-learning-self-improvement",
+   "type": "part_of"
+  },
+  {
+   "src": "paper:learning-to-continually-learn-via-meta-learning-agentic-memo",
+   "dst": "person:shengran-hu",
+   "type": "authored_by"
+  },
+  {
+   "src": "paper:learning-to-continually-learn-via-meta-learning-agentic-memo",
+   "dst": "person:jeff-clune",
+   "type": "authored_by"
+  },
+  {
+   "src": "paper:learning-to-continually-learn-via-meta-learning-agentic-memo",
+   "dst": "person:caiming-xiong",
+   "type": "authored_by"
+  },
+  {
+   "src": "paper:learning-to-continually-learn-anml",
+   "dst": "category:meta-learning-self-improvement",
+   "type": "part_of"
+  },
+  {
+   "src": "paper:learning-to-continually-learn-anml",
+   "dst": "person:jeff-clune",
+   "type": "authored_by"
+  },
+  {
+   "src": "paper:quality-diversity-through-ai-feedback-qdaif",
+   "dst": "category:meta-learning-self-improvement",
+   "type": "part_of"
+  },
+  {
+   "src": "paper:quality-diversity-through-ai-feedback-qdaif",
+   "dst": "person:jeff-clune",
+   "type": "authored_by"
+  },
+  {
+   "src": "paper:omni-epic-open-endedness-via-models-of-human-notions-of-inte",
+   "dst": "category:meta-learning-self-improvement",
+   "type": "part_of"
+  },
+  {
+   "src": "paper:omni-epic-open-endedness-via-models-of-human-notions-of-inte",
+   "dst": "person:jeff-clune",
+   "type": "authored_by"
+  },
+  {
+   "src": "paper:generative-teaching-networks",
+   "dst": "category:meta-learning-self-improvement",
+   "type": "part_of"
+  },
+  {
+   "src": "paper:generative-teaching-networks",
+   "dst": "person:jeff-clune",
+   "type": "authored_by"
+  },
+  {
+   "src": "paper:promptbreeder-self-referential-self-improvement-via-prompt-e",
+   "dst": "category:meta-learning-self-improvement",
+   "type": "part_of"
+  },
+  {
+   "src": "paper:promptbreeder-self-referential-self-improvement-via-prompt-e",
+   "dst": "person:tim-rockt-schel",
+   "type": "authored_by"
+  },
+  {
+   "src": "paper:coconut-training-llms-to-reason-in-a-continuous-latent-space",
+   "dst": "category:meta-learning-self-improvement",
+   "type": "part_of"
+  },
+  {
+   "src": "paper:coconut-training-llms-to-reason-in-a-continuous-latent-space",
+   "dst": "person:yuandong-tian",
+   "type": "authored_by"
+  },
+  {
+   "src": "paper:coconut-training-llms-to-reason-in-a-continuous-latent-space",
+   "dst": "person:shengran-hu",
+   "type": "authored_by"
+  },
+  {
+   "src": "paper:galore-memory-efficient-llm-training-by-gradient-low-rank-pr",
+   "dst": "category:meta-learning-self-improvement",
+   "type": "part_of"
+  },
+  {
+   "src": "paper:galore-memory-efficient-llm-training-by-gradient-low-rank-pr",
+   "dst": "person:yuandong-tian",
+   "type": "authored_by"
+  },
+  {
+   "src": "paper:streamingllm-efficient-streaming-language-models-with-attent",
+   "dst": "category:meta-learning-self-improvement",
+   "type": "part_of"
+  },
+  {
+   "src": "paper:streamingllm-efficient-streaming-language-models-with-attent",
+   "dst": "person:yuandong-tian",
+   "type": "authored_by"
+  },
+  {
+   "src": "paper:elf-opengo-an-open-reimplementation-of-alphazero",
+   "dst": "category:meta-learning-self-improvement",
+   "type": "part_of"
+  },
+  {
+   "src": "paper:elf-opengo-an-open-reimplementation-of-alphazero",
+   "dst": "person:yuandong-tian",
+   "type": "authored_by"
+  },
+  {
+   "src": "paper:prioritized-level-replay",
+   "dst": "category:open-ended-learning-curriculum",
+   "type": "part_of"
+  },
+  {
+   "src": "paper:prioritized-level-replay",
+   "dst": "person:tim-rockt-schel",
+   "type": "authored_by"
+  },
+  {
+   "src": "paper:prioritized-level-replay",
+   "dst": "person:minqi-jiang",
+   "type": "authored_by"
+  },
+  {
+   "src": "paper:evolving-curricula-with-regret-based-environment-design",
+   "dst": "category:open-ended-learning-curriculum",
+   "type": "part_of"
+  },
+  {
+   "src": "paper:evolving-curricula-with-regret-based-environment-design",
+   "dst": "person:tim-rockt-schel",
+   "type": "authored_by"
+  },
+  {
+   "src": "paper:human-timescale-adaptation-in-an-open-ended-task-space",
+   "dst": "category:open-ended-learning-curriculum",
+   "type": "part_of"
+  },
+  {
+   "src": "paper:human-timescale-adaptation-in-an-open-ended-task-space",
+   "dst": "person:tim-rockt-schel",
+   "type": "authored_by"
+  },
+  {
+   "src": "paper:a-survey-of-zero-shot-generalisation-in-deep-reinforcement-l",
+   "dst": "category:open-ended-learning-curriculum",
+   "type": "part_of"
+  },
+  {
+   "src": "paper:a-survey-of-zero-shot-generalisation-in-deep-reinforcement-l",
+   "dst": "person:tim-rockt-schel",
+   "type": "authored_by"
+  },
+  {
+   "src": "paper:voyager-an-open-ended-embodied-agent-with-large-language-mod",
+   "dst": "category:open-ended-learning-curriculum",
+   "type": "part_of"
+  },
+  {
+   "src": "paper:voyager-an-open-ended-embodied-agent-with-large-language-mod",
+   "dst": "person:minqi-jiang",
+   "type": "authored_by"
+  },
+  {
+   "src": "paper:balrog-benchmarking-agentic-llm-and-vlm-reasoning-on-games",
+   "dst": "category:open-ended-learning-curriculum",
+   "type": "part_of"
+  },
+  {
+   "src": "paper:balrog-benchmarking-agentic-llm-and-vlm-reasoning-on-games",
+   "dst": "person:tim-rockt-schel",
+   "type": "authored_by"
+  },
+  {
+   "src": "paper:balrog-benchmarking-agentic-llm-and-vlm-reasoning-on-games",
+   "dst": "person:jack-parker-holder",
+   "type": "authored_by"
+  },
+  {
+   "src": "paper:eureka-human-level-reward-design-via-coding-llms",
+   "dst": "category:prompt-reward-code-automation",
+   "type": "part_of"
+  },
+  {
+   "src": "paper:opro-large-language-models-as-optimizers",
+   "dst": "category:prompt-reward-code-automation",
+   "type": "part_of"
+  },
+  {
+   "src": "paper:dspy-compiling-declarative-language-model-calls",
+   "dst": "category:prompt-reward-code-automation",
+   "type": "part_of"
+  },
+  {
+   "src": "paper:accelerating-multi-objective-nas-by-random-weight-evaluation",
+   "dst": "category:prompt-reward-code-automation",
+   "type": "part_of"
+  },
+  {
+   "src": "paper:accelerating-multi-objective-nas-by-random-weight-evaluation",
+   "dst": "person:shengran-hu",
+   "type": "authored_by"
+  },
+  {
+   "src": "benchmark:mle-bench",
+   "dst": "category:benchmarks-evaluation",
+   "type": "part_of"
+  },
+  {
+   "src": "benchmark:swe-bench",
+   "dst": "category:benchmarks-evaluation",
+   "type": "part_of"
+  },
+  {
+   "src": "benchmark:mlgym",
+   "dst": "category:benchmarks-evaluation",
+   "type": "part_of"
+  },
+  {
+   "src": "benchmark:balrog",
+   "dst": "category:benchmarks-evaluation",
+   "type": "part_of"
+  },
+  {
+   "src": "benchmark:exp-bench",
+   "dst": "category:benchmarks-evaluation",
+   "type": "part_of"
+  },
+  {
+   "src": "benchmark:agent-as-a-judge",
+   "dst": "category:benchmarks-evaluation",
+   "type": "part_of"
+  },
+  {
+   "src": "paper:agentic-ai-for-scientific-discovery-a-survey",
+   "dst": "category:surveys-position-papers",
+   "type": "part_of"
+  },
+  {
+   "src": "paper:from-automation-to-autonomy-a-survey-on-llms-in-scientific-d",
+   "dst": "category:surveys-position-papers",
+   "type": "part_of"
+  },
+  {
+   "src": "paper:a-survey-of-zero-shot-generalisation-in-deep-rl",
+   "dst": "category:surveys-position-papers",
+   "type": "part_of"
+  },
+  {
+   "src": "paper:a-survey-of-zero-shot-generalisation-in-deep-rl",
+   "dst": "person:tim-rockt-schel",
+   "type": "authored_by"
+  },
+  {
+   "src": "paper:automated-design-of-agentic-systems-a-survey",
+   "dst": "category:surveys-position-papers",
+   "type": "part_of"
+  },
+  {
+   "src": "repo:sakanaai-ai-scientist",
+   "dst": "category:core-frameworks",
+   "type": "part_of"
+  },
+  {
+   "src": "repo:sakanaai-ai-scientist-v2",
+   "dst": "category:core-frameworks",
+   "type": "part_of"
+  },
+  {
+   "src": "repo:shengranhu-adas",
+   "dst": "category:core-frameworks",
+   "type": "part_of"
+  },
+  {
+   "src": "repo:metauto-ai-gptswarm",
+   "dst": "category:core-frameworks",
+   "type": "part_of"
+  },
+  {
+   "src": "repo:geekan-metagpt",
+   "dst": "category:core-frameworks",
+   "type": "part_of"
+  },
+  {
+   "src": "repo:metauto-ai-agent-as-a-judge",
+   "dst": "category:core-frameworks",
+   "type": "part_of"
+  },
+  {
+   "src": "repo:samuelschmidgall-agentlaboratory",
+   "dst": "category:core-frameworks",
+   "type": "part_of"
+  },
+  {
+   "src": "repo:google-deepmind-funsearch",
+   "dst": "category:core-frameworks",
+   "type": "part_of"
+  },
+  {
+   "src": "repo:stanfordnlp-dspy",
+   "dst": "category:core-frameworks",
+   "type": "part_of"
+  },
+  {
+   "src": "repo:facebookresearch-level-replay",
+   "dst": "category:open-ended-learning",
+   "type": "part_of"
+  },
+  {
+   "src": "repo:facebookresearch-minimax",
+   "dst": "category:open-ended-learning",
+   "type": "part_of"
+  },
+  {
+   "src": "repo:minedojo-voyager",
+   "dst": "category:open-ended-learning",
+   "type": "part_of"
+  },
+  {
+   "src": "repo:maxencefaldor-omni-epic",
+   "dst": "category:open-ended-learning",
+   "type": "part_of"
+  },
+  {
+   "src": "repo:jennyzzt-dgm",
+   "dst": "category:open-ended-learning",
+   "type": "part_of"
+  },
+  {
+   "src": "repo:eureka-research-eureka",
+   "dst": "category:reward-prompt-automation",
+   "type": "part_of"
+  },
+  {
+   "src": "repo:google-deepmind-opro",
+   "dst": "category:reward-prompt-automation",
+   "type": "part_of"
+  },
+  {
+   "src": "repo:openai-mle-bench",
+   "dst": "category:benchmarks-evaluation",
+   "type": "part_of"
+  },
+  {
+   "src": "repo:princeton-nlp-swe-bench",
+   "dst": "category:benchmarks-evaluation",
+   "type": "part_of"
+  },
+  {
+   "src": "repo:facebookresearch-mlgym",
+   "dst": "category:benchmarks-evaluation",
+   "type": "part_of"
+  },
+  {
+   "src": "repo:balrog-ai-balrog",
+   "dst": "category:benchmarks-evaluation",
+   "type": "part_of"
+  },
+  {
+   "src": "repo:conglu1997-intelligent-go-explore",
+   "dst": "category:benchmarks-evaluation",
+   "type": "part_of"
+  },
+  {
+   "src": "repo:uvm-neurobotics-lab-anml",
+   "dst": "category:infrastructure-utilities",
+   "type": "part_of"
+  },
+  {
+   "src": "repo:shengranhu-thought-cloning",
+   "dst": "category:infrastructure-utilities",
+   "type": "part_of"
+  },
+  {
+   "src": "repo:wjlgatech-tooluniverse",
+   "dst": "category:infrastructure-utilities",
+   "type": "part_of"
+  },
+  {
+   "src": "person:jeff-clune",
+   "dst": "category:the-8-co-founders",
+   "type": "part_of"
+  },
+  {
+   "src": "person:jeff-clune",
+   "dst": "lab:recursive-recursive-si",
+   "type": "member_of"
+  },
+  {
+   "src": "person:jeff-clune",
+   "dst": "lab:openai",
+   "type": "member_of"
+  },
+  {
+   "src": "person:tim-rockt-schel",
+   "dst": "category:the-8-co-founders",
+   "type": "part_of"
+  },
+  {
+   "src": "person:tim-rockt-schel",
+   "dst": "lab:recursive-recursive-si",
+   "type": "member_of"
+  },
+  {
+   "src": "person:tim-rockt-schel",
+   "dst": "lab:ucl-dark-lab-rockt-schel",
+   "type": "member_of"
+  },
+  {
+   "src": "person:richard-socher",
+   "dst": "category:the-8-co-founders",
+   "type": "part_of"
+  },
+  {
+   "src": "person:richard-socher",
+   "dst": "lab:recursive-recursive-si",
+   "type": "member_of"
+  },
+  {
+   "src": "person:richard-socher",
+   "dst": "lab:stanford-ai-lab-nlp-group",
+   "type": "member_of"
+  },
+  {
+   "src": "person:caiming-xiong",
+   "dst": "category:the-8-co-founders",
+   "type": "part_of"
+  },
+  {
+   "src": "person:caiming-xiong",
+   "dst": "lab:recursive-recursive-si",
+   "type": "member_of"
+  },
+  {
+   "src": "person:yuandong-tian",
+   "dst": "category:the-8-co-founders",
+   "type": "part_of"
+  },
+  {
+   "src": "person:yuandong-tian",
+   "dst": "lab:recursive-recursive-si",
+   "type": "member_of"
+  },
+  {
+   "src": "person:yuandong-tian",
+   "dst": "lab:google-deepmind-open-endedness",
+   "type": "member_of"
+  },
+  {
+   "src": "person:tim-shi",
+   "dst": "category:the-8-co-founders",
+   "type": "part_of"
+  },
+  {
+   "src": "person:tim-shi",
+   "dst": "lab:recursive-recursive-si",
+   "type": "member_of"
+  },
+  {
+   "src": "person:tim-shi",
+   "dst": "lab:openai",
+   "type": "member_of"
+  },
+  {
+   "src": "person:mingchen-zhuge",
+   "dst": "category:the-8-co-founders",
+   "type": "part_of"
+  },
+  {
+   "src": "person:mingchen-zhuge",
+   "dst": "lab:recursive-recursive-si",
+   "type": "member_of"
+  },
+  {
+   "src": "person:mingchen-zhuge",
+   "dst": "lab:kaust-metaautoai",
+   "type": "member_of"
+  },
+  {
+   "src": "person:yingbo-zhou",
+   "dst": "category:the-8-co-founders",
+   "type": "part_of"
+  },
+  {
+   "src": "person:yingbo-zhou",
+   "dst": "lab:recursive-recursive-si",
+   "type": "member_of"
+  },
+  {
+   "src": "person:shengran-hu",
+   "dst": "category:other-key-team-members",
+   "type": "part_of"
+  },
+  {
+   "src": "person:shengran-hu",
+   "dst": "lab:recursive-recursive-si",
+   "type": "member_of"
+  },
+  {
+   "src": "person:shengran-hu",
+   "dst": "lab:ubc-clune-lab",
+   "type": "member_of"
+  },
+  {
+   "src": "person:josh-tobin",
+   "dst": "category:other-key-team-members",
+   "type": "part_of"
+  },
+  {
+   "src": "person:josh-tobin",
+   "dst": "lab:recursive-recursive-si",
+   "type": "member_of"
+  },
+  {
+   "src": "person:peter-norvig",
+   "dst": "category:other-key-team-members",
+   "type": "part_of"
+  },
+  {
+   "src": "person:peter-norvig",
+   "dst": "lab:recursive-recursive-si",
+   "type": "member_of"
+  },
+  {
+   "src": "person:peter-norvig",
+   "dst": "lab:stanford-ai-lab-nlp-group",
+   "type": "member_of"
+  },
+  {
+   "src": "person:jianguo-zhang",
+   "dst": "category:other-key-team-members",
+   "type": "part_of"
+  },
+  {
+   "src": "person:jianguo-zhang",
+   "dst": "lab:recursive-recursive-si",
+   "type": "member_of"
+  },
+  {
+   "src": "person:cong-lu",
+   "dst": "category:affiliated-researchers",
+   "type": "part_of"
+  },
+  {
+   "src": "person:cong-lu",
+   "dst": "lab:sakana-ai",
+   "type": "member_of"
+  },
+  {
+   "src": "person:cong-lu",
+   "dst": "lab:ubc-clune-lab",
+   "type": "member_of"
+  },
+  {
+   "src": "person:robert-tjarko-lange",
+   "dst": "category:affiliated-researchers",
+   "type": "part_of"
+  },
+  {
+   "src": "person:robert-tjarko-lange",
+   "dst": "lab:sakana-ai",
+   "type": "member_of"
+  },
+  {
+   "src": "person:chris-lu",
+   "dst": "category:affiliated-researchers",
+   "type": "part_of"
+  },
+  {
+   "src": "person:chris-lu",
+   "dst": "lab:sakana-ai",
+   "type": "member_of"
+  },
+  {
+   "src": "person:jakob-foerster",
+   "dst": "category:affiliated-researchers",
+   "type": "part_of"
+  },
+  {
+   "src": "person:david-ha",
+   "dst": "category:affiliated-researchers",
+   "type": "part_of"
+  },
+  {
+   "src": "person:david-ha",
+   "dst": "lab:sakana-ai",
+   "type": "member_of"
+  },
+  {
+   "src": "person:jack-parker-holder",
+   "dst": "category:affiliated-researchers",
+   "type": "part_of"
+  },
+  {
+   "src": "person:jack-parker-holder",
+   "dst": "lab:google-deepmind-open-endedness",
+   "type": "member_of"
+  },
+  {
+   "src": "person:jenny-zhang",
+   "dst": "category:affiliated-researchers",
+   "type": "part_of"
+  },
+  {
+   "src": "person:jenny-zhang",
+   "dst": "lab:sakana-ai",
+   "type": "member_of"
+  },
+  {
+   "src": "person:jenny-zhang",
+   "dst": "lab:ubc-clune-lab",
+   "type": "member_of"
+  },
+  {
+   "src": "person:minqi-jiang",
+   "dst": "category:affiliated-researchers",
+   "type": "part_of"
+  },
+  {
+   "src": "person:minqi-jiang",
+   "dst": "lab:google-deepmind-open-endedness",
+   "type": "member_of"
+  },
+  {
+   "src": "person:minqi-jiang",
+   "dst": "lab:ucl-dark-lab-rockt-schel",
+   "type": "member_of"
+  },
+  {
+   "src": "lab:recursive-recursive-si",
+   "dst": "category:key-labs",
+   "type": "part_of"
+  },
+  {
+   "src": "lab:sakana-ai",
+   "dst": "category:key-labs",
+   "type": "part_of"
+  },
+  {
+   "src": "lab:google-deepmind-open-endedness",
+   "dst": "category:key-labs",
+   "type": "part_of"
+  },
+  {
+   "src": "lab:ucl-dark-lab-rockt-schel",
+   "dst": "category:key-labs",
+   "type": "part_of"
+  },
+  {
+   "src": "lab:ubc-clune-lab",
+   "dst": "category:key-labs",
+   "type": "part_of"
+  },
+  {
+   "src": "lab:stanford-ai-lab-nlp-group",
+   "dst": "category:key-labs",
+   "type": "part_of"
+  },
+  {
+   "src": "lab:princeton-nlp",
+   "dst": "category:key-labs",
+   "type": "part_of"
+  },
+  {
+   "src": "lab:kaust-metaautoai",
+   "dst": "category:key-labs",
+   "type": "part_of"
+  },
+  {
+   "src": "lab:openai",
+   "dst": "category:key-labs",
+   "type": "part_of"
+  },
+  {
+   "src": "talk:open-ended-and-ai-generating-algorithms-in-the-era-of-founda",
+   "dst": "category:talks-interviews-podcasts",
+   "type": "part_of"
+  },
+  {
+   "src": "talk:open-ended-and-ai-generating-algorithms-in-the-era-of-founda",
+   "dst": "person:jeff-clune",
+   "type": "given_by"
+  },
+  {
+   "src": "talk:iclr-2025-keynote-open-endedness-asi",
+   "dst": "category:talks-interviews-podcasts",
+   "type": "part_of"
+  },
+  {
+   "src": "talk:iclr-2025-keynote-open-endedness-asi",
+   "dst": "person:tim-rockt-schel",
+   "type": "given_by"
+  },
+  {
+   "src": "talk:improving-deep-rl-via-qd-open-ended-and-ai-generating-algori",
+   "dst": "category:talks-interviews-podcasts",
+   "type": "part_of"
+  },
+  {
+   "src": "talk:improving-deep-rl-via-qd-open-ended-and-ai-generating-algori",
+   "dst": "person:jeff-clune",
+   "type": "given_by"
+  },
+  {
+   "src": "talk:how-meta-learning-could-help-us-accomplish-our-grandest-ai-a",
+   "dst": "category:talks-interviews-podcasts",
+   "type": "part_of"
+  },
+  {
+   "src": "talk:how-meta-learning-could-help-us-accomplish-our-grandest-ai-a",
+   "dst": "person:jeff-clune",
+   "type": "given_by"
+  },
+  {
+   "src": "talk:the-ai-scientist-fully-automated-scientific-discovery",
+   "dst": "category:talks-interviews-podcasts",
+   "type": "part_of"
+  },
+  {
+   "src": "talk:the-ai-scientist-fully-automated-scientific-discovery",
+   "dst": "person:chris-lu",
+   "type": "given_by"
+  },
+  {
+   "src": "talk:the-ai-scientist-fully-automated-scientific-discovery",
+   "dst": "person:david-ha",
+   "type": "given_by"
+  },
+  {
+   "src": "talk:why-i-work-on-self-improving-ai-despite-the-risks",
+   "dst": "category:talks-interviews-podcasts",
+   "type": "part_of"
+  },
+  {
+   "src": "talk:why-i-work-on-self-improving-ai-despite-the-risks",
+   "dst": "person:jeff-clune",
+   "type": "given_by"
+  },
+  {
+   "src": "talk:lex-fridman-podcast-automated-ai-research",
+   "dst": "category:talks-interviews-podcasts",
+   "type": "part_of"
+  },
+  {
+   "src": "talk:nvidia-research-eureka-human-level-reward-design",
+   "dst": "category:talks-interviews-podcasts",
+   "type": "part_of"
+  },
+  {
+   "src": "talk:go-explore-a-new-type-of-algorithm-for-hard-exploration-prob",
+   "dst": "category:talks-interviews-podcasts",
+   "type": "part_of"
+  },
+  {
+   "src": "talk:go-explore-a-new-type-of-algorithm-for-hard-exploration-prob",
+   "dst": "person:jeff-clune",
+   "type": "given_by"
+  },
+  {
+   "src": "talk:learning-beyond-gradients-heuristic-learning-continual-learn",
+   "dst": "category:talks-interviews-podcasts",
+   "type": "part_of"
+  },
+  {
+   "src": "benchmark:swe-bench-verified",
+   "dst": "category:benchmarks-leaderboards",
+   "type": "part_of"
+  },
+  {
+   "src": "benchmark:mle-bench",
+   "dst": "category:benchmarks-leaderboards",
+   "type": "part_of"
+  },
+  {
+   "src": "benchmark:balrog",
+   "dst": "category:benchmarks-leaderboards",
+   "type": "part_of"
+  },
+  {
+   "src": "benchmark:ai-scientist-review-score",
+   "dst": "category:benchmarks-leaderboards",
+   "type": "part_of"
+  },
+  {
+   "src": "benchmark:aider-leaderboard",
+   "dst": "category:benchmarks-leaderboards",
+   "type": "part_of"
+  },
+  {
+   "src": "repo:yenanjing-awesome-ai-for-science",
+   "dst": "category:existing-awesome-lists-what-s-missing",
+   "type": "part_of"
+  },
+  {
+   "src": "repo:elianovg-awesome-automated-research",
+   "dst": "category:existing-awesome-lists-what-s-missing",
+   "type": "part_of"
+  },
+  {
+   "src": "repo:general-awesome-llm-agents-lists",
+   "dst": "category:existing-awesome-lists-what-s-missing",
+   "type": "part_of"
+  },
+  {
+   "src": "paper:the-ai-scientist-towards-fully-automated-open-ended-scientif",
+   "dst": "repo:sakanaai-ai-scientist",
+   "type": "has_code"
+  },
+  {
+   "src": "paper:the-ai-scientist-v2-workshop-level-automated-scientific-disc",
+   "dst": "repo:sakanaai-ai-scientist-v2",
+   "type": "has_code"
+  },
+  {
+   "src": "paper:darwin-g-del-machine-open-ended-evolution-of-self-improving-",
+   "dst": "repo:jennyzzt-dgm",
+   "type": "has_code"
+  },
+  {
+   "src": "paper:funsearch-mathematical-discoveries-from-program-search-with-",
+   "dst": "repo:google-deepmind-funsearch",
+   "type": "has_code"
+  },
+  {
+   "src": "paper:agent-laboratory-using-llm-agents-as-research-assistants",
+   "dst": "repo:samuelschmidgall-agentlaboratory",
+   "type": "has_code"
+  },
+  {
+   "src": "paper:automated-design-of-agentic-systems-adas",
+   "dst": "repo:shengranhu-adas",
+   "type": "has_code"
+  },
+  {
+   "src": "paper:gptswarm-language-agents-as-optimizable-graphs",
+   "dst": "repo:metauto-ai-gptswarm",
+   "type": "has_code"
+  },
+  {
+   "src": "paper:metagpt-meta-programming-for-a-multi-agent-collaborative-fra",
+   "dst": "repo:geekan-metagpt",
+   "type": "has_code"
+  },
+  {
+   "src": "paper:agent-as-a-judge-evaluate-agents-with-agents",
+   "dst": "repo:metauto-ai-agent-as-a-judge",
+   "type": "has_code"
+  },
+  {
+   "src": "paper:intelligent-go-explore-standing-on-the-shoulders-of-giant-fo",
+   "dst": "repo:conglu1997-intelligent-go-explore",
+   "type": "has_code"
+  },
+  {
+   "src": "paper:thought-cloning-learning-to-think-while-acting-by-imitating-",
+   "dst": "repo:shengranhu-thought-cloning",
+   "type": "has_code"
+  },
+  {
+   "src": "paper:learning-to-continually-learn-anml",
+   "dst": "repo:uvm-neurobotics-lab-anml",
+   "type": "has_code"
+  },
+  {
+   "src": "paper:omni-epic-open-endedness-via-models-of-human-notions-of-inte",
+   "dst": "repo:maxencefaldor-omni-epic",
+   "type": "has_code"
+  },
+  {
+   "src": "paper:prioritized-level-replay",
+   "dst": "repo:facebookresearch-level-replay",
+   "type": "has_code"
+  },
+  {
+   "src": "paper:evolving-curricula-with-regret-based-environment-design",
+   "dst": "repo:facebookresearch-minimax",
+   "type": "has_code"
+  },
+  {
+   "src": "paper:voyager-an-open-ended-embodied-agent-with-large-language-mod",
+   "dst": "repo:minedojo-voyager",
+   "type": "has_code"
+  },
+  {
+   "src": "paper:balrog-benchmarking-agentic-llm-and-vlm-reasoning-on-games",
+   "dst": "repo:balrog-ai-balrog",
+   "type": "has_code"
+  },
+  {
+   "src": "paper:eureka-human-level-reward-design-via-coding-llms",
+   "dst": "repo:eureka-research-eureka",
+   "type": "has_code"
+  },
+  {
+   "src": "paper:opro-large-language-models-as-optimizers",
+   "dst": "repo:google-deepmind-opro",
+   "type": "has_code"
+  },
+  {
+   "src": "paper:dspy-compiling-declarative-language-model-calls",
+   "dst": "repo:stanfordnlp-dspy",
+   "type": "has_code"
+  },
+  {
+   "src": "paper:ai-generating-algorithms-ai-gas",
+   "dst": "paper:g-del-machines-self-referential-universal-problem-solvers",
+   "type": "builds_on"
+  },
+  {
+   "src": "paper:darwin-g-del-machine-open-ended-evolution-of-self-improving-",
+   "dst": "paper:g-del-machines-self-referential-universal-problem-solvers",
+   "type": "builds_on"
+  },
+  {
+   "src": "paper:darwin-g-del-machine-open-ended-evolution-of-self-improving-",
+   "dst": "paper:ai-generating-algorithms-ai-gas",
+   "type": "builds_on"
+  },
+  {
+   "src": "paper:the-ai-scientist-towards-fully-automated-open-ended-scientif",
+   "dst": "paper:ai-generating-algorithms-ai-gas",
+   "type": "builds_on"
+  },
+  {
+   "src": "paper:the-ai-scientist-v2-workshop-level-automated-scientific-disc",
+   "dst": "paper:the-ai-scientist-towards-fully-automated-open-ended-scientif",
+   "type": "builds_on"
+  },
+  {
+   "src": "paper:automated-design-of-agentic-systems-adas",
+   "dst": "paper:ai-generating-algorithms-ai-gas",
+   "type": "builds_on"
+  },
+  {
+   "src": "paper:darwin-g-del-machine-open-ended-evolution-of-self-improving-",
+   "dst": "paper:automated-design-of-agentic-systems-adas",
+   "type": "builds_on"
+  },
+  {
+   "src": "paper:alphaevolve-a-coding-agent-for-scientific-and-algorithmic-di",
+   "dst": "paper:funsearch-mathematical-discoveries-from-program-search-with-",
+   "type": "builds_on"
+  },
+  {
+   "src": "paper:agentrxiv-towards-collaborative-autonomous-research",
+   "dst": "paper:agent-laboratory-using-llm-agents-as-research-assistants",
+   "type": "builds_on"
+  },
+  {
+   "src": "paper:evolving-curricula-with-regret-based-environment-design",
+   "dst": "paper:prioritized-level-replay",
+   "type": "builds_on"
+  },
+  {
+   "src": "paper:learning-to-continually-learn-via-meta-learning-agentic-memo",
+   "dst": "paper:learning-to-continually-learn-anml",
+   "type": "builds_on"
+  },
+  {
+   "src": "paper:gptswarm-language-agents-as-optimizable-graphs",
+   "dst": "paper:mindstorms-in-natural-language-based-societies-of-mind",
+   "type": "builds_on"
+  },
+  {
+   "src": "paper:ai-with-recursive-self-improvement",
+   "dst": "paper:darwin-g-del-machine-open-ended-evolution-of-self-improving-",
+   "type": "builds_on"
+  },
+  {
+   "src": "paper:omni-epic-open-endedness-via-models-of-human-notions-of-inte",
+   "dst": "paper:open-endedness-is-essential-for-artificial-superhuman-intell",
+   "type": "builds_on"
+  }
+ ],
+ "stats": {
+  "nodes": 139,
+  "edges": 246,
+  "node_types": {
+   "person": 20,
+   "lab": 9,
+   "category": 19,
+   "paper": 45,
+   "benchmark": 9,
+   "repo": 27,
+   "talk": 10
+  },
+  "edge_types": {
+   "part_of": 122,
+   "authored_by": 52,
+   "member_of": 30,
+   "given_by": 8,
+   "has_code": 20,
+   "builds_on": 14
+  }
+ }
+}

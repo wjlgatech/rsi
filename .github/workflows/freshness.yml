@@ -1,0 +1,41 @@
+name: freshness
+
+on:
+  schedule:
+    - cron: "0 6 * * 1" # Mondays 06:00 UTC — the weekly check the README promises
+  workflow_dispatch:
+  push:
+    paths: ["README.md"]
+    branches: [main]
+
+jobs:
+  links:
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Check every README link
+        run: python3 scripts/check_freshness.py README.md --report freshness-report.md
+
+      - name: Rebuild knowledge graph (verifies README still parses)
+        if: always()
+        run: |
+          python3 scripts/awesome_kg.py build README.md \
+            --out /tmp/graph.json --enrich knowledge/enrichments.json
+          python3 -c "import json; g=json.load(open('/tmp/graph.json')); assert g['stats']['nodes'] > 100, 'graph collapsed: %s' % g['stats']"
+
+      - name: Open or update issue on dead links
+        if: failure()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          title="🔗 Dead links found by weekly freshness check"
+          existing=$(gh issue list --state open --search "$title in:title" --json number --jq '.[0].number' || true)
+          if [ -n "$existing" ]; then
+            gh issue comment "$existing" --body-file freshness-report.md
+          else
+            gh issue create --title "$title" --body-file freshness-report.md
+          fi
