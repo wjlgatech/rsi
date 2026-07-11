@@ -1,4 +1,4 @@
-# 🤖 Awesome Automated AI Research
+# 🤖 Recursive Self Improvement (RSI)
 
 <div align="center">
 
