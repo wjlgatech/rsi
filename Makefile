@@ -17,13 +17,18 @@ freshness:  ## probe every README link
 
 # Run every source adapter, then rank into a weekly PR body + merged candidates.
 # GITHUB_TOKEN lifts the API rate limit (Actions provides it free).
-ingest:  ## fetch candidates from every source adapter (repos, papers, agent-skills)
-	python3 scripts/ingest/github_sync.py --readme README.md --out knowledge/candidates.github.json --min-stars 300
-	python3 scripts/ingest/arxiv_sync.py  --readme README.md --out knowledge/candidates.arxiv.json  --days 14
-	python3 scripts/ingest/skills_sync.py --readme README.md --out knowledge/candidates.skills.json --min-stars 20
+ingest:  ## fetch candidates from every source adapter (repos, papers, skills, MCP, workflows)
+	python3 scripts/ingest/github_sync.py    --readme README.md --out knowledge/candidates.github.json    --min-stars 300
+	python3 scripts/ingest/arxiv_sync.py     --readme README.md --out knowledge/candidates.arxiv.json     --days 14
+	python3 scripts/ingest/skills_sync.py    --readme README.md --out knowledge/candidates.skills.json    --min-stars 20
+	python3 scripts/ingest/mcp_sync.py       --readme README.md --out knowledge/candidates.mcp.json       --min-stars 20
+	python3 scripts/ingest/workflows_sync.py --readme README.md --out knowledge/candidates.workflows.json --min-stars 30
 
-certify:  ## certify tooling (curated repos + discovered skills) -> badges in README + docs
+certify:  ## certify tooling (repos + skills + MCP + workflows) -> badges in README + docs
 	python3 scripts/certify.py --markdown docs/CERTIFIED.md --inject README.md
+
+gold:  ## 🥇 deep-certify the top Verified tools (clone + anyagent analyze + safety scan)
+	python3 scripts/certify_gold.py --top 5 --markdown docs/CERTIFIED.md --inject README.md
 
 sync: ingest  ## full weekly run: ingest -> rank -> certify -> validate -> refresh web pack
 	python3 scripts/groundbreakers.py --glob "knowledge/candidates.*.json" \

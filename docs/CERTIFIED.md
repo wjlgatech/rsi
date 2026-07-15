@@ -1,4 +1,4 @@
-# 🏅 RSI Certified Tooling  ·  _auto-updated 2026-07-14_
+# 🏅 RSI Certified Tooling  ·  _auto-updated 2026-07-15_
 
 Every tool earns an **evidence-backed** tier — not an install count (that's the layer [skills.sh](https://www.skills.sh/) lacks). 🥉 Listed · 🥈 Verified (relevant + maintained, machine-checked) · 🥇 RSI-Certified (adds *works* + *safe* via `anyagent analyze`/`brace`). No-evidence ⇒ no badge. Machine-readable: [`knowledge/certifications.json`](../knowledge/certifications.json).
 
@@ -17,8 +17,12 @@ Every tool earns an **evidence-backed** tier — not an install count (that's th
 | 🥈 Verified | [metauto-ai/agent-as-a-judge](https://github.com/metauto-ai/agent-as-a-judge) | repo | 798 | rel 60 · maint 100 · adopt 60 |
 | 🥈 Verified | [facebookresearch/MLGym](https://github.com/facebookresearch/MLGym) | repo | 612 | rel 80 · maint 60 · adopt 60 |
 | 🥈 Verified | [dsifry/metaswarm](https://github.com/dsifry/metaswarm) | skill | 354 | rel 80 · maint 100 · adopt 60 |
+| 🥈 Verified | [andylow92/file-system-like-github](https://github.com/andylow92/file-system-like-github) | mcp | 294 | rel 80 · maint 100 · adopt 60 |
 | 🥈 Verified | [Undertone0809/rudder](https://github.com/Undertone0809/rudder) | skill | 231 | rel 80 · maint 100 · adopt 60 |
+| 🥈 Verified | [bitrouter/bitrouter](https://github.com/bitrouter/bitrouter) | workflow | 204 | rel 80 · maint 100 · adopt 60 |
 | 🥈 Verified | [getnao/sylph](https://github.com/getnao/sylph) | skill | 165 | rel 80 · maint 100 · adopt 60 |
+| 🥈 Verified | [HashWarlock/nobody-plans-for-pi](https://github.com/HashWarlock/nobody-plans-for-pi) | workflow | 34 | rel 80 · maint 100 · adopt 40 |
+| 🥈 Verified | [kiliman/codemesh](https://github.com/kiliman/codemesh) | mcp | 24 | rel 80 · maint 60 · adopt 40 |
 | 🥉 Listed | [geekan/MetaGPT](https://github.com/geekan/MetaGPT) | repo | 48000 | rel 60 · maint not_measured · adopt 100 |
 | 🥉 Listed | [MineDojo/Voyager](https://github.com/MineDojo/Voyager) | repo | 7052 | rel 80 · maint 20 · adopt 80 |
 | 🥉 Listed | [princeton-nlp/SWE-bench](https://github.com/princeton-nlp/SWE-bench) | repo | 5000 | rel 80 · maint not_measured · adopt 80 |
