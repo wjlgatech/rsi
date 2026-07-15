@@ -1223,6 +1223,36 @@
     },
     {
       "domain": "tooling",
+      "kind": "mcp",
+      "id": "andylow92/file-system-like-github",
+      "title": "andylow92/file-system-like-github",
+      "url": "https://github.com/andylow92/file-system-like-github",
+      "score": 294,
+      "action": "add",
+      "evidence": {
+        "stars": 294,
+        "pushed": "2026-07-11",
+        "desc": "Self-improving, AI-native markdown vault you hand to an AI agent. GitHub-style file tree + Notion editing, exposed to Claude/Cursor via a bu",
+        "matched": "MCP server self-improving agent"
+      }
+    },
+    {
+      "domain": "tooling",
+      "kind": "mcp",
+      "id": "kiliman/codemesh",
+      "title": "kiliman/codemesh",
+      "url": "https://github.com/kiliman/codemesh",
+      "score": 24,
+      "action": "add",
+      "evidence": {
+        "stars": 24,
+        "pushed": "2025-11-03",
+        "desc": "The Self-Improving MCP Server - Agents write code to orchestrate multiple MCP servers with intelligent TypeScript execution and auto-augment",
+        "matched": "MCP server self-improving agent"
+      }
+    },
+    {
+      "domain": "tooling",
       "kind": "skill",
       "id": "Kulaxyz/self-learning-skills",
       "title": "Kulaxyz/self-learning-skills",
@@ -1279,6 +1309,36 @@
         "pushed": "2026-05-21",
         "desc": "The open-source company brain. Run your entire company with AI agents, skills, and a self-improving context.",
         "matched": "self-improving skill AI agent"
+      }
+    },
+    {
+      "domain": "tooling",
+      "kind": "workflow",
+      "id": "bitrouter/bitrouter",
+      "title": "bitrouter/bitrouter",
+      "url": "https://github.com/bitrouter/bitrouter",
+      "score": 204,
+      "action": "add",
+      "evidence": {
+        "stars": 204,
+        "pushed": "2026-07-15",
+        "desc": "The self-improving LLM router that optimize your agentic workflows with every runs, works with any harnesses, any models, any loops.",
+        "matched": "agent workflow self-improving"
+      }
+    },
+    {
+      "domain": "tooling",
+      "kind": "workflow",
+      "id": "HashWarlock/nobody-plans-for-pi",
+      "title": "HashWarlock/nobody-plans-for-pi",
+      "url": "https://github.com/HashWarlock/nobody-plans-for-pi",
+      "score": 34,
+      "action": "add",
+      "evidence": {
+        "stars": 34,
+        "pushed": "2026-03-30",
+        "desc": "Self-improving development workflows for pi coding agent. Subagent orchestration, TDD, systematic debugging. Adapted from obra/superpowers.",
+        "matched": "agent workflow self-improving"
       }
     }
   ]

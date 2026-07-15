@@ -1,0 +1,35 @@
+{
+  "source": "mcp",
+  "candidates": [
+    {
+      "domain": "tooling",
+      "kind": "mcp",
+      "id": "andylow92/file-system-like-github",
+      "title": "andylow92/file-system-like-github",
+      "url": "https://github.com/andylow92/file-system-like-github",
+      "score": 294,
+      "action": "add",
+      "evidence": {
+        "stars": 294,
+        "pushed": "2026-07-11",
+        "desc": "Self-improving, AI-native markdown vault you hand to an AI agent. GitHub-style file tree + Notion editing, exposed to Claude/Cursor via a bu",
+        "matched": "MCP server self-improving agent"
+      }
+    },
+    {
+      "domain": "tooling",
+      "kind": "mcp",
+      "id": "kiliman/codemesh",
+      "title": "kiliman/codemesh",
+      "url": "https://github.com/kiliman/codemesh",
+      "score": 24,
+      "action": "add",
+      "evidence": {
+        "stars": 24,
+        "pushed": "2025-11-03",
+        "desc": "The Self-Improving MCP Server - Agents write code to orchestrate multiple MCP servers with intelligent TypeScript execution and auto-augment",
+        "matched": "MCP server self-improving agent"
+      }
+    }
+  ]
+}

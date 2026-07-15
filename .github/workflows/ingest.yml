@@ -35,6 +35,10 @@ jobs:
             --days "${{ github.event.inputs.days || '14' }}"
           python3 scripts/ingest/skills_sync.py --readme README.md \
             --out knowledge/candidates.skills.json --min-stars 20 --confirm-skill-md
+          python3 scripts/ingest/mcp_sync.py --readme README.md \
+            --out knowledge/candidates.mcp.json --min-stars 20 --confirm-manifest
+          python3 scripts/ingest/workflows_sync.py --readme README.md \
+            --out knowledge/candidates.workflows.json --min-stars 30
 
       - name: Rank into the weekly Groundbreakers slate + PR body
         id: rank
@@ -67,6 +71,8 @@ jobs:
             knowledge/candidates.github.json
             knowledge/candidates.arxiv.json
             knowledge/candidates.skills.json
+            knowledge/candidates.mcp.json
+            knowledge/candidates.workflows.json
             knowledge/certifications.json
             docs/CERTIFIED.md
             README.md

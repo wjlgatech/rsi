@@ -176,12 +176,22 @@
         "relevant": 100,
         "maintained": 60,
         "adopted": 80,
-        "works": "not_measured",
-        "safe": "not_measured"
+        "works": 46,
+        "safe": 20
       },
       "evidence": {
         "stars": 2177,
-        "pushed": "2025-08-13"
+        "pushed": "2025-08-13",
+        "deep": {
+          "works": 46,
+          "safe": 20,
+          "safety_findings": [
+            "risky exec pattern in DGM_outer.py",
+            "risky exec pattern in self_improve_step.py",
+            "risky exec pattern in initial/predictions/initial_0/sphinx-doc__sphinx-7748.md",
+            "risky exec pattern in polyglot/dockerfiles.py"
+          ]
+        }
       }
     },
     {
@@ -280,6 +290,25 @@
       }
     },
     {
+      "id": "andylow92/file-system-like-github",
+      "name": "andylow92/file-system-like-github",
+      "url": "https://github.com/andylow92/file-system-like-github",
+      "kind": "mcp",
+      "category": "\ud83d\udd0c MCP Server",
+      "tier": "\ud83e\udd48 Verified",
+      "scores": {
+        "relevant": 80,
+        "maintained": 100,
+        "adopted": 60,
+        "works": "not_measured",
+        "safe": "not_measured"
+      },
+      "evidence": {
+        "stars": 294,
+        "pushed": "2026-07-11"
+      }
+    },
+    {
       "id": "Undertone0809/rudder",
       "name": "Undertone0809/rudder",
       "url": "https://github.com/Undertone0809/rudder",
@@ -299,6 +328,25 @@
       }
     },
     {
+      "id": "bitrouter/bitrouter",
+      "name": "bitrouter/bitrouter",
+      "url": "https://github.com/bitrouter/bitrouter",
+      "kind": "workflow",
+      "category": "\ud83d\udd00 Workflow",
+      "tier": "\ud83e\udd48 Verified",
+      "scores": {
+        "relevant": 80,
+        "maintained": 100,
+        "adopted": 60,
+        "works": "not_measured",
+        "safe": "not_measured"
+      },
+      "evidence": {
+        "stars": 204,
+        "pushed": "2026-07-15"
+      }
+    },
+    {
       "id": "getnao/sylph",
       "name": "getnao/sylph",
       "url": "https://github.com/getnao/sylph",
@@ -315,6 +363,49 @@
       "evidence": {
         "stars": 165,
         "pushed": "2026-05-21"
+      }
+    },
+    {
+      "id": "HashWarlock/nobody-plans-for-pi",
+      "name": "HashWarlock/nobody-plans-for-pi",
+      "url": "https://github.com/HashWarlock/nobody-plans-for-pi",
+      "kind": "workflow",
+      "category": "\ud83d\udd00 Workflow",
+      "tier": "\ud83e\udd48 Verified",
+      "scores": {
+        "relevant": 80,
+        "maintained": 100,
+        "adopted": 40,
+        "works": "not_measured",
+        "safe": "not_measured"
+      },
+      "evidence": {
+        "stars": 34,
+        "pushed": "2026-03-30"
+      }
+    },
+    {
+      "id": "kiliman/codemesh",
+      "name": "kiliman/codemesh",
+      "url": "https://github.com/kiliman/codemesh",
+      "kind": "mcp",
+      "category": "\ud83d\udd0c MCP Server",
+      "tier": "\ud83e\udd48 Verified",
+      "scores": {
+        "relevant": 80,
+        "maintained": 60,
+        "adopted": 40,
+        "works": 0,
+        "safe": 100
+      },
+      "evidence": {
+        "stars": 24,
+        "pushed": "2025-11-03",
+        "deep": {
+          "works": 0,
+          "safe": 100,
+          "safety_findings": []
+        }
       }
     },
     {
@@ -385,12 +476,19 @@
         "relevant": 60,
         "maintained": 20,
         "adopted": 80,
-        "works": "not_measured",
-        "safe": "not_measured"
+        "works": 49,
+        "safe": 80
       },
       "evidence": {
         "stars": 3175,
-        "pushed": "2024-05-03"
+        "pushed": "2024-05-03",
+        "deep": {
+          "works": 49,
+          "safe": 80,
+          "safety_findings": [
+            "risky exec pattern in isaacgymenvs/assets/urdf/kuka_allegro_description/meshes/convert_stl2obj.py"
+          ]
+        }
       }
     },
     {

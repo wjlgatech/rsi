@@ -211,14 +211,17 @@ def main() -> int:
                       "stars": ev.get("live", n.get("stars")), "pushed": ev.get("pushed"),
                       "curated": True})
         seen.add(url)
-    # … plus newly-discovered skills/repos (unit 1: agent skills join here for free).
+    # … plus newly-discovered tooling: skills (unit 1), MCP servers (unit 3), workflows
+    # (unit 4), and repo discoveries — every kind joins here through the same schema.
+    CATEGORY = {"skill": "🧩 Agent Skill", "mcp": "🔌 MCP Server",
+                "workflow": "🔀 Workflow", "repo": "🆕 Tool"}
     for c in raw_cands:
-        if c.get("action") != "add" or c.get("kind") not in ("skill", "repo") or c.get("url") in seen:
+        if c.get("action") != "add" or c.get("kind") not in CATEGORY or c.get("url") in seen:
             continue
         seen.add(c["url"])
         e = c.get("evidence", {})
         tools.append({"id": c["id"], "name": c.get("title", c["id"]), "url": c["url"],
-                      "kind": c["kind"], "category": "🧩 Agent Skill" if c["kind"] == "skill" else "🆕 Tool",
+                      "kind": c["kind"], "category": CATEGORY[c["kind"]],
                       "summary": e.get("desc", ""), "stars": e.get("stars", c.get("score")),
                       "pushed": e.get("pushed"), "curated": False})
 
