@@ -1,0 +1,74 @@
+name: ingest
+
+# The auto-sync heartbeat. Weekly, the source adapters fetch fresh candidates
+# (stale star counts, new repos, new papers), the ranker builds the RSI
+# Groundbreakers slate, and ONE pull request is opened for human review.
+# Nothing lands in the README until a maintainer merges — the curation gate.
+
+on:
+  schedule:
+    - cron: "0 7 * * 1" # Mondays 07:00 UTC — just after the freshness check
+  workflow_dispatch:
+    inputs:
+      days:
+        description: "arXiv freshness window (days)"
+        default: "14"
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Run source adapters — repos, papers, agent-skills (token lifts rate limit)
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: |
+          python3 scripts/ingest/github_sync.py --readme README.md \
+            --out knowledge/candidates.github.json --min-stars 300
+          python3 scripts/ingest/arxiv_sync.py --readme README.md \
+            --out knowledge/candidates.arxiv.json \
+            --days "${{ github.event.inputs.days || '14' }}"
+          python3 scripts/ingest/skills_sync.py --readme README.md \
+            --out knowledge/candidates.skills.json --min-stars 20 --confirm-skill-md
+
+      - name: Rank into the weekly Groundbreakers slate + PR body
+        id: rank
+        run: |
+          week=$(date -u +'%G-W%V')
+          python3 scripts/groundbreakers.py \
+            --glob "knowledge/candidates.*.json" \
+            --week "$week" \
+            --pr-body pr_body.md \
+            --out knowledge/candidates.json
+          echo "week=$week" >> "$GITHUB_OUTPUT"
+
+      - name: Certify tooling → badges in README + docs/CERTIFIED.md, append to PR body
+        run: |
+          python3 scripts/certify.py --markdown docs/CERTIFIED.md --inject README.md
+          { echo ""; echo "---"; echo ""; cat docs/CERTIFIED.md; } >> pr_body.md
+
+      - name: Validate the finish line before proposing anything
+        run: make check
+
+      - name: Open (or update) the weekly review PR
+        uses: peter-evans/create-pull-request@v6
+        with:
+          branch: auto-sync/weekly
+          title: "🤖 RSI auto-sync — ${{ steps.rank.outputs.week }}"
+          body-path: pr_body.md
+          commit-message: "chore: weekly auto-sync candidates (${{ steps.rank.outputs.week }})"
+          add-paths: |
+            knowledge/candidates.json
+            knowledge/candidates.github.json
+            knowledge/candidates.arxiv.json
+            knowledge/candidates.skills.json
+            knowledge/certifications.json
+            docs/CERTIFIED.md
+            README.md
+          labels: auto-sync
+          delete-branch: true

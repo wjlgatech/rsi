@@ -1,0 +1,332 @@
+{
+  "source": "github",
+  "candidates": [
+    {
+      "domain": "tooling",
+      "kind": "repo",
+      "id": "MineDojo/Voyager",
+      "title": "MineDojo/Voyager",
+      "url": "https://github.com/MineDojo/Voyager",
+      "score": 7052,
+      "action": "refresh",
+      "evidence": {
+        "printed": 5500,
+        "live": 7052,
+        "pushed": "2024-04-03"
+      }
+    },
+    {
+      "domain": "tooling",
+      "kind": "repo",
+      "id": "SakanaAI/AI-Scientist",
+      "title": "SakanaAI/AI-Scientist",
+      "url": "https://github.com/SakanaAI/AI-Scientist",
+      "score": 14224,
+      "action": "refresh",
+      "evidence": {
+        "printed": 10000,
+        "live": 14224,
+        "pushed": "2025-12-19"
+      }
+    },
+    {
+      "domain": "tooling",
+      "kind": "repo",
+      "id": "SakanaAI/AI-Scientist-v2",
+      "title": "SakanaAI/AI-Scientist-v2",
+      "url": "https://github.com/SakanaAI/AI-Scientist-v2",
+      "score": 6824,
+      "action": "refresh",
+      "evidence": {
+        "printed": 4000,
+        "live": 6824,
+        "pushed": "2025-12-19"
+      }
+    },
+    {
+      "domain": "tooling",
+      "kind": "repo",
+      "id": "SamuelSchmidgall/AgentLaboratory",
+      "title": "SamuelSchmidgall/AgentLaboratory",
+      "url": "https://github.com/SamuelSchmidgall/AgentLaboratory",
+      "score": 5749,
+      "action": "refresh",
+      "evidence": {
+        "printed": 2000,
+        "live": 5749,
+        "pushed": "2025-08-20"
+      }
+    },
+    {
+      "domain": "tooling",
+      "kind": "repo",
+      "id": "ShengranHu/ADAS",
+      "title": "ShengranHu/ADAS",
+      "url": "https://github.com/ShengranHu/ADAS",
+      "score": 1614,
+      "action": "refresh",
+      "evidence": {
+        "printed": 800,
+        "live": 1614,
+        "pushed": "2025-01-28"
+      }
+    },
+    {
+      "domain": "tooling",
+      "kind": "repo",
+      "id": "eureka-research/Eureka",
+      "title": "eureka-research/Eureka",
+      "url": "https://github.com/eureka-research/Eureka",
+      "score": 3175,
+      "action": "refresh",
+      "evidence": {
+        "printed": 2000,
+        "live": 3175,
+        "pushed": "2024-05-03"
+      }
+    },
+    {
+      "domain": "tooling",
+      "kind": "repo",
+      "id": "facebookresearch/MLGym",
+      "title": "facebookresearch/MLGym",
+      "url": "https://github.com/facebookresearch/MLGym",
+      "score": 612,
+      "action": "refresh",
+      "evidence": {
+        "printed": 400,
+        "live": 612,
+        "pushed": "2025-08-10"
+      }
+    },
+    {
+      "domain": "tooling",
+      "kind": "repo",
+      "id": "facebookresearch/coconut",
+      "title": "facebookresearch/coconut",
+      "url": "https://github.com/facebookresearch/coconut",
+      "score": 1663,
+      "action": "refresh",
+      "evidence": {
+        "printed": 570,
+        "live": 1663,
+        "pushed": "2026-07-02"
+      }
+    },
+    {
+      "domain": "tooling",
+      "kind": "repo",
+      "id": "facebookresearch/level-replay",
+      "title": "facebookresearch/level-replay",
+      "url": "https://github.com/facebookresearch/level-replay",
+      "score": 96,
+      "action": "refresh",
+      "evidence": {
+        "printed": 300,
+        "live": 96,
+        "pushed": "2021-06-11"
+      }
+    },
+    {
+      "domain": "tooling",
+      "kind": "repo",
+      "id": "geekan/MetaGPT",
+      "title": "geekan/MetaGPT",
+      "url": "https://github.com/FoundationAgents/MetaGPT",
+      "score": 69374,
+      "action": "refresh",
+      "evidence": {
+        "printed": 48000,
+        "live": 69374,
+        "pushed": "2026-01-21"
+      }
+    },
+    {
+      "domain": "tooling",
+      "kind": "repo",
+      "id": "google-deepmind/funsearch",
+      "title": "google-deepmind/funsearch",
+      "url": "https://github.com/google-deepmind/funsearch",
+      "score": 1091,
+      "action": "refresh",
+      "evidence": {
+        "printed": 3000,
+        "live": 1091,
+        "pushed": "2024-02-05"
+      }
+    },
+    {
+      "domain": "tooling",
+      "kind": "repo",
+      "id": "google-deepmind/opro",
+      "title": "google-deepmind/opro",
+      "url": "https://github.com/google-deepmind/opro",
+      "score": 764,
+      "action": "refresh",
+      "evidence": {
+        "printed": 1500,
+        "live": 764,
+        "pushed": "2024-12-04"
+      }
+    },
+    {
+      "domain": "tooling",
+      "kind": "repo",
+      "id": "jennyzzt/dgm",
+      "title": "jennyzzt/dgm",
+      "url": "https://github.com/jennyzzt/dgm",
+      "score": 2177,
+      "action": "refresh",
+      "evidence": {
+        "printed": 600,
+        "live": 2177,
+        "pushed": "2025-08-13"
+      }
+    },
+    {
+      "domain": "tooling",
+      "kind": "repo",
+      "id": "jiaweizzhao/GaLore",
+      "title": "jiaweizzhao/GaLore",
+      "url": "https://github.com/jiaweizzhao/GaLore",
+      "score": 1699,
+      "action": "refresh",
+      "evidence": {
+        "printed": 800,
+        "live": 1699,
+        "pushed": "2024-10-28"
+      }
+    },
+    {
+      "domain": "tooling",
+      "kind": "repo",
+      "id": "metauto-ai/agent-as-a-judge",
+      "title": "metauto-ai/agent-as-a-judge",
+      "url": "https://github.com/metauto-ai/agent-as-a-judge",
+      "score": 798,
+      "action": "refresh",
+      "evidence": {
+        "printed": 400,
+        "live": 798,
+        "pushed": "2026-03-28"
+      }
+    },
+    {
+      "domain": "tooling",
+      "kind": "repo",
+      "id": "openai/mle-bench",
+      "title": "openai/mle-bench",
+      "url": "https://github.com/openai/mle-bench",
+      "score": 1624,
+      "action": "refresh",
+      "evidence": {
+        "printed": 2500,
+        "live": 1624,
+        "pushed": "2026-04-24"
+      }
+    },
+    {
+      "domain": "tooling",
+      "kind": "repo",
+      "id": "pytorch/ELF",
+      "title": "pytorch/ELF",
+      "url": "https://github.com/pytorch/ELF",
+      "score": 3413,
+      "action": "refresh",
+      "evidence": {
+        "printed": 350,
+        "live": 3413,
+        "pushed": "2019-06-21"
+      }
+    },
+    {
+      "domain": "tooling",
+      "kind": "repo",
+      "id": "stanfordnlp/dspy",
+      "title": "stanfordnlp/dspy",
+      "url": "https://github.com/stanfordnlp/dspy",
+      "score": 36130,
+      "action": "refresh",
+      "evidence": {
+        "printed": 22000,
+        "live": 36130,
+        "pushed": "2026-07-14"
+      }
+    },
+    {
+      "domain": "tooling",
+      "kind": "repo",
+      "id": "letta-ai/letta",
+      "title": "letta-ai/letta",
+      "url": "https://github.com/letta-ai/letta",
+      "score": 23793,
+      "action": "add",
+      "evidence": {
+        "stars": 23793,
+        "pushed": "2026-07-03",
+        "desc": "Platform for stateful agents: AI with advanced memory that can learn and self-improve over time.",
+        "matched": "self-improving agent"
+      }
+    },
+    {
+      "domain": "tooling",
+      "kind": "repo",
+      "id": "MervinPraison/PraisonAI",
+      "title": "MervinPraison/PraisonAI",
+      "url": "https://github.com/MervinPraison/PraisonAI",
+      "score": 8448,
+      "action": "add",
+      "evidence": {
+        "stars": 8448,
+        "pushed": "2026-07-14",
+        "desc": "PraisonAI \ud83e\udd9e \u2014 Hire a 24/7 AI Workforce. Stop writing boilerplate and start shipping autonomous self-improving agents tha",
+        "matched": "self-improving agent"
+      }
+    },
+    {
+      "domain": "tooling",
+      "kind": "repo",
+      "id": "TheBlewish/Automated-AI-Web-Researcher-Ollama",
+      "title": "TheBlewish/Automated-AI-Web-Researcher-Ollama",
+      "url": "https://github.com/TheBlewish/Automated-AI-Web-Researcher-Ollama",
+      "score": 2979,
+      "action": "add",
+      "evidence": {
+        "stars": 2979,
+        "pushed": "2024-12-14",
+        "desc": "A python program that turns an LLM, running on Ollama, into an automated researcher, which will with a single query dete",
+        "matched": "automated AI research"
+      }
+    },
+    {
+      "domain": "tooling",
+      "kind": "repo",
+      "id": "facebookresearch/HyperAgents",
+      "title": "facebookresearch/HyperAgents",
+      "url": "https://github.com/facebookresearch/HyperAgents",
+      "score": 2637,
+      "action": "add",
+      "evidence": {
+        "stars": 2637,
+        "pushed": "2026-05-09",
+        "desc": "Self-referential self-improving agents that can optimize for any computable task",
+        "matched": "self-improving agent"
+      }
+    },
+    {
+      "domain": "tooling",
+      "kind": "repo",
+      "id": "JackHopkins/factorio-learning-environment",
+      "title": "JackHopkins/factorio-learning-environment",
+      "url": "https://github.com/JackHopkins/factorio-learning-environment",
+      "score": 1025,
+      "action": "add",
+      "evidence": {
+        "stars": 1025,
+        "pushed": "2026-06-11",
+        "desc": "A non-saturating, open-ended environment for evaluating LLMs in Factorio",
+        "matched": "open-ended learning LLM"
+      }
+    }
+  ]
+}
