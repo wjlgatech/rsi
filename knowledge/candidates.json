@@ -1,0 +1,1285 @@
+{
+  "week": "2026-W29",
+  "candidates": [
+    {
+      "domain": "knowledge",
+      "kind": "paper",
+      "id": "2607.11886",
+      "title": "Read It Back: Pretrained MLLMs Are Zero-Shot Reward Models for Text-to-Image Generation",
+      "url": "https://arxiv.org/abs/2607.11886",
+      "score": 199,
+      "action": "add",
+      "evidence": {
+        "published": "2026-07-13",
+        "days_old": 1,
+        "authors": [
+          "Runhui Huang",
+          "Qihui Zhang",
+          "Zhe Liu",
+          "Yu Gao",
+          "Jie Wu",
+          "Hengshuang Zhao"
+        ],
+        "summary": "In this paper, we propose SpectraReward, a training-free reward function that turns pretrained MLLMs into off-the-shelf reward models for image-generation reinforcement learning. Instead of asking the"
+      }
+    },
+    {
+      "domain": "knowledge",
+      "kind": "paper",
+      "id": "2607.11701",
+      "title": "$\\mathtt{Q^2SAR}$: overcoming classical bottlenecks in drug discovery via quantum multiple kernel learning",
+      "url": "https://arxiv.org/abs/2607.11701",
+      "score": 199,
+      "action": "add",
+      "evidence": {
+        "published": "2026-07-13",
+        "days_old": 1,
+        "authors": [
+          "Mariano Caruso",
+          "Daniel Ruiz",
+          "Alejandro Giraldo",
+          "Guido Bellomo"
+        ],
+        "summary": "Quantitative Structure-Activity Relationship ($\\mathtt{QSAR}$) modeling is a foundational computational methodology in early-stage drug discovery, heavily relied upon for predicting compound toxicity,"
+      }
+    },
+    {
+      "domain": "knowledge",
+      "kind": "paper",
+      "id": "2607.11689",
+      "title": "From World Action Models to Embodied Brains: A Roadmap for Open-World Physical Intelligence",
+      "url": "https://arxiv.org/abs/2607.11689",
+      "score": 199,
+      "action": "add",
+      "evidence": {
+        "published": "2026-07-13",
+        "days_old": 1,
+        "authors": [
+          "Yuanzhi Liang",
+          "Xufeng Zhan",
+          "Haibin Huang",
+          "Chi Zhang",
+          "Xuelong Li"
+        ],
+        "summary": "Artificial general intelligence ultimately requires agents that can reason and act in the physical world. Action models, vision-language-action policies, and world models have advanced this goal, whil"
+      }
+    },
+    {
+      "domain": "knowledge",
+      "kind": "paper",
+      "id": "2607.11288",
+      "title": "Mako: A Self-Evolving Agentic Operating System (SE-AOS) for Autonomous Web Exploitation",
+      "url": "https://arxiv.org/abs/2607.11288",
+      "score": 199,
+      "action": "add",
+      "evidence": {
+        "published": "2026-07-13",
+        "days_old": 1,
+        "authors": [
+          "Praneeth Narisetty",
+          "Shiva Nagendra Babu Kore"
+        ],
+        "summary": "We introduce the Self-Evolving Agentic Operating System (SE-AOS): a new class of AI agent that treats exploit capability as a mutable, versioned kernel it extends at runtime, observing its own failure"
+      }
+    },
+    {
+      "domain": "knowledge",
+      "kind": "paper",
+      "id": "2607.11267",
+      "title": "Enhancing LLMs through human feedback: a journey towards self-improvement",
+      "url": "https://arxiv.org/abs/2607.11267",
+      "score": 199,
+      "action": "add",
+      "evidence": {
+        "published": "2026-07-13",
+        "days_old": 1,
+        "authors": [
+          "Tatiana Pelc",
+          "Gila Kamhi",
+          "Asaf Avrahamy",
+          "Adi Fledel-Alon"
+        ],
+        "summary": "In the rapidly evolving landscape of information retrieval systems, the ability to adapt and improve through user feedback is paramount. This study introduces a novel methodology for refining the perf"
+      }
+    },
+    {
+      "domain": "knowledge",
+      "kind": "paper",
+      "id": "2607.11175",
+      "title": "The Path to Self-Evolving Clinical Systems: Scaling Medical Agents from Assistance to Autonomy",
+      "url": "https://arxiv.org/abs/2607.11175",
+      "score": 199,
+      "action": "add",
+      "evidence": {
+        "published": "2026-07-13",
+        "days_old": 1,
+        "authors": [
+          "Chunzheng Zhu",
+          "Lei Tian",
+          "Bohan Tan",
+          "Ziqi Zhou",
+          "Yuxuan Sun",
+          "Yijun Wang"
+        ],
+        "summary": "The growing ability of large language models and vision language models to jointly interpret and reason over images and text is reshaping medical agents, moving them from task specific predictors towa"
+      }
+    },
+    {
+      "domain": "knowledge",
+      "kind": "paper",
+      "id": "2607.11084",
+      "title": "NVAITC AI Scientist: A Governed End-to-End Research System -- A Hypertension GWAS Case Study",
+      "url": "https://arxiv.org/abs/2607.11084",
+      "score": 199,
+      "action": "add",
+      "evidence": {
+        "published": "2026-07-13",
+        "days_old": 1,
+        "authors": [
+          "Eddie Huang",
+          "Ken Liao",
+          "Iven Fu",
+          "Yang-Hsien Lin",
+          "Chao-Shun Zhan",
+          "Andy Liao"
+        ],
+        "summary": "Agentic research systems are emerging as a new paradigm for coordinating scientific workflows beyond isolated model inference, code generation, or statistical analysis. However, deployment in institut"
+      }
+    },
+    {
+      "domain": "knowledge",
+      "kind": "paper",
+      "id": "2607.11423",
+      "title": "ToFu: A White-Box, Token-Efficient Agent Harness for Researchers",
+      "url": "https://arxiv.org/abs/2607.11423",
+      "score": 199,
+      "action": "add",
+      "evidence": {
+        "published": "2026-07-13",
+        "days_old": 1,
+        "authors": [
+          "Junhao Ruan",
+          "Yuan Ge",
+          "Bei Li",
+          "Yongjing Yin",
+          "Yuchun Fan",
+          "Xin Chen"
+        ],
+        "summary": "Agentic coding tools present new opportunities to transform research workflows. The performance of agent systems built depends on both large language models (LLMs) and the harness around LLMs, which i"
+      }
+    },
+    {
+      "domain": "knowledge",
+      "kind": "paper",
+      "id": "2607.10315",
+      "title": "Understanding Implicit Trust Errors in Core Carrier Networks through Multi-Agent Flaw Discovery and Analysis",
+      "url": "https://arxiv.org/abs/2607.10315",
+      "score": 197,
+      "action": "add",
+      "evidence": {
+        "published": "2026-07-11",
+        "days_old": 3,
+        "authors": [
+          "Ziyu Lin",
+          "Ziting Wang",
+          "Xinfeng Li",
+          "Wei Dong",
+          "XiaoFeng Wang"
+        ],
+        "summary": "Cellular core networks (CNs) are critical infrastructure, yet their internal security model has historically relied on physical isolation: interfaces between core components often operate within an as"
+      }
+    },
+    {
+      "domain": "knowledge",
+      "kind": "paper",
+      "id": "2607.10059",
+      "title": "AgentAbstain: Do LLM Agents Know When Not to Act?",
+      "url": "https://arxiv.org/abs/2607.10059",
+      "score": 197,
+      "action": "add",
+      "evidence": {
+        "published": "2026-07-11",
+        "days_old": 3,
+        "authors": [
+          "Xun Liu",
+          "Yi Evie Zhang",
+          "Vira Kasprova",
+          "Parisa Rabbani",
+          "Pardis Sadat Zahraei",
+          "Tianyu Zhang"
+        ],
+        "summary": "Agent systems based on large language models (LLMs) are increasingly deployed for autonomous tasks, yet existing evaluations mostly focus on task success rather than whether agents know when to abstai"
+      }
+    },
+    {
+      "domain": "knowledge",
+      "kind": "paper",
+      "id": "2607.09195",
+      "title": "Toward Auditable AI Scientists: A Hypothesis Evolution Protocol for LLM Agents",
+      "url": "https://arxiv.org/abs/2607.09195",
+      "score": 196,
+      "action": "add",
+      "evidence": {
+        "published": "2026-07-10",
+        "days_old": 4,
+        "authors": [
+          "Izumi Takahara",
+          "Teruyasu Mizoguchi"
+        ],
+        "summary": "Large language model (LLM) agents are increasingly expected to play a central role in AI-driven scientific discovery. Equipped with broad knowledge, flexible reasoning, and tool use, they have the pot"
+      }
+    },
+    {
+      "domain": "knowledge",
+      "kind": "paper",
+      "id": "2607.08973",
+      "title": "SiFAR: Synchronization-Free All-Reduce for Low-Latency LLM Inference",
+      "url": "https://arxiv.org/abs/2607.08973",
+      "score": 195,
+      "action": "add",
+      "evidence": {
+        "published": "2026-07-09",
+        "days_old": 5,
+        "authors": [
+          "Hritvik Taneja",
+          "Anish Saxena",
+          "Abhishek Revinipati",
+          "Jae Hyung Ju",
+          "Neal C. Crago",
+          "Moinuddin Qureshi"
+        ],
+        "summary": "The rise of reasoning models and agentic systems has made LLM token-generation latency a key bottleneck. Unlike chatbots, whose latency gains saturate at human reading speed, these systems generate in"
+      }
+    },
+    {
+      "domain": "knowledge",
+      "kind": "paper",
+      "id": "2607.07663",
+      "title": "Recursive Self-Improvement in AI: From Bounded Self-Refinement to Autonomous Research Loops",
+      "url": "https://arxiv.org/abs/2607.07663",
+      "score": 194,
+      "action": "add",
+      "evidence": {
+        "published": "2026-07-08",
+        "days_old": 6,
+        "authors": [
+          "Mingguang Chen",
+          "Licheng Wang",
+          "Bo Qu"
+        ],
+        "summary": "AI systems increasingly participate in their own improvement: revising their outputs, adapting their own harnesses during deployment, training on data they generate, and, increasingly, conducting AI r"
+      }
+    },
+    {
+      "domain": "knowledge",
+      "kind": "paper",
+      "id": "2607.07858",
+      "title": "Agentic AI and Retrieval-Augmented Models in Straight-Through Underwriting",
+      "url": "https://arxiv.org/abs/2607.07858",
+      "score": 194,
+      "action": "add",
+      "evidence": {
+        "published": "2026-07-08",
+        "days_old": 6,
+        "authors": [
+          "Robert Richardson",
+          "Josh Meyers",
+          "Brian Hartman",
+          "David Sandberg"
+        ],
+        "summary": "Artificial intelligence (AI) is beginning to reshape actuarial practice, particularly in domains that require reasoning over unstructured documents, heterogeneous data sources, and regulated decision "
+      }
+    },
+    {
+      "domain": "knowledge",
+      "kind": "paper",
+      "id": "2607.06101",
+      "title": "Agents That Teach: Towards Designing Incidental Learning Back into AI-Assisted Software Development",
+      "url": "https://arxiv.org/abs/2607.06101",
+      "score": 193,
+      "action": "add",
+      "evidence": {
+        "published": "2026-07-07",
+        "days_old": 7,
+        "authors": [
+          "Rohit Mehra",
+          "Samdyuti Suri",
+          "Prithviraj K Tagadinamani",
+          "Kapil Singi",
+          "Vikrant Kaulgud",
+          "Adam P. Burden"
+        ],
+        "summary": "AI coding agents are rapidly reshaping how software is built, with developers increasingly delegating substantial coding tasks to autonomous agents in pursuit of higher productivity. While these gains"
+      }
+    },
+    {
+      "domain": "knowledge",
+      "kind": "paper",
+      "id": "2607.05382",
+      "title": "Search Beyond What Can Be Taught: Evolving the Knowledge Boundary in Agentic Visual Generation",
+      "url": "https://arxiv.org/abs/2607.05382",
+      "score": 192,
+      "action": "add",
+      "evidence": {
+        "published": "2026-07-06",
+        "days_old": 8,
+        "authors": [
+          "Haozhe Wang",
+          "Weijia Feng",
+          "Jinpeng Yu",
+          "Che Liu",
+          "Ping Nie",
+          "Fangzhen Lin"
+        ],
+        "summary": "Visual generators excel at rendering, but they confidently fabricate what they do not know. User requests are unbounded, evolving, and deeply long-tailed: new characters, trending entities, post-cutof"
+      }
+    },
+    {
+      "domain": "knowledge",
+      "kind": "paper",
+      "id": "2607.05682",
+      "title": "FirstResearch: Auditable Question Formation for LLM Scientific Discovery Agents",
+      "url": "https://arxiv.org/abs/2607.05682",
+      "score": 192,
+      "action": "add",
+      "evidence": {
+        "published": "2026-07-06",
+        "days_old": 8,
+        "authors": [
+          "Yufeng Wang"
+        ],
+        "summary": "LLM systems for scientific discovery increasingly assist with ideation, literature synthesis, experiment planning, and report generation, but the first research question they propose can remain diffic"
+      }
+    },
+    {
+      "domain": "knowledge",
+      "kind": "paper",
+      "id": "2607.04972",
+      "title": "Multi-Robot Open Adaptive Teaming Across Unseen Environments, Partners, and Scales",
+      "url": "https://arxiv.org/abs/2607.04972",
+      "score": 192,
+      "action": "add",
+      "evidence": {
+        "published": "2026-07-06",
+        "days_old": 8,
+        "authors": [
+          "Yang Li",
+          "Feng Xue",
+          "Fan Mo",
+          "Yunhao Liu",
+          "Jianhong Wang",
+          "Ying Wen"
+        ],
+        "summary": "Deploying robot teams in the real world requires simultaneous adaptation to unseen environments, unknown partners, and varying team sizes, yet existing approaches often address these challenges in iso"
+      }
+    },
+    {
+      "domain": "knowledge",
+      "kind": "paper",
+      "id": "2607.04277",
+      "title": "Self-Reference in Large Language Models: The Introspection Threshold for Recursive Self-Improvement",
+      "url": "https://arxiv.org/abs/2607.04277",
+      "score": 191,
+      "action": "add",
+      "evidence": {
+        "published": "2026-07-05",
+        "days_old": 9,
+        "authors": [
+          "Jiang Zhang",
+          "Bing Yuan",
+          "Qian Zhang"
+        ],
+        "summary": "The pursuit of self-evolving AI raises a critical question: when is autonomous self-improvement sustainable rather than degenerative? Drawing an analogy to von Neumann's complexity threshold for self-"
+      }
+    },
+    {
+      "domain": "knowledge",
+      "kind": "paper",
+      "id": "2607.04293",
+      "title": "CausalGame: Benchmarking Causal Thinking of LLM Agents in Games",
+      "url": "https://arxiv.org/abs/2607.04293",
+      "score": 191,
+      "action": "add",
+      "evidence": {
+        "published": "2026-07-05",
+        "days_old": 9,
+        "authors": [
+          "Zhenhao Chen",
+          "Yongqiang Chen",
+          "Chenxi Liu",
+          "Junchi Yu",
+          "Xiangchen Song",
+          "Zijian Li"
+        ],
+        "summary": "Building AI Scientist agents with Large Language Models (LLMs) has recently attracted growing attention. Since scientific discovery fundamentally relies on uncovering causal relationships from observa"
+      }
+    },
+    {
+      "domain": "knowledge",
+      "kind": "paper",
+      "id": "2606.31478",
+      "title": "One Reflection Is Not Enough: Self-Correcting Autonomous Research via Multi-Hypothesis Failure Attribution",
+      "url": "https://arxiv.org/abs/2606.31478",
+      "score": 186,
+      "action": "add",
+      "evidence": {
+        "published": "2026-06-30",
+        "days_old": 14,
+        "authors": [
+          "Jie Ma",
+          "Binfei Chu",
+          "Jie Gao",
+          "Jinlu Zhang",
+          "Yiwei Ma",
+          "Yi Tan"
+        ],
+        "summary": "Autonomous research agents can now draft hypotheses, write code, run experiments, and produce papers, but they remain brittle when experiments fail. Under the prevailing paradigm, failure recovery is "
+      }
+    },
+    {
+      "domain": "knowledge",
+      "kind": "paper",
+      "id": "2606.31273",
+      "title": "The Calibration Turn in AI-Assisted Research: A Conceptual and Methodological Framework for Evidence-Licensed Claims",
+      "url": "https://arxiv.org/abs/2606.31273",
+      "score": 186,
+      "action": "add",
+      "evidence": {
+        "published": "2026-06-30",
+        "days_old": 14,
+        "authors": [
+          "Hongmin Li"
+        ],
+        "summary": "AI-assisted research has entered a stage in which the central question is not only whether systems can generate hypotheses, run experiments, or produce manuscripts, but whether their scientific claims"
+      }
+    },
+    {
+      "domain": "knowledge",
+      "kind": "paper",
+      "id": "2606.28472",
+      "title": "From Prompting to Epistemic Proactivity: Temporal Trajectories of Student-AI Interaction in Mathematics Learning",
+      "url": "https://arxiv.org/abs/2606.28472",
+      "score": 182,
+      "action": "add",
+      "evidence": {
+        "published": "2026-06-26",
+        "days_old": 18,
+        "authors": [
+          "Rania Abdelghani",
+          "Peter Kaiser",
+          "Kou Murayama"
+        ],
+        "summary": "GenAI is increasingly used by students as learning companions, yet little is known about how they use these tools in open-ended learning settings, where the goal is not to complete a specific task but"
+      }
+    },
+    {
+      "domain": "knowledge",
+      "kind": "paper",
+      "id": "2606.26294",
+      "title": "The Red Queen G\u00f6del Machine: Co-Evolving Agents and Their Evaluators",
+      "url": "https://arxiv.org/abs/2606.26294",
+      "score": 180,
+      "action": "add",
+      "evidence": {
+        "published": "2026-06-24",
+        "days_old": 20,
+        "authors": [
+          "Alex Iacob",
+          "Andrej Jovanovi\u0107",
+          "William F. Shen",
+          "Daniel Burkhardt",
+          "Meghdad Kurmanji",
+          "Nurbek Tastan"
+        ],
+        "summary": "Self-improving agents are state-of-the-art (SOTA) on agentic coding benchmarks and have recently been extended to general domains. However, their search methods generally assume a stationary evaluatio"
+      }
+    },
+    {
+      "domain": "knowledge",
+      "kind": "paper",
+      "id": "2606.23122",
+      "title": "A Matter of Time: Towards a General Theory of Agency",
+      "url": "https://arxiv.org/abs/2606.23122",
+      "score": 178,
+      "action": "add",
+      "evidence": {
+        "published": "2026-06-22",
+        "days_old": 22,
+        "authors": [
+          "Amahury J. L\u00f3pez-D\u00edaz",
+          "Carlos Gershenson"
+        ],
+        "summary": "Agency is often invoked in research on philosophy, biology, and cognitive science without a clear account of how it originates from material organization. Building on temporally parametrized (F, A)-sy"
+      }
+    },
+    {
+      "domain": "knowledge",
+      "kind": "paper",
+      "id": "2606.15096",
+      "title": "VGPT-RSI for RH-Adjacent Formal Progress: Boundary Certificates, Verified Finite Lagarias Inequalities, and Explicit Failure Localization",
+      "url": "https://arxiv.org/abs/2606.15096",
+      "score": 169,
+      "action": "add",
+      "evidence": {
+        "published": "2026-06-13",
+        "days_old": 31,
+        "authors": [
+          "Zhixin Hu",
+          "Tao Xu",
+          "Xiaodian Sun",
+          "Li Jin",
+          "Momiao Xiong"
+        ],
+        "summary": "The Riemann Hypothesis remains one of the central unsolved problems in mathematics. Rather than claiming proof, we investigate whether a verifiable AI-assisted reasoning system can produce reliable, f"
+      }
+    },
+    {
+      "domain": "knowledge",
+      "kind": "paper",
+      "id": "2606.20657",
+      "title": "A-Evolve-Training: Autonomous Post-Training of a 30B Model",
+      "url": "https://arxiv.org/abs/2606.20657",
+      "score": 165,
+      "action": "add",
+      "evidence": {
+        "published": "2026-06-09",
+        "days_old": 35,
+        "authors": [
+          "Zhan Shi",
+          "Bing He",
+          "Yisi Sang",
+          "Hanqing Lu",
+          "Benoit Dumoulin"
+        ],
+        "summary": "Post-training a frontier model is normally weeks of human work: proposing data and recipe changes, launching runs, reading evals, deciding what to keep. We report an autonomous system that runs this l"
+      }
+    },
+    {
+      "domain": "knowledge",
+      "kind": "paper",
+      "id": "2606.08369",
+      "title": "An Information-Theoretic Definition for Open-Ended Learning",
+      "url": "https://arxiv.org/abs/2606.08369",
+      "score": 162,
+      "action": "add",
+      "evidence": {
+        "published": "2026-06-06",
+        "days_old": 38,
+        "authors": [
+          "Wanqiao Xu",
+          "Yifan Zhu",
+          "Benjamin Van Roy"
+        ],
+        "summary": "A growing body of work points to the great promise of AI systems that can continually expand their capabilities as they operate in an open-ended environment. But yet there is no coherent definition of"
+      }
+    },
+    {
+      "domain": "knowledge",
+      "kind": "paper",
+      "id": "2606.08340",
+      "title": "Benchmarking Open-Ended Multi-Agent Coordination in Language Agents",
+      "url": "https://arxiv.org/abs/2606.08340",
+      "score": 162,
+      "action": "add",
+      "evidence": {
+        "published": "2026-06-06",
+        "days_old": 38,
+        "authors": [
+          "Kale-ab Abebe Tessera",
+          "Andras Szecsenyi",
+          "Cameron Barker",
+          "Alexander Rutherford",
+          "Davide Paglieri",
+          "Aidan Scannell"
+        ],
+        "summary": "As language models are increasingly deployed as autonomous agents, they must coordinate with others over long horizons in open-ended interactive tasks. Yet existing evaluations rarely test these deman"
+      }
+    },
+    {
+      "domain": "knowledge",
+      "kind": "paper",
+      "id": "2605.18181",
+      "title": "Scalable Environments Drive Generalizable Agents",
+      "url": "https://arxiv.org/abs/2605.18181",
+      "score": 143,
+      "action": "add",
+      "evidence": {
+        "published": "2026-05-18",
+        "days_old": 57,
+        "authors": [
+          "Jiayi Zhang",
+          "Fanqi Kong",
+          "Guibin Zhang",
+          "Maojia Song",
+          "Zhaoyang Yu",
+          "Jianhao Ruan"
+        ],
+        "summary": "Generalizable agents should adapt to diverse tasks and unseen environments beyond their training distribution. This position paper argues that such generalization requires environment scaling: expandi"
+      }
+    },
+    {
+      "domain": "knowledge",
+      "kind": "paper",
+      "id": "2605.06965",
+      "title": "AI and Consciousness: Shifting Focus Towards Tractable Questions",
+      "url": "https://arxiv.org/abs/2605.06965",
+      "score": 132,
+      "action": "add",
+      "evidence": {
+        "published": "2026-05-07",
+        "days_old": 68,
+        "authors": [
+          "Iulia-Maria Comsa"
+        ],
+        "summary": "As language-based AI systems become more anthropomorphic, the question of whether they can have subjective experience is increasingly pressing. I focus here on the tractability of research questions i"
+      }
+    },
+    {
+      "domain": "knowledge",
+      "kind": "paper",
+      "id": "2605.00466",
+      "title": "PAMod: Modeling Cyclical Shifts via Phase-Amplitude Modulation for Non-stationary Time Series Forecasting",
+      "url": "https://arxiv.org/abs/2605.00466",
+      "score": 126,
+      "action": "add",
+      "evidence": {
+        "published": "2026-05-01",
+        "days_old": 74,
+        "authors": [
+          "Yingbo Zhou",
+          "Yutong Ye",
+          "Shuhao Li",
+          "Rui Qian",
+          "Qiang Huang",
+          "Lemao Liu"
+        ],
+        "summary": "Real-world time series forecasting faces the fundamental challenge of non-stationary statistical properties, including shifts in mean and variance over time. While reversible instance normalization (R"
+      }
+    },
+    {
+      "domain": "knowledge",
+      "kind": "paper",
+      "id": "2605.02938",
+      "title": "PAMNet: Cycle-aware Phase-Amplitude Modulation Network for Multivariate Time Series Forecasting",
+      "url": "https://arxiv.org/abs/2605.02938",
+      "score": 126,
+      "action": "add",
+      "evidence": {
+        "published": "2026-05-01",
+        "days_old": 74,
+        "authors": [
+          "Yingbo Zhou",
+          "Yutong Ye",
+          "Zhiwei Ling",
+          "Shuhao Li",
+          "Rui Qian",
+          "Jian Xiong"
+        ],
+        "summary": "Reliable periodic patterns serve as a fundamental basis for accurate multivariate time series forecasting. However, existing methods either implicitly extract periodicity through complex model archite"
+      }
+    },
+    {
+      "domain": "knowledge",
+      "kind": "paper",
+      "id": "2604.20714",
+      "title": "Learning to Evolve: A Self-Improving Framework for Multi-Agent Systems via Textual Parameter Graph Optimization",
+      "url": "https://arxiv.org/abs/2604.20714",
+      "score": 117,
+      "action": "add",
+      "evidence": {
+        "published": "2026-04-22",
+        "days_old": 83,
+        "authors": [
+          "Shan He",
+          "Runze Wang",
+          "Zhuoyun Du",
+          "Huiyu Bai",
+          "Zouying Cao",
+          "Yu Cheng"
+        ],
+        "summary": "Designing and optimizing multi-agent systems (MAS) is a complex, labor-intensive process of \"Agent Engineering.\" Existing automatic optimization methods, primarily focused on flat prompt tuning, lack "
+      }
+    },
+    {
+      "domain": "knowledge",
+      "kind": "paper",
+      "id": "2604.18562",
+      "title": "AnchorSeg: Language Grounded Query Banks for Reasoning Segmentation",
+      "url": "https://arxiv.org/abs/2604.18562",
+      "score": 115,
+      "action": "add",
+      "evidence": {
+        "published": "2026-04-20",
+        "days_old": 85,
+        "authors": [
+          "Rui Qian",
+          "Chuanhang Deng",
+          "Qiang Huang",
+          "Jian Xiong",
+          "Mingxuan Li",
+          "Yingbo Zhou"
+        ],
+        "summary": "Reasoning segmentation requires models to ground complex, implicit textual queries into precise pixel-level masks. Existing approaches rely on a single segmentation token $\\texttt{<SEG>}$, whose hidde"
+      }
+    },
+    {
+      "domain": "knowledge",
+      "kind": "paper",
+      "id": "2604.12634",
+      "title": "RPRA: Predicting an LLM-Judge for Efficient but Performant Inference",
+      "url": "https://arxiv.org/abs/2604.12634",
+      "score": 109,
+      "action": "add",
+      "evidence": {
+        "published": "2026-04-14",
+        "days_old": 91,
+        "authors": [
+          "Dylan R. Ashley",
+          "Ga\u00ebl Le Lan",
+          "Changsheng Zhao",
+          "Naina Dhingra",
+          "Zhipeng Cai",
+          "Ernie Chang"
+        ],
+        "summary": "Large language models (LLMs) face a fundamental trade-off between computational efficiency (e.g., number of parameters) and output quality, especially when deployed on computationally limited devices "
+      }
+    },
+    {
+      "domain": "knowledge",
+      "kind": "paper",
+      "id": "2604.08120",
+      "title": "Small Vision-Language Models are Smart Compressors for Long Video Understanding",
+      "url": "https://arxiv.org/abs/2604.08120",
+      "score": 104,
+      "action": "add",
+      "evidence": {
+        "published": "2026-04-09",
+        "days_old": 96,
+        "authors": [
+          "Junjie Fei",
+          "Jun Chen",
+          "Zechun Liu",
+          "Yunyang Xiong",
+          "Chong Zhou",
+          "Wei Wen"
+        ],
+        "summary": "Adapting Multimodal Large Language Models (MLLMs) for hour-long videos is bottlenecked by context limits. Dense visual streams saturate token budgets and exacerbate the lost-in-the-middle phenomenon. "
+      }
+    },
+    {
+      "domain": "knowledge",
+      "kind": "paper",
+      "id": "2604.06425",
+      "title": "Neural Computers",
+      "url": "https://arxiv.org/abs/2604.06425",
+      "score": 102,
+      "action": "add",
+      "evidence": {
+        "published": "2026-04-07",
+        "days_old": 98,
+        "authors": [
+          "Mingchen Zhuge",
+          "Changsheng Zhao",
+          "Haozhe Liu",
+          "Zijian Zhou",
+          "Shuming Liu",
+          "Wenyi Wang"
+        ],
+        "summary": "We propose a new frontier: Neural Computers (NCs) that unify computation, memory, and I/O of traditional computers in a learned runtime state. Our long-term goal is the Completely Neural Computer (CNC"
+      }
+    },
+    {
+      "domain": "knowledge",
+      "kind": "paper",
+      "id": "2606.15497",
+      "title": "Towards End-to-End Automation of AI Research",
+      "url": "https://arxiv.org/abs/2606.15497",
+      "score": 95,
+      "action": "add",
+      "evidence": {
+        "published": "2026-03-31",
+        "days_old": 105,
+        "authors": [
+          "Yutaro Yamada",
+          "Robert Tjarko Lange",
+          "Cong Lu",
+          "Chris Lu",
+          "Shengran Hu",
+          "Jakob Foerster"
+        ],
+        "summary": "The automation of science is a long-standing ambition in the field of AI. While the community has made significant progress in automating individual components of the scientific process, a system that"
+      }
+    },
+    {
+      "domain": "knowledge",
+      "kind": "paper",
+      "id": "2605.20189",
+      "title": "SOLAR: A Self-Optimizing Open-Ended Autonomous Agent for Lifelong Learning and Continual Adaptation",
+      "url": "https://arxiv.org/abs/2605.20189",
+      "score": 87,
+      "action": "add",
+      "evidence": {
+        "published": "2026-03-23",
+        "days_old": 113,
+        "authors": [
+          "Nitin Vetcha",
+          "Dianbo Liu"
+        ],
+        "summary": "Despite the remarkable success of large language models (LLMs), they still face bottlenecks while deploying in dynamic, real-world settings with primary challenges being concept drift and the high cos"
+      }
+    },
+    {
+      "domain": "knowledge",
+      "kind": "paper",
+      "id": "2603.19639",
+      "title": "HyEvo: Self-Evolving Hybrid Agentic Workflows for Efficient Reasoning",
+      "url": "https://arxiv.org/abs/2603.19639",
+      "score": 84,
+      "action": "add",
+      "evidence": {
+        "published": "2026-03-20",
+        "days_old": 116,
+        "authors": [
+          "Beibei Xu",
+          "Yutong Ye",
+          "Chuyun Shen",
+          "Yingbo Zhou",
+          "Cheng Chen",
+          "Mingsong Chen"
+        ],
+        "summary": "Although agentic workflows have demonstrated strong potential for solving complex tasks, existing automated generation methods remain inefficient and underperform, as they rely on predefined operator "
+      }
+    },
+    {
+      "domain": "knowledge",
+      "kind": "paper",
+      "id": "2603.19461",
+      "title": "Hyperagents",
+      "url": "https://arxiv.org/abs/2603.19461",
+      "score": 83,
+      "action": "add",
+      "evidence": {
+        "published": "2026-03-19",
+        "days_old": 117,
+        "authors": [
+          "Jenny Zhang",
+          "Bingchen Zhao",
+          "Wannan Yang",
+          "Jakob Foerster",
+          "Jeff Clune",
+          "Minqi Jiang"
+        ],
+        "summary": "Self-improving AI systems aim to reduce reliance on human engineering by learning to improve their own learning and problem-solving processes. Existing approaches to self-improvement rely on fixed, ha"
+      }
+    },
+    {
+      "domain": "knowledge",
+      "kind": "paper",
+      "id": "2603.18806",
+      "title": "dTRPO: Trajectory Reduction in Policy Optimization of Diffusion Large Language Models",
+      "url": "https://arxiv.org/abs/2603.18806",
+      "score": 83,
+      "action": "add",
+      "evidence": {
+        "published": "2026-03-19",
+        "days_old": 117,
+        "authors": [
+          "Wenxuan Zhang",
+          "Lemeng Wu",
+          "Changsheng Zhao",
+          "Ernie Chang",
+          "Mingchen Zhuge",
+          "Zechun Liu"
+        ],
+        "summary": "Diffusion Large Language Models (dLLMs) introduce a new paradigm for language generation, which in turn presents new challenges for aligning them with human preferences. In this work, we aim to improv"
+      }
+    },
+    {
+      "domain": "tooling",
+      "kind": "repo",
+      "id": "MineDojo/Voyager",
+      "title": "MineDojo/Voyager",
+      "url": "https://github.com/MineDojo/Voyager",
+      "score": 7052,
+      "action": "refresh",
+      "evidence": {
+        "printed": 5500,
+        "live": 7052,
+        "pushed": "2024-04-03"
+      }
+    },
+    {
+      "domain": "tooling",
+      "kind": "repo",
+      "id": "SakanaAI/AI-Scientist",
+      "title": "SakanaAI/AI-Scientist",
+      "url": "https://github.com/SakanaAI/AI-Scientist",
+      "score": 14224,
+      "action": "refresh",
+      "evidence": {
+        "printed": 10000,
+        "live": 14224,
+        "pushed": "2025-12-19"
+      }
+    },
+    {
+      "domain": "tooling",
+      "kind": "repo",
+      "id": "SakanaAI/AI-Scientist-v2",
+      "title": "SakanaAI/AI-Scientist-v2",
+      "url": "https://github.com/SakanaAI/AI-Scientist-v2",
+      "score": 6824,
+      "action": "refresh",
+      "evidence": {
+        "printed": 4000,
+        "live": 6824,
+        "pushed": "2025-12-19"
+      }
+    },
+    {
+      "domain": "tooling",
+      "kind": "repo",
+      "id": "SamuelSchmidgall/AgentLaboratory",
+      "title": "SamuelSchmidgall/AgentLaboratory",
+      "url": "https://github.com/SamuelSchmidgall/AgentLaboratory",
+      "score": 5749,
+      "action": "refresh",
+      "evidence": {
+        "printed": 2000,
+        "live": 5749,
+        "pushed": "2025-08-20"
+      }
+    },
+    {
+      "domain": "tooling",
+      "kind": "repo",
+      "id": "ShengranHu/ADAS",
+      "title": "ShengranHu/ADAS",
+      "url": "https://github.com/ShengranHu/ADAS",
+      "score": 1614,
+      "action": "refresh",
+      "evidence": {
+        "printed": 800,
+        "live": 1614,
+        "pushed": "2025-01-28"
+      }
+    },
+    {
+      "domain": "tooling",
+      "kind": "repo",
+      "id": "eureka-research/Eureka",
+      "title": "eureka-research/Eureka",
+      "url": "https://github.com/eureka-research/Eureka",
+      "score": 3175,
+      "action": "refresh",
+      "evidence": {
+        "printed": 2000,
+        "live": 3175,
+        "pushed": "2024-05-03"
+      }
+    },
+    {
+      "domain": "tooling",
+      "kind": "repo",
+      "id": "facebookresearch/MLGym",
+      "title": "facebookresearch/MLGym",
+      "url": "https://github.com/facebookresearch/MLGym",
+      "score": 612,
+      "action": "refresh",
+      "evidence": {
+        "printed": 400,
+        "live": 612,
+        "pushed": "2025-08-10"
+      }
+    },
+    {
+      "domain": "tooling",
+      "kind": "repo",
+      "id": "facebookresearch/coconut",
+      "title": "facebookresearch/coconut",
+      "url": "https://github.com/facebookresearch/coconut",
+      "score": 1663,
+      "action": "refresh",
+      "evidence": {
+        "printed": 570,
+        "live": 1663,
+        "pushed": "2026-07-02"
+      }
+    },
+    {
+      "domain": "tooling",
+      "kind": "repo",
+      "id": "facebookresearch/level-replay",
+      "title": "facebookresearch/level-replay",
+      "url": "https://github.com/facebookresearch/level-replay",
+      "score": 96,
+      "action": "refresh",
+      "evidence": {
+        "printed": 300,
+        "live": 96,
+        "pushed": "2021-06-11"
+      }
+    },
+    {
+      "domain": "tooling",
+      "kind": "repo",
+      "id": "geekan/MetaGPT",
+      "title": "geekan/MetaGPT",
+      "url": "https://github.com/FoundationAgents/MetaGPT",
+      "score": 69374,
+      "action": "refresh",
+      "evidence": {
+        "printed": 48000,
+        "live": 69374,
+        "pushed": "2026-01-21"
+      }
+    },
+    {
+      "domain": "tooling",
+      "kind": "repo",
+      "id": "google-deepmind/funsearch",
+      "title": "google-deepmind/funsearch",
+      "url": "https://github.com/google-deepmind/funsearch",
+      "score": 1091,
+      "action": "refresh",
+      "evidence": {
+        "printed": 3000,
+        "live": 1091,
+        "pushed": "2024-02-05"
+      }
+    },
+    {
+      "domain": "tooling",
+      "kind": "repo",
+      "id": "google-deepmind/opro",
+      "title": "google-deepmind/opro",
+      "url": "https://github.com/google-deepmind/opro",
+      "score": 764,
+      "action": "refresh",
+      "evidence": {
+        "printed": 1500,
+        "live": 764,
+        "pushed": "2024-12-04"
+      }
+    },
+    {
+      "domain": "tooling",
+      "kind": "repo",
+      "id": "jennyzzt/dgm",
+      "title": "jennyzzt/dgm",
+      "url": "https://github.com/jennyzzt/dgm",
+      "score": 2177,
+      "action": "refresh",
+      "evidence": {
+        "printed": 600,
+        "live": 2177,
+        "pushed": "2025-08-13"
+      }
+    },
+    {
+      "domain": "tooling",
+      "kind": "repo",
+      "id": "jiaweizzhao/GaLore",
+      "title": "jiaweizzhao/GaLore",
+      "url": "https://github.com/jiaweizzhao/GaLore",
+      "score": 1699,
+      "action": "refresh",
+      "evidence": {
+        "printed": 800,
+        "live": 1699,
+        "pushed": "2024-10-28"
+      }
+    },
+    {
+      "domain": "tooling",
+      "kind": "repo",
+      "id": "metauto-ai/agent-as-a-judge",
+      "title": "metauto-ai/agent-as-a-judge",
+      "url": "https://github.com/metauto-ai/agent-as-a-judge",
+      "score": 798,
+      "action": "refresh",
+      "evidence": {
+        "printed": 400,
+        "live": 798,
+        "pushed": "2026-03-28"
+      }
+    },
+    {
+      "domain": "tooling",
+      "kind": "repo",
+      "id": "openai/mle-bench",
+      "title": "openai/mle-bench",
+      "url": "https://github.com/openai/mle-bench",
+      "score": 1624,
+      "action": "refresh",
+      "evidence": {
+        "printed": 2500,
+        "live": 1624,
+        "pushed": "2026-04-24"
+      }
+    },
+    {
+      "domain": "tooling",
+      "kind": "repo",
+      "id": "pytorch/ELF",
+      "title": "pytorch/ELF",
+      "url": "https://github.com/pytorch/ELF",
+      "score": 3413,
+      "action": "refresh",
+      "evidence": {
+        "printed": 350,
+        "live": 3413,
+        "pushed": "2019-06-21"
+      }
+    },
+    {
+      "domain": "tooling",
+      "kind": "repo",
+      "id": "stanfordnlp/dspy",
+      "title": "stanfordnlp/dspy",
+      "url": "https://github.com/stanfordnlp/dspy",
+      "score": 36130,
+      "action": "refresh",
+      "evidence": {
+        "printed": 22000,
+        "live": 36130,
+        "pushed": "2026-07-14"
+      }
+    },
+    {
+      "domain": "tooling",
+      "kind": "repo",
+      "id": "letta-ai/letta",
+      "title": "letta-ai/letta",
+      "url": "https://github.com/letta-ai/letta",
+      "score": 23793,
+      "action": "add",
+      "evidence": {
+        "stars": 23793,
+        "pushed": "2026-07-03",
+        "desc": "Platform for stateful agents: AI with advanced memory that can learn and self-improve over time.",
+        "matched": "self-improving agent"
+      }
+    },
+    {
+      "domain": "tooling",
+      "kind": "repo",
+      "id": "MervinPraison/PraisonAI",
+      "title": "MervinPraison/PraisonAI",
+      "url": "https://github.com/MervinPraison/PraisonAI",
+      "score": 8448,
+      "action": "add",
+      "evidence": {
+        "stars": 8448,
+        "pushed": "2026-07-14",
+        "desc": "PraisonAI \ud83e\udd9e \u2014 Hire a 24/7 AI Workforce. Stop writing boilerplate and start shipping autonomous self-improving agents tha",
+        "matched": "self-improving agent"
+      }
+    },
+    {
+      "domain": "tooling",
+      "kind": "repo",
+      "id": "TheBlewish/Automated-AI-Web-Researcher-Ollama",
+      "title": "TheBlewish/Automated-AI-Web-Researcher-Ollama",
+      "url": "https://github.com/TheBlewish/Automated-AI-Web-Researcher-Ollama",
+      "score": 2979,
+      "action": "add",
+      "evidence": {
+        "stars": 2979,
+        "pushed": "2024-12-14",
+        "desc": "A python program that turns an LLM, running on Ollama, into an automated researcher, which will with a single query dete",
+        "matched": "automated AI research"
+      }
+    },
+    {
+      "domain": "tooling",
+      "kind": "repo",
+      "id": "facebookresearch/HyperAgents",
+      "title": "facebookresearch/HyperAgents",
+      "url": "https://github.com/facebookresearch/HyperAgents",
+      "score": 2637,
+      "action": "add",
+      "evidence": {
+        "stars": 2637,
+        "pushed": "2026-05-09",
+        "desc": "Self-referential self-improving agents that can optimize for any computable task",
+        "matched": "self-improving agent"
+      }
+    },
+    {
+      "domain": "tooling",
+      "kind": "repo",
+      "id": "JackHopkins/factorio-learning-environment",
+      "title": "JackHopkins/factorio-learning-environment",
+      "url": "https://github.com/JackHopkins/factorio-learning-environment",
+      "score": 1025,
+      "action": "add",
+      "evidence": {
+        "stars": 1025,
+        "pushed": "2026-06-11",
+        "desc": "A non-saturating, open-ended environment for evaluating LLMs in Factorio",
+        "matched": "open-ended learning LLM"
+      }
+    },
+    {
+      "domain": "tooling",
+      "kind": "skill",
+      "id": "Kulaxyz/self-learning-skills",
+      "title": "Kulaxyz/self-learning-skills",
+      "url": "https://github.com/Kulaxyz/self-learning-skills",
+      "score": 867,
+      "action": "add",
+      "evidence": {
+        "stars": 867,
+        "pushed": "2026-07-01",
+        "desc": "A self-improving skill for AI coding agents (Claude Code, Cursor, AGENTS.md): recognize a hard-won golden path in a session and harvest it i",
+        "matched": "agent skill self-improving"
+      }
+    },
+    {
+      "domain": "tooling",
+      "kind": "skill",
+      "id": "dsifry/metaswarm",
+      "title": "dsifry/metaswarm",
+      "url": "https://github.com/dsifry/metaswarm",
+      "score": 354,
+      "action": "add",
+      "evidence": {
+        "stars": 354,
+        "pushed": "2026-06-19",
+        "desc": "A self-improving multi-agent orchestration framework for Claude Code, Gemini CLI, and Codex CLI \u2014 18 agents, 13 skills, 15 commands, TDD enf",
+        "matched": "agent skill self-improving"
+      }
+    },
+    {
+      "domain": "tooling",
+      "kind": "skill",
+      "id": "Undertone0809/rudder",
+      "title": "Undertone0809/rudder",
+      "url": "https://github.com/Undertone0809/rudder",
+      "score": 231,
+      "action": "add",
+      "evidence": {
+        "stars": 231,
+        "pushed": "2026-07-14",
+        "desc": "Open-source local Agent orchestration for self-improving agent teams: run agents, review work, and turn feedback into reusable skills.",
+        "matched": "agent skill self-improving"
+      }
+    },
+    {
+      "domain": "tooling",
+      "kind": "skill",
+      "id": "getnao/sylph",
+      "title": "getnao/sylph",
+      "url": "https://github.com/getnao/sylph",
+      "score": 165,
+      "action": "add",
+      "evidence": {
+        "stars": 165,
+        "pushed": "2026-05-21",
+        "desc": "The open-source company brain. Run your entire company with AI agents, skills, and a self-improving context.",
+        "matched": "self-improving skill AI agent"
+      }
+    }
+  ]
+}

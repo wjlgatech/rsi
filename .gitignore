@@ -1,2 +1,6 @@
 .gstack/
 .env
+
+# Personal agentic-portfolio fork — contains personal data; NOT for this public repo.
+# Deploy from a private repo or scrub before ever committing. See conversation 2026-07-15.
+web/

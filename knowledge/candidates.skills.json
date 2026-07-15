@@ -1,0 +1,65 @@
+{
+  "source": "skills",
+  "candidates": [
+    {
+      "domain": "tooling",
+      "kind": "skill",
+      "id": "Kulaxyz/self-learning-skills",
+      "title": "Kulaxyz/self-learning-skills",
+      "url": "https://github.com/Kulaxyz/self-learning-skills",
+      "score": 867,
+      "action": "add",
+      "evidence": {
+        "stars": 867,
+        "pushed": "2026-07-01",
+        "desc": "A self-improving skill for AI coding agents (Claude Code, Cursor, AGENTS.md): recognize a hard-won golden path in a session and harvest it i",
+        "matched": "agent skill self-improving"
+      }
+    },
+    {
+      "domain": "tooling",
+      "kind": "skill",
+      "id": "dsifry/metaswarm",
+      "title": "dsifry/metaswarm",
+      "url": "https://github.com/dsifry/metaswarm",
+      "score": 354,
+      "action": "add",
+      "evidence": {
+        "stars": 354,
+        "pushed": "2026-06-19",
+        "desc": "A self-improving multi-agent orchestration framework for Claude Code, Gemini CLI, and Codex CLI \u2014 18 agents, 13 skills, 15 commands, TDD enf",
+        "matched": "agent skill self-improving"
+      }
+    },
+    {
+      "domain": "tooling",
+      "kind": "skill",
+      "id": "Undertone0809/rudder",
+      "title": "Undertone0809/rudder",
+      "url": "https://github.com/Undertone0809/rudder",
+      "score": 231,
+      "action": "add",
+      "evidence": {
+        "stars": 231,
+        "pushed": "2026-07-14",
+        "desc": "Open-source local Agent orchestration for self-improving agent teams: run agents, review work, and turn feedback into reusable skills.",
+        "matched": "agent skill self-improving"
+      }
+    },
+    {
+      "domain": "tooling",
+      "kind": "skill",
+      "id": "getnao/sylph",
+      "title": "getnao/sylph",
+      "url": "https://github.com/getnao/sylph",
+      "score": 165,
+      "action": "add",
+      "evidence": {
+        "stars": 165,
+        "pushed": "2026-05-21",
+        "desc": "The open-source company brain. Run your entire company with AI agents, skills, and a self-improving context.",
+        "matched": "self-improving skill AI agent"
+      }
+    }
+  ]
+}

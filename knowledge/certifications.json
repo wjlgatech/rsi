@@ -1,0 +1,720 @@
+{
+  "rubric": [
+    {
+      "key": "relevant",
+      "label": "RSI-relevant",
+      "blocking": true,
+      "source": "lexicon"
+    },
+    {
+      "key": "maintained",
+      "label": "Maintained",
+      "blocking": true,
+      "source": "pushed_at"
+    },
+    {
+      "key": "adopted",
+      "label": "Adopted",
+      "blocking": false,
+      "source": "stars"
+    },
+    {
+      "key": "works",
+      "label": "Works (repro)",
+      "blocking": true,
+      "source": "anyagent-analyze"
+    },
+    {
+      "key": "safe",
+      "label": "Safe (BRACE)",
+      "blocking": true,
+      "source": "anyagent-brace"
+    }
+  ],
+  "certifications": [
+    {
+      "id": "repo:stanfordnlp-dspy",
+      "name": "stanfordnlp/dspy",
+      "url": "https://github.com/stanfordnlp/dspy",
+      "kind": "repo",
+      "category": "Core Frameworks",
+      "tier": "\ud83e\udd48 Verified",
+      "scores": {
+        "relevant": 60,
+        "maintained": 100,
+        "adopted": 100,
+        "works": "not_measured",
+        "safe": "not_measured"
+      },
+      "evidence": {
+        "stars": 36130,
+        "pushed": "2026-07-14"
+      }
+    },
+    {
+      "id": "letta-ai/letta",
+      "name": "letta-ai/letta",
+      "url": "https://github.com/letta-ai/letta",
+      "kind": "repo",
+      "category": "\ud83c\udd95 Tool",
+      "tier": "\ud83e\udd48 Verified",
+      "scores": {
+        "relevant": 80,
+        "maintained": 100,
+        "adopted": 100,
+        "works": "not_measured",
+        "safe": "not_measured"
+      },
+      "evidence": {
+        "stars": 23793,
+        "pushed": "2026-07-03"
+      }
+    },
+    {
+      "id": "repo:sakanaai-ai-scientist",
+      "name": "SakanaAI/AI-Scientist",
+      "url": "https://github.com/SakanaAI/AI-Scientist",
+      "kind": "repo",
+      "category": "Core Frameworks",
+      "tier": "\ud83e\udd48 Verified",
+      "scores": {
+        "relevant": 60,
+        "maintained": 60,
+        "adopted": 100,
+        "works": "not_measured",
+        "safe": "not_measured"
+      },
+      "evidence": {
+        "stars": 14224,
+        "pushed": "2025-12-19"
+      }
+    },
+    {
+      "id": "MervinPraison/PraisonAI",
+      "name": "MervinPraison/PraisonAI",
+      "url": "https://github.com/MervinPraison/PraisonAI",
+      "kind": "repo",
+      "category": "\ud83c\udd95 Tool",
+      "tier": "\ud83e\udd48 Verified",
+      "scores": {
+        "relevant": 80,
+        "maintained": 100,
+        "adopted": 80,
+        "works": "not_measured",
+        "safe": "not_measured"
+      },
+      "evidence": {
+        "stars": 8448,
+        "pushed": "2026-07-14"
+      }
+    },
+    {
+      "id": "repo:sakanaai-ai-scientist-v2",
+      "name": "SakanaAI/AI-Scientist-v2",
+      "url": "https://github.com/SakanaAI/AI-Scientist-v2",
+      "kind": "repo",
+      "category": "Core Frameworks",
+      "tier": "\ud83e\udd48 Verified",
+      "scores": {
+        "relevant": 60,
+        "maintained": 60,
+        "adopted": 80,
+        "works": "not_measured",
+        "safe": "not_measured"
+      },
+      "evidence": {
+        "stars": 6824,
+        "pushed": "2025-12-19"
+      }
+    },
+    {
+      "id": "repo:samuelschmidgall-agentlaboratory",
+      "name": "SamuelSchmidgall/AgentLaboratory",
+      "url": "https://github.com/SamuelSchmidgall/AgentLaboratory",
+      "kind": "repo",
+      "category": "Core Frameworks",
+      "tier": "\ud83e\udd48 Verified",
+      "scores": {
+        "relevant": 60,
+        "maintained": 60,
+        "adopted": 80,
+        "works": "not_measured",
+        "safe": "not_measured"
+      },
+      "evidence": {
+        "stars": 5749,
+        "pushed": "2025-08-20"
+      }
+    },
+    {
+      "id": "facebookresearch/HyperAgents",
+      "name": "facebookresearch/HyperAgents",
+      "url": "https://github.com/facebookresearch/HyperAgents",
+      "kind": "repo",
+      "category": "\ud83c\udd95 Tool",
+      "tier": "\ud83e\udd48 Verified",
+      "scores": {
+        "relevant": 100,
+        "maintained": 100,
+        "adopted": 80,
+        "works": "not_measured",
+        "safe": "not_measured"
+      },
+      "evidence": {
+        "stars": 2637,
+        "pushed": "2026-05-09"
+      }
+    },
+    {
+      "id": "repo:jennyzzt-dgm",
+      "name": "jennyzzt/dgm",
+      "url": "https://github.com/jennyzzt/dgm",
+      "kind": "repo",
+      "category": "Open-Ended Learning",
+      "tier": "\ud83e\udd48 Verified",
+      "scores": {
+        "relevant": 100,
+        "maintained": 60,
+        "adopted": 80,
+        "works": "not_measured",
+        "safe": "not_measured"
+      },
+      "evidence": {
+        "stars": 2177,
+        "pushed": "2025-08-13"
+      }
+    },
+    {
+      "id": "repo:openai-mle-bench",
+      "name": "openai/mle-bench",
+      "url": "https://github.com/openai/mle-bench",
+      "kind": "repo",
+      "category": "Benchmarks & Evaluation",
+      "tier": "\ud83e\udd48 Verified",
+      "scores": {
+        "relevant": 60,
+        "maintained": 100,
+        "adopted": 80,
+        "works": "not_measured",
+        "safe": "not_measured"
+      },
+      "evidence": {
+        "stars": 1624,
+        "pushed": "2026-04-24"
+      }
+    },
+    {
+      "id": "Kulaxyz/self-learning-skills",
+      "name": "Kulaxyz/self-learning-skills",
+      "url": "https://github.com/Kulaxyz/self-learning-skills",
+      "kind": "skill",
+      "category": "\ud83e\udde9 Agent Skill",
+      "tier": "\ud83e\udd48 Verified",
+      "scores": {
+        "relevant": 80,
+        "maintained": 100,
+        "adopted": 60,
+        "works": "not_measured",
+        "safe": "not_measured"
+      },
+      "evidence": {
+        "stars": 867,
+        "pushed": "2026-07-01"
+      }
+    },
+    {
+      "id": "repo:metauto-ai-agent-as-a-judge",
+      "name": "metauto-ai/agent-as-a-judge",
+      "url": "https://github.com/metauto-ai/agent-as-a-judge",
+      "kind": "repo",
+      "category": "Core Frameworks",
+      "tier": "\ud83e\udd48 Verified",
+      "scores": {
+        "relevant": 60,
+        "maintained": 100,
+        "adopted": 60,
+        "works": "not_measured",
+        "safe": "not_measured"
+      },
+      "evidence": {
+        "stars": 798,
+        "pushed": "2026-03-28"
+      }
+    },
+    {
+      "id": "repo:facebookresearch-mlgym",
+      "name": "facebookresearch/MLGym",
+      "url": "https://github.com/facebookresearch/MLGym",
+      "kind": "repo",
+      "category": "Benchmarks & Evaluation",
+      "tier": "\ud83e\udd48 Verified",
+      "scores": {
+        "relevant": 80,
+        "maintained": 60,
+        "adopted": 60,
+        "works": "not_measured",
+        "safe": "not_measured"
+      },
+      "evidence": {
+        "stars": 612,
+        "pushed": "2025-08-10"
+      }
+    },
+    {
+      "id": "dsifry/metaswarm",
+      "name": "dsifry/metaswarm",
+      "url": "https://github.com/dsifry/metaswarm",
+      "kind": "skill",
+      "category": "\ud83e\udde9 Agent Skill",
+      "tier": "\ud83e\udd48 Verified",
+      "scores": {
+        "relevant": 80,
+        "maintained": 100,
+        "adopted": 60,
+        "works": "not_measured",
+        "safe": "not_measured"
+      },
+      "evidence": {
+        "stars": 354,
+        "pushed": "2026-06-19"
+      }
+    },
+    {
+      "id": "Undertone0809/rudder",
+      "name": "Undertone0809/rudder",
+      "url": "https://github.com/Undertone0809/rudder",
+      "kind": "skill",
+      "category": "\ud83e\udde9 Agent Skill",
+      "tier": "\ud83e\udd48 Verified",
+      "scores": {
+        "relevant": 80,
+        "maintained": 100,
+        "adopted": 60,
+        "works": "not_measured",
+        "safe": "not_measured"
+      },
+      "evidence": {
+        "stars": 231,
+        "pushed": "2026-07-14"
+      }
+    },
+    {
+      "id": "getnao/sylph",
+      "name": "getnao/sylph",
+      "url": "https://github.com/getnao/sylph",
+      "kind": "skill",
+      "category": "\ud83e\udde9 Agent Skill",
+      "tier": "\ud83e\udd48 Verified",
+      "scores": {
+        "relevant": 80,
+        "maintained": 100,
+        "adopted": 60,
+        "works": "not_measured",
+        "safe": "not_measured"
+      },
+      "evidence": {
+        "stars": 165,
+        "pushed": "2026-05-21"
+      }
+    },
+    {
+      "id": "repo:geekan-metagpt",
+      "name": "geekan/MetaGPT",
+      "url": "https://github.com/geekan/MetaGPT",
+      "kind": "repo",
+      "category": "Core Frameworks",
+      "tier": "\ud83e\udd49 Listed",
+      "scores": {
+        "relevant": 60,
+        "maintained": "not_measured",
+        "adopted": 100,
+        "works": "not_measured",
+        "safe": "not_measured"
+      },
+      "evidence": {
+        "stars": 48000,
+        "pushed": null
+      }
+    },
+    {
+      "id": "repo:minedojo-voyager",
+      "name": "MineDojo/Voyager",
+      "url": "https://github.com/MineDojo/Voyager",
+      "kind": "repo",
+      "category": "Open-Ended Learning",
+      "tier": "\ud83e\udd49 Listed",
+      "scores": {
+        "relevant": 80,
+        "maintained": 20,
+        "adopted": 80,
+        "works": "not_measured",
+        "safe": "not_measured"
+      },
+      "evidence": {
+        "stars": 7052,
+        "pushed": "2024-04-03"
+      }
+    },
+    {
+      "id": "repo:princeton-nlp-swe-bench",
+      "name": "princeton-nlp/SWE-bench",
+      "url": "https://github.com/princeton-nlp/SWE-bench",
+      "kind": "repo",
+      "category": "Benchmarks & Evaluation",
+      "tier": "\ud83e\udd49 Listed",
+      "scores": {
+        "relevant": 80,
+        "maintained": "not_measured",
+        "adopted": 80,
+        "works": "not_measured",
+        "safe": "not_measured"
+      },
+      "evidence": {
+        "stars": 5000,
+        "pushed": null
+      }
+    },
+    {
+      "id": "repo:eureka-research-eureka",
+      "name": "eureka-research/Eureka",
+      "url": "https://github.com/eureka-research/Eureka",
+      "kind": "repo",
+      "category": "Reward & Prompt Automation",
+      "tier": "\ud83e\udd49 Listed",
+      "scores": {
+        "relevant": 60,
+        "maintained": 20,
+        "adopted": 80,
+        "works": "not_measured",
+        "safe": "not_measured"
+      },
+      "evidence": {
+        "stars": 3175,
+        "pushed": "2024-05-03"
+      }
+    },
+    {
+      "id": "TheBlewish/Automated-AI-Web-Researcher-Ollama",
+      "name": "TheBlewish/Automated-AI-Web-Researcher-Ollama",
+      "url": "https://github.com/TheBlewish/Automated-AI-Web-Researcher-Ollama",
+      "kind": "repo",
+      "category": "\ud83c\udd95 Tool",
+      "tier": "\ud83e\udd49 Listed",
+      "scores": {
+        "relevant": 40,
+        "maintained": 20,
+        "adopted": 80,
+        "works": "not_measured",
+        "safe": "not_measured"
+      },
+      "evidence": {
+        "stars": 2979,
+        "pushed": "2024-12-14"
+      }
+    },
+    {
+      "id": "repo:shengranhu-adas",
+      "name": "ShengranHu/ADAS",
+      "url": "https://github.com/ShengranHu/ADAS",
+      "kind": "repo",
+      "category": "Core Frameworks",
+      "tier": "\ud83e\udd49 Listed",
+      "scores": {
+        "relevant": 80,
+        "maintained": 20,
+        "adopted": 80,
+        "works": "not_measured",
+        "safe": "not_measured"
+      },
+      "evidence": {
+        "stars": 1614,
+        "pushed": "2025-01-28"
+      }
+    },
+    {
+      "id": "repo:google-deepmind-funsearch",
+      "name": "google-deepmind/funsearch",
+      "url": "https://github.com/google-deepmind/funsearch",
+      "kind": "repo",
+      "category": "Core Frameworks",
+      "tier": "\ud83e\udd49 Listed",
+      "scores": {
+        "relevant": 60,
+        "maintained": 20,
+        "adopted": 80,
+        "works": "not_measured",
+        "safe": "not_measured"
+      },
+      "evidence": {
+        "stars": 1091,
+        "pushed": "2024-02-05"
+      }
+    },
+    {
+      "id": "JackHopkins/factorio-learning-environment",
+      "name": "JackHopkins/factorio-learning-environment",
+      "url": "https://github.com/JackHopkins/factorio-learning-environment",
+      "kind": "repo",
+      "category": "\ud83c\udd95 Tool",
+      "tier": "\ud83e\udd49 Listed",
+      "scores": {
+        "relevant": 40,
+        "maintained": 100,
+        "adopted": 80,
+        "works": "not_measured",
+        "safe": "not_measured"
+      },
+      "evidence": {
+        "stars": 1025,
+        "pushed": "2026-06-11"
+      }
+    },
+    {
+      "id": "repo:general-awesome-llm-agents-lists",
+      "name": "General \"awesome-llm-agents\" lists",
+      "url": "",
+      "kind": "repo",
+      "category": "Existing \"Awesome\" Lists & What's Missing",
+      "tier": "\ud83e\udd49 Listed",
+      "scores": {
+        "relevant": 60,
+        "maintained": "not_measured",
+        "adopted": 80,
+        "works": "not_measured",
+        "safe": "not_measured"
+      },
+      "evidence": {
+        "stars": 1000,
+        "pushed": null
+      }
+    },
+    {
+      "id": "repo:google-deepmind-opro",
+      "name": "google-deepmind/opro",
+      "url": "https://github.com/google-deepmind/opro",
+      "kind": "repo",
+      "category": "Reward & Prompt Automation",
+      "tier": "\ud83e\udd49 Listed",
+      "scores": {
+        "relevant": 60,
+        "maintained": 20,
+        "adopted": 60,
+        "works": "not_measured",
+        "safe": "not_measured"
+      },
+      "evidence": {
+        "stars": 764,
+        "pushed": "2024-12-04"
+      }
+    },
+    {
+      "id": "repo:balrog-ai-balrog",
+      "name": "balrog-ai/BALROG",
+      "url": "https://github.com/balrog-ai/BALROG",
+      "kind": "repo",
+      "category": "Benchmarks & Evaluation",
+      "tier": "\ud83e\udd49 Listed",
+      "scores": {
+        "relevant": 60,
+        "maintained": "not_measured",
+        "adopted": 60,
+        "works": "not_measured",
+        "safe": "not_measured"
+      },
+      "evidence": {
+        "stars": 300,
+        "pushed": null
+      }
+    },
+    {
+      "id": "repo:facebookresearch-minimax",
+      "name": "facebookresearch/minimax",
+      "url": "https://github.com/facebookresearch/minimax",
+      "kind": "repo",
+      "category": "Open-Ended Learning",
+      "tier": "\ud83e\udd49 Listed",
+      "scores": {
+        "relevant": 60,
+        "maintained": "not_measured",
+        "adopted": 60,
+        "works": "not_measured",
+        "safe": "not_measured"
+      },
+      "evidence": {
+        "stars": 250,
+        "pushed": null
+      }
+    },
+    {
+      "id": "repo:maxencefaldor-omni-epic",
+      "name": "MaxenceFaldor/Omni-EPIC",
+      "url": "https://github.com/MaxenceFaldor/Omni-EPIC",
+      "kind": "repo",
+      "category": "Open-Ended Learning",
+      "tier": "\ud83e\udd49 Listed",
+      "scores": {
+        "relevant": 60,
+        "maintained": "not_measured",
+        "adopted": 60,
+        "works": "not_measured",
+        "safe": "not_measured"
+      },
+      "evidence": {
+        "stars": 200,
+        "pushed": null
+      }
+    },
+    {
+      "id": "repo:conglu1997-intelligent-go-explore",
+      "name": "conglu1997/intelligent-go-explore",
+      "url": "https://github.com/conglu1997/intelligent-go-explore",
+      "kind": "repo",
+      "category": "Benchmarks & Evaluation",
+      "tier": "\ud83e\udd49 Listed",
+      "scores": {
+        "relevant": 60,
+        "maintained": "not_measured",
+        "adopted": 60,
+        "works": "not_measured",
+        "safe": "not_measured"
+      },
+      "evidence": {
+        "stars": 200,
+        "pushed": null
+      }
+    },
+    {
+      "id": "repo:uvm-neurobotics-lab-anml",
+      "name": "uvm-neurobotics-lab/ANML",
+      "url": "https://github.com/uvm-neurobotics-lab/ANML",
+      "kind": "repo",
+      "category": "Infrastructure & Utilities",
+      "tier": "\ud83e\udd49 Listed",
+      "scores": {
+        "relevant": 60,
+        "maintained": "not_measured",
+        "adopted": 60,
+        "works": "not_measured",
+        "safe": "not_measured"
+      },
+      "evidence": {
+        "stars": 150,
+        "pushed": null
+      }
+    },
+    {
+      "id": "repo:shengranhu-thought-cloning",
+      "name": "ShengranHu/Thought-Cloning",
+      "url": "https://github.com/ShengranHu/Thought-Cloning",
+      "kind": "repo",
+      "category": "Infrastructure & Utilities",
+      "tier": "\ud83e\udd49 Listed",
+      "scores": {
+        "relevant": 60,
+        "maintained": "not_measured",
+        "adopted": 60,
+        "works": "not_measured",
+        "safe": "not_measured"
+      },
+      "evidence": {
+        "stars": 150,
+        "pushed": null
+      }
+    },
+    {
+      "id": "repo:facebookresearch-level-replay",
+      "name": "facebookresearch/level-replay",
+      "url": "https://github.com/facebookresearch/level-replay",
+      "kind": "repo",
+      "category": "Open-Ended Learning",
+      "tier": "\ud83e\udd49 Listed",
+      "scores": {
+        "relevant": 60,
+        "maintained": 20,
+        "adopted": 40,
+        "works": "not_measured",
+        "safe": "not_measured"
+      },
+      "evidence": {
+        "stars": 96,
+        "pushed": "2021-06-11"
+      }
+    },
+    {
+      "id": "repo:yenanjing-awesome-ai-for-science",
+      "name": "yenanjing/awesome-ai-for-science",
+      "url": "https://github.com/yenanjing/awesome-ai-for-science",
+      "kind": "repo",
+      "category": "Existing \"Awesome\" Lists & What's Missing",
+      "tier": "\ud83e\udd49 Listed",
+      "scores": {
+        "relevant": 60,
+        "maintained": "not_measured",
+        "adopted": 40,
+        "works": "not_measured",
+        "safe": "not_measured"
+      },
+      "evidence": {
+        "stars": 4,
+        "pushed": null
+      }
+    },
+    {
+      "id": "repo:metauto-ai-gptswarm",
+      "name": "metauto-ai/GPTSwarm",
+      "url": "https://github.com/metauto-ai/GPTSwarm",
+      "kind": "repo",
+      "category": "Core Frameworks",
+      "tier": "\ud83e\udd49 Listed",
+      "scores": {
+        "relevant": 60,
+        "maintained": "not_measured",
+        "adopted": 40,
+        "works": "not_measured",
+        "safe": "not_measured"
+      },
+      "evidence": {
+        "stars": 1,
+        "pushed": null
+      }
+    },
+    {
+      "id": "repo:wjlgatech-tooluniverse",
+      "name": "wjlgatech/ToolUniverse",
+      "url": "https://github.com/wjlgatech/ToolUniverse",
+      "kind": "repo",
+      "category": "Infrastructure & Utilities",
+      "tier": "\ud83e\udd49 Listed",
+      "scores": {
+        "relevant": 60,
+        "maintained": "not_measured",
+        "adopted": "not_measured",
+        "works": "not_measured",
+        "safe": "not_measured"
+      },
+      "evidence": {
+        "stars": null,
+        "pushed": null
+      }
+    },
+    {
+      "id": "repo:elianovg-awesome-automated-research",
+      "name": "Elianovg/awesome-automated-research",
+      "url": "https://github.com/Elianovg/awesome-automated-research",
+      "kind": "repo",
+      "category": "Existing \"Awesome\" Lists & What's Missing",
+      "tier": "\ud83e\udd49 Listed",
+      "scores": {
+        "relevant": 60,
+        "maintained": "not_measured",
+        "adopted": "not_measured",
+        "works": "not_measured",
+        "safe": "not_measured"
+      },
+      "evidence": {
+        "stars": null,
+        "pushed": null
+      }
+    }
+  ]
+}
