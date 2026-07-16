@@ -22,4 +22,5 @@ exclude = [
   "^https?://(www\\.)?twitter\\.com",
   "^https?://(www\\.)?linkedin\\.com",
   "^http://makeapullrequest\\.com",
+  "^https://jair\\.org",   # valid publisher; its server mis-negotiates HTTP/2 with the checker
 ]
