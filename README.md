@@ -4,9 +4,9 @@
 
 [![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
-[![Last Updated](https://img.shields.io/github/last-commit/wjlgatech/awesome-auto-ai-research?style=flat-square&label=last%20updated)](https://github.com/wjlgatech/awesome-auto-ai-research/commits/main)
-[![Stars](https://img.shields.io/github/stars/wjlgatech/awesome-auto-ai-research?style=flat-square)](https://github.com/wjlgatech/awesome-auto-ai-research/stargazers)
-[![Contributors](https://img.shields.io/github/contributors/wjlgatech/awesome-auto-ai-research?style=flat-square)](https://github.com/wjlgatech/awesome-auto-ai-research/graphs/contributors)
+[![Last Updated](https://img.shields.io/github/last-commit/wjlgatech/rsi?style=flat-square&label=last%20updated)](https://github.com/wjlgatech/rsi/commits/main)
+[![Stars](https://img.shields.io/github/stars/wjlgatech/rsi?style=flat-square)](https://github.com/wjlgatech/rsi/stargazers)
+[![Contributors](https://img.shields.io/github/contributors/wjlgatech/rsi?style=flat-square)](https://github.com/wjlgatech/rsi/graphs/contributors)
 
 **The most comprehensive, community-driven, living resource on Automated AI Research.**
 
@@ -65,7 +65,7 @@
 
 This list is not just tables — it **compiles**. Every paper, repo, person, lab, talk and benchmark below is a node in a typed knowledge graph, with `authored_by` / `has_code` / `member_of` / `builds_on` edges connecting them:
 
-- **🗺️ [Explore the interactive map](https://wjlgatech.github.io/awesome-auto-ai-research/)** — force-layout graph with search, type filters, and click-to-inspect (self-contained HTML; also works locally: open [`docs/index.html`](docs/index.html))
+- **🗺️ [Explore the interactive map](https://wjlgatech.github.io/rsi/)** — force-layout graph with search, type filters, and click-to-inspect (self-contained HTML; also works locally: open [`docs/index.html`](docs/index.html))
 - **✨ Ask the field** — hit the *Ask* button on the map for grounded Q&A: a frontier model (GLM 5.1 / DeepSeek v4 / Kimi K2.6 on **NVIDIA's free API**) answers from the graph and cites nodes as clickable chips. Bring your own free key from [build.nvidia.com/models](https://build.nvidia.com/models) — it stays in your browser
 - **🧩 [`knowledge/graph.json`](knowledge/graph.json)** — the full machine-readable graph (139 nodes · 246 edges) for your own agents, RAG pipelines, or analysis
 - **🧬 [`knowledge/enrichments.json`](knowledge/enrichments.json)** — curator-written lineage edges (Gödel Machine → AI-GAs → DGM …) that survive regeneration
@@ -472,7 +472,6 @@ KEY OPEN PROBLEMS (as of June 2026):
 | Repo | Stars | Last Updated | Gap |
 |------|-------|--------------|-----|
 | [yenanjing/awesome-ai-for-science](https://github.com/yenanjing/awesome-ai-for-science) | 4 | June 2026 | No Recursive Lab focus; no people/talks |
-| [Elianovg/awesome-automated-research](https://github.com/Elianovg/awesome-automated-research) | 0 | June 2026 | Very early-stage; no papers |
 | General "awesome-llm-agents" lists | 1k–5k | Varies | Broad scope; miss self-improvement thread |
 
 ### What Makes This Repo Different
@@ -527,7 +526,7 @@ If this resource helps your research, please cite:
   year = {2026},
   publisher = {GitHub},
   journal = {GitHub repository},
-  howpublished = {\url{https://github.com/wjlgatech/awesome-auto-ai-research}}
+  howpublished = {\url{https://github.com/wjlgatech/rsi}}
 }
 ```
 

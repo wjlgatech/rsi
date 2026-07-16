@@ -9,7 +9,7 @@ If this resource helps your research, please cite:
   year = {2026},
   publisher = {GitHub},
   journal = {GitHub repository},
-  howpublished = {\url{https://github.com/wjlgatech/awesome-auto-ai-research}}
+  howpublished = {\url{https://github.com/wjlgatech/rsi}}
 }
 ```
 
