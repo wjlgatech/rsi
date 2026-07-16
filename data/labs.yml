@@ -1,0 +1,38 @@
+# Labs & orgs — category = kind
+# Generated once from knowledge/graph.json; now edit here (README is generated).
+- name: Recursive (Recursive SI)
+  url: https://recursive.com
+  category: 🏢 Key Labs
+  focus: Recursive self-improvement, automated knowledge discovery
+- name: Sakana AI
+  url: https://sakana.ai
+  category: 🏢 Key Labs
+  focus: AI Scientist, evolutionary AI, foundation models
+- name: Google DeepMind (Open-Endedness)
+  url: https://deepmind.google
+  category: 🏢 Key Labs
+  focus: Open-endedness, AlphaEvolve, FunSearch, AI Co-Scientist
+- name: UCL DARK Lab (Rocktäschel)
+  url: https://rockt.ai
+  category: 🏢 Key Labs
+  focus: Open-ended RL, curriculum learning
+- name: UBC (Clune Lab)
+  url: https://jeffclune.com
+  category: 🏢 Key Labs
+  focus: AI-GAs, quality diversity, self-improvement
+- name: Stanford AI Lab / NLP Group
+  url: https://ai.stanford.edu
+  category: 🏢 Key Labs
+  focus: DSPy, CodeAct, autonomous agents
+- name: Princeton NLP
+  url: https://nlp.cs.princeton.edu
+  category: 🏢 Key Labs
+  focus: SWE-bench, autonomous coding
+- name: KAUST (MetaAutoAI)
+  url: https://github.com/metauto-ai
+  category: 🏢 Key Labs
+  focus: Multi-agent systems, GPTSwarm
+- name: OpenAI
+  url: https://openai.com
+  category: 🏢 Key Labs
+  focus: MLE-Bench, Codex, autonomous agents

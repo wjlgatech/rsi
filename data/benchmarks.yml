@@ -1,0 +1,56 @@
+# Benchmarks & leaderboards
+# Generated once from knowledge/graph.json; now edit here (README is generated).
+- name: MLE-Bench
+  url: https://arxiv.org/abs/2410.07095
+  category: Benchmarks & Evaluation
+  blurb: ML engineering (75 Kaggle tasks)
+  venue: ICLR
+  year: '2025'
+  citations: 349
+- name: SWE-bench
+  url: https://arxiv.org/abs/2310.06770
+  category: Benchmarks & Evaluation
+  blurb: Software engineering (GitHub issues)
+  venue: ICLR
+  year: '2024'
+  citations: 1000
+- name: MLGym
+  url: https://arxiv.org/abs/2502.14499
+  category: Benchmarks & Evaluation
+  blurb: AI research agent framework
+  venue: arXiv
+  year: '2025'
+  citations: 88
+- name: BALROG
+  url: https://arxiv.org/abs/2411.13543
+  category: Benchmarks & Evaluation
+  blurb: Agentic LLM reasoning on games
+  venue: ICLR
+  year: '2025'
+  citations: 116
+- name: EXP-Bench
+  url: https://arxiv.org/abs/2505.24785
+  category: Benchmarks & Evaluation
+  blurb: AI conducting AI research experiments
+  venue: arXiv
+  year: '2025'
+  citations: 23
+- name: Agent-as-a-Judge
+  url: https://arxiv.org/abs/2410.10934
+  category: Benchmarks & Evaluation
+  blurb: Evaluating agents with agents
+  venue: arXiv
+  year: '2024'
+  citations: 196
+- name: SWE-bench Verified
+  url: https://swebench.com
+  category: Benchmarks & Leaderboards
+  blurb: Fix real GitHub issues
+- name: AI Scientist Review Score
+  url: https://github.com/SakanaAI/AI-Scientist
+  category: Benchmarks & Leaderboards
+  blurb: Auto-generated paper quality
+- name: Aider Leaderboard
+  url: https://aider.chat/docs/leaderboards/
+  category: Benchmarks & Leaderboards
+  blurb: Code editing (SWE-bench style)

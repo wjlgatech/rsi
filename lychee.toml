@@ -1,0 +1,18 @@
+# Link-checker config for rsi. Curated research lists point at many bot-protected
+# sites (arXiv mirrors, publisher pages, lab sites) that return 4xx/429 to automated
+# checkers even though they load fine in a browser — accept those. Exclude dynamic
+# badge/image services and self-referential repo links (they resolve on GitHub).
+accept = [200, 202, 206, 403, 405, 406, 415, 429]
+max_retries = 2
+retry_wait_time = 2
+timeout = 20
+user_agent = "Mozilla/5.0 (compatible; rsi-linkcheck)"
+
+exclude = [
+  "^https://api\\.star-history\\.com",
+  "^https://img\\.shields\\.io",
+  "^https://contrib\\.rocks",
+  "^https://awesome\\.re",
+  "^https://github\\.com/wjlgatech/rsi",
+  "^https://wjlgatech\\.github\\.io",   # Pages site is built in CI, not yet live at check time
+]

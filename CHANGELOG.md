@@ -6,6 +6,15 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 ## [Unreleased]
 
 ### Added
+- **Spec-as-data foundation** (porting the FM-os / longevity-loop architecture): every
+  entry now lives in `data/*.yml` (`papers`, `tools`, `people`, `labs`, `benchmarks`,
+  `talks`), bootstrapped losslessly from `knowledge/graph.json` via
+  `scripts/graph_to_data.py`; prose sections captured verbatim in `data/prose/*.md`.
+  `scripts/validate.py` schema-gates every entry (required fields + http(s) URL +
+  identity-dedup) and is wired into `make check`; `lychee.toml` configures the CI link
+  check. This is the base for a generated, drift-gated README (next increment) — held
+  back deliberately because rsi's README tables feed `awesome_kg.py`→`graph.json`→web app,
+  so the generator must preserve that coupling before it can own the README.
 - **Weekly auto-sync pipeline** — the repo now keeps *itself* fresh. Source adapters
   (`scripts/ingest/`) fetch candidates from live primary sources — `github_sync.py`
   (refresh stale star counts + discover new repos; found 18/29 listed repos stale, e.g.

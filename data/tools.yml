@@ -1,0 +1,152 @@
+# Open-source tools & repos — category = stack
+# Generated once from knowledge/graph.json; now edit here (README is generated).
+- name: SakanaAI/AI-Scientist
+  url: https://github.com/SakanaAI/AI-Scientist
+  category: Core Frameworks
+  blurb: End-to-end automated ML research pipeline
+  stars: 10000
+  status: 🔥
+- name: SakanaAI/AI-Scientist-v2
+  url: https://github.com/SakanaAI/AI-Scientist-v2
+  category: Core Frameworks
+  blurb: Agentic tree search version; workshop-accepted papers
+  stars: 4000
+  status: 🔥 🆕
+- name: ShengranHu/ADAS
+  url: https://github.com/ShengranHu/ADAS
+  category: Core Frameworks
+  blurb: Automated Design of Agentic Systems (Meta Agent Search)
+  stars: 800
+  status: 🔥
+- name: metauto-ai/GPTSwarm
+  url: https://github.com/metauto-ai/GPTSwarm
+  category: Core Frameworks
+  blurb: Language agents as optimizable graphs
+  stars: 1
+  status: 🔥
+- name: geekan/MetaGPT
+  url: https://github.com/geekan/MetaGPT
+  category: Core Frameworks
+  blurb: Multi-agent collaborative framework
+  stars: 48000
+  status: 🔥
+- name: metauto-ai/agent-as-a-judge
+  url: https://github.com/metauto-ai/agent-as-a-judge
+  category: Core Frameworks
+  blurb: Agent-based evaluation framework
+  stars: 400
+  status: 🔥
+- name: SamuelSchmidgall/AgentLaboratory
+  url: https://github.com/SamuelSchmidgall/AgentLaboratory
+  category: Core Frameworks
+  blurb: LLM agents as research assistants
+  stars: 2000
+  status: 🔥
+- name: google-deepmind/funsearch
+  url: https://github.com/google-deepmind/funsearch
+  category: Core Frameworks
+  blurb: LLM + evolutionary search for mathematical discovery
+  stars: 3000
+  status: 🔥
+- name: stanfordnlp/dspy
+  url: https://github.com/stanfordnlp/dspy
+  category: Core Frameworks
+  blurb: Declarative LM program optimization
+  stars: 22000
+  status: 🔥
+- name: facebookresearch/level-replay
+  url: https://github.com/facebookresearch/level-replay
+  category: Open-Ended Learning
+  blurb: Prioritized Level Replay for RL generalization
+  stars: 300
+  status: ✅
+- name: facebookresearch/minimax
+  url: https://github.com/facebookresearch/minimax
+  category: Open-Ended Learning
+  blurb: Unsupervised environment design (ACCEL, PLR)
+  stars: 250
+  status: ✅
+- name: MineDojo/Voyager
+  url: https://github.com/MineDojo/Voyager
+  category: Open-Ended Learning
+  blurb: Open-ended LLM agent in Minecraft
+  stars: 5000
+  status: ✅
+- name: MaxenceFaldor/Omni-EPIC
+  url: https://github.com/MaxenceFaldor/Omni-EPIC
+  category: Open-Ended Learning
+  blurb: Open-endedness via human interestingness models
+  stars: 200
+  status: 🔥
+- name: jennyzzt/dgm
+  url: https://github.com/jennyzzt/dgm
+  category: Open-Ended Learning
+  blurb: 'Darwin Gödel Machine: self-improving agents'
+  stars: 600
+  status: 🔥 🆕
+- name: eureka-research/Eureka
+  url: https://github.com/eureka-research/Eureka
+  category: Reward & Prompt Automation
+  blurb: Human-level reward design with LLMs
+  stars: 2000
+  status: ✅
+- name: google-deepmind/opro
+  url: https://github.com/google-deepmind/opro
+  category: Reward & Prompt Automation
+  blurb: LLMs as optimizers for prompts
+  stars: 1
+  status: ✅
+- name: openai/mle-bench
+  url: https://github.com/openai/mle-bench
+  category: Benchmarks & Evaluation
+  blurb: ML engineering benchmark (75 Kaggle competitions)
+  stars: 2
+  status: 🔥
+- name: princeton-nlp/SWE-bench
+  url: https://github.com/princeton-nlp/SWE-bench
+  category: Benchmarks & Evaluation
+  blurb: Software engineering agent benchmark
+  stars: 5000
+  status: 🔥
+- name: facebookresearch/MLGym
+  url: https://github.com/facebookresearch/MLGym
+  category: Benchmarks & Evaluation
+  blurb: Framework for AI research agents
+  stars: 400
+  status: 🔥 🆕
+- name: balrog-ai/BALROG
+  url: https://github.com/balrog-ai/BALROG
+  category: Benchmarks & Evaluation
+  blurb: LLM/VLM reasoning on games
+  stars: 300
+  status: 🔥
+- name: conglu1997/intelligent-go-explore
+  url: https://github.com/conglu1997/intelligent-go-explore
+  category: Benchmarks & Evaluation
+  blurb: Foundation model guided Go-Explore
+  stars: 200
+  status: ✅
+- name: uvm-neurobotics-lab/ANML
+  url: https://github.com/uvm-neurobotics-lab/ANML
+  category: Infrastructure & Utilities
+  blurb: A neuromodulatory meta-learning framework
+  stars: 150
+  status: ✅
+- name: ShengranHu/Thought-Cloning
+  url: https://github.com/ShengranHu/Thought-Cloning
+  category: Infrastructure & Utilities
+  blurb: Imitation learning with language-based thinking
+  stars: 150
+  status: ✅
+- name: wjlgatech/ToolUniverse
+  url: https://github.com/wjlgatech/ToolUniverse
+  category: Infrastructure & Utilities
+  blurb: Ecosystem (1000+ tools) for building AI scientist systems; MCP-native, async, composable
+  status: 🔥
+- name: yenanjing/awesome-ai-for-science
+  url: https://github.com/yenanjing/awesome-ai-for-science
+  category: Existing "Awesome" Lists & What's Missing
+  stars: 4
+- name: Elianovg/awesome-automated-research
+  url: https://github.com/Elianovg/awesome-automated-research
+  category: Existing "Awesome" Lists & What's Missing
