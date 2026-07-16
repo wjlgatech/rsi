@@ -3,9 +3,16 @@
 
 .PHONY: check graph freshness ingest sync
 
-check:  ## run tests, verify candidates are valid + the README still compiles to a graph
+check:  ## validate data + run tests + verify candidates + README still compiles to a graph
+	python3 scripts/validate.py
 	python3 -m unittest discover -s tests
 	python3 scripts/check_ingest.py --readme README.md --candidates knowledge/candidates.json
+
+validate:  ## schema-gate data/*.yml (required fields + URLs)
+	python3 scripts/validate.py
+
+data-bootstrap:  ## one-time: seed data/*.yml from knowledge/graph.json
+	python3 scripts/graph_to_data.py
 
 graph:  ## recompile the knowledge graph + interactive map from the README
 	python3 scripts/awesome_kg.py build README.md \

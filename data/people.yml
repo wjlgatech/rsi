@@ -1,0 +1,156 @@
+# People to follow — category = role
+# Generated once from knowledge/graph.json; now edit here (README is generated).
+- name: Jeff Clune
+  url: https://jeffclune.com
+  category: The 8 Co-Founders
+  focus: AI-GAs, open-ended learning, quality diversity, meta-learning
+  links:
+  - https://jeffclune.com
+  - https://x.com/jeffclune
+  - https://scholar.google.com/citations?user=5eeQ9AkAAAAJ
+  - https://www.linkedin.com/in/jeff-clune/
+- name: Tim Rocktäschel
+  url: https://rockt.ai
+  category: The 8 Co-Founders
+  focus: Open-endedness, RL, curriculum learning, ASI
+  links:
+  - https://rockt.ai
+  - https://x.com/_rockt
+  - https://scholar.google.com/citations?user=gLskPY0AAAAJ
+  - https://www.linkedin.com/in/tim-rocktaeschel/
+- name: Richard Socher
+  url: https://www.socher.org
+  category: The 8 Co-Founders
+  focus: NLP, LLMs, deep learning, you.com founder
+  links:
+  - https://www.socher.org
+  - https://x.com/RichardSocher
+  - https://scholar.google.com/citations?user=FaOcyfMAAAAJ
+  - https://www.linkedin.com/in/richard-socher/
+- name: Caiming Xiong
+  url: https://x.com/CaimingXiong
+  category: The 8 Co-Founders
+  focus: LLMs, code generation, multi-agent systems
+  links:
+  - https://x.com/CaimingXiong
+  - https://scholar.google.com/citations?user=vACNGQsAAAAJ
+  - https://www.linkedin.com/in/caiming-xiong/
+- name: Yuandong Tian
+  url: https://yuandong-tian.com
+  category: The 8 Co-Founders
+  focus: LLM reasoning, RL, planning, self-supervised learning, NAS
+  links:
+  - https://yuandong-tian.com
+  - https://x.com/yuandong_tian
+  - https://scholar.google.com/citations?user=GR3ly80AAAAJ
+  - https://www.linkedin.com/in/yuandong-tian/
+- name: Tim Shi
+  url: https://x.com/timshi
+  category: The 8 Co-Founders
+  focus: Applied AI, LLM products
+  links:
+  - https://x.com/timshi
+  - https://www.linkedin.com/in/timshi/
+- name: Mingchen Zhuge
+  url: https://x.com/MingchenZhuge
+  category: The 8 Co-Founders
+  focus: Multi-agent systems, recursive self-improvement, LLM optimization
+  links:
+  - https://x.com/MingchenZhuge
+  - https://scholar.google.com/citations?user=MingchenZhuge
+  - https://www.linkedin.com/in/mingchenzhuge/
+- name: Yingbo Zhou
+  url: https://www.linkedin.com/in/yingbozhou/
+  category: The 8 Co-Founders
+  focus: LLMs, multi-agent, AI research automation
+  links:
+  - https://www.linkedin.com/in/yingbozhou/
+- name: Shengran Hu
+  url: https://shengranhu.com
+  category: Other Key Team Members
+  focus: Automated agentic systems, self-improvement, NAS
+  links:
+  - https://shengranhu.com
+  - https://x.com/ShengranHu
+  - https://scholar.google.com/citations?user=ShengranHu
+  - https://github.com/ShengranHu
+  - https://www.linkedin.com/in/shengranhu/
+- name: Josh Tobin
+  url: https://x.com/josh_tobin_
+  category: Other Key Team Members
+  focus: Sim-to-real robotics, automated discovery
+  links:
+  - https://x.com/josh_tobin_
+  - https://scholar.google.com/citations?user=josh_tobin
+  - https://www.linkedin.com/in/josh-tobin-4b3b10a/
+- name: Peter Norvig
+  url: https://norvig.com
+  category: Other Key Team Members
+  focus: AI foundations, rationality, education
+  links:
+  - https://norvig.com
+  - https://scholar.google.com/citations?user=2XoHRgEAAAAJ
+  - https://www.linkedin.com/in/pnorvig/
+- name: Jianguo Zhang
+  url: https://www.linkedin.com/in/jiguozhang/
+  category: Other Key Team Members
+  focus: LLM agents, multi-agent
+  links:
+  - https://www.linkedin.com/in/jiguozhang/
+- name: Cong Lu
+  url: https://x.com/CongLu_
+  category: Affiliated Researchers
+  focus: AI Scientist, automated discovery
+  links:
+  - https://x.com/CongLu_
+  - https://scholar.google.com/citations?user=conglu
+  - https://github.com/conglu1997
+- name: Robert Tjarko Lange
+  url: https://x.com/RobertTLange
+  category: Affiliated Researchers
+  focus: AI Scientist, evolutionary methods
+  links:
+  - https://x.com/RobertTLange
+  - https://scholar.google.com/citations?user=RobertTLange
+  - https://github.com/RobertTLange
+- name: Chris Lu
+  url: https://x.com/ChrisLu_RL
+  category: Affiliated Researchers
+  focus: AI Scientist, RL
+  links:
+  - https://x.com/ChrisLu_RL
+  - https://github.com/chrislu
+- name: Jakob Foerster
+  url: https://www.jakobfoerster.com
+  category: Affiliated Researchers
+  focus: Multi-agent RL, emergent communication
+  links:
+  - https://www.jakobfoerster.com
+  - https://x.com/j_foerst
+- name: David Ha
+  url: https://otoro.net
+  category: Affiliated Researchers
+  focus: Generative models, AI for science
+  links:
+  - https://otoro.net
+  - https://x.com/hardmaru
+- name: Jack Parker-Holder
+  url: https://x.com/jparkerholder
+  category: Affiliated Researchers
+  focus: Open-endedness, AutoRL
+  links:
+  - https://x.com/jparkerholder
+- name: Jenny Zhang
+  url: https://x.com/jennyzzt_
+  category: Affiliated Researchers
+  focus: Darwin Gödel Machine, evolution
+  links:
+  - https://x.com/jennyzzt_
+  - https://github.com/jennyzzt
+- name: Minqi Jiang
+  url: https://x.com/minqi_jiang
+  category: Affiliated Researchers
+  focus: Curriculum learning, UED
+  links:
+  - https://x.com/minqi_jiang
+  - https://scholar.google.com/citations?user=minqi_jiang

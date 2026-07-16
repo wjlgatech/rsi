@@ -1,0 +1,62 @@
+# Talks, interviews & podcasts
+# Generated once from knowledge/graph.json; now edit here (README is generated).
+- title: Open-Ended and AI-Generating Algorithms in the Era of Foundation Models
+  url: https://jeffclune.com/videos.html
+  speaker: Jeff Clune (Recursive)
+  venue: U Toronto / Vector Institute
+  year: '2025'
+  group: Talks, Interviews & Podcasts
+- title: 'ICLR 2025 Keynote: Open-Endedness & ASI'
+  url: https://iclr.cc/virtual/2025/index.html
+  speaker: Tim Rocktäschel (Recursive / UCL)
+  venue: ICLR
+  year: '2025'
+  group: Talks, Interviews & Podcasts
+- title: Improving Deep RL via QD, Open-Ended and AI-Generating Algorithms
+  url: https://jeffclune.com/videos.html
+  speaker: Jeff Clune (Recursive)
+  venue: MIT / CORL Keynote
+  year: 2023/2021
+  group: Talks, Interviews & Podcasts
+- title: How Meta-Learning Could Help Us Accomplish Our Grandest AI Ambitions
+  url: https://jeffclune.com/videos.html
+  speaker: Jeff Clune (Recursive)
+  venue: NeurIPS Meta-Learning Workshop
+  year: '2019'
+  group: Talks, Interviews & Podcasts
+- title: 'The AI Scientist: Fully Automated Scientific Discovery'
+  url: https://sakana.ai/ai-scientist
+  speaker: Chris Lu, David Ha (Sakana AI)
+  venue: Various
+  year: '2024'
+  group: Talks, Interviews & Podcasts
+- title: Why I Work on Self-Improving AI Despite the Risks
+  url: https://jeffclune.com
+  speaker: Jeff Clune (Recursive)
+  venue: Blog / Essay
+  year: '2024'
+  group: Talks, Interviews & Podcasts
+- title: 'Lex Fridman Podcast: Automated AI Research'
+  url: https://lexfridman.com/podcast
+  speaker: Multiple guests
+  venue: Lex Fridman
+  year: 2024–25
+  group: Talks, Interviews & Podcasts
+- title: 'NVIDIA Research: Eureka — Human-Level Reward Design'
+  url: https://eureka-research.github.io
+  speaker: Yecheng Jason Ma
+  venue: NVIDIA Tech Blog
+  year: '2024'
+  group: Talks, Interviews & Podcasts
+- title: 'Go-Explore: A New Type of Algorithm for Hard-Exploration Problems'
+  url: https://jeffclune.com/videos.html
+  speaker: Jeff Clune (Recursive)
+  venue: ReWork 2019
+  year: '2019'
+  group: Talks, Interviews & Podcasts
+- title: 'Learning Beyond Gradients: Heuristic Learning & Continual Learning'
+  url: https://trinkle23897.github.io/learning-beyond-gradients/
+  speaker: Jiayi Weng (Recursive)
+  venue: Blog / Essay
+  year: '2025'
+  group: Talks, Interviews & Podcasts
