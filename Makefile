@@ -3,13 +3,19 @@
 
 .PHONY: check graph freshness ingest sync
 
-check:  ## validate data + run tests + verify candidates + README still compiles to a graph
+check:  ## validate data + tests + README drift-gate + candidates + graph
 	python3 scripts/validate.py
 	python3 -m unittest discover -s tests
+	python3 scripts/build_readme.py --check
 	python3 scripts/check_ingest.py --readme README.md --candidates knowledge/candidates.json
 
 validate:  ## schema-gate data/*.yml (required fields + URLs)
 	python3 scripts/validate.py
+
+build:  ## regenerate README.md from data/*.yml, then rebuild the graph + map from it
+	python3 scripts/build_readme.py
+	python3 scripts/awesome_kg.py build README.md --out knowledge/graph.json \
+		--html docs/index.html --enrich knowledge/enrichments.json --title "Awesome Automated AI Research"
 
 data-bootstrap:  ## one-time: seed data/*.yml from knowledge/graph.json
 	python3 scripts/graph_to_data.py
@@ -31,11 +37,13 @@ ingest:  ## fetch candidates from every source adapter (repos, papers, skills, M
 	python3 scripts/ingest/mcp_sync.py       --readme README.md --out knowledge/candidates.mcp.json       --min-stars 20
 	python3 scripts/ingest/workflows_sync.py --readme README.md --out knowledge/candidates.workflows.json --min-stars 30
 
-certify:  ## certify tooling (repos + skills + MCP + workflows) -> badges in README + docs
-	python3 scripts/certify.py --markdown docs/CERTIFIED.md --inject README.md
+certify:  ## certify tooling (repos + skills + MCP + workflows) -> docs + regenerated README
+	python3 scripts/certify.py --markdown docs/CERTIFIED.md
+	python3 scripts/build_readme.py
 
 gold:  ## 🥇 deep-certify the top Verified tools (clone + anyagent analyze + safety scan)
-	python3 scripts/certify_gold.py --top 5 --markdown docs/CERTIFIED.md --inject README.md
+	python3 scripts/certify_gold.py --top 5 --markdown docs/CERTIFIED.md --inject ""
+	python3 scripts/build_readme.py
 
 sync: ingest  ## full weekly run: ingest -> rank -> certify -> validate -> refresh web pack
 	python3 scripts/groundbreakers.py --glob "knowledge/candidates.*.json" \

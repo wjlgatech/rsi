@@ -24,6 +24,9 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - name: Install PyYAML (build_readme / validate / make check)
+        run: pip install --quiet pyyaml
+
       - name: Run source adapters — repos, papers, agent-skills (token lifts rate limit)
         env:
           GITHUB_TOKEN: ${{ github.token }}
@@ -53,7 +56,8 @@ jobs:
 
       - name: Certify tooling → badges in README + docs/CERTIFIED.md, append to PR body
         run: |
-          python3 scripts/certify.py --markdown docs/CERTIFIED.md --inject README.md
+          python3 scripts/certify.py --markdown docs/CERTIFIED.md
+          python3 scripts/build_readme.py   # README owns the certified summary now (drift-safe)
           { echo ""; echo "---"; echo ""; cat docs/CERTIFIED.md; } >> pr_body.md
 
       - name: Validate the finish line before proposing anything

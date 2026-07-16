@@ -5,7 +5,6 @@
 | Repo | Stars | Last Updated | Gap |
 |------|-------|--------------|-----|
 | [yenanjing/awesome-ai-for-science](https://github.com/yenanjing/awesome-ai-for-science) | 4 | June 2026 | No Recursive Lab focus; no people/talks |
-| [Elianovg/awesome-automated-research](https://github.com/Elianovg/awesome-automated-research) | 0 | June 2026 | Very early-stage; no papers |
 | General "awesome-llm-agents" lists | 1k–5k | Varies | Broad scope; miss self-improvement thread |
 
 ### What Makes This Repo Different

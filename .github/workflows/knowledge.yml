@@ -1,11 +1,17 @@
 name: knowledge
 
-# The repo is LIVING: any edit to the README (or the curator overlay) recompiles the
-# knowledge graph and the interactive map — contributors only ever touch the README.
+# The repo is LIVING and SPEC-AS-DATA: contributors edit data/*.yml (or data/prose/*.md),
+# and this recompiles the README, the knowledge graph, and the interactive map from them.
+# `data → build_readme → README → awesome_kg → graph`. Never hand-edit README.md (drift-gated).
 
 on:
   push:
-    paths: ["README.md", "knowledge/enrichments.json", "scripts/awesome_kg.py"]
+    paths:
+      - "data/**"
+      - "knowledge/enrichments.json"
+      - "knowledge/certifications.json"
+      - "scripts/build_readme.py"
+      - "scripts/awesome_kg.py"
     branches: [main]
   workflow_dispatch:
 
@@ -17,18 +23,19 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Recompile knowledge graph + interactive map
-        run: |
-          python3 scripts/awesome_kg.py build README.md \
-            --out knowledge/graph.json \
-            --html docs/index.html \
-            --enrich knowledge/enrichments.json \
-            --title "Awesome Automated AI Research"
+      - name: Install PyYAML
+        run: pip install --quiet pyyaml
+
+      - name: Regenerate README + knowledge graph + interactive map from data/
+        run: make build
+
+      - name: Verify the generated README is in sync (drift gate)
+        run: python3 scripts/build_readme.py --check
 
       - name: Commit if changed
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add knowledge/graph.json docs/index.html
-          git diff --cached --quiet || git commit -m "chore: recompile knowledge graph from README [skip ci]"
+          git add README.md knowledge/graph.json docs/index.html
+          git diff --cached --quiet || git commit -m "chore: regenerate README + graph from data/*.yml [skip ci]"
           git push

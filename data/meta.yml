@@ -1,0 +1,18 @@
+# ─────────────────────────────────────────────────────────────────────────────
+# meta.yml — branding + generation config for rsi. The README is GENERATED from
+# data/*.yml + data/prose/*.md by scripts/build_readme.py; NEVER hand-edit README.md
+# (CI drift-gates it via `make check` → build_readme.py --check).
+# ─────────────────────────────────────────────────────────────────────────────
+repo_owner: wjlgatech
+repo_name: rsi
+
+# Prominent top banner — this repo is one node in a build-in-public flywheel.
+applied_banner: >-
+  🔁 **Part of a build-in-public flywheel** →
+  **[FM-os](https://github.com/wjlgatech/FM-os)** (the spec-as-data method this repo runs on)
+  · **[longevity-loop](https://github.com/wjlgatech/longevity-loop)** (the same method, applied to aging science).
+
+# Intro notes rendered right under a generated section's H2.
+notes:
+  papers: "> 📌 Format: **Title** — Authors (Affiliation) — Venue Year | ⭐ Citations | 💻 Code"
+  tools: "> ⭐ = GitHub stars (approx) | 🔥 = actively maintained | 🆕 = < 6 months old"

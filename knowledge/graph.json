@@ -543,8 +543,7 @@
    "type": "paper",
    "name": "AgentRxiv: Towards Collaborative Autonomous Research",
    "links": [
-    "https://arxiv.org/abs/2503.18102",
-    "https://agentrxiv.github.io"
+    "https://arxiv.org/abs/2503.18102"
    ],
    "category": "Automated Scientific Discovery",
    "authors": "Schmidgall, Moor",
@@ -789,8 +788,7 @@
    "type": "paper",
    "name": "Coconut: Training LLMs to Reason in a Continuous Latent Space",
    "links": [
-    "https://arxiv.org/abs/2412.06769",
-    "https://github.com/facebookresearch/coconut"
+    "https://arxiv.org/abs/2412.06769"
    ],
    "category": "Meta-Learning & Self-Improvement",
    "authors": "Hao, Sukhbaatar, Su, Li, Hu, Weston, Y. Tian (Recursive / Meta)",
@@ -804,8 +802,7 @@
    "type": "paper",
    "name": "GaLore: Memory-Efficient LLM Training by Gradient Low-Rank Projection",
    "links": [
-    "https://arxiv.org/abs/2403.03507",
-    "https://github.com/jiaweizzhao/GaLore"
+    "https://arxiv.org/abs/2403.03507"
    ],
    "category": "Meta-Learning & Self-Improvement",
    "authors": "Zhao, Zhang, Chen, Wang, Anandkumar, Y. Tian (Meta)",
@@ -819,8 +816,7 @@
    "type": "paper",
    "name": "StreamingLLM: Efficient Streaming Language Models with Attention Sinks",
    "links": [
-    "https://arxiv.org/abs/2309.17453",
-    "https://github.com/mit-han-lab/streaming-llm"
+    "https://arxiv.org/abs/2309.17453"
    ],
    "category": "Meta-Learning & Self-Improvement",
    "authors": "Xiao, Y. Tian, Chen, Han, Lewis (Meta)",
@@ -834,8 +830,7 @@
    "type": "paper",
    "name": "ELF OpenGo: An Open Reimplementation of AlphaZero",
    "links": [
-    "https://arxiv.org/abs/1902.04522",
-    "https://github.com/pytorch/ELF"
+    "https://arxiv.org/abs/1902.04522"
    ],
    "category": "Meta-Learning & Self-Improvement",
    "authors": "Y. Tian, Ma, Gong, Sengupta et al. (Meta)",
@@ -1004,102 +999,6 @@
    "year": "2021",
    "citations": 80,
    "confidence": 0.77
-  },
-  {
-   "id": "category:benchmarks-evaluation",
-   "type": "category",
-   "name": "Benchmarks & Evaluation",
-   "links": [],
-   "confidence": 0.6
-  },
-  {
-   "id": "benchmark:mle-bench",
-   "type": "benchmark",
-   "name": "MLE-Bench",
-   "links": [
-    "https://arxiv.org/abs/2410.07095",
-    "https://github.com/openai/mle-bench"
-   ],
-   "category": "Benchmarks & Evaluation",
-   "summary": "ML engineering (75 Kaggle tasks)",
-   "venue": "ICLR",
-   "year": "2025",
-   "citations": 349,
-   "confidence": 0.87
-  },
-  {
-   "id": "benchmark:swe-bench",
-   "type": "benchmark",
-   "name": "SWE-bench",
-   "links": [
-    "https://arxiv.org/abs/2310.06770",
-    "https://github.com/princeton-nlp/SWE-bench"
-   ],
-   "category": "Benchmarks & Evaluation",
-   "summary": "Software engineering (GitHub issues)",
-   "venue": "ICLR",
-   "year": "2024",
-   "citations": 1000,
-   "confidence": 0.93
-  },
-  {
-   "id": "benchmark:mlgym",
-   "type": "benchmark",
-   "name": "MLGym",
-   "links": [
-    "https://arxiv.org/abs/2502.14499",
-    "https://github.com/facebookresearch/MLGym"
-   ],
-   "category": "Benchmarks & Evaluation",
-   "summary": "AI research agent framework",
-   "venue": "arXiv",
-   "year": "2025",
-   "citations": 88,
-   "confidence": 0.78
-  },
-  {
-   "id": "benchmark:balrog",
-   "type": "benchmark",
-   "name": "BALROG",
-   "links": [
-    "https://arxiv.org/abs/2411.13543",
-    "https://github.com/balrog-ai/BALROG"
-   ],
-   "category": "Benchmarks & Evaluation",
-   "summary": "Agentic LLM reasoning on games",
-   "venue": "ICLR",
-   "year": "2025",
-   "citations": 116,
-   "confidence": 0.8
-  },
-  {
-   "id": "benchmark:exp-bench",
-   "type": "benchmark",
-   "name": "EXP-Bench",
-   "links": [
-    "https://arxiv.org/abs/2505.24785"
-   ],
-   "category": "Benchmarks & Evaluation",
-   "summary": "AI conducting AI research experiments",
-   "venue": "arXiv",
-   "year": "2025",
-   "citations": 23,
-   "confidence": 0.7
-  },
-  {
-   "id": "benchmark:agent-as-a-judge",
-   "type": "benchmark",
-   "name": "Agent-as-a-Judge",
-   "links": [
-    "https://arxiv.org/abs/2410.10934",
-    "https://github.com/metauto-ai/agent-as-a-judge"
-   ],
-   "category": "Benchmarks & Evaluation",
-   "summary": "Evaluating agents with agents",
-   "venue": "arXiv",
-   "year": "2024",
-   "citations": 196,
-   "confidence": 0.83
   },
   {
    "id": "category:surveys-position-papers",
@@ -1393,6 +1292,13 @@
    "confidence": 0.53
   },
   {
+   "id": "category:benchmarks-evaluation",
+   "type": "category",
+   "name": "Benchmarks & Evaluation",
+   "links": [],
+   "confidence": 0.6
+  },
+  {
    "id": "repo:openai-mle-bench",
    "type": "repo",
    "name": "openai/mle-bench",
@@ -1501,6 +1407,24 @@
    "summary": "Ecosystem (1000+ tools) for building AI scientist systems; MCP-native, async, composable",
    "status": "🔥",
    "confidence": 0.6
+  },
+  {
+   "id": "category:existing-awesome-lists-what-s-missing",
+   "type": "category",
+   "name": "Existing \"Awesome\" Lists & What's Missing",
+   "links": [],
+   "confidence": 0.6
+  },
+  {
+   "id": "repo:yenanjing-awesome-ai-for-science",
+   "type": "repo",
+   "name": "yenanjing/awesome-ai-for-science",
+   "links": [
+    "https://github.com/yenanjing/awesome-ai-for-science"
+   ],
+   "category": "Existing \"Awesome\" Lists & What's Missing",
+   "stars": 4,
+   "confidence": 0.57
   },
   {
    "id": "category:the-8-co-founders",
@@ -1668,6 +1592,90 @@
    "confidence": 0.6
   },
   {
+   "id": "benchmark:mle-bench",
+   "type": "benchmark",
+   "name": "MLE-Bench",
+   "links": [
+    "https://arxiv.org/abs/2410.07095"
+   ],
+   "category": "Benchmarks & Evaluation",
+   "summary": "ML engineering (75 Kaggle tasks)",
+   "venue": "ICLR",
+   "year": "2025",
+   "citations": 349,
+   "confidence": 0.87
+  },
+  {
+   "id": "benchmark:swe-bench",
+   "type": "benchmark",
+   "name": "SWE-bench",
+   "links": [
+    "https://arxiv.org/abs/2310.06770"
+   ],
+   "category": "Benchmarks & Evaluation",
+   "summary": "Software engineering (GitHub issues)",
+   "venue": "ICLR",
+   "year": "2024",
+   "citations": 1000,
+   "confidence": 0.93
+  },
+  {
+   "id": "benchmark:mlgym",
+   "type": "benchmark",
+   "name": "MLGym",
+   "links": [
+    "https://arxiv.org/abs/2502.14499"
+   ],
+   "category": "Benchmarks & Evaluation",
+   "summary": "AI research agent framework",
+   "venue": "arXiv",
+   "year": "2025",
+   "citations": 88,
+   "confidence": 0.78
+  },
+  {
+   "id": "benchmark:balrog",
+   "type": "benchmark",
+   "name": "BALROG",
+   "links": [
+    "https://arxiv.org/abs/2411.13543"
+   ],
+   "category": "Benchmarks & Evaluation",
+   "summary": "Agentic LLM reasoning on games",
+   "venue": "ICLR",
+   "year": "2025",
+   "citations": 116,
+   "confidence": 0.8
+  },
+  {
+   "id": "benchmark:exp-bench",
+   "type": "benchmark",
+   "name": "EXP-Bench",
+   "links": [
+    "https://arxiv.org/abs/2505.24785"
+   ],
+   "category": "Benchmarks & Evaluation",
+   "summary": "AI conducting AI research experiments",
+   "venue": "arXiv",
+   "year": "2025",
+   "citations": 23,
+   "confidence": 0.7
+  },
+  {
+   "id": "benchmark:agent-as-a-judge",
+   "type": "benchmark",
+   "name": "Agent-as-a-Judge",
+   "links": [
+    "https://arxiv.org/abs/2410.10934"
+   ],
+   "category": "Benchmarks & Evaluation",
+   "summary": "Evaluating agents with agents",
+   "venue": "arXiv",
+   "year": "2024",
+   "citations": 196,
+   "confidence": 0.83
+  },
+  {
    "id": "category:benchmarks-leaderboards",
    "type": "category",
    "name": "Benchmarks & Leaderboards",
@@ -1705,34 +1713,6 @@
    ],
    "category": "Benchmarks & Leaderboards",
    "summary": "Code editing (SWE-bench style)",
-   "confidence": 0.6
-  },
-  {
-   "id": "category:existing-awesome-lists-what-s-missing",
-   "type": "category",
-   "name": "Existing \"Awesome\" Lists & What's Missing",
-   "links": [],
-   "confidence": 0.6
-  },
-  {
-   "id": "repo:yenanjing-awesome-ai-for-science",
-   "type": "repo",
-   "name": "yenanjing/awesome-ai-for-science",
-   "links": [
-    "https://github.com/yenanjing/awesome-ai-for-science"
-   ],
-   "category": "Existing \"Awesome\" Lists & What's Missing",
-   "stars": 4,
-   "confidence": 0.57
-  },
-  {
-   "id": "repo:elianovg-awesome-automated-research",
-   "type": "repo",
-   "name": "Elianovg/awesome-automated-research",
-   "links": [
-    "https://github.com/Elianovg/awesome-automated-research"
-   ],
-   "category": "Existing \"Awesome\" Lists & What's Missing",
    "confidence": 0.6
   },
   {
@@ -2207,36 +2187,6 @@
    "type": "authored_by"
   },
   {
-   "src": "benchmark:mle-bench",
-   "dst": "category:benchmarks-evaluation",
-   "type": "part_of"
-  },
-  {
-   "src": "benchmark:swe-bench",
-   "dst": "category:benchmarks-evaluation",
-   "type": "part_of"
-  },
-  {
-   "src": "benchmark:mlgym",
-   "dst": "category:benchmarks-evaluation",
-   "type": "part_of"
-  },
-  {
-   "src": "benchmark:balrog",
-   "dst": "category:benchmarks-evaluation",
-   "type": "part_of"
-  },
-  {
-   "src": "benchmark:exp-bench",
-   "dst": "category:benchmarks-evaluation",
-   "type": "part_of"
-  },
-  {
-   "src": "benchmark:agent-as-a-judge",
-   "dst": "category:benchmarks-evaluation",
-   "type": "part_of"
-  },
-  {
    "src": "paper:agentic-ai-for-scientific-discovery-a-survey",
    "dst": "category:surveys-position-papers",
    "type": "part_of"
@@ -2379,6 +2329,11 @@
   {
    "src": "repo:wjlgatech-tooluniverse",
    "dst": "category:infrastructure-utilities",
+   "type": "part_of"
+  },
+  {
+   "src": "repo:yenanjing-awesome-ai-for-science",
+   "dst": "category:existing-awesome-lists-what-s-missing",
    "type": "part_of"
   },
   {
@@ -2767,17 +2722,37 @@
    "type": "part_of"
   },
   {
-   "src": "benchmark:swe-bench-verified",
-   "dst": "category:benchmarks-leaderboards",
+   "src": "benchmark:mle-bench",
+   "dst": "category:benchmarks-evaluation",
    "type": "part_of"
   },
   {
-   "src": "benchmark:mle-bench",
-   "dst": "category:benchmarks-leaderboards",
+   "src": "benchmark:swe-bench",
+   "dst": "category:benchmarks-evaluation",
+   "type": "part_of"
+  },
+  {
+   "src": "benchmark:mlgym",
+   "dst": "category:benchmarks-evaluation",
    "type": "part_of"
   },
   {
    "src": "benchmark:balrog",
+   "dst": "category:benchmarks-evaluation",
+   "type": "part_of"
+  },
+  {
+   "src": "benchmark:exp-bench",
+   "dst": "category:benchmarks-evaluation",
+   "type": "part_of"
+  },
+  {
+   "src": "benchmark:agent-as-a-judge",
+   "dst": "category:benchmarks-evaluation",
+   "type": "part_of"
+  },
+  {
+   "src": "benchmark:swe-bench-verified",
    "dst": "category:benchmarks-leaderboards",
    "type": "part_of"
   },
@@ -2789,16 +2764,6 @@
   {
    "src": "benchmark:aider-leaderboard",
    "dst": "category:benchmarks-leaderboards",
-   "type": "part_of"
-  },
-  {
-   "src": "repo:yenanjing-awesome-ai-for-science",
-   "dst": "category:existing-awesome-lists-what-s-missing",
-   "type": "part_of"
-  },
-  {
-   "src": "repo:elianovg-awesome-automated-research",
-   "dst": "category:existing-awesome-lists-what-s-missing",
    "type": "part_of"
   },
   {
@@ -2978,19 +2943,19 @@
   }
  ],
  "stats": {
-  "nodes": 139,
-  "edges": 246,
+  "nodes": 138,
+  "edges": 243,
   "node_types": {
    "person": 20,
    "lab": 9,
    "category": 19,
    "paper": 45,
-   "benchmark": 9,
-   "repo": 27,
-   "talk": 10
+   "repo": 26,
+   "talk": 10,
+   "benchmark": 9
   },
   "edge_types": {
-   "part_of": 122,
+   "part_of": 119,
    "authored_by": 52,
    "member_of": 30,
    "given_by": 8,

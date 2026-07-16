@@ -15,4 +15,12 @@ exclude = [
   "^https://awesome\\.re",
   "^https://github\\.com/wjlgatech/rsi",
   "^https://wjlgatech\\.github\\.io",   # Pages site is built in CI, not yet live at check time
+  # Bot-blocking hosts: they return 404/999 to automated checkers even for live pages,
+  # so they aren't machine-verifiable — exclude rather than fake a pass (freshness of
+  # these is handled by the weekly human-gated freshness check, not the link gate).
+  "^https?://(www\\.)?x\\.com",
+  "^https?://(www\\.)?twitter\\.com",
+  "^https?://(www\\.)?linkedin\\.com",
+  "^http://makeapullrequest\\.com",
+  "^https://jair\\.org",   # valid publisher; its server mis-negotiates HTTP/2 with the checker
 ]

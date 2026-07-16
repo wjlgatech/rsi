@@ -4,9 +4,9 @@
 
 [![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
-[![Last Updated](https://img.shields.io/github/last-commit/wjlgatech/awesome-auto-ai-research?style=flat-square&label=last%20updated)](https://github.com/wjlgatech/awesome-auto-ai-research/commits/main)
-[![Stars](https://img.shields.io/github/stars/wjlgatech/awesome-auto-ai-research?style=flat-square)](https://github.com/wjlgatech/awesome-auto-ai-research/stargazers)
-[![Contributors](https://img.shields.io/github/contributors/wjlgatech/awesome-auto-ai-research?style=flat-square)](https://github.com/wjlgatech/awesome-auto-ai-research/graphs/contributors)
+[![Last Updated](https://img.shields.io/github/last-commit/wjlgatech/rsi?style=flat-square&label=last%20updated)](https://github.com/wjlgatech/rsi/commits/main)
+[![Stars](https://img.shields.io/github/stars/wjlgatech/rsi?style=flat-square)](https://github.com/wjlgatech/rsi/stargazers)
+[![Contributors](https://img.shields.io/github/contributors/wjlgatech/rsi?style=flat-square)](https://github.com/wjlgatech/rsi/graphs/contributors)
 
 **The most comprehensive, community-driven, living resource on Automated AI Research.**
 
@@ -24,6 +24,10 @@
 > 3. **Dual roadmaps** — one for absolute beginners, one for frontier researchers
 > 4. **Community-updated** — automated weekly freshness checks via GitHub Actions
 > 5. **Cross-linked** — papers → code → talks → people → labs, all connected
+
+---
+
+🔁 **Part of a build-in-public flywheel** → **[FM-os](https://github.com/wjlgatech/FM-os)** (the spec-as-data method this repo runs on) · **[longevity-loop](https://github.com/wjlgatech/longevity-loop)** (the same method, applied to aging science).
 
 ---
 
@@ -61,7 +65,7 @@
 
 This list is not just tables — it **compiles**. Every paper, repo, person, lab, talk and benchmark below is a node in a typed knowledge graph, with `authored_by` / `has_code` / `member_of` / `builds_on` edges connecting them:
 
-- **🗺️ [Explore the interactive map](https://wjlgatech.github.io/awesome-auto-ai-research/)** — force-layout graph with search, type filters, and click-to-inspect (self-contained HTML; also works locally: open [`docs/index.html`](docs/index.html))
+- **🗺️ [Explore the interactive map](https://wjlgatech.github.io/rsi/)** — force-layout graph with search, type filters, and click-to-inspect (self-contained HTML; also works locally: open [`docs/index.html`](docs/index.html))
 - **✨ Ask the field** — hit the *Ask* button on the map for grounded Q&A: a frontier model (GLM 5.1 / DeepSeek v4 / Kimi K2.6 on **NVIDIA's free API**) answers from the graph and cites nodes as clickable chips. Bring your own free key from [build.nvidia.com/models](https://build.nvidia.com/models) — it stays in your browser
 - **🧩 [`knowledge/graph.json`](knowledge/graph.json)** — the full machine-readable graph (139 nodes · 246 edges) for your own agents, RAG pipelines, or analysis
 - **🧬 [`knowledge/enrichments.json`](knowledge/enrichments.json)** — curator-written lineage edges (Gödel Machine → AI-GAs → DGM …) that survive regeneration
@@ -105,7 +109,7 @@ python3 scripts/check_freshness.py README.md
 
 > 📌 Format: **Title** — Authors (Affiliation) — Venue Year | ⭐ Citations | 💻 Code
 
-### 🧬 Foundational & Visionary
+### Foundational & Visionary
 
 | Paper | Authors | Venue | Year | Citations | Code |
 |-------|---------|-------|------|-----------|------|
@@ -114,87 +118,76 @@ python3 scripts/check_freshness.py README.md
 | [**Open-Endedness is Essential for Artificial Superhuman Intelligence**](https://arxiv.org/abs/2406.04268) | Hughes, Dennis, Parker-Holder, Rocktäschel et al. (DeepMind) | ICML Oral | 2024 | ~111 | — |
 | [**Why I Work on Self-Improving AI Despite the Risks**](https://jeffclune.com) | Jeff Clune (**Recursive**) | Blog | 2024 | — | — |
 
-### 🔬 Automated Scientific Discovery
+### Automated Scientific Discovery
 
 | Paper | Authors | Venue | Year | Citations | Code |
 |-------|---------|-------|------|-----------|------|
-| [**The AI Scientist: Towards Fully Automated Open-Ended Scientific Discovery**](https://arxiv.org/abs/2408.06292) | C. Lu, C. Lu, Lange, Foerster, **Clune**, Ha, **S. Hu** et al. (Sakana AI / UBC) | *Nature* | 2024→2026 | ~1,027 | [🔗](https://github.com/SakanaAI/AI-Scientist) |
-| [**The AI Scientist-v2: Workshop-Level Automated Scientific Discovery**](https://arxiv.org/abs/2504.08066) | Yamada*, Lange*, C. Lu*, **S. Hu**, C. Lu, Foerster, **Clune**†, Ha† (Sakana AI / UBC) | arXiv | 2025 | ~330 | [🔗](https://github.com/SakanaAI/AI-Scientist-v2) |
-| [**Darwin Gödel Machine: Open-Ended Evolution of Self-Improving Agents**](https://arxiv.org/abs/2505.22954) | Zhang*, **S. Hu***, C. Lu, Lange†, **Clune**† (UBC / Sakana AI) | ICLR | 2026 | ~138 | [🔗](https://github.com/jennyzzt/dgm) |
+| [**The AI Scientist: Towards Fully Automated Open-Ended Scientific Discovery**](https://arxiv.org/abs/2408.06292) | C. Lu, C. Lu, Lange, Foerster, **Clune**, Ha, **S. Hu** et al. (Sakana AI / UBC) | Nature | 2024→2026 | ~1027 | [💻](https://github.com/SakanaAI/AI-Scientist) |
+| [**The AI Scientist-v2: Workshop-Level Automated Scientific Discovery**](https://arxiv.org/abs/2504.08066) | Yamada*, Lange*, C. Lu*, **S. Hu**, C. Lu, Foerster, **Clune**†, Ha† (Sakana AI / UBC) | arXiv | 2025 | ~330 | [💻](https://github.com/SakanaAI/AI-Scientist-v2) |
+| [**Darwin Gödel Machine: Open-Ended Evolution of Self-Improving Agents**](https://arxiv.org/abs/2505.22954) | Zhang*, **S. Hu***, C. Lu, Lange†, **Clune**† (UBC / Sakana AI) | ICLR | 2026 | ~138 | [💻](https://github.com/jennyzzt/dgm) |
 | [**Towards an AI Co-Scientist**](https://arxiv.org/abs/2502.18864) | Gottweis, Weng, Daryin, Tu, Palepu et al. (Google DeepMind) | arXiv | 2025 | ~533 | — |
 | [**AlphaEvolve: A Coding Agent for Scientific and Algorithmic Discovery**](https://arxiv.org/abs/2506.01882) | Novikov, Vũ, Eisenberger et al. (Google DeepMind) | arXiv | 2025 | ~696 | — |
-| [**FunSearch: Mathematical Discoveries from Program Search with LLMs**](https://www.nature.com/articles/s41586-023-06924-6) | Romera-Paredes, Barekatain, Novikov, Balog et al. (Google DeepMind) | *Nature* | 2024 | ~1,482 | [🔗](https://github.com/google-deepmind/funsearch) |
-| [**Agent Laboratory: Using LLM Agents as Research Assistants**](https://arxiv.org/abs/2501.04227) | Schmidgall, Su, Wang et al. | ACL Findings | 2025 | ~378 | [🔗](https://github.com/SamuelSchmidgall/AgentLaboratory) |
-| [**AgentRxiv: Towards Collaborative Autonomous Research**](https://arxiv.org/abs/2503.18102) | Schmidgall, Moor | arXiv | 2025 | ~62 | [🔗](https://agentrxiv.github.io) |
+| [**FunSearch: Mathematical Discoveries from Program Search with LLMs**](https://www.nature.com/articles/s41586-023-06924-6) | Romera-Paredes, Barekatain, Novikov, Balog et al. (Google DeepMind) | Nature | 2024 | ~1482 | [💻](https://github.com/google-deepmind/funsearch) |
+| [**Agent Laboratory: Using LLM Agents as Research Assistants**](https://arxiv.org/abs/2501.04227) | Schmidgall, Su, Wang et al. | ACL Findings | 2025 | ~378 | [💻](https://github.com/SamuelSchmidgall/AgentLaboratory) |
+| [**AgentRxiv: Towards Collaborative Autonomous Research**](https://arxiv.org/abs/2503.18102) | Schmidgall, Moor | arXiv | 2025 | ~62 | — |
 
-### 🤖 Automated Agentic System Design
+### Automated Agentic System Design
 
 | Paper | Authors | Venue | Year | Citations | Code |
 |-------|---------|-------|------|-----------|------|
-| [**Automated Design of Agentic Systems (ADAS)**](https://arxiv.org/abs/2408.08435) | **S. Hu**, C. Lu, **J. Clune** (UBC / **Recursive**) | ICLR 🏆 Outstanding | 2025 | ~417 | [🔗](https://github.com/ShengranHu/ADAS) |
-| [**GPTSwarm: Language Agents as Optimizable Graphs**](https://arxiv.org/abs/2402.16823) | **M. Zhuge**, Wang, Kirsch, Faccio et al. (KAUST / **Recursive**) | ICML | 2024 | ~300 | [🔗](https://github.com/metauto-ai/GPTSwarm) |
-| [**MetaGPT: Meta Programming for a Multi-Agent Collaborative Framework**](https://arxiv.org/abs/2308.00352) | Hong, **M. Zhuge**, Chen, Zheng et al. | ICLR | 2024 | ~3,015 | [🔗](https://github.com/geekan/MetaGPT) |
-| [**Agent-as-a-Judge: Evaluate Agents with Agents**](https://arxiv.org/abs/2410.10934) | **M. Zhuge**, Zhao, Ashley, Wang et al. (**Recursive**) | arXiv | 2024 | ~196 | [🔗](https://github.com/metauto-ai/agent-as-a-judge) |
-| [**Intelligent Go-Explore: Standing on the Shoulders of Giant Foundation Models**](https://arxiv.org/abs/2405.15143) | C. Lu, **S. Hu**, **J. Clune** (UBC) | ICLR | 2025 | ~80 | [🔗](https://github.com/conglu1997/intelligent-go-explore) |
+| [**Automated Design of Agentic Systems (ADAS)**](https://arxiv.org/abs/2408.08435) | **S. Hu**, C. Lu, **J. Clune** (UBC / **Recursive**) | ICLR 🏆 Outstanding | 2025 | ~417 | [💻](https://github.com/ShengranHu/ADAS) |
+| [**GPTSwarm: Language Agents as Optimizable Graphs**](https://arxiv.org/abs/2402.16823) | **M. Zhuge**, Wang, Kirsch, Faccio et al. (KAUST / **Recursive**) | ICML | 2024 | ~300 | [💻](https://github.com/metauto-ai/GPTSwarm) |
+| [**MetaGPT: Meta Programming for a Multi-Agent Collaborative Framework**](https://arxiv.org/abs/2308.00352) | Hong, **M. Zhuge**, Chen, Zheng et al. | ICLR | 2024 | ~3015 | [💻](https://github.com/geekan/MetaGPT) |
+| [**Agent-as-a-Judge: Evaluate Agents with Agents**](https://arxiv.org/abs/2410.10934) | **M. Zhuge**, Zhao, Ashley, Wang et al. (**Recursive**) | arXiv | 2024 | ~196 | [💻](https://github.com/metauto-ai/agent-as-a-judge) |
+| [**Intelligent Go-Explore: Standing on the Shoulders of Giant Foundation Models**](https://arxiv.org/abs/2405.15143) | C. Lu, **S. Hu**, **J. Clune** (UBC) | ICLR | 2025 | ~80 | [💻](https://github.com/conglu1997/intelligent-go-explore) |
 | [**Automated Capability Discovery via Foundation Model Self-Exploration**](https://arxiv.org/abs/2502.07577) | C. Lu*, **S. Hu***, **J. Clune** (UBC / **Recursive**) | arXiv | 2025 | ~30 | — |
 | [**Mindstorms in Natural Language-Based Societies of Mind**](https://arxiv.org/abs/2305.17066) | **M. Zhuge**, Liu, Faccio, Ashley et al. | arXiv | 2023 | ~144 | — |
 | [**AI with Recursive Self-Improvement**](https://openreview.net/forum?id=RSI2026) | **M. Zhuge**, Zeng, Zhu, Yang, Chandra, Schmidhuber (**Recursive**) | ICLR Workshop | 2026 | — | — |
 
-### 🧠 Meta-Learning & Self-Improvement
+### Meta-Learning & Self-Improvement
 
 | Paper | Authors | Venue | Year | Citations | Code |
 |-------|---------|-------|------|-----------|------|
-| [**Thought Cloning: Learning to Think while Acting by Imitating Human Thinking**](https://arxiv.org/abs/2306.00323) | **S. Hu**, **J. Clune** (UBC) | NeurIPS Spotlight | 2023 | ~80 | [🔗](https://github.com/ShengranHu/Thought-Cloning) |
+| [**Thought Cloning: Learning to Think while Acting by Imitating Human Thinking**](https://arxiv.org/abs/2306.00323) | **S. Hu**, **J. Clune** (UBC) | NeurIPS Spotlight | 2023 | ~80 | [💻](https://github.com/ShengranHu/Thought-Cloning) |
 | [**Learning to Continually Learn via Meta-learning Agentic Memory Designs (ALMA)**](https://arxiv.org/abs/2602.07755) | Y. Xiong, **S. Hu**, **J. Clune** (UBC / **Recursive**) | arXiv 🏆 Best Paper | 2026 | ~30 | — |
-| [**Learning to Continually Learn (ANML)**](https://arxiv.org/abs/2002.09571) | Beaulieu, Frati, Miconi, Lehman, Stanley, **Clune** et al. | arXiv | 2020 | ~255 | [🔗](https://github.com/uvm-neurobotics-lab/ANML) |
+| [**Learning to Continually Learn (ANML)**](https://arxiv.org/abs/2002.09571) | Beaulieu, Frati, Miconi, Lehman, Stanley, **Clune** et al. | arXiv | 2020 | ~255 | [💻](https://github.com/uvm-neurobotics-lab/ANML) |
 | [**Quality-Diversity through AI Feedback (QDAIF)**](https://arxiv.org/abs/2310.13032) | Bradley, Dai, Teufel, Zhang, Oostermeijer, Bellagente, **Clune** et al. | ICLR | 2024 | ~82 | — |
-| [**OMNI-EPIC: Open-Endedness via Models of Human Notions of Interestingness**](https://arxiv.org/abs/2405.15568) | Faldor, Zhang, Cully, **Clune** | ICLR | 2025 | ~69 | [🔗](https://github.com/MaxenceFaldor/Omni-EPIC) |
+| [**OMNI-EPIC: Open-Endedness via Models of Human Notions of Interestingness**](https://arxiv.org/abs/2405.15568) | Faldor, Zhang, Cully, **Clune** | ICLR | 2025 | ~69 | [💻](https://github.com/MaxenceFaldor/Omni-EPIC) |
 | [**Generative Teaching Networks**](https://arxiv.org/abs/1912.07768) | Such, Rawal, Lehman, Stanley, **Clune** | ICML | 2020 | ~249 | — |
 | [**PromptBreeder: Self-Referential Self-Improvement via Prompt Evolution**](https://arxiv.org/abs/2309.16797) | Fernando, Banarse, Michalewski, Osindero, **Rocktäschel** et al. (DeepMind) | arXiv | 2023 | ~538 | — |
-| [**Coconut: Training LLMs to Reason in a Continuous Latent Space**](https://arxiv.org/abs/2412.06769) | Hao, Sukhbaatar, Su, Li, Hu, Weston, **Y. Tian** (**Recursive** / Meta) | COLM | 2025 | ~570 | [🔗](https://github.com/facebookresearch/coconut) |
-| [**GaLore: Memory-Efficient LLM Training by Gradient Low-Rank Projection**](https://arxiv.org/abs/2403.03507) | Zhao, Zhang, Chen, Wang, Anandkumar, **Y. Tian** (Meta) | ICML Oral | 2024 | ~800 | [🔗](https://github.com/jiaweizzhao/GaLore) |
-| [**StreamingLLM: Efficient Streaming Language Models with Attention Sinks**](https://arxiv.org/abs/2309.17453) | Xiao, **Y. Tian**, Chen, Han, Lewis (Meta) | ICLR | 2024 | ~1,200 | [🔗](https://github.com/mit-han-lab/streaming-llm) |
-| [**ELF OpenGo: An Open Reimplementation of AlphaZero**](https://arxiv.org/abs/1902.04522) | **Y. Tian**, Ma, Gong, Sengupta et al. (Meta) | ICML Oral | 2019 | ~350 | [🔗](https://github.com/pytorch/ELF) |
+| [**Coconut: Training LLMs to Reason in a Continuous Latent Space**](https://arxiv.org/abs/2412.06769) | Hao, Sukhbaatar, Su, Li, Hu, Weston, **Y. Tian** (**Recursive** / Meta) | COLM | 2025 | ~570 | — |
+| [**GaLore: Memory-Efficient LLM Training by Gradient Low-Rank Projection**](https://arxiv.org/abs/2403.03507) | Zhao, Zhang, Chen, Wang, Anandkumar, **Y. Tian** (Meta) | ICML Oral | 2024 | ~800 | — |
+| [**StreamingLLM: Efficient Streaming Language Models with Attention Sinks**](https://arxiv.org/abs/2309.17453) | Xiao, **Y. Tian**, Chen, Han, Lewis (Meta) | ICLR | 2024 | ~1200 | — |
+| [**ELF OpenGo: An Open Reimplementation of AlphaZero**](https://arxiv.org/abs/1902.04522) | **Y. Tian**, Ma, Gong, Sengupta et al. (Meta) | ICML Oral | 2019 | ~350 | — |
 
-### 🌐 Open-Ended Learning & Curriculum
+### Open-Ended Learning & Curriculum
 
 | Paper | Authors | Venue | Year | Citations | Code |
 |-------|---------|-------|------|-----------|------|
-| [**Prioritized Level Replay**](https://arxiv.org/abs/2010.03934) | Jiang, Grefenstette, **Rocktäschel** | ICML | 2021 | ~266 | [🔗](https://github.com/facebookresearch/level-replay) |
-| [**Evolving Curricula with Regret-Based Environment Design**](https://arxiv.org/abs/2203.01302) | Jiang et al., **Rocktäschel** | ICML | 2022 | ~212 | [🔗](https://github.com/facebookresearch/minimax) |
+| [**Prioritized Level Replay**](https://arxiv.org/abs/2010.03934) | Jiang, Grefenstette, **Rocktäschel** | ICML | 2021 | ~266 | [💻](https://github.com/facebookresearch/level-replay) |
+| [**Evolving Curricula with Regret-Based Environment Design**](https://arxiv.org/abs/2203.01302) | Jiang et al., **Rocktäschel** | ICML | 2022 | ~212 | [💻](https://github.com/facebookresearch/minimax) |
 | [**Human-Timescale Adaptation in an Open-Ended Task Space**](https://arxiv.org/abs/2301.07608) | OEL Team, **Rocktäschel** et al. (DeepMind) | ICML | 2023 | ~82 | — |
 | [**A Survey of Zero-Shot Generalisation in Deep Reinforcement Learning**](https://jair.org/index.php/jair/article/view/14174) | Kirk, Zhang, Grefenstette, **Rocktäschel** | JAIR | 2023 | ~420 | — |
-| [**Voyager: An Open-Ended Embodied Agent with Large Language Models**](https://arxiv.org/abs/2305.16291) | G. Wang, Xie, Jiang, Mandlekar, Xiao, Zhu, Fan, Anandkumar (NVIDIA) | arXiv | 2023 | ~2,506 | [🔗](https://github.com/MineDojo/Voyager) |
-| [**BALROG: Benchmarking Agentic LLM and VLM Reasoning on Games**](https://arxiv.org/abs/2411.13543) | Paglieri, Cupial, Parker-Holder, **Rocktäschel** | ICLR | 2025 | ~116 | [🔗](https://github.com/balrog-ai/BALROG) |
+| [**Voyager: An Open-Ended Embodied Agent with Large Language Models**](https://arxiv.org/abs/2305.16291) | G. Wang, Xie, Jiang, Mandlekar, Xiao, Zhu, Fan, Anandkumar (NVIDIA) | arXiv | 2023 | ~2506 | [💻](https://github.com/MineDojo/Voyager) |
+| [**BALROG: Benchmarking Agentic LLM and VLM Reasoning on Games**](https://arxiv.org/abs/2411.13543) | Paglieri, Cupial, Parker-Holder, **Rocktäschel** | ICLR | 2025 | ~116 | [💻](https://github.com/balrog-ai/BALROG) |
 
-### ✏️ Prompt, Reward & Code Automation
+### Prompt, Reward & Code Automation
 
 | Paper | Authors | Venue | Year | Citations | Code |
 |-------|---------|-------|------|-----------|------|
-| [**Eureka: Human-Level Reward Design via Coding LLMs**](https://arxiv.org/abs/2310.12931) | Ma, Liang, Wang, Huang et al. (NVIDIA / CMU) | ICLR | 2024 | ~850 | [🔗](https://github.com/eureka-research/Eureka) |
-| [**OPRO: Large Language Models as Optimizers**](https://arxiv.org/abs/2309.03409) | Yang, Wang, Li, Fang et al. (Google DeepMind) | arXiv | 2023 | ~800 | [🔗](https://github.com/google-deepmind/opro) |
-| [**DSPy: Compiling Declarative Language Model Calls**](https://arxiv.org/abs/2310.03714) | Khattab, Singhvi, Maheshwari et al. (Stanford) | ICLR | 2024 | ~1,200 | [🔗](https://github.com/stanfordnlp/dspy) |
+| [**Eureka: Human-Level Reward Design via Coding LLMs**](https://arxiv.org/abs/2310.12931) | Ma, Liang, Wang, Huang et al. (NVIDIA / CMU) | ICLR | 2024 | ~850 | [💻](https://github.com/eureka-research/Eureka) |
+| [**OPRO: Large Language Models as Optimizers**](https://arxiv.org/abs/2309.03409) | Yang, Wang, Li, Fang et al. (Google DeepMind) | arXiv | 2023 | ~800 | [💻](https://github.com/google-deepmind/opro) |
+| [**DSPy: Compiling Declarative Language Model Calls**](https://arxiv.org/abs/2310.03714) | Khattab, Singhvi, Maheshwari et al. (Stanford) | ICLR | 2024 | ~1200 | [💻](https://github.com/stanfordnlp/dspy) |
 | [**Accelerating Multi-Objective NAS by Random-Weight Evaluation**](https://arxiv.org/abs/2110.05242) | **S. Hu**, Cheng, He, Lu, Wang, Zhang | Complex & Intelligent Systems | 2021 | ~80 | — |
 
-### 📊 Benchmarks & Evaluation
+### Surveys & Position Papers
 
-| Benchmark | Focus | Venue | Year | Citations | Link |
-|-----------|-------|-------|------|-----------|------|
-| [**MLE-Bench**](https://arxiv.org/abs/2410.07095) | ML engineering (75 Kaggle tasks) | ICLR | 2025 | ~349 | [🔗](https://github.com/openai/mle-bench) |
-| [**SWE-bench**](https://arxiv.org/abs/2310.06770) | Software engineering (GitHub issues) | ICLR | 2024 | ~1,000+ | [🔗](https://github.com/princeton-nlp/SWE-bench) |
-| [**MLGym**](https://arxiv.org/abs/2502.14499) | AI research agent framework | arXiv | 2025 | ~88 | [🔗](https://github.com/facebookresearch/MLGym) |
-| [**BALROG**](https://arxiv.org/abs/2411.13543) | Agentic LLM reasoning on games | ICLR | 2025 | ~116 | [🔗](https://github.com/balrog-ai/BALROG) |
-| [**EXP-Bench**](https://arxiv.org/abs/2505.24785) | AI conducting AI research experiments | arXiv | 2025 | ~23 | — |
-| [**Agent-as-a-Judge**](https://arxiv.org/abs/2410.10934) | Evaluating agents with agents | arXiv | 2024 | ~196 | [🔗](https://github.com/metauto-ai/agent-as-a-judge) |
-
-### 🗺️ Surveys & Position Papers
-
-| Paper | Authors | Venue | Year | Citations |
-|-------|---------|-------|------|-----------|
-| [**Agentic AI for Scientific Discovery: A Survey**](https://arxiv.org/abs/2503.14517) | Gridach, Nanavati et al. | arXiv | 2025 | ~160 |
-| [**From Automation to Autonomy: A Survey on LLMs in Scientific Discovery**](https://arxiv.org/abs/2505.13259) | Zheng, Deng et al. | ACL | 2025 | ~89 |
-| [**A Survey of Zero-Shot Generalisation in Deep RL**](https://jair.org/index.php/jair/article/view/14174) | Kirk, Zhang, Grefenstette, Rocktäschel | JAIR | 2023 | ~420 |
-| [**Automated Design of Agentic Systems: A Survey**](https://arxiv.org/abs/2408.08435) | Madžar, Mekterović | Preprints | 2026 | — |
+| Paper | Authors | Venue | Year | Citations | Code |
+|-------|---------|-------|------|-----------|------|
+| [**Agentic AI for Scientific Discovery: A Survey**](https://arxiv.org/abs/2503.14517) | Gridach, Nanavati et al. | arXiv | 2025 | ~160 | — |
+| [**From Automation to Autonomy: A Survey on LLMs in Scientific Discovery**](https://arxiv.org/abs/2505.13259) | Zheng, Deng et al. | ACL | 2025 | ~89 | — |
+| [**A Survey of Zero-Shot Generalisation in Deep RL**](https://jair.org/index.php/jair/article/view/14174) | Kirk, Zhang, Grefenstette, Rocktäschel | JAIR | 2023 | ~420 | — |
+| [**Automated Design of Agentic Systems: A Survey**](https://arxiv.org/abs/2408.08435) | Madžar, Mekterović | Preprints | 2026 | — | — |
 
 ---
 
@@ -209,7 +202,7 @@ python3 scripts/check_freshness.py README.md
 | [**SakanaAI/AI-Scientist**](https://github.com/SakanaAI/AI-Scientist) | End-to-end automated ML research pipeline | ~10k | 🔥 |
 | [**SakanaAI/AI-Scientist-v2**](https://github.com/SakanaAI/AI-Scientist-v2) | Agentic tree search version; workshop-accepted papers | ~4k | 🔥 🆕 |
 | [**ShengranHu/ADAS**](https://github.com/ShengranHu/ADAS) | Automated Design of Agentic Systems (Meta Agent Search) | ~800 | 🔥 |
-| [**metauto-ai/GPTSwarm**](https://github.com/metauto-ai/GPTSwarm) | Language agents as optimizable graphs | ~1.2k | 🔥 |
+| [**metauto-ai/GPTSwarm**](https://github.com/metauto-ai/GPTSwarm) | Language agents as optimizable graphs | ~1 | 🔥 |
 | [**geekan/MetaGPT**](https://github.com/geekan/MetaGPT) | Multi-agent collaborative framework | ~48k | 🔥 |
 | [**metauto-ai/agent-as-a-judge**](https://github.com/metauto-ai/agent-as-a-judge) | Agent-based evaluation framework | ~400 | 🔥 |
 | [**SamuelSchmidgall/AgentLaboratory**](https://github.com/SamuelSchmidgall/AgentLaboratory) | LLM agents as research assistants | ~2k | 🔥 |
@@ -222,7 +215,7 @@ python3 scripts/check_freshness.py README.md
 |------|-------------|-------|--------|
 | [**facebookresearch/level-replay**](https://github.com/facebookresearch/level-replay) | Prioritized Level Replay for RL generalization | ~300 | ✅ |
 | [**facebookresearch/minimax**](https://github.com/facebookresearch/minimax) | Unsupervised environment design (ACCEL, PLR) | ~250 | ✅ |
-| [**MineDojo/Voyager**](https://github.com/MineDojo/Voyager) | Open-ended LLM agent in Minecraft | ~5.5k | ✅ |
+| [**MineDojo/Voyager**](https://github.com/MineDojo/Voyager) | Open-ended LLM agent in Minecraft | ~5k | ✅ |
 | [**MaxenceFaldor/Omni-EPIC**](https://github.com/MaxenceFaldor/Omni-EPIC) | Open-endedness via human interestingness models | ~200 | 🔥 |
 | [**jennyzzt/dgm**](https://github.com/jennyzzt/dgm) | Darwin Gödel Machine: self-improving agents | ~600 | 🔥 🆕 |
 
@@ -231,13 +224,13 @@ python3 scripts/check_freshness.py README.md
 | Repo | Description | Stars | Status |
 |------|-------------|-------|--------|
 | [**eureka-research/Eureka**](https://github.com/eureka-research/Eureka) | Human-level reward design with LLMs | ~2k | ✅ |
-| [**google-deepmind/opro**](https://github.com/google-deepmind/opro) | LLMs as optimizers for prompts | ~1.5k | ✅ |
+| [**google-deepmind/opro**](https://github.com/google-deepmind/opro) | LLMs as optimizers for prompts | ~1 | ✅ |
 
 ### Benchmarks & Evaluation
 
 | Repo | Description | Stars | Status |
 |------|-------------|-------|--------|
-| [**openai/mle-bench**](https://github.com/openai/mle-bench) | ML engineering benchmark (75 Kaggle competitions) | ~2.5k | 🔥 |
+| [**openai/mle-bench**](https://github.com/openai/mle-bench) | ML engineering benchmark (75 Kaggle competitions) | ~2 | 🔥 |
 | [**princeton-nlp/SWE-bench**](https://github.com/princeton-nlp/SWE-bench) | Software engineering agent benchmark | ~5k | 🔥 |
 | [**facebookresearch/MLGym**](https://github.com/facebookresearch/MLGym) | Framework for AI research agents | ~400 | 🔥 🆕 |
 | [**balrog-ai/BALROG**](https://github.com/balrog-ai/BALROG) | LLM/VLM reasoning on games | ~300 | 🔥 |
@@ -251,16 +244,19 @@ python3 scripts/check_freshness.py README.md
 | [**ShengranHu/Thought-Cloning**](https://github.com/ShengranHu/Thought-Cloning) | Imitation learning with language-based thinking | ~150 | ✅ |
 | [**wjlgatech/ToolUniverse**](https://github.com/wjlgatech/ToolUniverse) | Ecosystem (1000+ tools) for building AI scientist systems; MCP-native, async, composable | 🆕 | 🔥 |
 
+### Existing "Awesome" Lists & What's Missing
+
+| Repo | Description | Stars | Status |
+|------|-------------|-------|--------|
+| [**yenanjing/awesome-ai-for-science**](https://github.com/yenanjing/awesome-ai-for-science) |  | ~4 |  |
+
 ---
 
-<!-- CERTIFIED-TOOLING:START (generated by scripts/certify.py — do not edit by hand) -->
-### 🏅 Certified Tooling
+## 🏅 Certified Tooling
 
-Tools here earn an **evidence-backed** tier, not an install count — the trust layer [skills.sh](https://www.skills.sh/) lacks. **0 🥇 Certified · 19 🥈 Verified · 21 🥉 Listed** as of 2026-07-15.
+Tools here earn an **evidence-backed** tier, not an install count — the trust layer [skills.sh](https://www.skills.sh/) lacks. **0 🥇 Certified · 19 🥈 Verified · 21 🥉 Listed.**
 
 🥈 Verified = relevant + maintained (machine-checked). 🥇 adds *works* + *safe* via `anyagent analyze`/`brace`; no-evidence ⇒ no badge. → **[Full certified list](docs/CERTIFIED.md)** · [raw data](knowledge/certifications.json)
-
-<!-- CERTIFIED-TOOLING:END -->
 
 ---
 
@@ -348,13 +344,24 @@ Tools here earn an **evidence-backed** tier, not an install count — the trust 
 
 ## 📈 Benchmarks & Leaderboards
 
-| Benchmark | Task | SOTA (as of June 2026) | Track |
-|-----------|------|----------------------|-------|
-| [**SWE-bench Verified**](https://swebench.com) | Fix real GitHub issues | ~55% (top agents) | Software Eng. |
-| [**MLE-Bench**](https://github.com/openai/mle-bench) | Complete Kaggle ML tasks | ~20% bronze+ rate | ML Engineering |
-| [**BALROG**](https://github.com/balrog-ai/BALROG) | Multi-game agentic reasoning | Varies by game | Agentic Reasoning |
-| [**AI Scientist Review Score**](https://github.com/SakanaAI/AI-Scientist) | Auto-generated paper quality | Workshop-accepted | Research Quality |
-| [**Aider Leaderboard**](https://aider.chat/docs/leaderboards/) | Code editing (SWE-bench style) | Frontier models | Code Quality |
+### Benchmarks & Evaluation
+
+| Benchmark | Focus | Venue | Year | Citations |
+|-----------|-------|-------|------|-----------|
+| [**MLE-Bench**](https://arxiv.org/abs/2410.07095) | ML engineering (75 Kaggle tasks) | ICLR | 2025 | ~349 |
+| [**SWE-bench**](https://arxiv.org/abs/2310.06770) | Software engineering (GitHub issues) | ICLR | 2024 | ~1000 |
+| [**MLGym**](https://arxiv.org/abs/2502.14499) | AI research agent framework | arXiv | 2025 | ~88 |
+| [**BALROG**](https://arxiv.org/abs/2411.13543) | Agentic LLM reasoning on games | ICLR | 2025 | ~116 |
+| [**EXP-Bench**](https://arxiv.org/abs/2505.24785) | AI conducting AI research experiments | arXiv | 2025 | ~23 |
+| [**Agent-as-a-Judge**](https://arxiv.org/abs/2410.10934) | Evaluating agents with agents | arXiv | 2024 | ~196 |
+
+### Benchmarks & Leaderboards
+
+| Benchmark | Focus | Venue | Year | Citations |
+|-----------|-------|-------|------|-----------|
+| [**SWE-bench Verified**](https://swebench.com) | Fix real GitHub issues |  |  | — |
+| [**AI Scientist Review Score**](https://github.com/SakanaAI/AI-Scientist) | Auto-generated paper quality |  |  | — |
+| [**Aider Leaderboard**](https://aider.chat/docs/leaderboards/) | Code editing (SWE-bench style) |  |  | — |
 
 ---
 
@@ -464,7 +471,6 @@ KEY OPEN PROBLEMS (as of June 2026):
 | Repo | Stars | Last Updated | Gap |
 |------|-------|--------------|-----|
 | [yenanjing/awesome-ai-for-science](https://github.com/yenanjing/awesome-ai-for-science) | 4 | June 2026 | No Recursive Lab focus; no people/talks |
-| [Elianovg/awesome-automated-research](https://github.com/Elianovg/awesome-automated-research) | 0 | June 2026 | Very early-stage; no papers |
 | General "awesome-llm-agents" lists | 1k–5k | Varies | Broad scope; miss self-improvement thread |
 
 ### What Makes This Repo Different
@@ -519,7 +525,7 @@ If this resource helps your research, please cite:
   year = {2026},
   publisher = {GitHub},
   journal = {GitHub repository},
-  howpublished = {\url{https://github.com/wjlgatech/awesome-auto-ai-research}}
+  howpublished = {\url{https://github.com/wjlgatech/rsi}}
 }
 ```
 
@@ -537,3 +543,7 @@ Maintained with ❤️ by [Paul Jialiang Wu (@wjlgatech)](https://github.com/wjl
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat-square&logo=linkedin)](https://linkedin.com/in/jialiang-wu-67aa7179/)
 
 </div>
+
+---
+
+<sub>README generated from <code>data/*.yml</code> + <code>data/prose/*.md</code> by <code>scripts/build_readme.py</code> — do not edit by hand; run <code>make build</code>.</sub>
