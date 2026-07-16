@@ -12,9 +12,18 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
   `scripts/graph_to_data.py`; prose sections captured verbatim in `data/prose/*.md`.
   `scripts/validate.py` schema-gates every entry (required fields + http(s) URL +
   identity-dedup) and is wired into `make check`; `lychee.toml` configures the CI link
-  check. This is the base for a generated, drift-gated README (next increment) — held
-  back deliberately because rsi's README tables feed `awesome_kg.py`→`graph.json`→web app,
-  so the generator must preserve that coupling before it can own the README.
+  check.
+- **Generated, drift-gated README** — the README is now a build artifact:
+  `scripts/build_readme.py` renders it from `data/*.yml` + verbatim `data/prose/*.md`,
+  and `make check` runs `build_readme.py --check` so CI fails if the committed README ≠
+  the generated one (the "living" claim is now enforced, not aspirational). The graph
+  coupling is preserved — `data → build_readme → README → awesome_kg → graph` reproduces
+  **139 nodes** exactly (edges 246→244, a correct de-dup of two double-listed benchmarks);
+  Papers/Tools/Benchmarks are generated as awesome_kg-compatible tables, People/Talks/
+  narrative stay verbatim prose. `make build` regenerates README + graph + map together;
+  the `knowledge` workflow now builds from `data/`, and a new `ci.yml` runs the drift gate
+  + lychee on every PR. The 🏅 Certified Tooling summary is now owned by the generator
+  (dateless, so it can't drift daily).
 - **Weekly auto-sync pipeline** — the repo now keeps *itself* fresh. Source adapters
   (`scripts/ingest/`) fetch candidates from live primary sources — `github_sync.py`
   (refresh stale star counts + discover new repos; found 18/29 listed repos stale, e.g.

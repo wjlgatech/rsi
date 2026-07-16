@@ -41,10 +41,17 @@ def has_url(rows: list[dict]) -> list[dict]:
     return [r for r in rows if r.get("url")]
 
 
+# Recover the Code column: has_code edges (paper→repo) → the repo's URL, so the
+# generated paper table re-creates the exact same has_code edges awesome_kg extracts.
+_id_url = {n["id"]: url1(n) for n in NODES}
+_code = {e["src"]: _id_url.get(e["dst"], "") for e in GRAPH["edges"] if e["type"] == "has_code"}
+_id_name = {n["id"]: n["name"] for n in NODES}
+_code_by_title = {_id_name[src]: url for src, url in _code.items() if src in _id_name}
+
 papers = [clean({
     "title": n["name"], "url": url1(n), "authors": n.get("authors"), "year": n.get("year"),
     "venue": n.get("venue"), "citations": n.get("citations"), "group": n.get("category"),
-    "blurb": n.get("summary", ""),
+    "code": _code_by_title.get(n["name"], ""), "blurb": n.get("summary", ""),
 }) for n in by_type("paper")]
 
 tools = [clean({

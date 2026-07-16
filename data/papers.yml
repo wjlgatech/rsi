@@ -9,7 +9,7 @@
   group: Foundational & Visionary
 - title: AI-Generating Algorithms (AI-GAs)
   url: https://arxiv.org/abs/1905.10985
-  authors: Jeff Clune (UBC / Recursive)
+  authors: Jeff Clune (UBC / **Recursive**)
   year: '2019'
   venue: arXiv
   citations: 201
@@ -23,31 +23,34 @@
   group: Foundational & Visionary
 - title: Why I Work on Self-Improving AI Despite the Risks
   url: https://jeffclune.com
-  authors: Jeff Clune (Recursive)
+  authors: Jeff Clune (**Recursive**)
   year: '2024'
   venue: Blog
   group: Foundational & Visionary
 - title: 'The AI Scientist: Towards Fully Automated Open-Ended Scientific Discovery'
   url: https://arxiv.org/abs/2408.06292
-  authors: C. Lu, C. Lu, Lange, Foerster, Clune, Ha, S. Hu et al. (Sakana AI / UBC)
+  authors: C. Lu, C. Lu, Lange, Foerster, **Clune**, Ha, **S. Hu** et al. (Sakana AI / UBC)
   year: 2024→2026
   venue: Nature
   citations: 1027
   group: Automated Scientific Discovery
+  code: https://github.com/SakanaAI/AI-Scientist
 - title: 'The AI Scientist-v2: Workshop-Level Automated Scientific Discovery'
   url: https://arxiv.org/abs/2504.08066
-  authors: Yamada, Lange, C. Lu, S. Hu, C. Lu, Foerster, Clune†, Ha† (Sakana AI / UBC)
+  authors: Yamada*, Lange*, C. Lu*, **S. Hu**, C. Lu, Foerster, **Clune**†, Ha† (Sakana AI / UBC)
   year: '2025'
   venue: arXiv
   citations: 330
   group: Automated Scientific Discovery
+  code: https://github.com/SakanaAI/AI-Scientist-v2
 - title: 'Darwin Gödel Machine: Open-Ended Evolution of Self-Improving Agents'
   url: https://arxiv.org/abs/2505.22954
-  authors: Zhang, S. Hu, C. Lu, Lange†, Clune† (UBC / Sakana AI)
+  authors: Zhang*, **S. Hu***, C. Lu, Lange†, **Clune**† (UBC / Sakana AI)
   year: '2026'
   venue: ICLR
   citations: 138
   group: Automated Scientific Discovery
+  code: https://github.com/jennyzzt/dgm
 - title: Towards an AI Co-Scientist
   url: https://arxiv.org/abs/2502.18864
   authors: Gottweis, Weng, Daryin, Tu, Palepu et al. (Google DeepMind)
@@ -69,6 +72,7 @@
   venue: Nature
   citations: 1482
   group: Automated Scientific Discovery
+  code: https://github.com/google-deepmind/funsearch
 - title: 'Agent Laboratory: Using LLM Agents as Research Assistants'
   url: https://arxiv.org/abs/2501.04227
   authors: Schmidgall, Su, Wang et al.
@@ -76,6 +80,7 @@
   venue: ACL Findings
   citations: 378
   group: Automated Scientific Discovery
+  code: https://github.com/SamuelSchmidgall/AgentLaboratory
 - title: 'AgentRxiv: Towards Collaborative Autonomous Research'
   url: https://arxiv.org/abs/2503.18102
   authors: Schmidgall, Moor
@@ -85,160 +90,170 @@
   group: Automated Scientific Discovery
 - title: Automated Design of Agentic Systems (ADAS)
   url: https://arxiv.org/abs/2408.08435
-  authors: S. Hu, C. Lu, J. Clune (UBC / Recursive)
+  authors: '**S. Hu**, C. Lu, **J. Clune** (UBC / **Recursive**)'
   year: '2025'
   venue: ICLR 🏆 Outstanding
   citations: 417
   group: Automated Agentic System Design
+  code: https://github.com/ShengranHu/ADAS
 - title: 'GPTSwarm: Language Agents as Optimizable Graphs'
   url: https://arxiv.org/abs/2402.16823
-  authors: M. Zhuge, Wang, Kirsch, Faccio et al. (KAUST / Recursive)
+  authors: '**M. Zhuge**, Wang, Kirsch, Faccio et al. (KAUST / **Recursive**)'
   year: '2024'
   venue: ICML
   citations: 300
   group: Automated Agentic System Design
+  code: https://github.com/metauto-ai/GPTSwarm
 - title: 'MetaGPT: Meta Programming for a Multi-Agent Collaborative Framework'
   url: https://arxiv.org/abs/2308.00352
-  authors: Hong, M. Zhuge, Chen, Zheng et al.
+  authors: Hong, **M. Zhuge**, Chen, Zheng et al.
   year: '2024'
   venue: ICLR
   citations: 3015
   group: Automated Agentic System Design
+  code: https://github.com/geekan/MetaGPT
 - title: 'Agent-as-a-Judge: Evaluate Agents with Agents'
   url: https://arxiv.org/abs/2410.10934
-  authors: M. Zhuge, Zhao, Ashley, Wang et al. (Recursive)
+  authors: '**M. Zhuge**, Zhao, Ashley, Wang et al. (**Recursive**)'
   year: '2024'
   venue: arXiv
   citations: 196
   group: Automated Agentic System Design
+  code: https://github.com/metauto-ai/agent-as-a-judge
 - title: 'Intelligent Go-Explore: Standing on the Shoulders of Giant Foundation Models'
   url: https://arxiv.org/abs/2405.15143
-  authors: C. Lu, S. Hu, J. Clune (UBC)
+  authors: C. Lu, **S. Hu**, **J. Clune** (UBC)
   year: '2025'
   venue: ICLR
   citations: 80
   group: Automated Agentic System Design
+  code: https://github.com/conglu1997/intelligent-go-explore
 - title: Automated Capability Discovery via Foundation Model Self-Exploration
   url: https://arxiv.org/abs/2502.07577
-  authors: C. Lu, S. Hu, J. Clune (UBC / Recursive)
+  authors: C. Lu*, **S. Hu***, **J. Clune** (UBC / **Recursive**)
   year: '2025'
   venue: arXiv
   citations: 30
   group: Automated Agentic System Design
 - title: Mindstorms in Natural Language-Based Societies of Mind
   url: https://arxiv.org/abs/2305.17066
-  authors: M. Zhuge, Liu, Faccio, Ashley et al.
+  authors: '**M. Zhuge**, Liu, Faccio, Ashley et al.'
   year: '2023'
   venue: arXiv
   citations: 144
   group: Automated Agentic System Design
 - title: AI with Recursive Self-Improvement
   url: https://openreview.net/forum?id=RSI2026
-  authors: M. Zhuge, Zeng, Zhu, Yang, Chandra, Schmidhuber (Recursive)
+  authors: '**M. Zhuge**, Zeng, Zhu, Yang, Chandra, Schmidhuber (**Recursive**)'
   year: '2026'
   venue: ICLR Workshop
   group: Automated Agentic System Design
 - title: 'Thought Cloning: Learning to Think while Acting by Imitating Human Thinking'
   url: https://arxiv.org/abs/2306.00323
-  authors: S. Hu, J. Clune (UBC)
+  authors: '**S. Hu**, **J. Clune** (UBC)'
   year: '2023'
   venue: NeurIPS Spotlight
   citations: 80
   group: Meta-Learning & Self-Improvement
+  code: https://github.com/ShengranHu/Thought-Cloning
 - title: Learning to Continually Learn via Meta-learning Agentic Memory Designs (ALMA)
   url: https://arxiv.org/abs/2602.07755
-  authors: Y. Xiong, S. Hu, J. Clune (UBC / Recursive)
+  authors: Y. Xiong, **S. Hu**, **J. Clune** (UBC / **Recursive**)
   year: '2026'
   venue: arXiv 🏆 Best Paper
   citations: 30
   group: Meta-Learning & Self-Improvement
 - title: Learning to Continually Learn (ANML)
   url: https://arxiv.org/abs/2002.09571
-  authors: Beaulieu, Frati, Miconi, Lehman, Stanley, Clune et al.
+  authors: Beaulieu, Frati, Miconi, Lehman, Stanley, **Clune** et al.
   year: '2020'
   venue: arXiv
   citations: 255
   group: Meta-Learning & Self-Improvement
+  code: https://github.com/uvm-neurobotics-lab/ANML
 - title: Quality-Diversity through AI Feedback (QDAIF)
   url: https://arxiv.org/abs/2310.13032
-  authors: Bradley, Dai, Teufel, Zhang, Oostermeijer, Bellagente, Clune et al.
+  authors: Bradley, Dai, Teufel, Zhang, Oostermeijer, Bellagente, **Clune** et al.
   year: '2024'
   venue: ICLR
   citations: 82
   group: Meta-Learning & Self-Improvement
 - title: 'OMNI-EPIC: Open-Endedness via Models of Human Notions of Interestingness'
   url: https://arxiv.org/abs/2405.15568
-  authors: Faldor, Zhang, Cully, Clune
+  authors: Faldor, Zhang, Cully, **Clune**
   year: '2025'
   venue: ICLR
   citations: 69
   group: Meta-Learning & Self-Improvement
+  code: https://github.com/MaxenceFaldor/Omni-EPIC
 - title: Generative Teaching Networks
   url: https://arxiv.org/abs/1912.07768
-  authors: Such, Rawal, Lehman, Stanley, Clune
+  authors: Such, Rawal, Lehman, Stanley, **Clune**
   year: '2020'
   venue: ICML
   citations: 249
   group: Meta-Learning & Self-Improvement
 - title: 'PromptBreeder: Self-Referential Self-Improvement via Prompt Evolution'
   url: https://arxiv.org/abs/2309.16797
-  authors: Fernando, Banarse, Michalewski, Osindero, Rocktäschel et al. (DeepMind)
+  authors: Fernando, Banarse, Michalewski, Osindero, **Rocktäschel** et al. (DeepMind)
   year: '2023'
   venue: arXiv
   citations: 538
   group: Meta-Learning & Self-Improvement
 - title: 'Coconut: Training LLMs to Reason in a Continuous Latent Space'
   url: https://arxiv.org/abs/2412.06769
-  authors: Hao, Sukhbaatar, Su, Li, Hu, Weston, Y. Tian (Recursive / Meta)
+  authors: Hao, Sukhbaatar, Su, Li, Hu, Weston, **Y. Tian** (**Recursive** / Meta)
   year: '2025'
   venue: COLM
   citations: 570
   group: Meta-Learning & Self-Improvement
 - title: 'GaLore: Memory-Efficient LLM Training by Gradient Low-Rank Projection'
   url: https://arxiv.org/abs/2403.03507
-  authors: Zhao, Zhang, Chen, Wang, Anandkumar, Y. Tian (Meta)
+  authors: Zhao, Zhang, Chen, Wang, Anandkumar, **Y. Tian** (Meta)
   year: '2024'
   venue: ICML Oral
   citations: 800
   group: Meta-Learning & Self-Improvement
 - title: 'StreamingLLM: Efficient Streaming Language Models with Attention Sinks'
   url: https://arxiv.org/abs/2309.17453
-  authors: Xiao, Y. Tian, Chen, Han, Lewis (Meta)
+  authors: Xiao, **Y. Tian**, Chen, Han, Lewis (Meta)
   year: '2024'
   venue: ICLR
   citations: 1200
   group: Meta-Learning & Self-Improvement
 - title: 'ELF OpenGo: An Open Reimplementation of AlphaZero'
   url: https://arxiv.org/abs/1902.04522
-  authors: Y. Tian, Ma, Gong, Sengupta et al. (Meta)
+  authors: '**Y. Tian**, Ma, Gong, Sengupta et al. (Meta)'
   year: '2019'
   venue: ICML Oral
   citations: 350
   group: Meta-Learning & Self-Improvement
 - title: Prioritized Level Replay
   url: https://arxiv.org/abs/2010.03934
-  authors: Jiang, Grefenstette, Rocktäschel
+  authors: Jiang, Grefenstette, **Rocktäschel**
   year: '2021'
   venue: ICML
   citations: 266
   group: Open-Ended Learning & Curriculum
+  code: https://github.com/facebookresearch/level-replay
 - title: Evolving Curricula with Regret-Based Environment Design
   url: https://arxiv.org/abs/2203.01302
-  authors: Jiang et al., Rocktäschel
+  authors: Jiang et al., **Rocktäschel**
   year: '2022'
   venue: ICML
   citations: 212
   group: Open-Ended Learning & Curriculum
+  code: https://github.com/facebookresearch/minimax
 - title: Human-Timescale Adaptation in an Open-Ended Task Space
   url: https://arxiv.org/abs/2301.07608
-  authors: OEL Team, Rocktäschel et al. (DeepMind)
+  authors: OEL Team, **Rocktäschel** et al. (DeepMind)
   year: '2023'
   venue: ICML
   citations: 82
   group: Open-Ended Learning & Curriculum
 - title: A Survey of Zero-Shot Generalisation in Deep Reinforcement Learning
   url: https://jair.org/index.php/jair/article/view/14174
-  authors: Kirk, Zhang, Grefenstette, Rocktäschel
+  authors: Kirk, Zhang, Grefenstette, **Rocktäschel**
   year: '2023'
   venue: JAIR
   citations: 420
@@ -250,13 +265,15 @@
   venue: arXiv
   citations: 2506
   group: Open-Ended Learning & Curriculum
+  code: https://github.com/MineDojo/Voyager
 - title: 'BALROG: Benchmarking Agentic LLM and VLM Reasoning on Games'
   url: https://arxiv.org/abs/2411.13543
-  authors: Paglieri, Cupial, Parker-Holder, Rocktäschel
+  authors: Paglieri, Cupial, Parker-Holder, **Rocktäschel**
   year: '2025'
   venue: ICLR
   citations: 116
   group: Open-Ended Learning & Curriculum
+  code: https://github.com/balrog-ai/BALROG
 - title: 'Eureka: Human-Level Reward Design via Coding LLMs'
   url: https://arxiv.org/abs/2310.12931
   authors: Ma, Liang, Wang, Huang et al. (NVIDIA / CMU)
@@ -264,6 +281,7 @@
   venue: ICLR
   citations: 850
   group: Prompt, Reward & Code Automation
+  code: https://github.com/eureka-research/Eureka
 - title: 'OPRO: Large Language Models as Optimizers'
   url: https://arxiv.org/abs/2309.03409
   authors: Yang, Wang, Li, Fang et al. (Google DeepMind)
@@ -271,6 +289,7 @@
   venue: arXiv
   citations: 800
   group: Prompt, Reward & Code Automation
+  code: https://github.com/google-deepmind/opro
 - title: 'DSPy: Compiling Declarative Language Model Calls'
   url: https://arxiv.org/abs/2310.03714
   authors: Khattab, Singhvi, Maheshwari et al. (Stanford)
@@ -278,9 +297,10 @@
   venue: ICLR
   citations: 1200
   group: Prompt, Reward & Code Automation
+  code: https://github.com/stanfordnlp/dspy
 - title: Accelerating Multi-Objective NAS by Random-Weight Evaluation
   url: https://arxiv.org/abs/2110.05242
-  authors: S. Hu, Cheng, He, Lu, Wang, Zhang
+  authors: '**S. Hu**, Cheng, He, Lu, Wang, Zhang'
   year: '2021'
   venue: Complex & Intelligent Systems
   citations: 80
