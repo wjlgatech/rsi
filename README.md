@@ -249,7 +249,6 @@ python3 scripts/check_freshness.py README.md
 | Repo | Description | Stars | Status |
 |------|-------------|-------|--------|
 | [**yenanjing/awesome-ai-for-science**](https://github.com/yenanjing/awesome-ai-for-science) |  | ~4 |  |
-| [**Elianovg/awesome-automated-research**](https://github.com/Elianovg/awesome-automated-research) |  | 🆕 |  |
 
 ---
 

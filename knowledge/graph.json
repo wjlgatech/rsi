@@ -1427,16 +1427,6 @@
    "confidence": 0.57
   },
   {
-   "id": "repo:elianovg-awesome-automated-research",
-   "type": "repo",
-   "name": "Elianovg/awesome-automated-research",
-   "links": [
-    "https://github.com/Elianovg/awesome-automated-research"
-   ],
-   "category": "Existing \"Awesome\" Lists & What's Missing",
-   "confidence": 0.6
-  },
-  {
    "id": "category:the-8-co-founders",
    "type": "category",
    "name": "The 8 Co-Founders",
@@ -2347,11 +2337,6 @@
    "type": "part_of"
   },
   {
-   "src": "repo:elianovg-awesome-automated-research",
-   "dst": "category:existing-awesome-lists-what-s-missing",
-   "type": "part_of"
-  },
-  {
    "src": "person:jeff-clune",
    "dst": "category:the-8-co-founders",
    "type": "part_of"
@@ -2958,19 +2943,19 @@
   }
  ],
  "stats": {
-  "nodes": 139,
-  "edges": 244,
+  "nodes": 138,
+  "edges": 243,
   "node_types": {
    "person": 20,
    "lab": 9,
    "category": 19,
    "paper": 45,
-   "repo": 27,
+   "repo": 26,
    "talk": 10,
    "benchmark": 9
   },
   "edge_types": {
-   "part_of": 120,
+   "part_of": 119,
    "authored_by": 52,
    "member_of": 30,
    "given_by": 8,
