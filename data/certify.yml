@@ -1,0 +1,120 @@
+# ─────────────────────────────────────────────────────────────────────────────
+# certify.yml — the RSI-Certified rubric. SINGLE SOURCE OF TRUTH.
+# scripts/certify_repo.py scores an AI-Scientist-style repo against this.
+# Discipline (BRACE playbook): evidence over claims · no-evidence ⇒ No (dimension
+# excluded, never a fake pass) · a blocking gate cannot pass on unmeasured items ·
+# exit non-zero on a fail so it gates CI. v0.1 is STATIC ONLY — no untrusted code
+# is executed (that's the point: running self-modifying research agents to "prove"
+# them is the risk, not the proof). Runtime eval is v1.
+# ─────────────────────────────────────────────────────────────────────────────
+version: "0.1"
+
+tiers:
+  certified: 75    # >= this AND all blocking gates pass
+  provisional: 55  # >= this
+  # below provisional -> Rejected
+
+# Blocking gates dominate the score. A gate cannot "pass" on unmeasured evidence.
+gates:
+  safety:
+    blocking: true
+    min: 70
+    note: "Any critical pattern => automatic Rejected. Self-executing recursive agents need a maker≠checker separation."
+  relevance:
+    blocking: true
+    min: 40
+    note: "Below min => out of scope for RSI (automated AI research / self-improvement)."
+
+# Weights sum to 100. Each dimension is scored 0-100 from STATIC evidence.
+dimensions:
+  - id: safety
+    weight: 25
+    what: "No dangerous shell / exfil / hardcoded secrets; self-modifying-code execution is flagged and must show a checker/sandbox."
+  - id: reproducibility
+    weight: 20
+    what: "Can someone RE-RUN it? deps manifest, run instructions, tests, seeds, and a results/experiments artifact."
+  - id: relevance
+    weight: 15
+    what: "Genuinely automated-AI-research / recursive self-improvement (not a generic repo)."
+  - id: autonomy
+    weight: 12
+    what: "How much of hypothesis → experiment → analysis → writeup is automated end-to-end."
+  - id: eval
+    weight: 12
+    what: "Eval-with-teeth: ships a benchmark score (MLAgentBench / MLE-bench / SWE-bench / TGB / RE-Bench)."
+  - id: provenance
+    weight: 8
+    what: "Verifiable identity: content hash pinned + author/source declared."
+  - id: docs
+    weight: 5
+    what: "README/paper with what-it-does, how-to-run, and an example."
+  - id: cross_runtime
+    weight: 3
+    what: "Runs beyond one host / model provider (portable)."
+
+# ── safety scanner (data-driven; edit here, not in code) ─────────────────────
+safety:
+  critical_patterns:
+    - 'curl\s+[^|\n]*\|\s*(sudo\s+)?(bash|sh)\b'
+    - 'wget\s+[^|\n]*\|\s*(sudo\s+)?(bash|sh)\b'
+    - '(bash|sh)\s+-c\s+\S*\$\(\s*(curl|wget)'
+    - 'rm\s+-rf\s+(/|\$HOME|~)(\s|$)'
+    - 'eval\s*\(\s*base64'
+    - '(?i)(api[_-]?key|secret|token|password)\s*[:=]\s*["''][A-Za-z0-9/_+\-]{16,}'
+    - '(?i)AKIA[0-9A-Z]{16}'
+    - 'sk-[A-Za-z0-9]{20,}'
+    - 'nvapi-[A-Za-z0-9]{20,}'
+  warn_patterns:
+    - 'sudo\s'
+    - 'chmod\s+777'
+    - '/dev/tcp/'
+    - '(?i)\bnc\b\s+-'
+    - '(?i)https?://\d{1,3}(\.\d{1,3}){3}'
+  # RSI-specific: executing model-GENERATED code is the field's signature risk.
+  # Presence is not an auto-reject, but it demands a visible checker/sandbox.
+  self_exec_patterns:
+    - 'exec\s*\(\s*(compile\(|open\(|.*generated)'
+    - '(os\.system|subprocess\.(Popen|call|run|check_output))\s*\([^)]*(generated|llm|model|code)'
+    - '(?i)(self[-_ ]?modif|self[-_ ]?improv|rewrite its own|edit its own code)'
+  checker_signals: ["sandbox", "docker", "container", "maker", "checker", "judge", "review", "verifier", "isolated", "restricted", "guardrail"]
+
+# ── relevance keywords (RSI / automated-AI-research mission) ──────────────────
+relevance:
+  keywords:
+    - self-improv
+    - self-evolv
+    - recursive self
+    - godel
+    - ai scientist
+    - ai co-scientist
+    - automated research
+    - research agent
+    - automated discovery
+    - scientific discovery
+    - agentic system
+    - agent design
+    - open-ended
+    - meta-learning
+    - reward design
+    - prompt optimization
+    - hypothesis
+    - experiment
+    - ablation
+    - benchmark
+    - autonomous
+
+# ── autonomy / eval / reproducibility signal keywords ────────────────────────
+signals:
+  autonomy: ["hypothesis", "idea generation", "experiment", "ablation", "writeup",
+             "write-up", "generate paper", "manuscript", "end-to-end", "autonomous",
+             "self-improv", "agent loop", "peer review", "reviewer", "tree search"]
+  eval: ["mlagentbench", "mle-bench", "mle bench", "swe-bench", "swe bench", "re-bench",
+         "tgb", "benchmark", "leaderboard", "baseline", "held-out", "held out",
+         "accuracy", "score", "metric", "pass@"]
+  reproducibility: ["pip install", "conda", "requirements.txt", "pyproject", "environment.yml",
+                    "dockerfile", "docker run", "python main", "python run", "seed",
+                    "reproduc", "results/", "experiments/", "checkpoint"]
+  repro_files: ["requirements.txt", "pyproject.toml", "environment.yml", "setup.py",
+                "Dockerfile", "poetry.lock", "uv.lock", "Makefile"]
+  cross_runtime: ["codex", "cursor", "openai", "anthropic", "gemini", "ollama",
+                  "vllm", "litellm", "cross-runtime", "multi-provider", "provider-agnostic"]

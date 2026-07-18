@@ -1,0 +1,31 @@
+name: "RSI-Certify"
+description: "Score this automated-AI-research repo against the RSI-Certified rubric and gate the build."
+inputs:
+  target:
+    description: "Path to the repo to certify (default: the checked-out repo)."
+    default: "."
+  gate:
+    description: "Minimum score to pass (build fails below it, or on the blocking safety/relevance gate)."
+    default: "75"
+  badge-path:
+    description: "Where to write the shields.io endpoint badge JSON."
+    default: "rsi-certified.json"
+runs:
+  using: composite
+  steps:
+    - name: Fetch the RSI certifier + rubric
+      shell: bash
+      run: |
+        mkdir -p /tmp/rsi/scripts /tmp/rsi/data
+        base=https://raw.githubusercontent.com/wjlgatech/rsi/main
+        curl -fsSL $base/scripts/certify_repo.py -o /tmp/rsi/scripts/certify_repo.py
+        curl -fsSL $base/scripts/rsidata.py     -o /tmp/rsi/scripts/rsidata.py
+        curl -fsSL $base/data/certify.yml        -o /tmp/rsi/data/certify.yml
+    - name: Certify (static — never runs your code)
+      shell: bash
+      run: |
+        pip install pyyaml >/dev/null
+        python3 /tmp/rsi/scripts/certify_repo.py \
+          --target "${{ inputs.target }}" \
+          --gate "${{ inputs.gate }}" \
+          --badge "${{ inputs.badge-path }}"
