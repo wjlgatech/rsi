@@ -45,6 +45,10 @@ gold:  ## 🥇 deep-certify the top Verified tools (clone + anyagent analyze + s
 	python3 scripts/certify_gold.py --top 5 --markdown docs/CERTIFIED.md --inject ""
 	python3 scripts/build_readme.py
 
+GATE ?= 75
+certify-repo:  ## RSI-Certified rubric on one repo: make certify-repo TARGET=<dir|github-url> [GATE=75]
+	python3 scripts/certify_repo.py --target $(TARGET) --gate $(GATE)
+
 sync: ingest  ## full weekly run: ingest -> rank -> certify -> validate -> refresh web pack
 	python3 scripts/groundbreakers.py --glob "knowledge/candidates.*.json" \
 		--pr-body /tmp/rsi_pr_body.md --out knowledge/candidates.json

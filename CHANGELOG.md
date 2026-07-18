@@ -6,6 +6,19 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 ## [Unreleased]
 
 ### Added
+- **RSI-Certified rubric (deep, per-repo, rubric-as-data)** — `data/certify.yml` is the
+  single source of truth; `scripts/certify_repo.py --target <dir|github-url> --gate N`
+  scores an AI-Scientist-style repo on **safety · reproducibility · relevance · autonomy ·
+  eval-with-teeth · provenance · docs · cross-runtime**, weighting only MEASURED dimensions
+  (no-evidence ⇒ excluded, never a fake pass), with **blocking gates** (safety, relevance)
+  that can't pass on unmeasured items, and `--gate` exits non-zero to gate CI. STATIC ONLY —
+  it never runs the target (executing a self-modifying research agent to "prove" it is the
+  risk, not the proof); it flags model-generated-code execution and requires a maker≠checker
+  signal. Emits a shields badge; a composite action **[`.github/actions/rsi-certify`](.github/actions/rsi-certify/action.yml)**
+  lets any tool author self-certify in their own CI. Dogfooded: **SakanaAI/AI-Scientist →
+  ✅ Certified 90/100**, **ShengranHu/ADAS → 🟡 Provisional 73/100** (gaps: reproducibility,
+  autonomy, eval). Complementary to `scripts/certify.py` (the fast signals roll-up across the
+  listed registry).
 - **Spec-as-data foundation** (porting the FM-os / longevity-loop architecture): every
   entry now lives in `data/*.yml` (`papers`, `tools`, `people`, `labs`, `benchmarks`,
   `talks`), bootstrapped losslessly from `knowledge/graph.json` via
