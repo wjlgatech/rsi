@@ -103,6 +103,29 @@ def gen_certified() -> str:
     ])
 
 
+def gen_frontier(fp=None) -> str:
+    """🛰️ Frontier Radar — the latest from the people + repos we follow, refreshed by
+    scripts/track.py. Rendered only when knowledge/_frontier.yml exists (the weekly
+    track.yml Action generates it and opens a 'what moved' PR); absent on a fresh clone."""
+    fp = fp or (ROOT / "knowledge" / "_frontier.yml")
+    if not fp.exists():
+        return ""
+    import yaml
+    data = yaml.safe_load(fp.read_text()) or {}
+    papers = data.get("papers", {})
+    recent = sorted(((n, p) for n, p in papers.items() if p.get("title") and p.get("date")),
+                    key=lambda x: x[1]["date"], reverse=True)[:8]
+    if not recent:
+        return ""
+    L = ["## 🛰️ Frontier Radar", "",
+         "_The latest surfaced from the people we follow via open arXiv/GitHub APIs "
+         "(`scripts/track.py`, refreshed weekly). Surname-matched — verify the author._", "",
+         "| Researcher | Most recent work | Date |", "|-----------|------------------|------|"]
+    for n, p in recent:
+        L.append(f"| {esc(n)} | [{esc(p['title'])}]({p['url']}) | {p['date']} |")
+    return "\n".join(L)
+
+
 def footer() -> str:
     return ("<sub>README generated from <code>data/*.yml</code> + <code>data/prose/*.md</code> "
             "by <code>scripts/build_readme.py</code> — do not edit by hand; run <code>make build</code>.</sub>")
@@ -123,6 +146,7 @@ def build() -> str:
         prose("people"),
         prose("talks"),
         gen_section("## 📈 Benchmarks & Leaderboards", "", load("benchmarks"), "category", BENCH_HEAD, fmt_benchmark),
+        gen_frontier(),
         prose("timeline"),
         prose("roadmaps"),
         prose("competitive"),

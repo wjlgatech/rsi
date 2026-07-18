@@ -3,11 +3,15 @@
 
 .PHONY: check graph freshness ingest sync
 
-check:  ## validate data + tests + README drift-gate + candidates + graph
+check:  ## validate + tests + README drift-gate + AI-native self-audit + candidates + graph
 	python3 scripts/validate.py
 	python3 -m unittest discover -s tests
 	python3 scripts/build_readme.py --check
+	python3 scripts/ainative.py --gate 85
 	python3 scripts/check_ingest.py --readme README.md --candidates knowledge/candidates.json
+
+ainative:  ## self-audit: does rsi still follow the AI-native / loop-engineering principles?
+	python3 scripts/ainative.py --gate 85
 
 validate:  ## schema-gate data/*.yml (required fields + URLs)
 	python3 scripts/validate.py

@@ -1,0 +1,79 @@
+# ─────────────────────────────────────────────────────────────────────────────
+# ainative.yml — the AI-native / loop-engineering self-audit rubric for rsi.
+# scripts/ainative.py scores rsi's OWN operation against these principles from real
+# evidence in this repo. Discipline: no evidence ⇒ the principle fails (never a fake
+# pass). Each `evidence` item is a `file` that must exist, or a `grep` regex that must
+# be found in a file. A principle's score = fraction of its evidence present.
+# ─────────────────────────────────────────────────────────────────────────────
+pass_threshold: 85
+
+principles:
+  - id: loops-not-oneshot
+    statement: "Operate as a loop (ingest → rank → gate → PR → merge → recompile), not one-shot."
+    source: loop-engineering-anything
+    evidence:
+      - { grep: "schedule", file: ".github/workflows/ingest.yml" }   # weekly ingest loop
+      - { grep: "schedule", file: ".github/workflows/freshness.yml" } # weekly freshness loop
+      - { grep: "make check", file: ".github/workflows/ci.yml" }      # gate on every push
+
+  - id: independent-referee
+    statement: "Maker ≠ checker: an independent rubric grades the work; nothing grades its own homework."
+    source: physical-ai-native
+    evidence:
+      - { file: "scripts/certify_repo.py" }                    # a rubric grades tools
+      - { file: "data/certify.yml" }                           # the referee's rubric is data
+      - { grep: "--check", file: "scripts/build_readme.py" }   # generator output is drift-gated
+
+  - id: no-evidence-no
+    statement: "No evidence ⇒ No; an unmeasured item is excluded, never a fake pass; a blocking gate cannot pass on unmeasured items."
+    source: physical-ai-native
+    evidence:
+      - { grep: "measured", file: "scripts/certify_repo.py" }
+      - { grep: "no-evidence|no evidence", file: "data/certify.yml" }
+      - { grep: "not.?measured|not a failure", file: "scripts/check_ingest.py" }
+
+  - id: regression-gated
+    statement: "Regressions are blocked: CI gates merge, a failing check exits non-zero, tests guard behavior."
+    source: loop-engineering-anything
+    evidence:
+      - { grep: "make check", file: ".github/workflows/ci.yml" }
+      - { grep: "unittest", file: "Makefile" }
+      - { file: "tests/test_pipeline.py" }
+
+  - id: spec-as-data
+    statement: "Single source of truth: the README is generated from data/*.yml, so the spec cannot drift."
+    source: loop-engineering-anything
+    evidence:
+      - { file: "data/meta.yml" }
+      - { grep: "generated from", file: "README.md" }
+      - { grep: "build_readme", file: "Makefile" }
+
+  - id: agent-native-harness
+    statement: "Agent-native: every operation is a non-interactive CLI / Make target with flags and exit codes."
+    source: loop-engineering-anything
+    evidence:
+      - { file: "Makefile" }
+      - { grep: "argparse", file: "scripts/certify_repo.py" }
+      - { grep: "--gate", file: "scripts/certify_repo.py" }
+
+  - id: compounding-memory
+    statement: "Self-grown: each cycle adds durable capability (new source adapters, entries, tests); the bar ratchets up."
+    source: physical-ai-native
+    evidence:
+      - { file: "scripts/ingest/skills_sync.py" }              # unit 1 added
+      - { file: "scripts/ingest/mcp_sync.py" }                 # unit 3 added
+      - { grep: "TestCertifyRepoRubric|TestGoldSafety", file: "tests/test_pipeline.py" } # findings became tests
+
+  - id: human-gated-irreversible
+    statement: "Outward / irreversible actions are human-gated — the weekly sync opens a PR, never auto-merges the README."
+    source: physical-ai-native
+    evidence:
+      - { grep: "create-pull-request", file: ".github/workflows/ingest.yml" }
+      - { grep: "review|human", file: ".github/workflows/ingest.yml" }
+
+  - id: verify-live
+    statement: "Verify at the artifact, live — link-check + graph-compile as evidence, not the label."
+    source: physical-ai-native
+    evidence:
+      - { grep: "lychee", file: ".github/workflows/ci.yml" }
+      - { grep: "graph OK|graph collapsed", file: "scripts/check_ingest.py" }

@@ -1,0 +1,42 @@
+name: track
+
+# Frontier Radar: weekly, refresh live arXiv/GitHub signal for the people + repos rsi
+# follows (scripts/track.py → knowledge/_frontier.yml), regenerate the README, and open
+# ONE "what moved" PR. Human-gated — nothing auto-merges into the flagship list.
+
+on:
+  schedule:
+    - cron: "0 8 * * 2" # Tuesdays 08:00 UTC (after Monday's ingest + freshness)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  track:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install --quiet pyyaml
+      - name: Refresh the frontier (open arXiv/GitHub APIs)
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: python3 scripts/track.py
+      - name: Regenerate README with the Frontier Radar
+        run: python3 scripts/build_readme.py
+      - name: Open (or update) the weekly "what moved" PR
+        uses: peter-evans/create-pull-request@v6
+        with:
+          branch: track/weekly
+          title: "🛰️ Frontier Radar — what moved this week"
+          commit-message: "chore: refresh frontier radar (arXiv/GitHub signal)"
+          body: "Automated weekly refresh of `knowledge/_frontier.yml` (live arXiv/GitHub signal for the people + repos we follow) and the regenerated README's Frontier Radar. Surname-matched arXiv entries — verify the author before merging."
+          add-paths: |
+            knowledge/_frontier.yml
+            README.md
+          labels: frontier
+          delete-branch: true
