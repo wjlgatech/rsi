@@ -6,6 +6,21 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 ## [Unreleased]
 
 ### Added
+- **AI-native self-audit** — `data/ainative.yml` encodes the loop-engineering /
+  physical-ai-native principles (loops-not-oneshot · independent-referee · no-evidence⇒No ·
+  regression-gated · spec-as-data · agent-native · compounding-memory · human-gated ·
+  verify-live), each backed by *real evidence* (a file that must exist or a regex that must
+  be found). `scripts/ainative.py --gate 85` scores rsi's own operation (currently **100/100**,
+  all evidence verified) and is wired into `make check`, so a regression in *how* the repo
+  operates also fails CI.
+- **Frontier Radar (live tracker)** — `scripts/track.py` refreshes recent works + repo
+  activity for the people & repos rsi follows via **open arXiv/GitHub APIs** into a generated
+  `knowledge/_frontier.yml` (no-evidence ⇒ "none found", never fabricated). `build_readme.py`
+  renders a 🛰️ Frontier Radar section from it (newest-first), and a weekly **`track.yml`**
+  Action opens a human-gated "what moved" PR. (Verified live: surfaced Clune's *"Towards
+  End-to-End Automation of AI Research"* + live repo stars.) The researchers↔labs↔papers
+  **field graph** is already served by the interactive map (`docs/index.html`); a dedicated
+  bi-temporal (time-sliced) view is a documented fast-follow.
 - **RSI-Certified rubric (deep, per-repo, rubric-as-data)** — `data/certify.yml` is the
   single source of truth; `scripts/certify_repo.py --target <dir|github-url> --gate N`
   scores an AI-Scientist-style repo on **safety · reproducibility · relevance · autonomy ·

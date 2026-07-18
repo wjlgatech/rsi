@@ -229,6 +229,25 @@ class TestCertifyRepoRubric(unittest.TestCase):
         self.assertIn("90/100", b["message"])
 
 
+class TestFrontierRadar(unittest.TestCase):
+    def test_absent_frontier_renders_nothing(self):
+        import build_readme, pathlib
+        self.assertEqual(build_readme.gen_frontier(pathlib.Path("/nonexistent/_frontier.yml")), "")
+
+    def test_frontier_renders_recent_first(self):
+        import build_readme, tempfile, os, pathlib
+        fd, path = tempfile.mkstemp(suffix=".yml")
+        os.write(fd, b"papers:\n"
+                     b"  Old Author: {title: Old, date: '2020-01-01', url: 'http://x/1'}\n"
+                     b"  New Author: {title: New, date: '2026-06-01', url: 'http://x/2'}\n"
+                     b"repos: {}\n")
+        os.close(fd)
+        out = build_readme.gen_frontier(pathlib.Path(path))
+        os.unlink(path)
+        self.assertIn("Frontier Radar", out)
+        self.assertLess(out.index("New Author"), out.index("Old Author"))  # newest first
+
+
 class TestCheckIngest(unittest.TestCase):
     def test_missing_field_is_rejected(self):
         import json
