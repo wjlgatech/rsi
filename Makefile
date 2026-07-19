@@ -3,12 +3,18 @@
 
 .PHONY: check graph freshness ingest sync
 
-check:  ## validate + tests + README drift-gate + AI-native self-audit + candidates + graph
+check:  ## validate + tests + README drift + AI-native + toolset-registry drift + graph
 	python3 scripts/validate.py
 	python3 -m unittest discover -s tests
 	python3 scripts/build_readme.py --check
 	python3 scripts/ainative.py --gate 85
+	python3 scripts/build_repo_tools.py --registry-only
+	git diff --quiet skills/registry.json || { echo "skills/registry.json is stale — run make repo-tools"; exit 1; }
 	python3 scripts/check_ingest.py --readme README.md --candidates knowledge/candidates.json
+
+repo-tools:  ## mint {KG, skill} for each Certified/Verified repo + rebuild the backbone registry
+	python3 scripts/build_repo_tools.py --min-tier verified
+	python3 scripts/build_readme.py   # README's Certified Toolsets section reads the registry
 
 ainative:  ## self-audit: does rsi still follow the AI-native / loop-engineering principles?
 	python3 scripts/ainative.py --gate 85

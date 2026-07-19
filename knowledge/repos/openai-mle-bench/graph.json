@@ -1,0 +1,464 @@
+{
+  "stats": {
+    "nodes": 40,
+    "edges": 45
+  },
+  "repo": "openai/mle-bench",
+  "nodes": [
+    {
+      "id": "repo:openai/mle-bench",
+      "type": "repo",
+      "name": "openai/mle-bench",
+      "links": [
+        "https://github.com/openai/mle-bench"
+      ]
+    },
+    {
+      "id": "module:openai/mle-bench/agents",
+      "type": "module",
+      "name": "agents"
+    },
+    {
+      "id": "module:openai/mle-bench/environment",
+      "type": "module",
+      "name": "environment"
+    },
+    {
+      "id": "module:openai/mle-bench/examples",
+      "type": "module",
+      "name": "examples"
+    },
+    {
+      "id": "module:openai/mle-bench/experiments",
+      "type": "module",
+      "name": "experiments"
+    },
+    {
+      "id": "module:openai/mle-bench/extras",
+      "type": "module",
+      "name": "extras"
+    },
+    {
+      "id": "module:openai/mle-bench/mlebench",
+      "type": "module",
+      "name": "mlebench"
+    },
+    {
+      "id": "module:openai/mle-bench/runs",
+      "type": "module",
+      "name": "runs"
+    },
+    {
+      "id": "module:openai/mle-bench/tests",
+      "type": "module",
+      "name": "tests"
+    },
+    {
+      "id": "file:openai/mle-bench/pyproject.toml",
+      "type": "file",
+      "name": "pyproject.toml",
+      "links": [
+        "https://github.com/openai/mle-bench/blob/HEAD/pyproject.toml"
+      ]
+    },
+    {
+      "id": "file:openai/mle-bench/run.py",
+      "type": "file",
+      "name": "run.py",
+      "links": [
+        "https://github.com/openai/mle-bench/blob/HEAD/agents/run.py"
+      ]
+    },
+    {
+      "id": "file:openai/mle-bench/cli.py",
+      "type": "file",
+      "name": "cli.py",
+      "links": [
+        "https://github.com/openai/mle-bench/blob/HEAD/mlebench/cli.py"
+      ]
+    },
+    {
+      "id": "file:openai/mle-bench/Dockerfile",
+      "type": "file",
+      "name": "Dockerfile",
+      "links": [
+        "https://github.com/openai/mle-bench/blob/HEAD/environment/Dockerfile"
+      ]
+    },
+    {
+      "id": "file:openai/mle-bench/package.json",
+      "type": "file",
+      "name": "package.json",
+      "links": [
+        "https://github.com/openai/mle-bench/blob/HEAD/extras/plagiarism_detector/package.json"
+      ]
+    },
+    {
+      "id": "file:openai/mle-bench/main.py",
+      "type": "file",
+      "name": "main.py",
+      "links": [
+        "https://github.com/openai/mle-bench/blob/HEAD/agents/dummy/main.py"
+      ]
+    },
+    {
+      "id": "file:openai/mle-bench/setup.py",
+      "type": "file",
+      "name": "setup.py",
+      "links": [
+        "https://github.com/openai/mle-bench/blob/HEAD/agents/opendevin/setup.py"
+      ]
+    },
+    {
+      "id": "file:openai/mle-bench/train.py",
+      "type": "file",
+      "name": "train.py",
+      "links": [
+        "https://github.com/openai/mle-bench/blob/HEAD/agents/mlagentbench/benchmark_dir/env/train.py"
+      ]
+    },
+    {
+      "id": "concept:openai/mle-bench/mle-bench",
+      "type": "concept",
+      "name": "MLE-bench"
+    },
+    {
+      "id": "concept:openai/mle-bench/leaderboard",
+      "type": "concept",
+      "name": "Leaderboard"
+    },
+    {
+      "id": "concept:openai/mle-bench/additional-leaderboard-submissions",
+      "type": "concept",
+      "name": "Additional Leaderboard Submissions"
+    },
+    {
+      "id": "concept:openai/mle-bench/producing-scores-for-the-leaderboard",
+      "type": "concept",
+      "name": "Producing Scores for the Leaderboard"
+    },
+    {
+      "id": "concept:openai/mle-bench/benchmarking",
+      "type": "concept",
+      "name": "Benchmarking"
+    },
+    {
+      "id": "concept:openai/mle-bench/lite-evaluation",
+      "type": "concept",
+      "name": "Lite Evaluation"
+    },
+    {
+      "id": "concept:openai/mle-bench/pre-commit-hooks-optional",
+      "type": "concept",
+      "name": "Pre-Commit Hooks (Optional)"
+    },
+    {
+      "id": "concept:openai/mle-bench/dataset",
+      "type": "concept",
+      "name": "Dataset"
+    },
+    {
+      "id": "concept:openai/mle-bench/grading-submissions",
+      "type": "concept",
+      "name": "Grading Submissions"
+    },
+    {
+      "id": "concept:openai/mle-bench/agents",
+      "type": "concept",
+      "name": "Agents"
+    },
+    {
+      "id": "concept:openai/mle-bench/extras",
+      "type": "concept",
+      "name": "Extras"
+    },
+    {
+      "id": "concept:openai/mle-bench/experiments",
+      "type": "concept",
+      "name": "Experiments"
+    },
+    {
+      "id": "concept:openai/mle-bench/dev",
+      "type": "concept",
+      "name": "Dev"
+    },
+    {
+      "id": "concept:openai/mle-bench/known-issues",
+      "type": "concept",
+      "name": "Known Issues"
+    },
+    {
+      "id": "concept:openai/mle-bench/authors",
+      "type": "concept",
+      "name": "Authors"
+    },
+    {
+      "id": "framework:pytorch",
+      "type": "framework",
+      "name": "pytorch"
+    },
+    {
+      "id": "framework:tensorflow",
+      "type": "framework",
+      "name": "tensorflow"
+    },
+    {
+      "id": "framework:jax",
+      "type": "framework",
+      "name": "jax"
+    },
+    {
+      "id": "framework:transformers",
+      "type": "framework",
+      "name": "transformers"
+    },
+    {
+      "id": "framework:langchain",
+      "type": "framework",
+      "name": "langchain"
+    },
+    {
+      "id": "framework:openai",
+      "type": "framework",
+      "name": "openai"
+    },
+    {
+      "id": "framework:anthropic",
+      "type": "framework",
+      "name": "anthropic"
+    },
+    {
+      "id": "framework:gymnasium",
+      "type": "framework",
+      "name": "gymnasium"
+    }
+  ],
+  "edges": [
+    {
+      "src": "repo:openai/mle-bench",
+      "dst": "module:openai/mle-bench/agents",
+      "type": "contains"
+    },
+    {
+      "src": "repo:openai/mle-bench",
+      "dst": "module:openai/mle-bench/environment",
+      "type": "contains"
+    },
+    {
+      "src": "repo:openai/mle-bench",
+      "dst": "module:openai/mle-bench/examples",
+      "type": "contains"
+    },
+    {
+      "src": "repo:openai/mle-bench",
+      "dst": "module:openai/mle-bench/experiments",
+      "type": "contains"
+    },
+    {
+      "src": "repo:openai/mle-bench",
+      "dst": "module:openai/mle-bench/extras",
+      "type": "contains"
+    },
+    {
+      "src": "repo:openai/mle-bench",
+      "dst": "module:openai/mle-bench/mlebench",
+      "type": "contains"
+    },
+    {
+      "src": "repo:openai/mle-bench",
+      "dst": "module:openai/mle-bench/runs",
+      "type": "contains"
+    },
+    {
+      "src": "repo:openai/mle-bench",
+      "dst": "module:openai/mle-bench/tests",
+      "type": "contains"
+    },
+    {
+      "src": "repo:openai/mle-bench",
+      "dst": "file:openai/mle-bench/pyproject.toml",
+      "type": "contains"
+    },
+    {
+      "src": "repo:openai/mle-bench",
+      "dst": "file:openai/mle-bench/run.py",
+      "type": "contains"
+    },
+    {
+      "src": "repo:openai/mle-bench",
+      "dst": "file:openai/mle-bench/cli.py",
+      "type": "contains"
+    },
+    {
+      "src": "repo:openai/mle-bench",
+      "dst": "file:openai/mle-bench/Dockerfile",
+      "type": "contains"
+    },
+    {
+      "src": "repo:openai/mle-bench",
+      "dst": "file:openai/mle-bench/run.py",
+      "type": "contains"
+    },
+    {
+      "src": "repo:openai/mle-bench",
+      "dst": "file:openai/mle-bench/run.py",
+      "type": "contains"
+    },
+    {
+      "src": "repo:openai/mle-bench",
+      "dst": "file:openai/mle-bench/package.json",
+      "type": "contains"
+    },
+    {
+      "src": "repo:openai/mle-bench",
+      "dst": "file:openai/mle-bench/Dockerfile",
+      "type": "contains"
+    },
+    {
+      "src": "repo:openai/mle-bench",
+      "dst": "file:openai/mle-bench/main.py",
+      "type": "contains"
+    },
+    {
+      "src": "repo:openai/mle-bench",
+      "dst": "file:openai/mle-bench/Dockerfile",
+      "type": "contains"
+    },
+    {
+      "src": "repo:openai/mle-bench",
+      "dst": "file:openai/mle-bench/Dockerfile",
+      "type": "contains"
+    },
+    {
+      "src": "repo:openai/mle-bench",
+      "dst": "file:openai/mle-bench/Dockerfile",
+      "type": "contains"
+    },
+    {
+      "src": "repo:openai/mle-bench",
+      "dst": "file:openai/mle-bench/setup.py",
+      "type": "contains"
+    },
+    {
+      "src": "repo:openai/mle-bench",
+      "dst": "file:openai/mle-bench/train.py",
+      "type": "contains"
+    },
+    {
+      "src": "repo:openai/mle-bench",
+      "dst": "concept:openai/mle-bench/mle-bench",
+      "type": "documents"
+    },
+    {
+      "src": "repo:openai/mle-bench",
+      "dst": "concept:openai/mle-bench/leaderboard",
+      "type": "documents"
+    },
+    {
+      "src": "repo:openai/mle-bench",
+      "dst": "concept:openai/mle-bench/additional-leaderboard-submissions",
+      "type": "documents"
+    },
+    {
+      "src": "repo:openai/mle-bench",
+      "dst": "concept:openai/mle-bench/producing-scores-for-the-leaderboard",
+      "type": "documents"
+    },
+    {
+      "src": "repo:openai/mle-bench",
+      "dst": "concept:openai/mle-bench/benchmarking",
+      "type": "documents"
+    },
+    {
+      "src": "repo:openai/mle-bench",
+      "dst": "concept:openai/mle-bench/lite-evaluation",
+      "type": "documents"
+    },
+    {
+      "src": "repo:openai/mle-bench",
+      "dst": "concept:openai/mle-bench/pre-commit-hooks-optional",
+      "type": "documents"
+    },
+    {
+      "src": "repo:openai/mle-bench",
+      "dst": "concept:openai/mle-bench/dataset",
+      "type": "documents"
+    },
+    {
+      "src": "repo:openai/mle-bench",
+      "dst": "concept:openai/mle-bench/grading-submissions",
+      "type": "documents"
+    },
+    {
+      "src": "repo:openai/mle-bench",
+      "dst": "concept:openai/mle-bench/agents",
+      "type": "documents"
+    },
+    {
+      "src": "repo:openai/mle-bench",
+      "dst": "concept:openai/mle-bench/extras",
+      "type": "documents"
+    },
+    {
+      "src": "repo:openai/mle-bench",
+      "dst": "concept:openai/mle-bench/experiments",
+      "type": "documents"
+    },
+    {
+      "src": "repo:openai/mle-bench",
+      "dst": "concept:openai/mle-bench/dev",
+      "type": "documents"
+    },
+    {
+      "src": "repo:openai/mle-bench",
+      "dst": "concept:openai/mle-bench/known-issues",
+      "type": "documents"
+    },
+    {
+      "src": "repo:openai/mle-bench",
+      "dst": "concept:openai/mle-bench/authors",
+      "type": "documents"
+    },
+    {
+      "src": "repo:openai/mle-bench",
+      "dst": "framework:pytorch",
+      "type": "uses"
+    },
+    {
+      "src": "repo:openai/mle-bench",
+      "dst": "framework:tensorflow",
+      "type": "uses"
+    },
+    {
+      "src": "repo:openai/mle-bench",
+      "dst": "framework:jax",
+      "type": "uses"
+    },
+    {
+      "src": "repo:openai/mle-bench",
+      "dst": "framework:transformers",
+      "type": "uses"
+    },
+    {
+      "src": "repo:openai/mle-bench",
+      "dst": "framework:langchain",
+      "type": "uses"
+    },
+    {
+      "src": "repo:openai/mle-bench",
+      "dst": "framework:openai",
+      "type": "uses"
+    },
+    {
+      "src": "repo:openai/mle-bench",
+      "dst": "framework:anthropic",
+      "type": "uses"
+    },
+    {
+      "src": "repo:openai/mle-bench",
+      "dst": "framework:gymnasium",
+      "type": "uses"
+    }
+  ],
+  "content_hash": "a12ea8642e16d380"
+}

@@ -1,0 +1,349 @@
+{
+  "stats": {
+    "nodes": 30,
+    "edges": 32
+  },
+  "repo": "letta-ai/letta",
+  "nodes": [
+    {
+      "id": "repo:letta-ai/letta",
+      "type": "repo",
+      "name": "letta-ai/letta",
+      "links": [
+        "https://github.com/letta-ai/letta"
+      ]
+    },
+    {
+      "id": "module:letta-ai/letta/alembic",
+      "type": "module",
+      "name": "alembic"
+    },
+    {
+      "id": "module:letta-ai/letta/assets",
+      "type": "module",
+      "name": "assets"
+    },
+    {
+      "id": "module:letta-ai/letta/certs",
+      "type": "module",
+      "name": "certs"
+    },
+    {
+      "id": "module:letta-ai/letta/db",
+      "type": "module",
+      "name": "db"
+    },
+    {
+      "id": "module:letta-ai/letta/examples",
+      "type": "module",
+      "name": "examples"
+    },
+    {
+      "id": "module:letta-ai/letta/fern",
+      "type": "module",
+      "name": "fern"
+    },
+    {
+      "id": "module:letta-ai/letta/letta",
+      "type": "module",
+      "name": "letta"
+    },
+    {
+      "id": "module:letta-ai/letta/otel",
+      "type": "module",
+      "name": "otel"
+    },
+    {
+      "id": "module:letta-ai/letta/sandbox",
+      "type": "module",
+      "name": "sandbox"
+    },
+    {
+      "id": "module:letta-ai/letta/scripts",
+      "type": "module",
+      "name": "scripts"
+    },
+    {
+      "id": "module:letta-ai/letta/tests",
+      "type": "module",
+      "name": "tests"
+    },
+    {
+      "id": "file:letta-ai/letta/Dockerfile",
+      "type": "file",
+      "name": "Dockerfile",
+      "links": [
+        "https://github.com/letta-ai/letta/blob/HEAD/Dockerfile"
+      ]
+    },
+    {
+      "id": "file:letta-ai/letta/pyproject.toml",
+      "type": "file",
+      "name": "pyproject.toml",
+      "links": [
+        "https://github.com/letta-ai/letta/blob/HEAD/pyproject.toml"
+      ]
+    },
+    {
+      "id": "file:letta-ai/letta/agent.py",
+      "type": "file",
+      "name": "agent.py",
+      "links": [
+        "https://github.com/letta-ai/letta/blob/HEAD/letta/agent.py"
+      ]
+    },
+    {
+      "id": "file:letta-ai/letta/main.py",
+      "type": "file",
+      "name": "main.py",
+      "links": [
+        "https://github.com/letta-ai/letta/blob/HEAD/letta/main.py"
+      ]
+    },
+    {
+      "id": "file:letta-ai/letta/cli.py",
+      "type": "file",
+      "name": "cli.py",
+      "links": [
+        "https://github.com/letta-ai/letta/blob/HEAD/letta/cli/cli.py"
+      ]
+    },
+    {
+      "id": "file:letta-ai/letta/run.py",
+      "type": "file",
+      "name": "run.py",
+      "links": [
+        "https://github.com/letta-ai/letta/blob/HEAD/letta/schemas/run.py"
+      ]
+    },
+    {
+      "id": "file:letta-ai/letta/app.py",
+      "type": "file",
+      "name": "app.py",
+      "links": [
+        "https://github.com/letta-ai/letta/blob/HEAD/letta/server/rest_api/app.py"
+      ]
+    },
+    {
+      "id": "file:letta-ai/letta/package.json",
+      "type": "file",
+      "name": "package.json",
+      "links": [
+        "https://github.com/letta-ai/letta/blob/HEAD/sandbox/resources/server/package.json"
+      ]
+    },
+    {
+      "id": "concept:letta-ai/letta/letta-formerly-memgpt",
+      "type": "concept",
+      "name": "Letta (formerly MemGPT)"
+    },
+    {
+      "id": "concept:letta-ai/letta/get-started-in-the-cli",
+      "type": "concept",
+      "name": "Get started in the CLI"
+    },
+    {
+      "id": "concept:letta-ai/letta/get-started-with-the-letta-agent-sdk",
+      "type": "concept",
+      "name": "Get started with the Letta Agent SDK"
+    },
+    {
+      "id": "concept:letta-ai/letta/letta-v1-sdk",
+      "type": "concept",
+      "name": "Letta V1 SDK"
+    },
+    {
+      "id": "framework:transformers",
+      "type": "framework",
+      "name": "transformers"
+    },
+    {
+      "id": "framework:langchain",
+      "type": "framework",
+      "name": "langchain"
+    },
+    {
+      "id": "framework:openai",
+      "type": "framework",
+      "name": "openai"
+    },
+    {
+      "id": "framework:anthropic",
+      "type": "framework",
+      "name": "anthropic"
+    },
+    {
+      "id": "framework:vllm",
+      "type": "framework",
+      "name": "vllm"
+    },
+    {
+      "id": "framework:mcp",
+      "type": "framework",
+      "name": "mcp"
+    }
+  ],
+  "edges": [
+    {
+      "src": "repo:letta-ai/letta",
+      "dst": "module:letta-ai/letta/alembic",
+      "type": "contains"
+    },
+    {
+      "src": "repo:letta-ai/letta",
+      "dst": "module:letta-ai/letta/assets",
+      "type": "contains"
+    },
+    {
+      "src": "repo:letta-ai/letta",
+      "dst": "module:letta-ai/letta/certs",
+      "type": "contains"
+    },
+    {
+      "src": "repo:letta-ai/letta",
+      "dst": "module:letta-ai/letta/db",
+      "type": "contains"
+    },
+    {
+      "src": "repo:letta-ai/letta",
+      "dst": "module:letta-ai/letta/examples",
+      "type": "contains"
+    },
+    {
+      "src": "repo:letta-ai/letta",
+      "dst": "module:letta-ai/letta/fern",
+      "type": "contains"
+    },
+    {
+      "src": "repo:letta-ai/letta",
+      "dst": "module:letta-ai/letta/letta",
+      "type": "contains"
+    },
+    {
+      "src": "repo:letta-ai/letta",
+      "dst": "module:letta-ai/letta/otel",
+      "type": "contains"
+    },
+    {
+      "src": "repo:letta-ai/letta",
+      "dst": "module:letta-ai/letta/sandbox",
+      "type": "contains"
+    },
+    {
+      "src": "repo:letta-ai/letta",
+      "dst": "module:letta-ai/letta/scripts",
+      "type": "contains"
+    },
+    {
+      "src": "repo:letta-ai/letta",
+      "dst": "module:letta-ai/letta/tests",
+      "type": "contains"
+    },
+    {
+      "src": "repo:letta-ai/letta",
+      "dst": "file:letta-ai/letta/Dockerfile",
+      "type": "contains"
+    },
+    {
+      "src": "repo:letta-ai/letta",
+      "dst": "file:letta-ai/letta/pyproject.toml",
+      "type": "contains"
+    },
+    {
+      "src": "repo:letta-ai/letta",
+      "dst": "file:letta-ai/letta/agent.py",
+      "type": "contains"
+    },
+    {
+      "src": "repo:letta-ai/letta",
+      "dst": "file:letta-ai/letta/main.py",
+      "type": "contains"
+    },
+    {
+      "src": "repo:letta-ai/letta",
+      "dst": "file:letta-ai/letta/cli.py",
+      "type": "contains"
+    },
+    {
+      "src": "repo:letta-ai/letta",
+      "dst": "file:letta-ai/letta/run.py",
+      "type": "contains"
+    },
+    {
+      "src": "repo:letta-ai/letta",
+      "dst": "file:letta-ai/letta/agent.py",
+      "type": "contains"
+    },
+    {
+      "src": "repo:letta-ai/letta",
+      "dst": "file:letta-ai/letta/run.py",
+      "type": "contains"
+    },
+    {
+      "src": "repo:letta-ai/letta",
+      "dst": "file:letta-ai/letta/agent.py",
+      "type": "contains"
+    },
+    {
+      "src": "repo:letta-ai/letta",
+      "dst": "file:letta-ai/letta/app.py",
+      "type": "contains"
+    },
+    {
+      "src": "repo:letta-ai/letta",
+      "dst": "file:letta-ai/letta/package.json",
+      "type": "contains"
+    },
+    {
+      "src": "repo:letta-ai/letta",
+      "dst": "concept:letta-ai/letta/letta-formerly-memgpt",
+      "type": "documents"
+    },
+    {
+      "src": "repo:letta-ai/letta",
+      "dst": "concept:letta-ai/letta/get-started-in-the-cli",
+      "type": "documents"
+    },
+    {
+      "src": "repo:letta-ai/letta",
+      "dst": "concept:letta-ai/letta/get-started-with-the-letta-agent-sdk",
+      "type": "documents"
+    },
+    {
+      "src": "repo:letta-ai/letta",
+      "dst": "concept:letta-ai/letta/letta-v1-sdk",
+      "type": "documents"
+    },
+    {
+      "src": "repo:letta-ai/letta",
+      "dst": "framework:transformers",
+      "type": "uses"
+    },
+    {
+      "src": "repo:letta-ai/letta",
+      "dst": "framework:langchain",
+      "type": "uses"
+    },
+    {
+      "src": "repo:letta-ai/letta",
+      "dst": "framework:openai",
+      "type": "uses"
+    },
+    {
+      "src": "repo:letta-ai/letta",
+      "dst": "framework:anthropic",
+      "type": "uses"
+    },
+    {
+      "src": "repo:letta-ai/letta",
+      "dst": "framework:vllm",
+      "type": "uses"
+    },
+    {
+      "src": "repo:letta-ai/letta",
+      "dst": "framework:mcp",
+      "type": "uses"
+    }
+  ],
+  "content_hash": "0704214a8dace4a8"
+}

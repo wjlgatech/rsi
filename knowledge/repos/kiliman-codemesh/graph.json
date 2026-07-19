@@ -1,0 +1,303 @@
+{
+  "stats": {
+    "nodes": 26,
+    "edges": 31
+  },
+  "repo": "kiliman/codemesh",
+  "nodes": [
+    {
+      "id": "repo:kiliman/codemesh",
+      "type": "repo",
+      "name": "kiliman/codemesh",
+      "links": [
+        "https://github.com/kiliman/codemesh"
+      ]
+    },
+    {
+      "id": "module:kiliman/codemesh/assets",
+      "type": "module",
+      "name": "assets"
+    },
+    {
+      "id": "module:kiliman/codemesh/examples",
+      "type": "module",
+      "name": "examples"
+    },
+    {
+      "id": "module:kiliman/codemesh/notes",
+      "type": "module",
+      "name": "notes"
+    },
+    {
+      "id": "module:kiliman/codemesh/packages",
+      "type": "module",
+      "name": "packages"
+    },
+    {
+      "id": "module:kiliman/codemesh/scripts",
+      "type": "module",
+      "name": "scripts"
+    },
+    {
+      "id": "file:kiliman/codemesh/package.json",
+      "type": "file",
+      "name": "package.json",
+      "links": [
+        "https://github.com/kiliman/codemesh/blob/HEAD/package.json"
+      ]
+    },
+    {
+      "id": "concept:kiliman/codemesh/see-it-in-action",
+      "type": "concept",
+      "name": "📺 See It In Action"
+    },
+    {
+      "id": "concept:kiliman/codemesh/what-is-codemesh",
+      "type": "concept",
+      "name": "What is CodeMesh?"
+    },
+    {
+      "id": "concept:kiliman/codemesh/the-innovation-auto-augmentation",
+      "type": "concept",
+      "name": "🎉 The Innovation: Auto-Augmentation"
+    },
+    {
+      "id": "concept:kiliman/codemesh/1-add-codemesh-to-claude-desktop",
+      "type": "concept",
+      "name": "1. Add CodeMesh to Claude Desktop"
+    },
+    {
+      "id": "concept:kiliman/codemesh/2-create-configuration",
+      "type": "concept",
+      "name": "2. Create Configuration"
+    },
+    {
+      "id": "concept:kiliman/codemesh/14-52-45-execute-code",
+      "type": "concept",
+      "name": "14:52:45 - execute-code"
+    },
+    {
+      "id": "concept:kiliman/codemesh/request",
+      "type": "concept",
+      "name": "Request"
+    },
+    {
+      "id": "concept:kiliman/codemesh/console-output",
+      "type": "concept",
+      "name": "Console Output"
+    },
+    {
+      "id": "concept:kiliman/codemesh/response",
+      "type": "concept",
+      "name": "Response"
+    },
+    {
+      "id": "concept:kiliman/codemesh/how-it-works",
+      "type": "concept",
+      "name": "How It Works"
+    },
+    {
+      "id": "concept:kiliman/codemesh/self-improving-intelligence-auto-augmentation",
+      "type": "concept",
+      "name": "Self-Improving Intelligence (Auto-Augmentation)"
+    },
+    {
+      "id": "concept:kiliman/codemesh/why-codemesh",
+      "type": "concept",
+      "name": "Why CodeMesh?"
+    },
+    {
+      "id": "concept:kiliman/codemesh/the-problem",
+      "type": "concept",
+      "name": "❌ The Problem"
+    },
+    {
+      "id": "concept:kiliman/codemesh/the-codemesh-way",
+      "type": "concept",
+      "name": "✨ The CodeMesh Way"
+    },
+    {
+      "id": "concept:kiliman/codemesh/key-features",
+      "type": "concept",
+      "name": "🏆 Key Features"
+    },
+    {
+      "id": "concept:kiliman/codemesh/best-practices",
+      "type": "concept",
+      "name": "Best Practices"
+    },
+    {
+      "id": "concept:kiliman/codemesh/use-subagents-for-maximum-context-efficiency",
+      "type": "concept",
+      "name": "Use Subagents for Maximum Context Efficiency"
+    },
+    {
+      "id": "framework:anthropic",
+      "type": "framework",
+      "name": "anthropic"
+    },
+    {
+      "id": "framework:mcp",
+      "type": "framework",
+      "name": "mcp"
+    }
+  ],
+  "edges": [
+    {
+      "src": "repo:kiliman/codemesh",
+      "dst": "module:kiliman/codemesh/assets",
+      "type": "contains"
+    },
+    {
+      "src": "repo:kiliman/codemesh",
+      "dst": "module:kiliman/codemesh/examples",
+      "type": "contains"
+    },
+    {
+      "src": "repo:kiliman/codemesh",
+      "dst": "module:kiliman/codemesh/notes",
+      "type": "contains"
+    },
+    {
+      "src": "repo:kiliman/codemesh",
+      "dst": "module:kiliman/codemesh/packages",
+      "type": "contains"
+    },
+    {
+      "src": "repo:kiliman/codemesh",
+      "dst": "module:kiliman/codemesh/scripts",
+      "type": "contains"
+    },
+    {
+      "src": "repo:kiliman/codemesh",
+      "dst": "file:kiliman/codemesh/package.json",
+      "type": "contains"
+    },
+    {
+      "src": "repo:kiliman/codemesh",
+      "dst": "file:kiliman/codemesh/package.json",
+      "type": "contains"
+    },
+    {
+      "src": "repo:kiliman/codemesh",
+      "dst": "file:kiliman/codemesh/package.json",
+      "type": "contains"
+    },
+    {
+      "src": "repo:kiliman/codemesh",
+      "dst": "file:kiliman/codemesh/package.json",
+      "type": "contains"
+    },
+    {
+      "src": "repo:kiliman/codemesh",
+      "dst": "file:kiliman/codemesh/package.json",
+      "type": "contains"
+    },
+    {
+      "src": "repo:kiliman/codemesh",
+      "dst": "file:kiliman/codemesh/package.json",
+      "type": "contains"
+    },
+    {
+      "src": "repo:kiliman/codemesh",
+      "dst": "file:kiliman/codemesh/package.json",
+      "type": "contains"
+    },
+    {
+      "src": "repo:kiliman/codemesh",
+      "dst": "concept:kiliman/codemesh/see-it-in-action",
+      "type": "documents"
+    },
+    {
+      "src": "repo:kiliman/codemesh",
+      "dst": "concept:kiliman/codemesh/what-is-codemesh",
+      "type": "documents"
+    },
+    {
+      "src": "repo:kiliman/codemesh",
+      "dst": "concept:kiliman/codemesh/the-innovation-auto-augmentation",
+      "type": "documents"
+    },
+    {
+      "src": "repo:kiliman/codemesh",
+      "dst": "concept:kiliman/codemesh/1-add-codemesh-to-claude-desktop",
+      "type": "documents"
+    },
+    {
+      "src": "repo:kiliman/codemesh",
+      "dst": "concept:kiliman/codemesh/2-create-configuration",
+      "type": "documents"
+    },
+    {
+      "src": "repo:kiliman/codemesh",
+      "dst": "concept:kiliman/codemesh/14-52-45-execute-code",
+      "type": "documents"
+    },
+    {
+      "src": "repo:kiliman/codemesh",
+      "dst": "concept:kiliman/codemesh/request",
+      "type": "documents"
+    },
+    {
+      "src": "repo:kiliman/codemesh",
+      "dst": "concept:kiliman/codemesh/console-output",
+      "type": "documents"
+    },
+    {
+      "src": "repo:kiliman/codemesh",
+      "dst": "concept:kiliman/codemesh/response",
+      "type": "documents"
+    },
+    {
+      "src": "repo:kiliman/codemesh",
+      "dst": "concept:kiliman/codemesh/how-it-works",
+      "type": "documents"
+    },
+    {
+      "src": "repo:kiliman/codemesh",
+      "dst": "concept:kiliman/codemesh/self-improving-intelligence-auto-augmentation",
+      "type": "documents"
+    },
+    {
+      "src": "repo:kiliman/codemesh",
+      "dst": "concept:kiliman/codemesh/why-codemesh",
+      "type": "documents"
+    },
+    {
+      "src": "repo:kiliman/codemesh",
+      "dst": "concept:kiliman/codemesh/the-problem",
+      "type": "documents"
+    },
+    {
+      "src": "repo:kiliman/codemesh",
+      "dst": "concept:kiliman/codemesh/the-codemesh-way",
+      "type": "documents"
+    },
+    {
+      "src": "repo:kiliman/codemesh",
+      "dst": "concept:kiliman/codemesh/key-features",
+      "type": "documents"
+    },
+    {
+      "src": "repo:kiliman/codemesh",
+      "dst": "concept:kiliman/codemesh/best-practices",
+      "type": "documents"
+    },
+    {
+      "src": "repo:kiliman/codemesh",
+      "dst": "concept:kiliman/codemesh/use-subagents-for-maximum-context-efficiency",
+      "type": "documents"
+    },
+    {
+      "src": "repo:kiliman/codemesh",
+      "dst": "framework:anthropic",
+      "type": "uses"
+    },
+    {
+      "src": "repo:kiliman/codemesh",
+      "dst": "framework:mcp",
+      "type": "uses"
+    }
+  ],
+  "content_hash": "dcb4cfb61616b93c"
+}

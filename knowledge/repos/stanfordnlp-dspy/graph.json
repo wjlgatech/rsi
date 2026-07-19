@@ -1,0 +1,151 @@
+{
+  "stats": {
+    "nodes": 13,
+    "edges": 13
+  },
+  "repo": "stanfordnlp/dspy",
+  "nodes": [
+    {
+      "id": "repo:stanfordnlp/dspy",
+      "type": "repo",
+      "name": "stanfordnlp/dspy",
+      "links": [
+        "https://github.com/stanfordnlp/dspy"
+      ]
+    },
+    {
+      "id": "module:stanfordnlp/dspy/docs",
+      "type": "module",
+      "name": "docs"
+    },
+    {
+      "id": "module:stanfordnlp/dspy/dspy",
+      "type": "module",
+      "name": "dspy"
+    },
+    {
+      "id": "module:stanfordnlp/dspy/tests",
+      "type": "module",
+      "name": "tests"
+    },
+    {
+      "id": "file:stanfordnlp/dspy/pyproject.toml",
+      "type": "file",
+      "name": "pyproject.toml",
+      "links": [
+        "https://github.com/stanfordnlp/dspy/blob/HEAD/pyproject.toml"
+      ]
+    },
+    {
+      "id": "file:stanfordnlp/dspy/__main__.py",
+      "type": "file",
+      "name": "__main__.py",
+      "links": [
+        "https://github.com/stanfordnlp/dspy/blob/HEAD/tests/reliability/generate/__main__.py"
+      ]
+    },
+    {
+      "id": "concept:stanfordnlp/dspy/dspy-programming-not-prompting-foundation-models",
+      "type": "concept",
+      "name": "DSPy: _Programming_—not prompting—Foundation Models"
+    },
+    {
+      "id": "concept:stanfordnlp/dspy/documentation-dspy-ai-https-dspy-ai",
+      "type": "concept",
+      "name": "Documentation: [dspy.ai](https://dspy.ai)"
+    },
+    {
+      "id": "framework:langchain",
+      "type": "framework",
+      "name": "langchain"
+    },
+    {
+      "id": "framework:dspy",
+      "type": "framework",
+      "name": "dspy"
+    },
+    {
+      "id": "framework:openai",
+      "type": "framework",
+      "name": "openai"
+    },
+    {
+      "id": "framework:anthropic",
+      "type": "framework",
+      "name": "anthropic"
+    },
+    {
+      "id": "framework:mcp",
+      "type": "framework",
+      "name": "mcp"
+    }
+  ],
+  "edges": [
+    {
+      "src": "repo:stanfordnlp/dspy",
+      "dst": "module:stanfordnlp/dspy/docs",
+      "type": "contains"
+    },
+    {
+      "src": "repo:stanfordnlp/dspy",
+      "dst": "module:stanfordnlp/dspy/dspy",
+      "type": "contains"
+    },
+    {
+      "src": "repo:stanfordnlp/dspy",
+      "dst": "module:stanfordnlp/dspy/tests",
+      "type": "contains"
+    },
+    {
+      "src": "repo:stanfordnlp/dspy",
+      "dst": "file:stanfordnlp/dspy/pyproject.toml",
+      "type": "contains"
+    },
+    {
+      "src": "repo:stanfordnlp/dspy",
+      "dst": "file:stanfordnlp/dspy/pyproject.toml",
+      "type": "contains"
+    },
+    {
+      "src": "repo:stanfordnlp/dspy",
+      "dst": "file:stanfordnlp/dspy/__main__.py",
+      "type": "contains"
+    },
+    {
+      "src": "repo:stanfordnlp/dspy",
+      "dst": "concept:stanfordnlp/dspy/dspy-programming-not-prompting-foundation-models",
+      "type": "documents"
+    },
+    {
+      "src": "repo:stanfordnlp/dspy",
+      "dst": "concept:stanfordnlp/dspy/documentation-dspy-ai-https-dspy-ai",
+      "type": "documents"
+    },
+    {
+      "src": "repo:stanfordnlp/dspy",
+      "dst": "framework:langchain",
+      "type": "uses"
+    },
+    {
+      "src": "repo:stanfordnlp/dspy",
+      "dst": "framework:dspy",
+      "type": "uses"
+    },
+    {
+      "src": "repo:stanfordnlp/dspy",
+      "dst": "framework:openai",
+      "type": "uses"
+    },
+    {
+      "src": "repo:stanfordnlp/dspy",
+      "dst": "framework:anthropic",
+      "type": "uses"
+    },
+    {
+      "src": "repo:stanfordnlp/dspy",
+      "dst": "framework:mcp",
+      "type": "uses"
+    }
+  ],
+  "content_hash": "4992387dfc39d432"
+}

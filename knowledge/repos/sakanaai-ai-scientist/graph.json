@@ -1,0 +1,353 @@
+{
+  "stats": {
+    "nodes": 34,
+    "edges": 33
+  },
+  "repo": "SakanaAI/AI-Scientist",
+  "nodes": [
+    {
+      "id": "repo:SakanaAI/AI-Scientist",
+      "type": "repo",
+      "name": "SakanaAI/AI-Scientist",
+      "links": [
+        "https://github.com/SakanaAI/AI-Scientist"
+      ]
+    },
+    {
+      "id": "module:SakanaAI/AI-Scientist/ai_scientist",
+      "type": "module",
+      "name": "ai_scientist"
+    },
+    {
+      "id": "module:SakanaAI/AI-Scientist/data",
+      "type": "module",
+      "name": "data"
+    },
+    {
+      "id": "module:SakanaAI/AI-Scientist/docs",
+      "type": "module",
+      "name": "docs"
+    },
+    {
+      "id": "module:SakanaAI/AI-Scientist/example_papers",
+      "type": "module",
+      "name": "example_papers"
+    },
+    {
+      "id": "module:SakanaAI/AI-Scientist/experimental",
+      "type": "module",
+      "name": "experimental"
+    },
+    {
+      "id": "module:SakanaAI/AI-Scientist/review_ai_scientist",
+      "type": "module",
+      "name": "review_ai_scientist"
+    },
+    {
+      "id": "module:SakanaAI/AI-Scientist/review_iclr_bench",
+      "type": "module",
+      "name": "review_iclr_bench"
+    },
+    {
+      "id": "module:SakanaAI/AI-Scientist/templates",
+      "type": "module",
+      "name": "templates"
+    },
+    {
+      "id": "file:SakanaAI/AI-Scientist/Dockerfile",
+      "type": "file",
+      "name": "Dockerfile",
+      "links": [
+        "https://github.com/SakanaAI/AI-Scientist/blob/HEAD/experimental/Dockerfile"
+      ]
+    },
+    {
+      "id": "concept:SakanaAI/AI-Scientist/setting-up-the-templates",
+      "type": "concept",
+      "name": "Setting Up the Templates"
+    },
+    {
+      "id": "concept:SakanaAI/AI-Scientist/nanogpt-template",
+      "type": "concept",
+      "name": "NanoGPT Template"
+    },
+    {
+      "id": "concept:SakanaAI/AI-Scientist/2d-diffusion-template",
+      "type": "concept",
+      "name": "2D Diffusion Template"
+    },
+    {
+      "id": "concept:SakanaAI/AI-Scientist/grokking-template",
+      "type": "concept",
+      "name": "Grokking Template"
+    },
+    {
+      "id": "concept:SakanaAI/AI-Scientist/run-ai-scientist-paper-generation-experiments",
+      "type": "concept",
+      "name": "Run AI Scientist Paper Generation Experiments"
+    },
+    {
+      "id": "concept:SakanaAI/AI-Scientist/run-the-paper-generation",
+      "type": "concept",
+      "name": "Run the paper generation."
+    },
+    {
+      "id": "concept:SakanaAI/AI-Scientist/getting-an-llm-generated-paper-review",
+      "type": "concept",
+      "name": "Getting an LLM-Generated Paper Review"
+    },
+    {
+      "id": "concept:SakanaAI/AI-Scientist/load-paper-from-pdf-file-raw-text",
+      "type": "concept",
+      "name": "Load paper from PDF file (raw text)"
+    },
+    {
+      "id": "concept:SakanaAI/AI-Scientist/get-the-review-dictionary",
+      "type": "concept",
+      "name": "Get the review dictionary"
+    },
+    {
+      "id": "concept:SakanaAI/AI-Scientist/inspect-review-results",
+      "type": "concept",
+      "name": "Inspect review results"
+    },
+    {
+      "id": "concept:SakanaAI/AI-Scientist/making-your-own-template",
+      "type": "concept",
+      "name": "Making Your Own Template"
+    },
+    {
+      "id": "concept:SakanaAI/AI-Scientist/community-contributed-templates",
+      "type": "concept",
+      "name": "Community-Contributed Templates"
+    },
+    {
+      "id": "concept:SakanaAI/AI-Scientist/template-resources",
+      "type": "concept",
+      "name": "Template Resources"
+    },
+    {
+      "id": "concept:SakanaAI/AI-Scientist/citing-the-ai-scientist",
+      "type": "concept",
+      "name": "Citing The AI Scientist"
+    },
+    {
+      "id": "concept:SakanaAI/AI-Scientist/frequently-asked-questions",
+      "type": "concept",
+      "name": "Frequently Asked Questions"
+    },
+    {
+      "id": "concept:SakanaAI/AI-Scientist/containerization",
+      "type": "concept",
+      "name": "Containerization"
+    },
+    {
+      "id": "concept:SakanaAI/AI-Scientist/endpoint-script",
+      "type": "concept",
+      "name": "Endpoint Script"
+    },
+    {
+      "id": "concept:SakanaAI/AI-Scientist/interactive",
+      "type": "concept",
+      "name": "Interactive"
+    },
+    {
+      "id": "concept:SakanaAI/AI-Scientist/star-history",
+      "type": "concept",
+      "name": "Star History"
+    },
+    {
+      "id": "framework:pytorch",
+      "type": "framework",
+      "name": "pytorch"
+    },
+    {
+      "id": "framework:jax",
+      "type": "framework",
+      "name": "jax"
+    },
+    {
+      "id": "framework:transformers",
+      "type": "framework",
+      "name": "transformers"
+    },
+    {
+      "id": "framework:openai",
+      "type": "framework",
+      "name": "openai"
+    },
+    {
+      "id": "framework:anthropic",
+      "type": "framework",
+      "name": "anthropic"
+    }
+  ],
+  "edges": [
+    {
+      "src": "repo:SakanaAI/AI-Scientist",
+      "dst": "module:SakanaAI/AI-Scientist/ai_scientist",
+      "type": "contains"
+    },
+    {
+      "src": "repo:SakanaAI/AI-Scientist",
+      "dst": "module:SakanaAI/AI-Scientist/data",
+      "type": "contains"
+    },
+    {
+      "src": "repo:SakanaAI/AI-Scientist",
+      "dst": "module:SakanaAI/AI-Scientist/docs",
+      "type": "contains"
+    },
+    {
+      "src": "repo:SakanaAI/AI-Scientist",
+      "dst": "module:SakanaAI/AI-Scientist/example_papers",
+      "type": "contains"
+    },
+    {
+      "src": "repo:SakanaAI/AI-Scientist",
+      "dst": "module:SakanaAI/AI-Scientist/experimental",
+      "type": "contains"
+    },
+    {
+      "src": "repo:SakanaAI/AI-Scientist",
+      "dst": "module:SakanaAI/AI-Scientist/review_ai_scientist",
+      "type": "contains"
+    },
+    {
+      "src": "repo:SakanaAI/AI-Scientist",
+      "dst": "module:SakanaAI/AI-Scientist/review_iclr_bench",
+      "type": "contains"
+    },
+    {
+      "src": "repo:SakanaAI/AI-Scientist",
+      "dst": "module:SakanaAI/AI-Scientist/templates",
+      "type": "contains"
+    },
+    {
+      "src": "repo:SakanaAI/AI-Scientist",
+      "dst": "file:SakanaAI/AI-Scientist/Dockerfile",
+      "type": "contains"
+    },
+    {
+      "src": "repo:SakanaAI/AI-Scientist",
+      "dst": "concept:SakanaAI/AI-Scientist/setting-up-the-templates",
+      "type": "documents"
+    },
+    {
+      "src": "repo:SakanaAI/AI-Scientist",
+      "dst": "concept:SakanaAI/AI-Scientist/nanogpt-template",
+      "type": "documents"
+    },
+    {
+      "src": "repo:SakanaAI/AI-Scientist",
+      "dst": "concept:SakanaAI/AI-Scientist/2d-diffusion-template",
+      "type": "documents"
+    },
+    {
+      "src": "repo:SakanaAI/AI-Scientist",
+      "dst": "concept:SakanaAI/AI-Scientist/grokking-template",
+      "type": "documents"
+    },
+    {
+      "src": "repo:SakanaAI/AI-Scientist",
+      "dst": "concept:SakanaAI/AI-Scientist/run-ai-scientist-paper-generation-experiments",
+      "type": "documents"
+    },
+    {
+      "src": "repo:SakanaAI/AI-Scientist",
+      "dst": "concept:SakanaAI/AI-Scientist/run-the-paper-generation",
+      "type": "documents"
+    },
+    {
+      "src": "repo:SakanaAI/AI-Scientist",
+      "dst": "concept:SakanaAI/AI-Scientist/getting-an-llm-generated-paper-review",
+      "type": "documents"
+    },
+    {
+      "src": "repo:SakanaAI/AI-Scientist",
+      "dst": "concept:SakanaAI/AI-Scientist/load-paper-from-pdf-file-raw-text",
+      "type": "documents"
+    },
+    {
+      "src": "repo:SakanaAI/AI-Scientist",
+      "dst": "concept:SakanaAI/AI-Scientist/get-the-review-dictionary",
+      "type": "documents"
+    },
+    {
+      "src": "repo:SakanaAI/AI-Scientist",
+      "dst": "concept:SakanaAI/AI-Scientist/inspect-review-results",
+      "type": "documents"
+    },
+    {
+      "src": "repo:SakanaAI/AI-Scientist",
+      "dst": "concept:SakanaAI/AI-Scientist/making-your-own-template",
+      "type": "documents"
+    },
+    {
+      "src": "repo:SakanaAI/AI-Scientist",
+      "dst": "concept:SakanaAI/AI-Scientist/community-contributed-templates",
+      "type": "documents"
+    },
+    {
+      "src": "repo:SakanaAI/AI-Scientist",
+      "dst": "concept:SakanaAI/AI-Scientist/template-resources",
+      "type": "documents"
+    },
+    {
+      "src": "repo:SakanaAI/AI-Scientist",
+      "dst": "concept:SakanaAI/AI-Scientist/citing-the-ai-scientist",
+      "type": "documents"
+    },
+    {
+      "src": "repo:SakanaAI/AI-Scientist",
+      "dst": "concept:SakanaAI/AI-Scientist/frequently-asked-questions",
+      "type": "documents"
+    },
+    {
+      "src": "repo:SakanaAI/AI-Scientist",
+      "dst": "concept:SakanaAI/AI-Scientist/containerization",
+      "type": "documents"
+    },
+    {
+      "src": "repo:SakanaAI/AI-Scientist",
+      "dst": "concept:SakanaAI/AI-Scientist/endpoint-script",
+      "type": "documents"
+    },
+    {
+      "src": "repo:SakanaAI/AI-Scientist",
+      "dst": "concept:SakanaAI/AI-Scientist/interactive",
+      "type": "documents"
+    },
+    {
+      "src": "repo:SakanaAI/AI-Scientist",
+      "dst": "concept:SakanaAI/AI-Scientist/star-history",
+      "type": "documents"
+    },
+    {
+      "src": "repo:SakanaAI/AI-Scientist",
+      "dst": "framework:pytorch",
+      "type": "uses"
+    },
+    {
+      "src": "repo:SakanaAI/AI-Scientist",
+      "dst": "framework:jax",
+      "type": "uses"
+    },
+    {
+      "src": "repo:SakanaAI/AI-Scientist",
+      "dst": "framework:transformers",
+      "type": "uses"
+    },
+    {
+      "src": "repo:SakanaAI/AI-Scientist",
+      "dst": "framework:openai",
+      "type": "uses"
+    },
+    {
+      "src": "repo:SakanaAI/AI-Scientist",
+      "dst": "framework:anthropic",
+      "type": "uses"
+    }
+  ],
+  "content_hash": "8c0f68a20aeb57e4"
+}

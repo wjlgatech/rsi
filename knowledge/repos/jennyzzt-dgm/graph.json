@@ -1,0 +1,233 @@
+{
+  "stats": {
+    "nodes": 22,
+    "edges": 21
+  },
+  "repo": "jennyzzt/dgm",
+  "nodes": [
+    {
+      "id": "repo:jennyzzt/dgm",
+      "type": "repo",
+      "name": "jennyzzt/dgm",
+      "links": [
+        "https://github.com/jennyzzt/dgm"
+      ]
+    },
+    {
+      "id": "module:jennyzzt/dgm/analysis",
+      "type": "module",
+      "name": "analysis"
+    },
+    {
+      "id": "module:jennyzzt/dgm/initial",
+      "type": "module",
+      "name": "initial"
+    },
+    {
+      "id": "module:jennyzzt/dgm/initial_polyglot",
+      "type": "module",
+      "name": "initial_polyglot"
+    },
+    {
+      "id": "module:jennyzzt/dgm/misc",
+      "type": "module",
+      "name": "misc"
+    },
+    {
+      "id": "module:jennyzzt/dgm/polyglot",
+      "type": "module",
+      "name": "polyglot"
+    },
+    {
+      "id": "module:jennyzzt/dgm/prompts",
+      "type": "module",
+      "name": "prompts"
+    },
+    {
+      "id": "module:jennyzzt/dgm/swe_bench",
+      "type": "module",
+      "name": "swe_bench"
+    },
+    {
+      "id": "module:jennyzzt/dgm/tests",
+      "type": "module",
+      "name": "tests"
+    },
+    {
+      "id": "module:jennyzzt/dgm/tools",
+      "type": "module",
+      "name": "tools"
+    },
+    {
+      "id": "module:jennyzzt/dgm/utils",
+      "type": "module",
+      "name": "utils"
+    },
+    {
+      "id": "file:jennyzzt/dgm/Dockerfile",
+      "type": "file",
+      "name": "Dockerfile",
+      "links": [
+        "https://github.com/jennyzzt/dgm/blob/HEAD/Dockerfile"
+      ]
+    },
+    {
+      "id": "concept:jennyzzt/dgm/optional-for-running-analysis",
+      "type": "concept",
+      "name": "Optional: for running analysis"
+    },
+    {
+      "id": "concept:jennyzzt/dgm/clone-swe-bench",
+      "type": "concept",
+      "name": "Clone SWE-bench"
+    },
+    {
+      "id": "concept:jennyzzt/dgm/prepare-polyglot",
+      "type": "concept",
+      "name": "Prepare Polyglot"
+    },
+    {
+      "id": "concept:jennyzzt/dgm/running-the-dgm",
+      "type": "concept",
+      "name": "Running the DGM"
+    },
+    {
+      "id": "concept:jennyzzt/dgm/file-structure",
+      "type": "concept",
+      "name": "File Structure"
+    },
+    {
+      "id": "concept:jennyzzt/dgm/logs-from-experiments",
+      "type": "concept",
+      "name": "Logs from Experiments"
+    },
+    {
+      "id": "concept:jennyzzt/dgm/safety-consideration",
+      "type": "concept",
+      "name": "Safety Consideration"
+    },
+    {
+      "id": "concept:jennyzzt/dgm/citing",
+      "type": "concept",
+      "name": "Citing"
+    },
+    {
+      "id": "framework:openai",
+      "type": "framework",
+      "name": "openai"
+    },
+    {
+      "id": "framework:anthropic",
+      "type": "framework",
+      "name": "anthropic"
+    }
+  ],
+  "edges": [
+    {
+      "src": "repo:jennyzzt/dgm",
+      "dst": "module:jennyzzt/dgm/analysis",
+      "type": "contains"
+    },
+    {
+      "src": "repo:jennyzzt/dgm",
+      "dst": "module:jennyzzt/dgm/initial",
+      "type": "contains"
+    },
+    {
+      "src": "repo:jennyzzt/dgm",
+      "dst": "module:jennyzzt/dgm/initial_polyglot",
+      "type": "contains"
+    },
+    {
+      "src": "repo:jennyzzt/dgm",
+      "dst": "module:jennyzzt/dgm/misc",
+      "type": "contains"
+    },
+    {
+      "src": "repo:jennyzzt/dgm",
+      "dst": "module:jennyzzt/dgm/polyglot",
+      "type": "contains"
+    },
+    {
+      "src": "repo:jennyzzt/dgm",
+      "dst": "module:jennyzzt/dgm/prompts",
+      "type": "contains"
+    },
+    {
+      "src": "repo:jennyzzt/dgm",
+      "dst": "module:jennyzzt/dgm/swe_bench",
+      "type": "contains"
+    },
+    {
+      "src": "repo:jennyzzt/dgm",
+      "dst": "module:jennyzzt/dgm/tests",
+      "type": "contains"
+    },
+    {
+      "src": "repo:jennyzzt/dgm",
+      "dst": "module:jennyzzt/dgm/tools",
+      "type": "contains"
+    },
+    {
+      "src": "repo:jennyzzt/dgm",
+      "dst": "module:jennyzzt/dgm/utils",
+      "type": "contains"
+    },
+    {
+      "src": "repo:jennyzzt/dgm",
+      "dst": "file:jennyzzt/dgm/Dockerfile",
+      "type": "contains"
+    },
+    {
+      "src": "repo:jennyzzt/dgm",
+      "dst": "concept:jennyzzt/dgm/optional-for-running-analysis",
+      "type": "documents"
+    },
+    {
+      "src": "repo:jennyzzt/dgm",
+      "dst": "concept:jennyzzt/dgm/clone-swe-bench",
+      "type": "documents"
+    },
+    {
+      "src": "repo:jennyzzt/dgm",
+      "dst": "concept:jennyzzt/dgm/prepare-polyglot",
+      "type": "documents"
+    },
+    {
+      "src": "repo:jennyzzt/dgm",
+      "dst": "concept:jennyzzt/dgm/running-the-dgm",
+      "type": "documents"
+    },
+    {
+      "src": "repo:jennyzzt/dgm",
+      "dst": "concept:jennyzzt/dgm/file-structure",
+      "type": "documents"
+    },
+    {
+      "src": "repo:jennyzzt/dgm",
+      "dst": "concept:jennyzzt/dgm/logs-from-experiments",
+      "type": "documents"
+    },
+    {
+      "src": "repo:jennyzzt/dgm",
+      "dst": "concept:jennyzzt/dgm/safety-consideration",
+      "type": "documents"
+    },
+    {
+      "src": "repo:jennyzzt/dgm",
+      "dst": "concept:jennyzzt/dgm/citing",
+      "type": "documents"
+    },
+    {
+      "src": "repo:jennyzzt/dgm",
+      "dst": "framework:openai",
+      "type": "uses"
+    },
+    {
+      "src": "repo:jennyzzt/dgm",
+      "dst": "framework:anthropic",
+      "type": "uses"
+    }
+  ],
+  "content_hash": "add6fbf5b438cdba"
+}

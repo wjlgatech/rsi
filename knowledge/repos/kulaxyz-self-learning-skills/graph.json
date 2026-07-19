@@ -1,0 +1,140 @@
+{
+  "stats": {
+    "nodes": 13,
+    "edges": 12
+  },
+  "repo": "Kulaxyz/self-learning-skills",
+  "nodes": [
+    {
+      "id": "repo:Kulaxyz/self-learning-skills",
+      "type": "repo",
+      "name": "Kulaxyz/self-learning-skills",
+      "links": [
+        "https://github.com/Kulaxyz/self-learning-skills"
+      ]
+    },
+    {
+      "id": "module:Kulaxyz/self-learning-skills/skills",
+      "type": "module",
+      "name": "skills"
+    },
+    {
+      "id": "concept:Kulaxyz/self-learning-skills/self-learning-skills",
+      "type": "concept",
+      "name": "self-learning-skills"
+    },
+    {
+      "id": "concept:Kulaxyz/self-learning-skills/the-loop-same-everywhere",
+      "type": "concept",
+      "name": "The loop (same everywhere)"
+    },
+    {
+      "id": "concept:Kulaxyz/self-learning-skills/npx-recommended-works-with-70-agents",
+      "type": "concept",
+      "name": "npx — recommended (works with 70+ agents)"
+    },
+    {
+      "id": "concept:Kulaxyz/self-learning-skills/claude-code-plugin",
+      "type": "concept",
+      "name": "Claude Code plugin"
+    },
+    {
+      "id": "concept:Kulaxyz/self-learning-skills/manual",
+      "type": "concept",
+      "name": "Manual"
+    },
+    {
+      "id": "concept:Kulaxyz/self-learning-skills/any-agents-md-agent-codex-zed-aider-gemini-cli",
+      "type": "concept",
+      "name": "Any AGENTS.md agent (Codex, Zed, Aider, Gemini CLI, …)"
+    },
+    {
+      "id": "concept:Kulaxyz/self-learning-skills/triage-skill-memory-or-skip",
+      "type": "concept",
+      "name": "Triage: skill, memory, or skip?"
+    },
+    {
+      "id": "concept:Kulaxyz/self-learning-skills/promotion-rule-don-t-enshrine-guesses",
+      "type": "concept",
+      "name": "Promotion rule (don't enshrine guesses)"
+    },
+    {
+      "id": "concept:Kulaxyz/self-learning-skills/safety",
+      "type": "concept",
+      "name": "Safety"
+    },
+    {
+      "id": "concept:Kulaxyz/self-learning-skills/repo-layout",
+      "type": "concept",
+      "name": "Repo layout"
+    },
+    {
+      "id": "framework:mcp",
+      "type": "framework",
+      "name": "mcp"
+    }
+  ],
+  "edges": [
+    {
+      "src": "repo:Kulaxyz/self-learning-skills",
+      "dst": "module:Kulaxyz/self-learning-skills/skills",
+      "type": "contains"
+    },
+    {
+      "src": "repo:Kulaxyz/self-learning-skills",
+      "dst": "concept:Kulaxyz/self-learning-skills/self-learning-skills",
+      "type": "documents"
+    },
+    {
+      "src": "repo:Kulaxyz/self-learning-skills",
+      "dst": "concept:Kulaxyz/self-learning-skills/the-loop-same-everywhere",
+      "type": "documents"
+    },
+    {
+      "src": "repo:Kulaxyz/self-learning-skills",
+      "dst": "concept:Kulaxyz/self-learning-skills/npx-recommended-works-with-70-agents",
+      "type": "documents"
+    },
+    {
+      "src": "repo:Kulaxyz/self-learning-skills",
+      "dst": "concept:Kulaxyz/self-learning-skills/claude-code-plugin",
+      "type": "documents"
+    },
+    {
+      "src": "repo:Kulaxyz/self-learning-skills",
+      "dst": "concept:Kulaxyz/self-learning-skills/manual",
+      "type": "documents"
+    },
+    {
+      "src": "repo:Kulaxyz/self-learning-skills",
+      "dst": "concept:Kulaxyz/self-learning-skills/any-agents-md-agent-codex-zed-aider-gemini-cli",
+      "type": "documents"
+    },
+    {
+      "src": "repo:Kulaxyz/self-learning-skills",
+      "dst": "concept:Kulaxyz/self-learning-skills/triage-skill-memory-or-skip",
+      "type": "documents"
+    },
+    {
+      "src": "repo:Kulaxyz/self-learning-skills",
+      "dst": "concept:Kulaxyz/self-learning-skills/promotion-rule-don-t-enshrine-guesses",
+      "type": "documents"
+    },
+    {
+      "src": "repo:Kulaxyz/self-learning-skills",
+      "dst": "concept:Kulaxyz/self-learning-skills/safety",
+      "type": "documents"
+    },
+    {
+      "src": "repo:Kulaxyz/self-learning-skills",
+      "dst": "concept:Kulaxyz/self-learning-skills/repo-layout",
+      "type": "documents"
+    },
+    {
+      "src": "repo:Kulaxyz/self-learning-skills",
+      "dst": "framework:mcp",
+      "type": "uses"
+    }
+  ],
+  "content_hash": "ccc5dc082656b95c"
+}

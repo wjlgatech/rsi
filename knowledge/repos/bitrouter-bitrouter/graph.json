@@ -1,0 +1,360 @@
+{
+  "stats": {
+    "nodes": 35,
+    "edges": 34
+  },
+  "repo": "bitrouter/bitrouter",
+  "nodes": [
+    {
+      "id": "repo:bitrouter/bitrouter",
+      "type": "repo",
+      "name": "bitrouter/bitrouter",
+      "links": [
+        "https://github.com/bitrouter/bitrouter"
+      ]
+    },
+    {
+      "id": "module:bitrouter/bitrouter/apps",
+      "type": "module",
+      "name": "apps"
+    },
+    {
+      "id": "module:bitrouter/bitrouter/benchmarks",
+      "type": "module",
+      "name": "benchmarks"
+    },
+    {
+      "id": "module:bitrouter/bitrouter/crates",
+      "type": "module",
+      "name": "crates"
+    },
+    {
+      "id": "module:bitrouter/bitrouter/docs",
+      "type": "module",
+      "name": "docs"
+    },
+    {
+      "id": "module:bitrouter/bitrouter/helpers",
+      "type": "module",
+      "name": "helpers"
+    },
+    {
+      "id": "module:bitrouter/bitrouter/internal",
+      "type": "module",
+      "name": "internal"
+    },
+    {
+      "id": "module:bitrouter/bitrouter/registry",
+      "type": "module",
+      "name": "registry"
+    },
+    {
+      "id": "module:bitrouter/bitrouter/skills",
+      "type": "module",
+      "name": "skills"
+    },
+    {
+      "id": "module:bitrouter/bitrouter/templates",
+      "type": "module",
+      "name": "templates"
+    },
+    {
+      "id": "concept:bitrouter/bitrouter/bitrouter",
+      "type": "concept",
+      "name": "BitRouter"
+    },
+    {
+      "id": "concept:bitrouter/bitrouter/three-primitives-one-gateway",
+      "type": "concept",
+      "name": "Three primitives, one gateway"
+    },
+    {
+      "id": "concept:bitrouter/bitrouter/the-self-improving-loop",
+      "type": "concept",
+      "name": "The self-improving loop"
+    },
+    {
+      "id": "concept:bitrouter/bitrouter/benchmarks",
+      "type": "concept",
+      "name": "Benchmarks"
+    },
+    {
+      "id": "concept:bitrouter/bitrouter/comparison",
+      "type": "concept",
+      "name": "Comparison"
+    },
+    {
+      "id": "concept:bitrouter/bitrouter/what-bitrouter-is-not",
+      "type": "concept",
+      "name": "What BitRouter is not"
+    },
+    {
+      "id": "concept:bitrouter/bitrouter/macos-linux",
+      "type": "concept",
+      "name": "macOS / Linux"
+    },
+    {
+      "id": "concept:bitrouter/bitrouter/homebrew",
+      "type": "concept",
+      "name": "Homebrew"
+    },
+    {
+      "id": "concept:bitrouter/bitrouter/npm",
+      "type": "concept",
+      "name": "npm"
+    },
+    {
+      "id": "concept:bitrouter/bitrouter/cli",
+      "type": "concept",
+      "name": "CLI"
+    },
+    {
+      "id": "concept:bitrouter/bitrouter/agent-skill",
+      "type": "concept",
+      "name": "Agent Skill"
+    },
+    {
+      "id": "concept:bitrouter/bitrouter/mcp",
+      "type": "concept",
+      "name": "MCP"
+    },
+    {
+      "id": "concept:bitrouter/bitrouter/api",
+      "type": "concept",
+      "name": "API"
+    },
+    {
+      "id": "concept:bitrouter/bitrouter/workflow-templates",
+      "type": "concept",
+      "name": "Workflow templates"
+    },
+    {
+      "id": "concept:bitrouter/bitrouter/models-providers",
+      "type": "concept",
+      "name": "Models & providers"
+    },
+    {
+      "id": "concept:bitrouter/bitrouter/harness-integrations",
+      "type": "concept",
+      "name": "Harness integrations"
+    },
+    {
+      "id": "concept:bitrouter/bitrouter/features",
+      "type": "concept",
+      "name": "Features"
+    },
+    {
+      "id": "concept:bitrouter/bitrouter/talk-to-founders",
+      "type": "concept",
+      "name": "Talk to founders"
+    },
+    {
+      "id": "concept:bitrouter/bitrouter/development",
+      "type": "concept",
+      "name": "Development"
+    },
+    {
+      "id": "concept:bitrouter/bitrouter/star-history",
+      "type": "concept",
+      "name": "Star History"
+    },
+    {
+      "id": "framework:transformers",
+      "type": "framework",
+      "name": "transformers"
+    },
+    {
+      "id": "framework:openai",
+      "type": "framework",
+      "name": "openai"
+    },
+    {
+      "id": "framework:anthropic",
+      "type": "framework",
+      "name": "anthropic"
+    },
+    {
+      "id": "framework:vllm",
+      "type": "framework",
+      "name": "vllm"
+    },
+    {
+      "id": "framework:mcp",
+      "type": "framework",
+      "name": "mcp"
+    }
+  ],
+  "edges": [
+    {
+      "src": "repo:bitrouter/bitrouter",
+      "dst": "module:bitrouter/bitrouter/apps",
+      "type": "contains"
+    },
+    {
+      "src": "repo:bitrouter/bitrouter",
+      "dst": "module:bitrouter/bitrouter/benchmarks",
+      "type": "contains"
+    },
+    {
+      "src": "repo:bitrouter/bitrouter",
+      "dst": "module:bitrouter/bitrouter/crates",
+      "type": "contains"
+    },
+    {
+      "src": "repo:bitrouter/bitrouter",
+      "dst": "module:bitrouter/bitrouter/docs",
+      "type": "contains"
+    },
+    {
+      "src": "repo:bitrouter/bitrouter",
+      "dst": "module:bitrouter/bitrouter/helpers",
+      "type": "contains"
+    },
+    {
+      "src": "repo:bitrouter/bitrouter",
+      "dst": "module:bitrouter/bitrouter/internal",
+      "type": "contains"
+    },
+    {
+      "src": "repo:bitrouter/bitrouter",
+      "dst": "module:bitrouter/bitrouter/registry",
+      "type": "contains"
+    },
+    {
+      "src": "repo:bitrouter/bitrouter",
+      "dst": "module:bitrouter/bitrouter/skills",
+      "type": "contains"
+    },
+    {
+      "src": "repo:bitrouter/bitrouter",
+      "dst": "module:bitrouter/bitrouter/templates",
+      "type": "contains"
+    },
+    {
+      "src": "repo:bitrouter/bitrouter",
+      "dst": "concept:bitrouter/bitrouter/bitrouter",
+      "type": "documents"
+    },
+    {
+      "src": "repo:bitrouter/bitrouter",
+      "dst": "concept:bitrouter/bitrouter/three-primitives-one-gateway",
+      "type": "documents"
+    },
+    {
+      "src": "repo:bitrouter/bitrouter",
+      "dst": "concept:bitrouter/bitrouter/the-self-improving-loop",
+      "type": "documents"
+    },
+    {
+      "src": "repo:bitrouter/bitrouter",
+      "dst": "concept:bitrouter/bitrouter/benchmarks",
+      "type": "documents"
+    },
+    {
+      "src": "repo:bitrouter/bitrouter",
+      "dst": "concept:bitrouter/bitrouter/comparison",
+      "type": "documents"
+    },
+    {
+      "src": "repo:bitrouter/bitrouter",
+      "dst": "concept:bitrouter/bitrouter/what-bitrouter-is-not",
+      "type": "documents"
+    },
+    {
+      "src": "repo:bitrouter/bitrouter",
+      "dst": "concept:bitrouter/bitrouter/macos-linux",
+      "type": "documents"
+    },
+    {
+      "src": "repo:bitrouter/bitrouter",
+      "dst": "concept:bitrouter/bitrouter/homebrew",
+      "type": "documents"
+    },
+    {
+      "src": "repo:bitrouter/bitrouter",
+      "dst": "concept:bitrouter/bitrouter/npm",
+      "type": "documents"
+    },
+    {
+      "src": "repo:bitrouter/bitrouter",
+      "dst": "concept:bitrouter/bitrouter/cli",
+      "type": "documents"
+    },
+    {
+      "src": "repo:bitrouter/bitrouter",
+      "dst": "concept:bitrouter/bitrouter/agent-skill",
+      "type": "documents"
+    },
+    {
+      "src": "repo:bitrouter/bitrouter",
+      "dst": "concept:bitrouter/bitrouter/mcp",
+      "type": "documents"
+    },
+    {
+      "src": "repo:bitrouter/bitrouter",
+      "dst": "concept:bitrouter/bitrouter/api",
+      "type": "documents"
+    },
+    {
+      "src": "repo:bitrouter/bitrouter",
+      "dst": "concept:bitrouter/bitrouter/workflow-templates",
+      "type": "documents"
+    },
+    {
+      "src": "repo:bitrouter/bitrouter",
+      "dst": "concept:bitrouter/bitrouter/models-providers",
+      "type": "documents"
+    },
+    {
+      "src": "repo:bitrouter/bitrouter",
+      "dst": "concept:bitrouter/bitrouter/harness-integrations",
+      "type": "documents"
+    },
+    {
+      "src": "repo:bitrouter/bitrouter",
+      "dst": "concept:bitrouter/bitrouter/features",
+      "type": "documents"
+    },
+    {
+      "src": "repo:bitrouter/bitrouter",
+      "dst": "concept:bitrouter/bitrouter/talk-to-founders",
+      "type": "documents"
+    },
+    {
+      "src": "repo:bitrouter/bitrouter",
+      "dst": "concept:bitrouter/bitrouter/development",
+      "type": "documents"
+    },
+    {
+      "src": "repo:bitrouter/bitrouter",
+      "dst": "concept:bitrouter/bitrouter/star-history",
+      "type": "documents"
+    },
+    {
+      "src": "repo:bitrouter/bitrouter",
+      "dst": "framework:transformers",
+      "type": "uses"
+    },
+    {
+      "src": "repo:bitrouter/bitrouter",
+      "dst": "framework:openai",
+      "type": "uses"
+    },
+    {
+      "src": "repo:bitrouter/bitrouter",
+      "dst": "framework:anthropic",
+      "type": "uses"
+    },
+    {
+      "src": "repo:bitrouter/bitrouter",
+      "dst": "framework:vllm",
+      "type": "uses"
+    },
+    {
+      "src": "repo:bitrouter/bitrouter",
+      "dst": "framework:mcp",
+      "type": "uses"
+    }
+  ],
+  "content_hash": "e7edb747dfb63ed1"
+}

@@ -126,6 +126,31 @@ def gen_frontier(fp=None) -> str:
     return "\n".join(L)
 
 
+def gen_toolsets(fp=None) -> str:
+    """🧰 Certified Toolsets — each top repo minted into an agentic skill (+ KG) that /rsi
+    loads via backbone (this index) or progressive disclosure (the per-skill trigger).
+    Rendered only when skills/registry.json exists."""
+    fp = fp or (ROOT / "skills" / "registry.json")
+    if not fp.exists():
+        return ""
+    reg = json.loads(fp.read_text())
+    skills = reg.get("skills", [])
+    if not skills:
+        return ""
+    # NB: summary only (no pipe table) — awesome_kg parses any README table into graph
+    # nodes; the full toolset table lives in skills/README.md (which it doesn't parse).
+    names = ", ".join(sorted(e["name"] for e in skills)[:12])
+    return "\n".join([
+        "## 🧰 Certified Toolsets", "",
+        f"Every top repo cited here is minted into a reusable **agentic skill** + a knowledge "
+        f"graph (`scripts/repo_factory.py`). `/rsi` loads the **[registry](skills/registry.json)** "
+        f"as backbone; each skill's body loads on-demand (**progressive disclosure**) when its "
+        f"trigger matches your task.", "",
+        f"**{len(skills)} toolsets** — {names}…", "",
+        "→ **[Browse the toolset registry](skills/README.md)** · per-repo graphs in `knowledge/repos/`",
+    ])
+
+
 def footer() -> str:
     return ("<sub>README generated from <code>data/*.yml</code> + <code>data/prose/*.md</code> "
             "by <code>scripts/build_readme.py</code> — do not edit by hand; run <code>make build</code>.</sub>")
@@ -143,6 +168,7 @@ def build() -> str:
         gen_section("## 📄 Papers", notes.get("papers", ""), load("papers"), "group", PAPER_HEAD, fmt_paper),
         gen_section("## 🛠️ Open-Source Tools & Repos", notes.get("tools", ""), load("tools"), "category", TOOL_HEAD, fmt_tool),
         gen_certified(),
+        gen_toolsets(),
         prose("people"),
         prose("talks"),
         gen_section("## 📈 Benchmarks & Leaderboards", "", load("benchmarks"), "category", BENCH_HEAD, fmt_benchmark),

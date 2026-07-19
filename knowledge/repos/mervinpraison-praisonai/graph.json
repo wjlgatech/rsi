@@ -1,0 +1,848 @@
+{
+  "stats": {
+    "nodes": 54,
+    "edges": 106
+  },
+  "repo": "MervinPraison/PraisonAI",
+  "nodes": [
+    {
+      "id": "repo:MervinPraison/PraisonAI",
+      "type": "repo",
+      "name": "MervinPraison/PraisonAI",
+      "links": [
+        "https://github.com/MervinPraison/PraisonAI"
+      ]
+    },
+    {
+      "id": "module:MervinPraison/PraisonAI/docker",
+      "type": "module",
+      "name": "docker"
+    },
+    {
+      "id": "module:MervinPraison/PraisonAI/examples",
+      "type": "module",
+      "name": "examples"
+    },
+    {
+      "id": "module:MervinPraison/PraisonAI/scripts",
+      "type": "module",
+      "name": "scripts"
+    },
+    {
+      "id": "module:MervinPraison/PraisonAI/src",
+      "type": "module",
+      "name": "src"
+    },
+    {
+      "id": "file:MervinPraison/PraisonAI/Dockerfile",
+      "type": "file",
+      "name": "Dockerfile",
+      "links": [
+        "https://github.com/MervinPraison/PraisonAI/blob/HEAD/docker/Dockerfile"
+      ]
+    },
+    {
+      "id": "file:MervinPraison/PraisonAI/pyproject.toml",
+      "type": "file",
+      "name": "pyproject.toml",
+      "links": [
+        "https://github.com/MervinPraison/PraisonAI/blob/HEAD/src/praisonai-code/pyproject.toml"
+      ]
+    },
+    {
+      "id": "file:MervinPraison/PraisonAI/package.json",
+      "type": "file",
+      "name": "package.json",
+      "links": [
+        "https://github.com/MervinPraison/PraisonAI/blob/HEAD/src/praisonai/package.json"
+      ]
+    },
+    {
+      "id": "file:MervinPraison/PraisonAI/main.py",
+      "type": "file",
+      "name": "main.py",
+      "links": [
+        "https://github.com/MervinPraison/PraisonAI/blob/HEAD/src/praisonai-agents/praisonaiagents/main.py"
+      ]
+    },
+    {
+      "id": "file:MervinPraison/PraisonAI/agent.py",
+      "type": "file",
+      "name": "agent.py",
+      "links": [
+        "https://github.com/MervinPraison/PraisonAI/blob/HEAD/src/praisonai-agents/praisonaiagents/agent/agent.py"
+      ]
+    },
+    {
+      "id": "file:MervinPraison/PraisonAI/__main__.py",
+      "type": "file",
+      "name": "__main__.py",
+      "links": [
+        "https://github.com/MervinPraison/PraisonAI/blob/HEAD/src/praisonai-mcp/praisonai_mcp/__main__.py"
+      ]
+    },
+    {
+      "id": "file:MervinPraison/PraisonAI/app.py",
+      "type": "file",
+      "name": "app.py",
+      "links": [
+        "https://github.com/MervinPraison/PraisonAI/blob/HEAD/src/praisonai-mcp/praisonai_mcp/cli/app.py"
+      ]
+    },
+    {
+      "id": "file:MervinPraison/PraisonAI/cli.py",
+      "type": "file",
+      "name": "cli.py",
+      "links": [
+        "https://github.com/MervinPraison/PraisonAI/blob/HEAD/src/praisonai-mcp/praisonai_mcp/mcp_server/cli.py"
+      ]
+    },
+    {
+      "id": "file:MervinPraison/PraisonAI/train.py",
+      "type": "file",
+      "name": "train.py",
+      "links": [
+        "https://github.com/MervinPraison/PraisonAI/blob/HEAD/src/praisonai-train/praisonai_train/cli/commands/train.py"
+      ]
+    },
+    {
+      "id": "file:MervinPraison/PraisonAI/setup.py",
+      "type": "file",
+      "name": "setup.py",
+      "links": [
+        "https://github.com/MervinPraison/PraisonAI/blob/HEAD/src/praisonai/praisonai/setup.py"
+      ]
+    },
+    {
+      "id": "file:MervinPraison/PraisonAI/run.py",
+      "type": "file",
+      "name": "run.py",
+      "links": [
+        "https://github.com/MervinPraison/PraisonAI/blob/HEAD/src/praisonai/praisonai/cli/commands/run.py"
+      ]
+    },
+    {
+      "id": "concept:MervinPraison/PraisonAI/praisonai",
+      "type": "concept",
+      "name": "PraisonAI 🦞"
+    },
+    {
+      "id": "concept:MervinPraison/PraisonAI/use-cases",
+      "type": "concept",
+      "name": "🎯 Use Cases"
+    },
+    {
+      "id": "concept:MervinPraison/PraisonAI/meet-your-first-agent-under-1-minute",
+      "type": "concept",
+      "name": "🚀 Meet your first Agent (Under 1 Minute)"
+    },
+    {
+      "id": "concept:MervinPraison/PraisonAI/give-your-agent-a-goal-and-watch-it-work",
+      "type": "concept",
+      "name": "Give your agent a goal, and watch it work."
+    },
+    {
+      "id": "concept:MervinPraison/PraisonAI/the-praisonai-ecosystem",
+      "type": "concept",
+      "name": "🌌 The PraisonAI Ecosystem"
+    },
+    {
+      "id": "concept:MervinPraison/PraisonAI/javascript-sdk",
+      "type": "concept",
+      "name": "JavaScript SDK"
+    },
+    {
+      "id": "concept:MervinPraison/PraisonAI/supported-providers-features",
+      "type": "concept",
+      "name": "🧠 Supported Providers & Features"
+    },
+    {
+      "id": "concept:MervinPraison/PraisonAI/why-praisonai",
+      "type": "concept",
+      "name": "🌟 Why PraisonAI?"
+    },
+    {
+      "id": "concept:MervinPraison/PraisonAI/using-python-code",
+      "type": "concept",
+      "name": "📘 Using Python Code"
+    },
+    {
+      "id": "concept:MervinPraison/PraisonAI/1-single-agent",
+      "type": "concept",
+      "name": "1. Single Agent"
+    },
+    {
+      "id": "concept:MervinPraison/PraisonAI/2-multi-agents",
+      "type": "concept",
+      "name": "2. Multi Agents"
+    },
+    {
+      "id": "concept:MervinPraison/PraisonAI/3-mcp-model-context-protocol",
+      "type": "concept",
+      "name": "3. MCP (Model Context Protocol)"
+    },
+    {
+      "id": "concept:MervinPraison/PraisonAI/stdio-local-npx-python-servers",
+      "type": "concept",
+      "name": "stdio - Local NPX/Python servers"
+    },
+    {
+      "id": "concept:MervinPraison/PraisonAI/streamable-http-production-servers",
+      "type": "concept",
+      "name": "Streamable HTTP - Production servers"
+    },
+    {
+      "id": "concept:MervinPraison/PraisonAI/websocket-real-time-bidirectional",
+      "type": "concept",
+      "name": "WebSocket - Real-time bidirectional"
+    },
+    {
+      "id": "concept:MervinPraison/PraisonAI/4-custom-tools",
+      "type": "concept",
+      "name": "4. Custom Tools"
+    },
+    {
+      "id": "concept:MervinPraison/PraisonAI/5-persistence-databases",
+      "type": "concept",
+      "name": "5. Persistence (Databases)"
+    },
+    {
+      "id": "concept:MervinPraison/PraisonAI/6-praisonai-claw-dashboard-ui",
+      "type": "concept",
+      "name": "6. PraisonAI Claw 🦞 (Dashboard UI)"
+    },
+    {
+      "id": "concept:MervinPraison/PraisonAI/7-langflow-integration-visual-flow-builder",
+      "type": "concept",
+      "name": "7. Langflow Integration 🔗 (Visual Flow Builder)"
+    },
+    {
+      "id": "concept:MervinPraison/PraisonAI/8-praisonai-ui-clean-chat",
+      "type": "concept",
+      "name": "8. PraisonAI UI 🤖 (Clean Chat)"
+    },
+    {
+      "id": "concept:MervinPraison/PraisonAI/using-yaml-no-code",
+      "type": "concept",
+      "name": "📄 Using YAML (No Code)"
+    },
+    {
+      "id": "concept:MervinPraison/PraisonAI/cli-quick-reference",
+      "type": "concept",
+      "name": "🎯 CLI Quick Reference"
+    },
+    {
+      "id": "concept:MervinPraison/PraisonAI/key-features",
+      "type": "concept",
+      "name": "✨ Key Features"
+    },
+    {
+      "id": "concept:MervinPraison/PraisonAI/using-javascript-code",
+      "type": "concept",
+      "name": "💻 Using JavaScript Code"
+    },
+    {
+      "id": "concept:MervinPraison/PraisonAI/performance",
+      "type": "concept",
+      "name": "⚡ Performance"
+    },
+    {
+      "id": "concept:MervinPraison/PraisonAI/star-history",
+      "type": "concept",
+      "name": "⭐ Star History"
+    },
+    {
+      "id": "concept:MervinPraison/PraisonAI/langfuse-tracing",
+      "type": "concept",
+      "name": "🔍 Langfuse Tracing"
+    },
+    {
+      "id": "concept:MervinPraison/PraisonAI/video-tutorials",
+      "type": "concept",
+      "name": "🎓 Video Tutorials"
+    },
+    {
+      "id": "concept:MervinPraison/PraisonAI/start-ollama-server-first",
+      "type": "concept",
+      "name": "Start Ollama server first"
+    },
+    {
+      "id": "concept:MervinPraison/PraisonAI/getting-help",
+      "type": "concept",
+      "name": "Getting Help"
+    },
+    {
+      "id": "framework:pytorch",
+      "type": "framework",
+      "name": "pytorch"
+    },
+    {
+      "id": "framework:transformers",
+      "type": "framework",
+      "name": "transformers"
+    },
+    {
+      "id": "framework:langchain",
+      "type": "framework",
+      "name": "langchain"
+    },
+    {
+      "id": "framework:langgraph",
+      "type": "framework",
+      "name": "langgraph"
+    },
+    {
+      "id": "framework:openai",
+      "type": "framework",
+      "name": "openai"
+    },
+    {
+      "id": "framework:anthropic",
+      "type": "framework",
+      "name": "anthropic"
+    },
+    {
+      "id": "framework:vllm",
+      "type": "framework",
+      "name": "vllm"
+    },
+    {
+      "id": "framework:mcp",
+      "type": "framework",
+      "name": "mcp"
+    }
+  ],
+  "edges": [
+    {
+      "src": "repo:MervinPraison/PraisonAI",
+      "dst": "module:MervinPraison/PraisonAI/docker",
+      "type": "contains"
+    },
+    {
+      "src": "repo:MervinPraison/PraisonAI",
+      "dst": "module:MervinPraison/PraisonAI/examples",
+      "type": "contains"
+    },
+    {
+      "src": "repo:MervinPraison/PraisonAI",
+      "dst": "module:MervinPraison/PraisonAI/scripts",
+      "type": "contains"
+    },
+    {
+      "src": "repo:MervinPraison/PraisonAI",
+      "dst": "module:MervinPraison/PraisonAI/src",
+      "type": "contains"
+    },
+    {
+      "src": "repo:MervinPraison/PraisonAI",
+      "dst": "file:MervinPraison/PraisonAI/Dockerfile",
+      "type": "contains"
+    },
+    {
+      "src": "repo:MervinPraison/PraisonAI",
+      "dst": "file:MervinPraison/PraisonAI/pyproject.toml",
+      "type": "contains"
+    },
+    {
+      "src": "repo:MervinPraison/PraisonAI",
+      "dst": "file:MervinPraison/PraisonAI/pyproject.toml",
+      "type": "contains"
+    },
+    {
+      "src": "repo:MervinPraison/PraisonAI",
+      "dst": "file:MervinPraison/PraisonAI/pyproject.toml",
+      "type": "contains"
+    },
+    {
+      "src": "repo:MervinPraison/PraisonAI",
+      "dst": "file:MervinPraison/PraisonAI/pyproject.toml",
+      "type": "contains"
+    },
+    {
+      "src": "repo:MervinPraison/PraisonAI",
+      "dst": "file:MervinPraison/PraisonAI/package.json",
+      "type": "contains"
+    },
+    {
+      "src": "repo:MervinPraison/PraisonAI",
+      "dst": "file:MervinPraison/PraisonAI/pyproject.toml",
+      "type": "contains"
+    },
+    {
+      "src": "repo:MervinPraison/PraisonAI",
+      "dst": "file:MervinPraison/PraisonAI/pyproject.toml",
+      "type": "contains"
+    },
+    {
+      "src": "repo:MervinPraison/PraisonAI",
+      "dst": "file:MervinPraison/PraisonAI/pyproject.toml",
+      "type": "contains"
+    },
+    {
+      "src": "repo:MervinPraison/PraisonAI",
+      "dst": "file:MervinPraison/PraisonAI/pyproject.toml",
+      "type": "contains"
+    },
+    {
+      "src": "repo:MervinPraison/PraisonAI",
+      "dst": "file:MervinPraison/PraisonAI/package.json",
+      "type": "contains"
+    },
+    {
+      "src": "repo:MervinPraison/PraisonAI",
+      "dst": "file:MervinPraison/PraisonAI/pyproject.toml",
+      "type": "contains"
+    },
+    {
+      "src": "repo:MervinPraison/PraisonAI",
+      "dst": "file:MervinPraison/PraisonAI/Dockerfile",
+      "type": "contains"
+    },
+    {
+      "src": "repo:MervinPraison/PraisonAI",
+      "dst": "file:MervinPraison/PraisonAI/main.py",
+      "type": "contains"
+    },
+    {
+      "src": "repo:MervinPraison/PraisonAI",
+      "dst": "file:MervinPraison/PraisonAI/agent.py",
+      "type": "contains"
+    },
+    {
+      "src": "repo:MervinPraison/PraisonAI",
+      "dst": "file:MervinPraison/PraisonAI/__main__.py",
+      "type": "contains"
+    },
+    {
+      "src": "repo:MervinPraison/PraisonAI",
+      "dst": "file:MervinPraison/PraisonAI/app.py",
+      "type": "contains"
+    },
+    {
+      "src": "repo:MervinPraison/PraisonAI",
+      "dst": "file:MervinPraison/PraisonAI/cli.py",
+      "type": "contains"
+    },
+    {
+      "src": "repo:MervinPraison/PraisonAI",
+      "dst": "file:MervinPraison/PraisonAI/agent.py",
+      "type": "contains"
+    },
+    {
+      "src": "repo:MervinPraison/PraisonAI",
+      "dst": "file:MervinPraison/PraisonAI/__main__.py",
+      "type": "contains"
+    },
+    {
+      "src": "repo:MervinPraison/PraisonAI",
+      "dst": "file:MervinPraison/PraisonAI/app.py",
+      "type": "contains"
+    },
+    {
+      "src": "repo:MervinPraison/PraisonAI",
+      "dst": "file:MervinPraison/PraisonAI/__main__.py",
+      "type": "contains"
+    },
+    {
+      "src": "repo:MervinPraison/PraisonAI",
+      "dst": "file:MervinPraison/PraisonAI/app.py",
+      "type": "contains"
+    },
+    {
+      "src": "repo:MervinPraison/PraisonAI",
+      "dst": "file:MervinPraison/PraisonAI/train.py",
+      "type": "contains"
+    },
+    {
+      "src": "repo:MervinPraison/PraisonAI",
+      "dst": "file:MervinPraison/PraisonAI/__main__.py",
+      "type": "contains"
+    },
+    {
+      "src": "repo:MervinPraison/PraisonAI",
+      "dst": "file:MervinPraison/PraisonAI/setup.py",
+      "type": "contains"
+    },
+    {
+      "src": "repo:MervinPraison/PraisonAI",
+      "dst": "file:MervinPraison/PraisonAI/agent.py",
+      "type": "contains"
+    },
+    {
+      "src": "repo:MervinPraison/PraisonAI",
+      "dst": "file:MervinPraison/PraisonAI/train.py",
+      "type": "contains"
+    },
+    {
+      "src": "repo:MervinPraison/PraisonAI",
+      "dst": "file:MervinPraison/PraisonAI/__main__.py",
+      "type": "contains"
+    },
+    {
+      "src": "repo:MervinPraison/PraisonAI",
+      "dst": "file:MervinPraison/PraisonAI/Dockerfile",
+      "type": "contains"
+    },
+    {
+      "src": "repo:MervinPraison/PraisonAI",
+      "dst": "file:MervinPraison/PraisonAI/setup.py",
+      "type": "contains"
+    },
+    {
+      "src": "repo:MervinPraison/PraisonAI",
+      "dst": "file:MervinPraison/PraisonAI/main.py",
+      "type": "contains"
+    },
+    {
+      "src": "repo:MervinPraison/PraisonAI",
+      "dst": "file:MervinPraison/PraisonAI/__main__.py",
+      "type": "contains"
+    },
+    {
+      "src": "repo:MervinPraison/PraisonAI",
+      "dst": "file:MervinPraison/PraisonAI/app.py",
+      "type": "contains"
+    },
+    {
+      "src": "repo:MervinPraison/PraisonAI",
+      "dst": "file:MervinPraison/PraisonAI/main.py",
+      "type": "contains"
+    },
+    {
+      "src": "repo:MervinPraison/PraisonAI",
+      "dst": "file:MervinPraison/PraisonAI/run.py",
+      "type": "contains"
+    },
+    {
+      "src": "repo:MervinPraison/PraisonAI",
+      "dst": "file:MervinPraison/PraisonAI/setup.py",
+      "type": "contains"
+    },
+    {
+      "src": "repo:MervinPraison/PraisonAI",
+      "dst": "file:MervinPraison/PraisonAI/agent.py",
+      "type": "contains"
+    },
+    {
+      "src": "repo:MervinPraison/PraisonAI",
+      "dst": "file:MervinPraison/PraisonAI/train.py",
+      "type": "contains"
+    },
+    {
+      "src": "repo:MervinPraison/PraisonAI",
+      "dst": "file:MervinPraison/PraisonAI/app.py",
+      "type": "contains"
+    },
+    {
+      "src": "repo:MervinPraison/PraisonAI",
+      "dst": "file:MervinPraison/PraisonAI/app.py",
+      "type": "contains"
+    },
+    {
+      "src": "repo:MervinPraison/PraisonAI",
+      "dst": "file:MervinPraison/PraisonAI/pyproject.toml",
+      "type": "contains"
+    },
+    {
+      "src": "repo:MervinPraison/PraisonAI",
+      "dst": "file:MervinPraison/PraisonAI/cli.py",
+      "type": "contains"
+    },
+    {
+      "src": "repo:MervinPraison/PraisonAI",
+      "dst": "file:MervinPraison/PraisonAI/__main__.py",
+      "type": "contains"
+    },
+    {
+      "src": "repo:MervinPraison/PraisonAI",
+      "dst": "file:MervinPraison/PraisonAI/app.py",
+      "type": "contains"
+    },
+    {
+      "src": "repo:MervinPraison/PraisonAI",
+      "dst": "file:MervinPraison/PraisonAI/__main__.py",
+      "type": "contains"
+    },
+    {
+      "src": "repo:MervinPraison/PraisonAI",
+      "dst": "file:MervinPraison/PraisonAI/app.py",
+      "type": "contains"
+    },
+    {
+      "src": "repo:MervinPraison/PraisonAI",
+      "dst": "file:MervinPraison/PraisonAI/__main__.py",
+      "type": "contains"
+    },
+    {
+      "src": "repo:MervinPraison/PraisonAI",
+      "dst": "file:MervinPraison/PraisonAI/__main__.py",
+      "type": "contains"
+    },
+    {
+      "src": "repo:MervinPraison/PraisonAI",
+      "dst": "file:MervinPraison/PraisonAI/app.py",
+      "type": "contains"
+    },
+    {
+      "src": "repo:MervinPraison/PraisonAI",
+      "dst": "file:MervinPraison/PraisonAI/main.py",
+      "type": "contains"
+    },
+    {
+      "src": "repo:MervinPraison/PraisonAI",
+      "dst": "file:MervinPraison/PraisonAI/run.py",
+      "type": "contains"
+    },
+    {
+      "src": "repo:MervinPraison/PraisonAI",
+      "dst": "file:MervinPraison/PraisonAI/setup.py",
+      "type": "contains"
+    },
+    {
+      "src": "repo:MervinPraison/PraisonAI",
+      "dst": "file:MervinPraison/PraisonAI/agent.py",
+      "type": "contains"
+    },
+    {
+      "src": "repo:MervinPraison/PraisonAI",
+      "dst": "file:MervinPraison/PraisonAI/cli.py",
+      "type": "contains"
+    },
+    {
+      "src": "repo:MervinPraison/PraisonAI",
+      "dst": "file:MervinPraison/PraisonAI/main.py",
+      "type": "contains"
+    },
+    {
+      "src": "repo:MervinPraison/PraisonAI",
+      "dst": "file:MervinPraison/PraisonAI/app.py",
+      "type": "contains"
+    },
+    {
+      "src": "repo:MervinPraison/PraisonAI",
+      "dst": "file:MervinPraison/PraisonAI/pyproject.toml",
+      "type": "contains"
+    },
+    {
+      "src": "repo:MervinPraison/PraisonAI",
+      "dst": "file:MervinPraison/PraisonAI/app.py",
+      "type": "contains"
+    },
+    {
+      "src": "repo:MervinPraison/PraisonAI",
+      "dst": "file:MervinPraison/PraisonAI/pyproject.toml",
+      "type": "contains"
+    },
+    {
+      "src": "repo:MervinPraison/PraisonAI",
+      "dst": "file:MervinPraison/PraisonAI/app.py",
+      "type": "contains"
+    },
+    {
+      "src": "repo:MervinPraison/PraisonAI",
+      "dst": "file:MervinPraison/PraisonAI/app.py",
+      "type": "contains"
+    },
+    {
+      "src": "repo:MervinPraison/PraisonAI",
+      "dst": "file:MervinPraison/PraisonAI/Dockerfile",
+      "type": "contains"
+    },
+    {
+      "src": "repo:MervinPraison/PraisonAI",
+      "dst": "file:MervinPraison/PraisonAI/Dockerfile",
+      "type": "contains"
+    },
+    {
+      "src": "repo:MervinPraison/PraisonAI",
+      "dst": "concept:MervinPraison/PraisonAI/praisonai",
+      "type": "documents"
+    },
+    {
+      "src": "repo:MervinPraison/PraisonAI",
+      "dst": "concept:MervinPraison/PraisonAI/use-cases",
+      "type": "documents"
+    },
+    {
+      "src": "repo:MervinPraison/PraisonAI",
+      "dst": "concept:MervinPraison/PraisonAI/meet-your-first-agent-under-1-minute",
+      "type": "documents"
+    },
+    {
+      "src": "repo:MervinPraison/PraisonAI",
+      "dst": "concept:MervinPraison/PraisonAI/give-your-agent-a-goal-and-watch-it-work",
+      "type": "documents"
+    },
+    {
+      "src": "repo:MervinPraison/PraisonAI",
+      "dst": "concept:MervinPraison/PraisonAI/the-praisonai-ecosystem",
+      "type": "documents"
+    },
+    {
+      "src": "repo:MervinPraison/PraisonAI",
+      "dst": "concept:MervinPraison/PraisonAI/javascript-sdk",
+      "type": "documents"
+    },
+    {
+      "src": "repo:MervinPraison/PraisonAI",
+      "dst": "concept:MervinPraison/PraisonAI/supported-providers-features",
+      "type": "documents"
+    },
+    {
+      "src": "repo:MervinPraison/PraisonAI",
+      "dst": "concept:MervinPraison/PraisonAI/why-praisonai",
+      "type": "documents"
+    },
+    {
+      "src": "repo:MervinPraison/PraisonAI",
+      "dst": "concept:MervinPraison/PraisonAI/using-python-code",
+      "type": "documents"
+    },
+    {
+      "src": "repo:MervinPraison/PraisonAI",
+      "dst": "concept:MervinPraison/PraisonAI/1-single-agent",
+      "type": "documents"
+    },
+    {
+      "src": "repo:MervinPraison/PraisonAI",
+      "dst": "concept:MervinPraison/PraisonAI/2-multi-agents",
+      "type": "documents"
+    },
+    {
+      "src": "repo:MervinPraison/PraisonAI",
+      "dst": "concept:MervinPraison/PraisonAI/3-mcp-model-context-protocol",
+      "type": "documents"
+    },
+    {
+      "src": "repo:MervinPraison/PraisonAI",
+      "dst": "concept:MervinPraison/PraisonAI/stdio-local-npx-python-servers",
+      "type": "documents"
+    },
+    {
+      "src": "repo:MervinPraison/PraisonAI",
+      "dst": "concept:MervinPraison/PraisonAI/streamable-http-production-servers",
+      "type": "documents"
+    },
+    {
+      "src": "repo:MervinPraison/PraisonAI",
+      "dst": "concept:MervinPraison/PraisonAI/websocket-real-time-bidirectional",
+      "type": "documents"
+    },
+    {
+      "src": "repo:MervinPraison/PraisonAI",
+      "dst": "concept:MervinPraison/PraisonAI/4-custom-tools",
+      "type": "documents"
+    },
+    {
+      "src": "repo:MervinPraison/PraisonAI",
+      "dst": "concept:MervinPraison/PraisonAI/5-persistence-databases",
+      "type": "documents"
+    },
+    {
+      "src": "repo:MervinPraison/PraisonAI",
+      "dst": "concept:MervinPraison/PraisonAI/6-praisonai-claw-dashboard-ui",
+      "type": "documents"
+    },
+    {
+      "src": "repo:MervinPraison/PraisonAI",
+      "dst": "concept:MervinPraison/PraisonAI/7-langflow-integration-visual-flow-builder",
+      "type": "documents"
+    },
+    {
+      "src": "repo:MervinPraison/PraisonAI",
+      "dst": "concept:MervinPraison/PraisonAI/8-praisonai-ui-clean-chat",
+      "type": "documents"
+    },
+    {
+      "src": "repo:MervinPraison/PraisonAI",
+      "dst": "concept:MervinPraison/PraisonAI/using-yaml-no-code",
+      "type": "documents"
+    },
+    {
+      "src": "repo:MervinPraison/PraisonAI",
+      "dst": "concept:MervinPraison/PraisonAI/cli-quick-reference",
+      "type": "documents"
+    },
+    {
+      "src": "repo:MervinPraison/PraisonAI",
+      "dst": "concept:MervinPraison/PraisonAI/key-features",
+      "type": "documents"
+    },
+    {
+      "src": "repo:MervinPraison/PraisonAI",
+      "dst": "concept:MervinPraison/PraisonAI/using-javascript-code",
+      "type": "documents"
+    },
+    {
+      "src": "repo:MervinPraison/PraisonAI",
+      "dst": "concept:MervinPraison/PraisonAI/performance",
+      "type": "documents"
+    },
+    {
+      "src": "repo:MervinPraison/PraisonAI",
+      "dst": "concept:MervinPraison/PraisonAI/star-history",
+      "type": "documents"
+    },
+    {
+      "src": "repo:MervinPraison/PraisonAI",
+      "dst": "concept:MervinPraison/PraisonAI/langfuse-tracing",
+      "type": "documents"
+    },
+    {
+      "src": "repo:MervinPraison/PraisonAI",
+      "dst": "concept:MervinPraison/PraisonAI/video-tutorials",
+      "type": "documents"
+    },
+    {
+      "src": "repo:MervinPraison/PraisonAI",
+      "dst": "concept:MervinPraison/PraisonAI/start-ollama-server-first",
+      "type": "documents"
+    },
+    {
+      "src": "repo:MervinPraison/PraisonAI",
+      "dst": "concept:MervinPraison/PraisonAI/getting-help",
+      "type": "documents"
+    },
+    {
+      "src": "repo:MervinPraison/PraisonAI",
+      "dst": "framework:pytorch",
+      "type": "uses"
+    },
+    {
+      "src": "repo:MervinPraison/PraisonAI",
+      "dst": "framework:transformers",
+      "type": "uses"
+    },
+    {
+      "src": "repo:MervinPraison/PraisonAI",
+      "dst": "framework:langchain",
+      "type": "uses"
+    },
+    {
+      "src": "repo:MervinPraison/PraisonAI",
+      "dst": "framework:langgraph",
+      "type": "uses"
+    },
+    {
+      "src": "repo:MervinPraison/PraisonAI",
+      "dst": "framework:openai",
+      "type": "uses"
+    },
+    {
+      "src": "repo:MervinPraison/PraisonAI",
+      "dst": "framework:anthropic",
+      "type": "uses"
+    },
+    {
+      "src": "repo:MervinPraison/PraisonAI",
+      "dst": "framework:vllm",
+      "type": "uses"
+    },
+    {
+      "src": "repo:MervinPraison/PraisonAI",
+      "dst": "framework:mcp",
+      "type": "uses"
+    }
+  ],
+  "content_hash": "30bd5602f5c08bd1"
+}

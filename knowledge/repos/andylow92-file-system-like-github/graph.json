@@ -1,0 +1,263 @@
+{
+  "stats": {
+    "nodes": 23,
+    "edges": 26
+  },
+  "repo": "andylow92/file-system-like-github",
+  "nodes": [
+    {
+      "id": "repo:andylow92/file-system-like-github",
+      "type": "repo",
+      "name": "andylow92/file-system-like-github",
+      "links": [
+        "https://github.com/andylow92/file-system-like-github"
+      ]
+    },
+    {
+      "id": "module:andylow92/file-system-like-github/apps",
+      "type": "module",
+      "name": "apps"
+    },
+    {
+      "id": "module:andylow92/file-system-like-github/docs",
+      "type": "module",
+      "name": "docs"
+    },
+    {
+      "id": "module:andylow92/file-system-like-github/packages",
+      "type": "module",
+      "name": "packages"
+    },
+    {
+      "id": "module:andylow92/file-system-like-github/scripts",
+      "type": "module",
+      "name": "scripts"
+    },
+    {
+      "id": "file:andylow92/file-system-like-github/package.json",
+      "type": "file",
+      "name": "package.json",
+      "links": [
+        "https://github.com/andylow92/file-system-like-github/blob/HEAD/package.json"
+      ]
+    },
+    {
+      "id": "concept:andylow92/file-system-like-github/why-this-project-exists",
+      "type": "concept",
+      "name": "Why this project exists"
+    },
+    {
+      "id": "concept:andylow92/file-system-like-github/what-you-can-do-with-it",
+      "type": "concept",
+      "name": "What you can do with it"
+    },
+    {
+      "id": "concept:andylow92/file-system-like-github/ai-agent-features",
+      "type": "concept",
+      "name": "🤖 AI & agent features"
+    },
+    {
+      "id": "concept:andylow92/file-system-like-github/built-for-real-world-use-cases",
+      "type": "concept",
+      "name": "Built for real-world use cases"
+    },
+    {
+      "id": "concept:andylow92/file-system-like-github/architecture-at-a-glance",
+      "type": "concept",
+      "name": "Architecture at a glance"
+    },
+    {
+      "id": "concept:andylow92/file-system-like-github/3-run-api-web-two-terminals",
+      "type": "concept",
+      "name": "3) Run API + Web (two terminals)"
+    },
+    {
+      "id": "concept:andylow92/file-system-like-github/4-open-the-app",
+      "type": "concept",
+      "name": "4) Open the app"
+    },
+    {
+      "id": "concept:andylow92/file-system-like-github/use-it-as-an-agent-s-brain-clone-run",
+      "type": "concept",
+      "name": "Use it as an agent's brain (clone & run)"
+    },
+    {
+      "id": "concept:andylow92/file-system-like-github/opt-into-embedding-based-semantic-search",
+      "type": "concept",
+      "name": "Opt into embedding-based semantic search:"
+    },
+    {
+      "id": "concept:andylow92/file-system-like-github/api-snapshot",
+      "type": "concept",
+      "name": "API snapshot"
+    },
+    {
+      "id": "concept:andylow92/file-system-like-github/local-quality-checks",
+      "type": "concept",
+      "name": "Local quality checks"
+    },
+    {
+      "id": "concept:andylow92/file-system-like-github/security-model-important",
+      "type": "concept",
+      "name": "Security model (important)"
+    },
+    {
+      "id": "concept:andylow92/file-system-like-github/deployment-note",
+      "type": "concept",
+      "name": "Deployment note"
+    },
+    {
+      "id": "concept:andylow92/file-system-like-github/extra-docs",
+      "type": "concept",
+      "name": "Extra docs"
+    },
+    {
+      "id": "concept:andylow92/file-system-like-github/keywords-for-discoverability",
+      "type": "concept",
+      "name": "Keywords (for discoverability)"
+    },
+    {
+      "id": "framework:openai",
+      "type": "framework",
+      "name": "openai"
+    },
+    {
+      "id": "framework:mcp",
+      "type": "framework",
+      "name": "mcp"
+    }
+  ],
+  "edges": [
+    {
+      "src": "repo:andylow92/file-system-like-github",
+      "dst": "module:andylow92/file-system-like-github/apps",
+      "type": "contains"
+    },
+    {
+      "src": "repo:andylow92/file-system-like-github",
+      "dst": "module:andylow92/file-system-like-github/docs",
+      "type": "contains"
+    },
+    {
+      "src": "repo:andylow92/file-system-like-github",
+      "dst": "module:andylow92/file-system-like-github/packages",
+      "type": "contains"
+    },
+    {
+      "src": "repo:andylow92/file-system-like-github",
+      "dst": "module:andylow92/file-system-like-github/scripts",
+      "type": "contains"
+    },
+    {
+      "src": "repo:andylow92/file-system-like-github",
+      "dst": "file:andylow92/file-system-like-github/package.json",
+      "type": "contains"
+    },
+    {
+      "src": "repo:andylow92/file-system-like-github",
+      "dst": "file:andylow92/file-system-like-github/package.json",
+      "type": "contains"
+    },
+    {
+      "src": "repo:andylow92/file-system-like-github",
+      "dst": "file:andylow92/file-system-like-github/package.json",
+      "type": "contains"
+    },
+    {
+      "src": "repo:andylow92/file-system-like-github",
+      "dst": "file:andylow92/file-system-like-github/package.json",
+      "type": "contains"
+    },
+    {
+      "src": "repo:andylow92/file-system-like-github",
+      "dst": "file:andylow92/file-system-like-github/package.json",
+      "type": "contains"
+    },
+    {
+      "src": "repo:andylow92/file-system-like-github",
+      "dst": "concept:andylow92/file-system-like-github/why-this-project-exists",
+      "type": "documents"
+    },
+    {
+      "src": "repo:andylow92/file-system-like-github",
+      "dst": "concept:andylow92/file-system-like-github/what-you-can-do-with-it",
+      "type": "documents"
+    },
+    {
+      "src": "repo:andylow92/file-system-like-github",
+      "dst": "concept:andylow92/file-system-like-github/ai-agent-features",
+      "type": "documents"
+    },
+    {
+      "src": "repo:andylow92/file-system-like-github",
+      "dst": "concept:andylow92/file-system-like-github/built-for-real-world-use-cases",
+      "type": "documents"
+    },
+    {
+      "src": "repo:andylow92/file-system-like-github",
+      "dst": "concept:andylow92/file-system-like-github/architecture-at-a-glance",
+      "type": "documents"
+    },
+    {
+      "src": "repo:andylow92/file-system-like-github",
+      "dst": "concept:andylow92/file-system-like-github/3-run-api-web-two-terminals",
+      "type": "documents"
+    },
+    {
+      "src": "repo:andylow92/file-system-like-github",
+      "dst": "concept:andylow92/file-system-like-github/4-open-the-app",
+      "type": "documents"
+    },
+    {
+      "src": "repo:andylow92/file-system-like-github",
+      "dst": "concept:andylow92/file-system-like-github/use-it-as-an-agent-s-brain-clone-run",
+      "type": "documents"
+    },
+    {
+      "src": "repo:andylow92/file-system-like-github",
+      "dst": "concept:andylow92/file-system-like-github/opt-into-embedding-based-semantic-search",
+      "type": "documents"
+    },
+    {
+      "src": "repo:andylow92/file-system-like-github",
+      "dst": "concept:andylow92/file-system-like-github/api-snapshot",
+      "type": "documents"
+    },
+    {
+      "src": "repo:andylow92/file-system-like-github",
+      "dst": "concept:andylow92/file-system-like-github/local-quality-checks",
+      "type": "documents"
+    },
+    {
+      "src": "repo:andylow92/file-system-like-github",
+      "dst": "concept:andylow92/file-system-like-github/security-model-important",
+      "type": "documents"
+    },
+    {
+      "src": "repo:andylow92/file-system-like-github",
+      "dst": "concept:andylow92/file-system-like-github/deployment-note",
+      "type": "documents"
+    },
+    {
+      "src": "repo:andylow92/file-system-like-github",
+      "dst": "concept:andylow92/file-system-like-github/extra-docs",
+      "type": "documents"
+    },
+    {
+      "src": "repo:andylow92/file-system-like-github",
+      "dst": "concept:andylow92/file-system-like-github/keywords-for-discoverability",
+      "type": "documents"
+    },
+    {
+      "src": "repo:andylow92/file-system-like-github",
+      "dst": "framework:openai",
+      "type": "uses"
+    },
+    {
+      "src": "repo:andylow92/file-system-like-github",
+      "dst": "framework:mcp",
+      "type": "uses"
+    }
+  ],
+  "content_hash": "de4c6d5497957054"
+}

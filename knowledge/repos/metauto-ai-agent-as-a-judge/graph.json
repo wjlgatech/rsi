@@ -1,0 +1,209 @@
+{
+  "stats": {
+    "nodes": 19,
+    "edges": 18
+  },
+  "repo": "metauto-ai/agent-as-a-judge",
+  "nodes": [
+    {
+      "id": "repo:metauto-ai/agent-as-a-judge",
+      "type": "repo",
+      "name": "metauto-ai/agent-as-a-judge",
+      "links": [
+        "https://github.com/metauto-ai/agent-as-a-judge"
+      ]
+    },
+    {
+      "id": "module:metauto-ai/agent-as-a-judge/agent_as_a_judge",
+      "type": "module",
+      "name": "agent_as_a_judge"
+    },
+    {
+      "id": "module:metauto-ai/agent-as-a-judge/assets",
+      "type": "module",
+      "name": "assets"
+    },
+    {
+      "id": "module:metauto-ai/agent-as-a-judge/benchmark",
+      "type": "module",
+      "name": "benchmark"
+    },
+    {
+      "id": "module:metauto-ai/agent-as-a-judge/reports",
+      "type": "module",
+      "name": "reports"
+    },
+    {
+      "id": "module:metauto-ai/agent-as-a-judge/scripts",
+      "type": "module",
+      "name": "scripts"
+    },
+    {
+      "id": "file:metauto-ai/agent-as-a-judge/pyproject.toml",
+      "type": "file",
+      "name": "pyproject.toml",
+      "links": [
+        "https://github.com/metauto-ai/agent-as-a-judge/blob/HEAD/pyproject.toml"
+      ]
+    },
+    {
+      "id": "file:metauto-ai/agent-as-a-judge/agent.py",
+      "type": "file",
+      "name": "agent.py",
+      "links": [
+        "https://github.com/metauto-ai/agent-as-a-judge/blob/HEAD/agent_as_a_judge/agent.py"
+      ]
+    },
+    {
+      "id": "file:metauto-ai/agent-as-a-judge/train.py",
+      "type": "file",
+      "name": "train.py",
+      "links": [
+        "https://github.com/metauto-ai/agent-as-a-judge/blob/HEAD/benchmark/workspaces/OpenHands/39_Drug_Response_Prediction_SVM_GDSC_ML/src/train.py"
+      ]
+    },
+    {
+      "id": "concept:metauto-ai/agent-as-a-judge/features",
+      "type": "concept",
+      "name": "🤠 Features"
+    },
+    {
+      "id": "concept:metauto-ai/agent-as-a-judge/2-set-llm-api",
+      "type": "concept",
+      "name": "2. set LLM&API"
+    },
+    {
+      "id": "concept:metauto-ai/agent-as-a-judge/openai-api-key-sk",
+      "type": "concept",
+      "name": "OPENAI_API_KEY=\"sk-\""
+    },
+    {
+      "id": "concept:metauto-ai/agent-as-a-judge/",
+      "type": "concept",
+      "name": "..."
+    },
+    {
+      "id": "concept:metauto-ai/agent-as-a-judge/3-run",
+      "type": "concept",
+      "name": "3. run"
+    },
+    {
+      "id": "concept:metauto-ai/agent-as-a-judge/devai-dataset",
+      "type": "concept",
+      "name": "🤗 DevAI Dataset"
+    },
+    {
+      "id": "concept:metauto-ai/agent-as-a-judge/reference",
+      "type": "concept",
+      "name": "Reference"
+    },
+    {
+      "id": "framework:tensorflow",
+      "type": "framework",
+      "name": "tensorflow"
+    },
+    {
+      "id": "framework:transformers",
+      "type": "framework",
+      "name": "transformers"
+    },
+    {
+      "id": "framework:openai",
+      "type": "framework",
+      "name": "openai"
+    }
+  ],
+  "edges": [
+    {
+      "src": "repo:metauto-ai/agent-as-a-judge",
+      "dst": "module:metauto-ai/agent-as-a-judge/agent_as_a_judge",
+      "type": "contains"
+    },
+    {
+      "src": "repo:metauto-ai/agent-as-a-judge",
+      "dst": "module:metauto-ai/agent-as-a-judge/assets",
+      "type": "contains"
+    },
+    {
+      "src": "repo:metauto-ai/agent-as-a-judge",
+      "dst": "module:metauto-ai/agent-as-a-judge/benchmark",
+      "type": "contains"
+    },
+    {
+      "src": "repo:metauto-ai/agent-as-a-judge",
+      "dst": "module:metauto-ai/agent-as-a-judge/reports",
+      "type": "contains"
+    },
+    {
+      "src": "repo:metauto-ai/agent-as-a-judge",
+      "dst": "module:metauto-ai/agent-as-a-judge/scripts",
+      "type": "contains"
+    },
+    {
+      "src": "repo:metauto-ai/agent-as-a-judge",
+      "dst": "file:metauto-ai/agent-as-a-judge/pyproject.toml",
+      "type": "contains"
+    },
+    {
+      "src": "repo:metauto-ai/agent-as-a-judge",
+      "dst": "file:metauto-ai/agent-as-a-judge/agent.py",
+      "type": "contains"
+    },
+    {
+      "src": "repo:metauto-ai/agent-as-a-judge",
+      "dst": "file:metauto-ai/agent-as-a-judge/train.py",
+      "type": "contains"
+    },
+    {
+      "src": "repo:metauto-ai/agent-as-a-judge",
+      "dst": "concept:metauto-ai/agent-as-a-judge/features",
+      "type": "documents"
+    },
+    {
+      "src": "repo:metauto-ai/agent-as-a-judge",
+      "dst": "concept:metauto-ai/agent-as-a-judge/2-set-llm-api",
+      "type": "documents"
+    },
+    {
+      "src": "repo:metauto-ai/agent-as-a-judge",
+      "dst": "concept:metauto-ai/agent-as-a-judge/openai-api-key-sk",
+      "type": "documents"
+    },
+    {
+      "src": "repo:metauto-ai/agent-as-a-judge",
+      "dst": "concept:metauto-ai/agent-as-a-judge/",
+      "type": "documents"
+    },
+    {
+      "src": "repo:metauto-ai/agent-as-a-judge",
+      "dst": "concept:metauto-ai/agent-as-a-judge/3-run",
+      "type": "documents"
+    },
+    {
+      "src": "repo:metauto-ai/agent-as-a-judge",
+      "dst": "concept:metauto-ai/agent-as-a-judge/devai-dataset",
+      "type": "documents"
+    },
+    {
+      "src": "repo:metauto-ai/agent-as-a-judge",
+      "dst": "concept:metauto-ai/agent-as-a-judge/reference",
+      "type": "documents"
+    },
+    {
+      "src": "repo:metauto-ai/agent-as-a-judge",
+      "dst": "framework:tensorflow",
+      "type": "uses"
+    },
+    {
+      "src": "repo:metauto-ai/agent-as-a-judge",
+      "dst": "framework:transformers",
+      "type": "uses"
+    },
+    {
+      "src": "repo:metauto-ai/agent-as-a-judge",
+      "dst": "framework:openai",
+      "type": "uses"
+    }
+  ],
+  "content_hash": "e795ce165ee10e93"
+}

@@ -260,6 +260,16 @@ Tools here earn an **evidence-backed** tier, not an install count — the trust 
 
 ---
 
+## 🧰 Certified Toolsets
+
+Every top repo cited here is minted into a reusable **agentic skill** + a knowledge graph (`scripts/repo_factory.py`). `/rsi` loads the **[registry](skills/registry.json)** as backbone; each skill's body loads on-demand (**progressive disclosure**) when its trigger matches your task.
+
+**19 toolsets** — AI-Scientist, AI-Scientist-v2, AgentLaboratory, HyperAgents, MLGym, PraisonAI, agent-as-a-judge, bitrouter, codemesh, dgm, dspy, file-system-like-github…
+
+→ **[Browse the toolset registry](skills/README.md)** · per-repo graphs in `knowledge/repos/`
+
+---
+
 ## 👥 People & Labs to Follow
 
 ### 🎯 Recursive Lab — 8 Co-Founders & Key Members

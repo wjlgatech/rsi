@@ -1,0 +1,239 @@
+{
+  "stats": {
+    "nodes": 20,
+    "edges": 23
+  },
+  "repo": "facebookresearch/HyperAgents",
+  "nodes": [
+    {
+      "id": "repo:facebookresearch/HyperAgents",
+      "type": "repo",
+      "name": "facebookresearch/HyperAgents",
+      "links": [
+        "https://github.com/facebookresearch/HyperAgents"
+      ]
+    },
+    {
+      "id": "module:facebookresearch/HyperAgents/agent",
+      "type": "module",
+      "name": "agent"
+    },
+    {
+      "id": "module:facebookresearch/HyperAgents/analysis",
+      "type": "module",
+      "name": "analysis"
+    },
+    {
+      "id": "module:facebookresearch/HyperAgents/baselines",
+      "type": "module",
+      "name": "baselines"
+    },
+    {
+      "id": "module:facebookresearch/HyperAgents/domains",
+      "type": "module",
+      "name": "domains"
+    },
+    {
+      "id": "module:facebookresearch/HyperAgents/utils",
+      "type": "module",
+      "name": "utils"
+    },
+    {
+      "id": "file:facebookresearch/HyperAgents/Dockerfile",
+      "type": "file",
+      "name": "Dockerfile",
+      "links": [
+        "https://github.com/facebookresearch/HyperAgents/blob/HEAD/Dockerfile"
+      ]
+    },
+    {
+      "id": "file:facebookresearch/HyperAgents/run.py",
+      "type": "file",
+      "name": "run.py",
+      "links": [
+        "https://github.com/facebookresearch/HyperAgents/blob/HEAD/baselines/imo_proof/run.py"
+      ]
+    },
+    {
+      "id": "file:facebookresearch/HyperAgents/agent.py",
+      "type": "file",
+      "name": "agent.py",
+      "links": [
+        "https://github.com/facebookresearch/HyperAgents/blob/HEAD/baselines/imo_proof/agent.py"
+      ]
+    },
+    {
+      "id": "concept:facebookresearch/HyperAgents/to-build-the-docker-container",
+      "type": "concept",
+      "name": "To build the docker container"
+    },
+    {
+      "id": "concept:facebookresearch/HyperAgents/running-hyperagents",
+      "type": "concept",
+      "name": "Running HyperAgents"
+    },
+    {
+      "id": "concept:facebookresearch/HyperAgents/see-the-script-for-args-and-baseline-selections",
+      "type": "concept",
+      "name": "See the script for args, and baseline selections"
+    },
+    {
+      "id": "concept:facebookresearch/HyperAgents/file-structure",
+      "type": "concept",
+      "name": "File Structure"
+    },
+    {
+      "id": "concept:facebookresearch/HyperAgents/logs-from-experiments",
+      "type": "concept",
+      "name": "Logs from Experiments"
+    },
+    {
+      "id": "concept:facebookresearch/HyperAgents/safety-consideration",
+      "type": "concept",
+      "name": "Safety Consideration"
+    },
+    {
+      "id": "concept:facebookresearch/HyperAgents/citing",
+      "type": "concept",
+      "name": "Citing"
+    },
+    {
+      "id": "framework:pytorch",
+      "type": "framework",
+      "name": "pytorch"
+    },
+    {
+      "id": "framework:openai",
+      "type": "framework",
+      "name": "openai"
+    },
+    {
+      "id": "framework:anthropic",
+      "type": "framework",
+      "name": "anthropic"
+    },
+    {
+      "id": "framework:gymnasium",
+      "type": "framework",
+      "name": "gymnasium"
+    }
+  ],
+  "edges": [
+    {
+      "src": "repo:facebookresearch/HyperAgents",
+      "dst": "module:facebookresearch/HyperAgents/agent",
+      "type": "contains"
+    },
+    {
+      "src": "repo:facebookresearch/HyperAgents",
+      "dst": "module:facebookresearch/HyperAgents/analysis",
+      "type": "contains"
+    },
+    {
+      "src": "repo:facebookresearch/HyperAgents",
+      "dst": "module:facebookresearch/HyperAgents/baselines",
+      "type": "contains"
+    },
+    {
+      "src": "repo:facebookresearch/HyperAgents",
+      "dst": "module:facebookresearch/HyperAgents/domains",
+      "type": "contains"
+    },
+    {
+      "src": "repo:facebookresearch/HyperAgents",
+      "dst": "module:facebookresearch/HyperAgents/utils",
+      "type": "contains"
+    },
+    {
+      "src": "repo:facebookresearch/HyperAgents",
+      "dst": "file:facebookresearch/HyperAgents/Dockerfile",
+      "type": "contains"
+    },
+    {
+      "src": "repo:facebookresearch/HyperAgents",
+      "dst": "file:facebookresearch/HyperAgents/run.py",
+      "type": "contains"
+    },
+    {
+      "src": "repo:facebookresearch/HyperAgents",
+      "dst": "file:facebookresearch/HyperAgents/agent.py",
+      "type": "contains"
+    },
+    {
+      "src": "repo:facebookresearch/HyperAgents",
+      "dst": "file:facebookresearch/HyperAgents/run.py",
+      "type": "contains"
+    },
+    {
+      "src": "repo:facebookresearch/HyperAgents",
+      "dst": "file:facebookresearch/HyperAgents/run.py",
+      "type": "contains"
+    },
+    {
+      "src": "repo:facebookresearch/HyperAgents",
+      "dst": "file:facebookresearch/HyperAgents/agent.py",
+      "type": "contains"
+    },
+    {
+      "src": "repo:facebookresearch/HyperAgents",
+      "dst": "file:facebookresearch/HyperAgents/run.py",
+      "type": "contains"
+    },
+    {
+      "src": "repo:facebookresearch/HyperAgents",
+      "dst": "concept:facebookresearch/HyperAgents/to-build-the-docker-container",
+      "type": "documents"
+    },
+    {
+      "src": "repo:facebookresearch/HyperAgents",
+      "dst": "concept:facebookresearch/HyperAgents/running-hyperagents",
+      "type": "documents"
+    },
+    {
+      "src": "repo:facebookresearch/HyperAgents",
+      "dst": "concept:facebookresearch/HyperAgents/see-the-script-for-args-and-baseline-selections",
+      "type": "documents"
+    },
+    {
+      "src": "repo:facebookresearch/HyperAgents",
+      "dst": "concept:facebookresearch/HyperAgents/file-structure",
+      "type": "documents"
+    },
+    {
+      "src": "repo:facebookresearch/HyperAgents",
+      "dst": "concept:facebookresearch/HyperAgents/logs-from-experiments",
+      "type": "documents"
+    },
+    {
+      "src": "repo:facebookresearch/HyperAgents",
+      "dst": "concept:facebookresearch/HyperAgents/safety-consideration",
+      "type": "documents"
+    },
+    {
+      "src": "repo:facebookresearch/HyperAgents",
+      "dst": "concept:facebookresearch/HyperAgents/citing",
+      "type": "documents"
+    },
+    {
+      "src": "repo:facebookresearch/HyperAgents",
+      "dst": "framework:pytorch",
+      "type": "uses"
+    },
+    {
+      "src": "repo:facebookresearch/HyperAgents",
+      "dst": "framework:openai",
+      "type": "uses"
+    },
+    {
+      "src": "repo:facebookresearch/HyperAgents",
+      "dst": "framework:anthropic",
+      "type": "uses"
+    },
+    {
+      "src": "repo:facebookresearch/HyperAgents",
+      "dst": "framework:gymnasium",
+      "type": "uses"
+    }
+  ],
+  "content_hash": "f96ac4775f226dc0"
+}
