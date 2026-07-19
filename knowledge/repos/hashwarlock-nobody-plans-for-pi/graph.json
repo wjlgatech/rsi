@@ -1,0 +1,193 @@
+{
+  "stats": {
+    "nodes": 18,
+    "edges": 17
+  },
+  "repo": "HashWarlock/nobody-plans-for-pi",
+  "nodes": [
+    {
+      "id": "repo:HashWarlock/nobody-plans-for-pi",
+      "type": "repo",
+      "name": "HashWarlock/nobody-plans-for-pi",
+      "links": [
+        "https://github.com/HashWarlock/nobody-plans-for-pi"
+      ]
+    },
+    {
+      "id": "module:HashWarlock/nobody-plans-for-pi/agents",
+      "type": "module",
+      "name": "agents"
+    },
+    {
+      "id": "module:HashWarlock/nobody-plans-for-pi/extensions",
+      "type": "module",
+      "name": "extensions"
+    },
+    {
+      "id": "module:HashWarlock/nobody-plans-for-pi/prompts",
+      "type": "module",
+      "name": "prompts"
+    },
+    {
+      "id": "module:HashWarlock/nobody-plans-for-pi/skills",
+      "type": "module",
+      "name": "skills"
+    },
+    {
+      "id": "file:HashWarlock/nobody-plans-for-pi/package.json",
+      "type": "file",
+      "name": "package.json",
+      "links": [
+        "https://github.com/HashWarlock/nobody-plans-for-pi/blob/HEAD/package.json"
+      ]
+    },
+    {
+      "id": "concept:HashWarlock/nobody-plans-for-pi/nobody-plans-for-pi",
+      "type": "concept",
+      "name": "nobody-plans-for-pi"
+    },
+    {
+      "id": "concept:HashWarlock/nobody-plans-for-pi/what-this-does",
+      "type": "concept",
+      "name": "What This Does"
+    },
+    {
+      "id": "concept:HashWarlock/nobody-plans-for-pi/what-s-inside",
+      "type": "concept",
+      "name": "What's Inside"
+    },
+    {
+      "id": "concept:HashWarlock/nobody-plans-for-pi/subagent-extension",
+      "type": "concept",
+      "name": "Subagent Extension"
+    },
+    {
+      "id": "concept:HashWarlock/nobody-plans-for-pi/agents",
+      "type": "concept",
+      "name": "Agents"
+    },
+    {
+      "id": "concept:HashWarlock/nobody-plans-for-pi/workflow-prompts",
+      "type": "concept",
+      "name": "Workflow Prompts"
+    },
+    {
+      "id": "concept:HashWarlock/nobody-plans-for-pi/skills",
+      "type": "concept",
+      "name": "Skills"
+    },
+    {
+      "id": "concept:HashWarlock/nobody-plans-for-pi/automatic",
+      "type": "concept",
+      "name": "Automatic"
+    },
+    {
+      "id": "concept:HashWarlock/nobody-plans-for-pi/explicit",
+      "type": "concept",
+      "name": "Explicit"
+    },
+    {
+      "id": "concept:HashWarlock/nobody-plans-for-pi/custom-agents",
+      "type": "concept",
+      "name": "Custom Agents"
+    },
+    {
+      "id": "concept:HashWarlock/nobody-plans-for-pi/update",
+      "type": "concept",
+      "name": "Update"
+    },
+    {
+      "id": "concept:HashWarlock/nobody-plans-for-pi/philosophy",
+      "type": "concept",
+      "name": "Philosophy"
+    }
+  ],
+  "edges": [
+    {
+      "src": "repo:HashWarlock/nobody-plans-for-pi",
+      "dst": "module:HashWarlock/nobody-plans-for-pi/agents",
+      "type": "contains"
+    },
+    {
+      "src": "repo:HashWarlock/nobody-plans-for-pi",
+      "dst": "module:HashWarlock/nobody-plans-for-pi/extensions",
+      "type": "contains"
+    },
+    {
+      "src": "repo:HashWarlock/nobody-plans-for-pi",
+      "dst": "module:HashWarlock/nobody-plans-for-pi/prompts",
+      "type": "contains"
+    },
+    {
+      "src": "repo:HashWarlock/nobody-plans-for-pi",
+      "dst": "module:HashWarlock/nobody-plans-for-pi/skills",
+      "type": "contains"
+    },
+    {
+      "src": "repo:HashWarlock/nobody-plans-for-pi",
+      "dst": "file:HashWarlock/nobody-plans-for-pi/package.json",
+      "type": "contains"
+    },
+    {
+      "src": "repo:HashWarlock/nobody-plans-for-pi",
+      "dst": "concept:HashWarlock/nobody-plans-for-pi/nobody-plans-for-pi",
+      "type": "documents"
+    },
+    {
+      "src": "repo:HashWarlock/nobody-plans-for-pi",
+      "dst": "concept:HashWarlock/nobody-plans-for-pi/what-this-does",
+      "type": "documents"
+    },
+    {
+      "src": "repo:HashWarlock/nobody-plans-for-pi",
+      "dst": "concept:HashWarlock/nobody-plans-for-pi/what-s-inside",
+      "type": "documents"
+    },
+    {
+      "src": "repo:HashWarlock/nobody-plans-for-pi",
+      "dst": "concept:HashWarlock/nobody-plans-for-pi/subagent-extension",
+      "type": "documents"
+    },
+    {
+      "src": "repo:HashWarlock/nobody-plans-for-pi",
+      "dst": "concept:HashWarlock/nobody-plans-for-pi/agents",
+      "type": "documents"
+    },
+    {
+      "src": "repo:HashWarlock/nobody-plans-for-pi",
+      "dst": "concept:HashWarlock/nobody-plans-for-pi/workflow-prompts",
+      "type": "documents"
+    },
+    {
+      "src": "repo:HashWarlock/nobody-plans-for-pi",
+      "dst": "concept:HashWarlock/nobody-plans-for-pi/skills",
+      "type": "documents"
+    },
+    {
+      "src": "repo:HashWarlock/nobody-plans-for-pi",
+      "dst": "concept:HashWarlock/nobody-plans-for-pi/automatic",
+      "type": "documents"
+    },
+    {
+      "src": "repo:HashWarlock/nobody-plans-for-pi",
+      "dst": "concept:HashWarlock/nobody-plans-for-pi/explicit",
+      "type": "documents"
+    },
+    {
+      "src": "repo:HashWarlock/nobody-plans-for-pi",
+      "dst": "concept:HashWarlock/nobody-plans-for-pi/custom-agents",
+      "type": "documents"
+    },
+    {
+      "src": "repo:HashWarlock/nobody-plans-for-pi",
+      "dst": "concept:HashWarlock/nobody-plans-for-pi/update",
+      "type": "documents"
+    },
+    {
+      "src": "repo:HashWarlock/nobody-plans-for-pi",
+      "dst": "concept:HashWarlock/nobody-plans-for-pi/philosophy",
+      "type": "documents"
+    }
+  ],
+  "content_hash": "3848785c06cc261e"
+}

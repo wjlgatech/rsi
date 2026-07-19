@@ -1,0 +1,310 @@
+{
+  "stats": {
+    "nodes": 30,
+    "edges": 29
+  },
+  "repo": "getnao/sylph",
+  "nodes": [
+    {
+      "id": "repo:getnao/sylph",
+      "type": "repo",
+      "name": "getnao/sylph",
+      "links": [
+        "https://github.com/getnao/sylph"
+      ]
+    },
+    {
+      "id": "module:getnao/sylph/admin",
+      "type": "module",
+      "name": "admin"
+    },
+    {
+      "id": "module:getnao/sylph/agents",
+      "type": "module",
+      "name": "agents"
+    },
+    {
+      "id": "module:getnao/sylph/brand",
+      "type": "module",
+      "name": "brand"
+    },
+    {
+      "id": "module:getnao/sylph/compliance",
+      "type": "module",
+      "name": "compliance"
+    },
+    {
+      "id": "module:getnao/sylph/content",
+      "type": "module",
+      "name": "content"
+    },
+    {
+      "id": "module:getnao/sylph/customer-success",
+      "type": "module",
+      "name": "customer-success"
+    },
+    {
+      "id": "module:getnao/sylph/events",
+      "type": "module",
+      "name": "events"
+    },
+    {
+      "id": "module:getnao/sylph/finance",
+      "type": "module",
+      "name": "finance"
+    },
+    {
+      "id": "module:getnao/sylph/hr",
+      "type": "module",
+      "name": "hr"
+    },
+    {
+      "id": "module:getnao/sylph/legal",
+      "type": "module",
+      "name": "legal"
+    },
+    {
+      "id": "module:getnao/sylph/partnerships",
+      "type": "module",
+      "name": "partnerships"
+    },
+    {
+      "id": "module:getnao/sylph/product",
+      "type": "module",
+      "name": "product"
+    },
+    {
+      "id": "module:getnao/sylph/sales",
+      "type": "module",
+      "name": "sales"
+    },
+    {
+      "id": "module:getnao/sylph/sylph",
+      "type": "module",
+      "name": "sylph"
+    },
+    {
+      "id": "concept:getnao/sylph/what-is-this",
+      "type": "concept",
+      "name": "What is this?"
+    },
+    {
+      "id": "concept:getnao/sylph/what-you-can-do-with-sylph",
+      "type": "concept",
+      "name": "What you can do with sylph"
+    },
+    {
+      "id": "concept:getnao/sylph/sylph-main-concepts",
+      "type": "concept",
+      "name": "Sylph main concepts"
+    },
+    {
+      "id": "concept:getnao/sylph/1-fork-this-repo",
+      "type": "concept",
+      "name": "1. Fork this repo"
+    },
+    {
+      "id": "concept:getnao/sylph/3-set-up-skills",
+      "type": "concept",
+      "name": "3. Set up skills"
+    },
+    {
+      "id": "concept:getnao/sylph/4-configure-your-agents",
+      "type": "concept",
+      "name": "4. Configure your agents"
+    },
+    {
+      "id": "concept:getnao/sylph/5-try-it",
+      "type": "concept",
+      "name": "5. Try it"
+    },
+    {
+      "id": "concept:getnao/sylph/directory-structure",
+      "type": "concept",
+      "name": "Directory structure"
+    },
+    {
+      "id": "concept:getnao/sylph/skills",
+      "type": "concept",
+      "name": "Skills"
+    },
+    {
+      "id": "concept:getnao/sylph/agents",
+      "type": "concept",
+      "name": "Agents"
+    },
+    {
+      "id": "concept:getnao/sylph/customization-guide",
+      "type": "concept",
+      "name": "Customization guide"
+    },
+    {
+      "id": "concept:getnao/sylph/why-sylph",
+      "type": "concept",
+      "name": "Why \"Sylph\"?"
+    },
+    {
+      "id": "concept:getnao/sylph/security",
+      "type": "concept",
+      "name": "Security"
+    },
+    {
+      "id": "framework:openai",
+      "type": "framework",
+      "name": "openai"
+    },
+    {
+      "id": "framework:mcp",
+      "type": "framework",
+      "name": "mcp"
+    }
+  ],
+  "edges": [
+    {
+      "src": "repo:getnao/sylph",
+      "dst": "module:getnao/sylph/admin",
+      "type": "contains"
+    },
+    {
+      "src": "repo:getnao/sylph",
+      "dst": "module:getnao/sylph/agents",
+      "type": "contains"
+    },
+    {
+      "src": "repo:getnao/sylph",
+      "dst": "module:getnao/sylph/brand",
+      "type": "contains"
+    },
+    {
+      "src": "repo:getnao/sylph",
+      "dst": "module:getnao/sylph/compliance",
+      "type": "contains"
+    },
+    {
+      "src": "repo:getnao/sylph",
+      "dst": "module:getnao/sylph/content",
+      "type": "contains"
+    },
+    {
+      "src": "repo:getnao/sylph",
+      "dst": "module:getnao/sylph/customer-success",
+      "type": "contains"
+    },
+    {
+      "src": "repo:getnao/sylph",
+      "dst": "module:getnao/sylph/events",
+      "type": "contains"
+    },
+    {
+      "src": "repo:getnao/sylph",
+      "dst": "module:getnao/sylph/finance",
+      "type": "contains"
+    },
+    {
+      "src": "repo:getnao/sylph",
+      "dst": "module:getnao/sylph/hr",
+      "type": "contains"
+    },
+    {
+      "src": "repo:getnao/sylph",
+      "dst": "module:getnao/sylph/legal",
+      "type": "contains"
+    },
+    {
+      "src": "repo:getnao/sylph",
+      "dst": "module:getnao/sylph/partnerships",
+      "type": "contains"
+    },
+    {
+      "src": "repo:getnao/sylph",
+      "dst": "module:getnao/sylph/product",
+      "type": "contains"
+    },
+    {
+      "src": "repo:getnao/sylph",
+      "dst": "module:getnao/sylph/sales",
+      "type": "contains"
+    },
+    {
+      "src": "repo:getnao/sylph",
+      "dst": "module:getnao/sylph/sylph",
+      "type": "contains"
+    },
+    {
+      "src": "repo:getnao/sylph",
+      "dst": "concept:getnao/sylph/what-is-this",
+      "type": "documents"
+    },
+    {
+      "src": "repo:getnao/sylph",
+      "dst": "concept:getnao/sylph/what-you-can-do-with-sylph",
+      "type": "documents"
+    },
+    {
+      "src": "repo:getnao/sylph",
+      "dst": "concept:getnao/sylph/sylph-main-concepts",
+      "type": "documents"
+    },
+    {
+      "src": "repo:getnao/sylph",
+      "dst": "concept:getnao/sylph/1-fork-this-repo",
+      "type": "documents"
+    },
+    {
+      "src": "repo:getnao/sylph",
+      "dst": "concept:getnao/sylph/3-set-up-skills",
+      "type": "documents"
+    },
+    {
+      "src": "repo:getnao/sylph",
+      "dst": "concept:getnao/sylph/4-configure-your-agents",
+      "type": "documents"
+    },
+    {
+      "src": "repo:getnao/sylph",
+      "dst": "concept:getnao/sylph/5-try-it",
+      "type": "documents"
+    },
+    {
+      "src": "repo:getnao/sylph",
+      "dst": "concept:getnao/sylph/directory-structure",
+      "type": "documents"
+    },
+    {
+      "src": "repo:getnao/sylph",
+      "dst": "concept:getnao/sylph/skills",
+      "type": "documents"
+    },
+    {
+      "src": "repo:getnao/sylph",
+      "dst": "concept:getnao/sylph/agents",
+      "type": "documents"
+    },
+    {
+      "src": "repo:getnao/sylph",
+      "dst": "concept:getnao/sylph/customization-guide",
+      "type": "documents"
+    },
+    {
+      "src": "repo:getnao/sylph",
+      "dst": "concept:getnao/sylph/why-sylph",
+      "type": "documents"
+    },
+    {
+      "src": "repo:getnao/sylph",
+      "dst": "concept:getnao/sylph/security",
+      "type": "documents"
+    },
+    {
+      "src": "repo:getnao/sylph",
+      "dst": "framework:openai",
+      "type": "uses"
+    },
+    {
+      "src": "repo:getnao/sylph",
+      "dst": "framework:mcp",
+      "type": "uses"
+    }
+  ],
+  "content_hash": "6383a452a78442e0"
+}

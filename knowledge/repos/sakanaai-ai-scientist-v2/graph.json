@@ -1,0 +1,170 @@
+{
+  "stats": {
+    "nodes": 16,
+    "edges": 15
+  },
+  "repo": "SakanaAI/AI-Scientist-v2",
+  "nodes": [
+    {
+      "id": "repo:SakanaAI/AI-Scientist-v2",
+      "type": "repo",
+      "name": "SakanaAI/AI-Scientist-v2",
+      "links": [
+        "https://github.com/SakanaAI/AI-Scientist-v2"
+      ]
+    },
+    {
+      "id": "module:SakanaAI/AI-Scientist-v2/ai_scientist",
+      "type": "module",
+      "name": "ai_scientist"
+    },
+    {
+      "id": "module:SakanaAI/AI-Scientist-v2/docs",
+      "type": "module",
+      "name": "docs"
+    },
+    {
+      "id": "concept:SakanaAI/AI-Scientist-v2/set-aws-credentials-if-using-bedrock",
+      "type": "concept",
+      "name": "Set AWS credentials if using Bedrock"
+    },
+    {
+      "id": "concept:SakanaAI/AI-Scientist-v2/export-aws-access-key-id-your-aws-access-key-id",
+      "type": "concept",
+      "name": "export AWS_ACCESS_KEY_ID=\"YOUR_AWS_ACCESS_KEY_ID\""
+    },
+    {
+      "id": "concept:SakanaAI/AI-Scientist-v2/export-aws-secret-access-key-your-aws-secret-key",
+      "type": "concept",
+      "name": "export AWS_SECRET_ACCESS_KEY=\"YOUR_AWS_SECRET_KEY\""
+    },
+    {
+      "id": "concept:SakanaAI/AI-Scientist-v2/export-aws-region-name-your-aws-region",
+      "type": "concept",
+      "name": "export AWS_REGION_NAME=\"your-aws-region\""
+    },
+    {
+      "id": "concept:SakanaAI/AI-Scientist-v2/generate-research-ideas",
+      "type": "concept",
+      "name": "Generate Research Ideas"
+    },
+    {
+      "id": "concept:SakanaAI/AI-Scientist-v2/run-ai-scientist-v2-paper-generation-experiments",
+      "type": "concept",
+      "name": "Run AI Scientist-v2 Paper Generation Experiments"
+    },
+    {
+      "id": "concept:SakanaAI/AI-Scientist-v2/citing-the-ai-scientist-v2",
+      "type": "concept",
+      "name": "Citing The AI Scientist-v2"
+    },
+    {
+      "id": "concept:SakanaAI/AI-Scientist-v2/frequently-asked-questions",
+      "type": "concept",
+      "name": "Frequently Asked Questions"
+    },
+    {
+      "id": "concept:SakanaAI/AI-Scientist-v2/star-history",
+      "type": "concept",
+      "name": "Star History"
+    },
+    {
+      "id": "framework:pytorch",
+      "type": "framework",
+      "name": "pytorch"
+    },
+    {
+      "id": "framework:transformers",
+      "type": "framework",
+      "name": "transformers"
+    },
+    {
+      "id": "framework:openai",
+      "type": "framework",
+      "name": "openai"
+    },
+    {
+      "id": "framework:anthropic",
+      "type": "framework",
+      "name": "anthropic"
+    }
+  ],
+  "edges": [
+    {
+      "src": "repo:SakanaAI/AI-Scientist-v2",
+      "dst": "module:SakanaAI/AI-Scientist-v2/ai_scientist",
+      "type": "contains"
+    },
+    {
+      "src": "repo:SakanaAI/AI-Scientist-v2",
+      "dst": "module:SakanaAI/AI-Scientist-v2/docs",
+      "type": "contains"
+    },
+    {
+      "src": "repo:SakanaAI/AI-Scientist-v2",
+      "dst": "concept:SakanaAI/AI-Scientist-v2/set-aws-credentials-if-using-bedrock",
+      "type": "documents"
+    },
+    {
+      "src": "repo:SakanaAI/AI-Scientist-v2",
+      "dst": "concept:SakanaAI/AI-Scientist-v2/export-aws-access-key-id-your-aws-access-key-id",
+      "type": "documents"
+    },
+    {
+      "src": "repo:SakanaAI/AI-Scientist-v2",
+      "dst": "concept:SakanaAI/AI-Scientist-v2/export-aws-secret-access-key-your-aws-secret-key",
+      "type": "documents"
+    },
+    {
+      "src": "repo:SakanaAI/AI-Scientist-v2",
+      "dst": "concept:SakanaAI/AI-Scientist-v2/export-aws-region-name-your-aws-region",
+      "type": "documents"
+    },
+    {
+      "src": "repo:SakanaAI/AI-Scientist-v2",
+      "dst": "concept:SakanaAI/AI-Scientist-v2/generate-research-ideas",
+      "type": "documents"
+    },
+    {
+      "src": "repo:SakanaAI/AI-Scientist-v2",
+      "dst": "concept:SakanaAI/AI-Scientist-v2/run-ai-scientist-v2-paper-generation-experiments",
+      "type": "documents"
+    },
+    {
+      "src": "repo:SakanaAI/AI-Scientist-v2",
+      "dst": "concept:SakanaAI/AI-Scientist-v2/citing-the-ai-scientist-v2",
+      "type": "documents"
+    },
+    {
+      "src": "repo:SakanaAI/AI-Scientist-v2",
+      "dst": "concept:SakanaAI/AI-Scientist-v2/frequently-asked-questions",
+      "type": "documents"
+    },
+    {
+      "src": "repo:SakanaAI/AI-Scientist-v2",
+      "dst": "concept:SakanaAI/AI-Scientist-v2/star-history",
+      "type": "documents"
+    },
+    {
+      "src": "repo:SakanaAI/AI-Scientist-v2",
+      "dst": "framework:pytorch",
+      "type": "uses"
+    },
+    {
+      "src": "repo:SakanaAI/AI-Scientist-v2",
+      "dst": "framework:transformers",
+      "type": "uses"
+    },
+    {
+      "src": "repo:SakanaAI/AI-Scientist-v2",
+      "dst": "framework:openai",
+      "type": "uses"
+    },
+    {
+      "src": "repo:SakanaAI/AI-Scientist-v2",
+      "dst": "framework:anthropic",
+      "type": "uses"
+    }
+  ],
+  "content_hash": "00460c050e3adfb9"
+}

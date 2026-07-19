@@ -1,0 +1,334 @@
+{
+  "stats": {
+    "nodes": 30,
+    "edges": 32
+  },
+  "repo": "facebookresearch/MLGym",
+  "nodes": [
+    {
+      "id": "repo:facebookresearch/MLGym",
+      "type": "repo",
+      "name": "facebookresearch/MLGym",
+      "links": [
+        "https://github.com/facebookresearch/MLGym"
+      ]
+    },
+    {
+      "id": "module:facebookresearch/MLGym/assets",
+      "type": "module",
+      "name": "assets"
+    },
+    {
+      "id": "module:facebookresearch/MLGym/configs",
+      "type": "module",
+      "name": "configs"
+    },
+    {
+      "id": "module:facebookresearch/MLGym/data",
+      "type": "module",
+      "name": "data"
+    },
+    {
+      "id": "module:facebookresearch/MLGym/demo",
+      "type": "module",
+      "name": "demo"
+    },
+    {
+      "id": "module:facebookresearch/MLGym/demonstrations",
+      "type": "module",
+      "name": "demonstrations"
+    },
+    {
+      "id": "module:facebookresearch/MLGym/dockerfiles",
+      "type": "module",
+      "name": "dockerfiles"
+    },
+    {
+      "id": "module:facebookresearch/MLGym/docs",
+      "type": "module",
+      "name": "docs"
+    },
+    {
+      "id": "module:facebookresearch/MLGym/mlgym",
+      "type": "module",
+      "name": "mlgym"
+    },
+    {
+      "id": "module:facebookresearch/MLGym/notebooks",
+      "type": "module",
+      "name": "notebooks"
+    },
+    {
+      "id": "module:facebookresearch/MLGym/results",
+      "type": "module",
+      "name": "results"
+    },
+    {
+      "id": "module:facebookresearch/MLGym/scripts",
+      "type": "module",
+      "name": "scripts"
+    },
+    {
+      "id": "module:facebookresearch/MLGym/tests",
+      "type": "module",
+      "name": "tests"
+    },
+    {
+      "id": "module:facebookresearch/MLGym/tools",
+      "type": "module",
+      "name": "tools"
+    },
+    {
+      "id": "module:facebookresearch/MLGym/trajectories",
+      "type": "module",
+      "name": "trajectories"
+    },
+    {
+      "id": "file:facebookresearch/MLGym/run.py",
+      "type": "file",
+      "name": "run.py",
+      "links": [
+        "https://github.com/facebookresearch/MLGym/blob/HEAD/run.py"
+      ]
+    },
+    {
+      "id": "file:facebookresearch/MLGym/pyproject.toml",
+      "type": "file",
+      "name": "pyproject.toml",
+      "links": [
+        "https://github.com/facebookresearch/MLGym/blob/HEAD/pyproject.toml"
+      ]
+    },
+    {
+      "id": "file:facebookresearch/MLGym/train.py",
+      "type": "file",
+      "name": "train.py",
+      "links": [
+        "https://github.com/facebookresearch/MLGym/blob/HEAD/data/rlMountainCarContinuousReinforce/src/train.py"
+      ]
+    },
+    {
+      "id": "concept:facebookresearch/MLGym/troubleshooting",
+      "type": "concept",
+      "name": "Troubleshooting"
+    },
+    {
+      "id": "concept:facebookresearch/MLGym/docker",
+      "type": "concept",
+      "name": "Docker"
+    },
+    {
+      "id": "concept:facebookresearch/MLGym/podman",
+      "type": "concept",
+      "name": "Podman"
+    },
+    {
+      "id": "concept:facebookresearch/MLGym/trajectory-visualizer",
+      "type": "concept",
+      "name": "Trajectory Visualizer"
+    },
+    {
+      "id": "concept:facebookresearch/MLGym/contributions-and-maintenance",
+      "type": "concept",
+      "name": "Contributions and Maintenance"
+    },
+    {
+      "id": "framework:pytorch",
+      "type": "framework",
+      "name": "pytorch"
+    },
+    {
+      "id": "framework:tensorflow",
+      "type": "framework",
+      "name": "tensorflow"
+    },
+    {
+      "id": "framework:jax",
+      "type": "framework",
+      "name": "jax"
+    },
+    {
+      "id": "framework:transformers",
+      "type": "framework",
+      "name": "transformers"
+    },
+    {
+      "id": "framework:openai",
+      "type": "framework",
+      "name": "openai"
+    },
+    {
+      "id": "framework:anthropic",
+      "type": "framework",
+      "name": "anthropic"
+    },
+    {
+      "id": "framework:gymnasium",
+      "type": "framework",
+      "name": "gymnasium"
+    }
+  ],
+  "edges": [
+    {
+      "src": "repo:facebookresearch/MLGym",
+      "dst": "module:facebookresearch/MLGym/assets",
+      "type": "contains"
+    },
+    {
+      "src": "repo:facebookresearch/MLGym",
+      "dst": "module:facebookresearch/MLGym/configs",
+      "type": "contains"
+    },
+    {
+      "src": "repo:facebookresearch/MLGym",
+      "dst": "module:facebookresearch/MLGym/data",
+      "type": "contains"
+    },
+    {
+      "src": "repo:facebookresearch/MLGym",
+      "dst": "module:facebookresearch/MLGym/demo",
+      "type": "contains"
+    },
+    {
+      "src": "repo:facebookresearch/MLGym",
+      "dst": "module:facebookresearch/MLGym/demonstrations",
+      "type": "contains"
+    },
+    {
+      "src": "repo:facebookresearch/MLGym",
+      "dst": "module:facebookresearch/MLGym/dockerfiles",
+      "type": "contains"
+    },
+    {
+      "src": "repo:facebookresearch/MLGym",
+      "dst": "module:facebookresearch/MLGym/docs",
+      "type": "contains"
+    },
+    {
+      "src": "repo:facebookresearch/MLGym",
+      "dst": "module:facebookresearch/MLGym/mlgym",
+      "type": "contains"
+    },
+    {
+      "src": "repo:facebookresearch/MLGym",
+      "dst": "module:facebookresearch/MLGym/notebooks",
+      "type": "contains"
+    },
+    {
+      "src": "repo:facebookresearch/MLGym",
+      "dst": "module:facebookresearch/MLGym/results",
+      "type": "contains"
+    },
+    {
+      "src": "repo:facebookresearch/MLGym",
+      "dst": "module:facebookresearch/MLGym/scripts",
+      "type": "contains"
+    },
+    {
+      "src": "repo:facebookresearch/MLGym",
+      "dst": "module:facebookresearch/MLGym/tests",
+      "type": "contains"
+    },
+    {
+      "src": "repo:facebookresearch/MLGym",
+      "dst": "module:facebookresearch/MLGym/tools",
+      "type": "contains"
+    },
+    {
+      "src": "repo:facebookresearch/MLGym",
+      "dst": "module:facebookresearch/MLGym/trajectories",
+      "type": "contains"
+    },
+    {
+      "src": "repo:facebookresearch/MLGym",
+      "dst": "file:facebookresearch/MLGym/run.py",
+      "type": "contains"
+    },
+    {
+      "src": "repo:facebookresearch/MLGym",
+      "dst": "file:facebookresearch/MLGym/pyproject.toml",
+      "type": "contains"
+    },
+    {
+      "src": "repo:facebookresearch/MLGym",
+      "dst": "file:facebookresearch/MLGym/train.py",
+      "type": "contains"
+    },
+    {
+      "src": "repo:facebookresearch/MLGym",
+      "dst": "file:facebookresearch/MLGym/train.py",
+      "type": "contains"
+    },
+    {
+      "src": "repo:facebookresearch/MLGym",
+      "dst": "file:facebookresearch/MLGym/train.py",
+      "type": "contains"
+    },
+    {
+      "src": "repo:facebookresearch/MLGym",
+      "dst": "file:facebookresearch/MLGym/train.py",
+      "type": "contains"
+    },
+    {
+      "src": "repo:facebookresearch/MLGym",
+      "dst": "concept:facebookresearch/MLGym/troubleshooting",
+      "type": "documents"
+    },
+    {
+      "src": "repo:facebookresearch/MLGym",
+      "dst": "concept:facebookresearch/MLGym/docker",
+      "type": "documents"
+    },
+    {
+      "src": "repo:facebookresearch/MLGym",
+      "dst": "concept:facebookresearch/MLGym/podman",
+      "type": "documents"
+    },
+    {
+      "src": "repo:facebookresearch/MLGym",
+      "dst": "concept:facebookresearch/MLGym/trajectory-visualizer",
+      "type": "documents"
+    },
+    {
+      "src": "repo:facebookresearch/MLGym",
+      "dst": "concept:facebookresearch/MLGym/contributions-and-maintenance",
+      "type": "documents"
+    },
+    {
+      "src": "repo:facebookresearch/MLGym",
+      "dst": "framework:pytorch",
+      "type": "uses"
+    },
+    {
+      "src": "repo:facebookresearch/MLGym",
+      "dst": "framework:tensorflow",
+      "type": "uses"
+    },
+    {
+      "src": "repo:facebookresearch/MLGym",
+      "dst": "framework:jax",
+      "type": "uses"
+    },
+    {
+      "src": "repo:facebookresearch/MLGym",
+      "dst": "framework:transformers",
+      "type": "uses"
+    },
+    {
+      "src": "repo:facebookresearch/MLGym",
+      "dst": "framework:openai",
+      "type": "uses"
+    },
+    {
+      "src": "repo:facebookresearch/MLGym",
+      "dst": "framework:anthropic",
+      "type": "uses"
+    },
+    {
+      "src": "repo:facebookresearch/MLGym",
+      "dst": "framework:gymnasium",
+      "type": "uses"
+    }
+  ],
+  "content_hash": "0b8b68706d04ddaf"
+}

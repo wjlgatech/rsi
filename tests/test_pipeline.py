@@ -229,6 +229,55 @@ class TestCertifyRepoRubric(unittest.TestCase):
         self.assertIn("90/100", b["message"])
 
 
+class TestRepoFactory(unittest.TestCase):
+    def _mk(self, files: dict):
+        import tempfile, pathlib
+        d = pathlib.Path(tempfile.mkdtemp(prefix="rsi-repo-"))
+        for name, body in files.items():
+            (d / name).parent.mkdir(parents=True, exist_ok=True)
+            (d / name).write_text(body)
+        return d
+
+    def test_generic_headings_excluded(self):
+        import repo_factory as rf
+        self.assertTrue(rf._generic("Installation"))
+        self.assertTrue(rf._generic("Getting Started"))
+        self.assertFalse(rf._generic("Darwin Gödel Machine loop"))
+
+    def test_kg_captures_structure_and_frameworks(self):
+        import repo_factory as rf, shutil
+        d = self._mk({
+            "README.md": "# Coolthing\n\nA self-improving agent.\n\n## NanoGPT Template\n## Installation\n",
+            "src/main.py": "import torch\n",
+            "requirements.txt": "torch\ntransformers\n",
+        })
+        try:
+            files = rf.walk(d)
+            kg = rf.build_kg(d, "owner/coolthing", "https://github.com/owner/coolthing", rf.read_readme(d), files)
+            types = {n["type"] for n in kg["nodes"]}
+            names = {n["name"] for n in kg["nodes"]}
+            self.assertIn("repo", types)
+            self.assertIn("NanoGPT Template", names)      # distinctive concept kept
+            self.assertNotIn("Installation", names)        # boilerplate dropped
+            self.assertIn("pytorch", names)                # framework detected
+        finally:
+            shutil.rmtree(d, ignore_errors=True)
+
+    def test_skill_has_trigger_and_provenance(self):
+        import repo_factory as rf, shutil
+        d = self._mk({"README.md": "# Coolthing\n\nA self-improving research agent.\n\n```bash\npip install coolthing\n```\n"})
+        try:
+            files = rf.walk(d)
+            kg = rf.build_kg(d, "owner/coolthing", "https://github.com/owner/coolthing", rf.read_readme(d), files)
+            skill = rf.build_skill("owner/coolthing", "https://github.com/owner/coolthing",
+                                   rf.read_readme(d), kg, "🥈 Verified", "")
+            self.assertIn("description:", skill)           # progressive-disclosure trigger
+            self.assertIn("pip install coolthing", skill)  # real how-to-apply extracted
+            self.assertIn("do not hand-edit", skill)       # generated-artifact provenance
+        finally:
+            shutil.rmtree(d, ignore_errors=True)
+
+
 class TestFrontierRadar(unittest.TestCase):
     def test_absent_frontier_renders_nothing(self):
         import build_readme, pathlib

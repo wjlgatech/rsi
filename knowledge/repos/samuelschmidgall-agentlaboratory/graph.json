@@ -1,0 +1,223 @@
+{
+  "stats": {
+    "nodes": 21,
+    "edges": 20
+  },
+  "repo": "SamuelSchmidgall/AgentLaboratory",
+  "nodes": [
+    {
+      "id": "repo:SamuelSchmidgall/AgentLaboratory",
+      "type": "repo",
+      "name": "SamuelSchmidgall/AgentLaboratory",
+      "links": [
+        "https://github.com/SamuelSchmidgall/AgentLaboratory"
+      ]
+    },
+    {
+      "id": "module:SamuelSchmidgall/AgentLaboratory/experiment_configs",
+      "type": "module",
+      "name": "experiment_configs"
+    },
+    {
+      "id": "module:SamuelSchmidgall/AgentLaboratory/media",
+      "type": "module",
+      "name": "media"
+    },
+    {
+      "id": "module:SamuelSchmidgall/AgentLaboratory/readme",
+      "type": "module",
+      "name": "readme"
+    },
+    {
+      "id": "file:SamuelSchmidgall/AgentLaboratory/app.py",
+      "type": "file",
+      "name": "app.py",
+      "links": [
+        "https://github.com/SamuelSchmidgall/AgentLaboratory/blob/HEAD/app.py"
+      ]
+    },
+    {
+      "id": "concept:SamuelSchmidgall/AgentLaboratory/agent-laboratory-using-llm-agents-as-research-assistants",
+      "type": "concept",
+      "name": "Agent Laboratory: Using LLM Agents as Research Assistants"
+    },
+    {
+      "id": "concept:SamuelSchmidgall/AgentLaboratory/news",
+      "type": "concept",
+      "name": "News"
+    },
+    {
+      "id": "concept:SamuelSchmidgall/AgentLaboratory/how-does-agent-laboratory-work",
+      "type": "concept",
+      "name": "🔬 How does Agent Laboratory work?"
+    },
+    {
+      "id": "concept:SamuelSchmidgall/AgentLaboratory/currently-supported-models",
+      "type": "concept",
+      "name": "👾 Currently supported models"
+    },
+    {
+      "id": "concept:SamuelSchmidgall/AgentLaboratory/python-venv-option",
+      "type": "concept",
+      "name": "Python venv option"
+    },
+    {
+      "id": "concept:SamuelSchmidgall/AgentLaboratory/co-pilot-mode",
+      "type": "concept",
+      "name": "Co-Pilot mode"
+    },
+    {
+      "id": "concept:SamuelSchmidgall/AgentLaboratory/tips-for-better-research-outcomes",
+      "type": "concept",
+      "name": "Tips for better research outcomes"
+    },
+    {
+      "id": "concept:SamuelSchmidgall/AgentLaboratory/contact",
+      "type": "concept",
+      "name": "📬 Contact"
+    },
+    {
+      "id": "concept:SamuelSchmidgall/AgentLaboratory/reference-bibtex",
+      "type": "concept",
+      "name": "Reference / Bibtex"
+    },
+    {
+      "id": "concept:SamuelSchmidgall/AgentLaboratory/agent-laboratory",
+      "type": "concept",
+      "name": "Agent Laboratory"
+    },
+    {
+      "id": "concept:SamuelSchmidgall/AgentLaboratory/agentrxiv",
+      "type": "concept",
+      "name": "AgentRxiv"
+    },
+    {
+      "id": "framework:pytorch",
+      "type": "framework",
+      "name": "pytorch"
+    },
+    {
+      "id": "framework:tensorflow",
+      "type": "framework",
+      "name": "tensorflow"
+    },
+    {
+      "id": "framework:transformers",
+      "type": "framework",
+      "name": "transformers"
+    },
+    {
+      "id": "framework:openai",
+      "type": "framework",
+      "name": "openai"
+    },
+    {
+      "id": "framework:anthropic",
+      "type": "framework",
+      "name": "anthropic"
+    }
+  ],
+  "edges": [
+    {
+      "src": "repo:SamuelSchmidgall/AgentLaboratory",
+      "dst": "module:SamuelSchmidgall/AgentLaboratory/experiment_configs",
+      "type": "contains"
+    },
+    {
+      "src": "repo:SamuelSchmidgall/AgentLaboratory",
+      "dst": "module:SamuelSchmidgall/AgentLaboratory/media",
+      "type": "contains"
+    },
+    {
+      "src": "repo:SamuelSchmidgall/AgentLaboratory",
+      "dst": "module:SamuelSchmidgall/AgentLaboratory/readme",
+      "type": "contains"
+    },
+    {
+      "src": "repo:SamuelSchmidgall/AgentLaboratory",
+      "dst": "file:SamuelSchmidgall/AgentLaboratory/app.py",
+      "type": "contains"
+    },
+    {
+      "src": "repo:SamuelSchmidgall/AgentLaboratory",
+      "dst": "concept:SamuelSchmidgall/AgentLaboratory/agent-laboratory-using-llm-agents-as-research-assistants",
+      "type": "documents"
+    },
+    {
+      "src": "repo:SamuelSchmidgall/AgentLaboratory",
+      "dst": "concept:SamuelSchmidgall/AgentLaboratory/news",
+      "type": "documents"
+    },
+    {
+      "src": "repo:SamuelSchmidgall/AgentLaboratory",
+      "dst": "concept:SamuelSchmidgall/AgentLaboratory/how-does-agent-laboratory-work",
+      "type": "documents"
+    },
+    {
+      "src": "repo:SamuelSchmidgall/AgentLaboratory",
+      "dst": "concept:SamuelSchmidgall/AgentLaboratory/currently-supported-models",
+      "type": "documents"
+    },
+    {
+      "src": "repo:SamuelSchmidgall/AgentLaboratory",
+      "dst": "concept:SamuelSchmidgall/AgentLaboratory/python-venv-option",
+      "type": "documents"
+    },
+    {
+      "src": "repo:SamuelSchmidgall/AgentLaboratory",
+      "dst": "concept:SamuelSchmidgall/AgentLaboratory/co-pilot-mode",
+      "type": "documents"
+    },
+    {
+      "src": "repo:SamuelSchmidgall/AgentLaboratory",
+      "dst": "concept:SamuelSchmidgall/AgentLaboratory/tips-for-better-research-outcomes",
+      "type": "documents"
+    },
+    {
+      "src": "repo:SamuelSchmidgall/AgentLaboratory",
+      "dst": "concept:SamuelSchmidgall/AgentLaboratory/contact",
+      "type": "documents"
+    },
+    {
+      "src": "repo:SamuelSchmidgall/AgentLaboratory",
+      "dst": "concept:SamuelSchmidgall/AgentLaboratory/reference-bibtex",
+      "type": "documents"
+    },
+    {
+      "src": "repo:SamuelSchmidgall/AgentLaboratory",
+      "dst": "concept:SamuelSchmidgall/AgentLaboratory/agent-laboratory",
+      "type": "documents"
+    },
+    {
+      "src": "repo:SamuelSchmidgall/AgentLaboratory",
+      "dst": "concept:SamuelSchmidgall/AgentLaboratory/agentrxiv",
+      "type": "documents"
+    },
+    {
+      "src": "repo:SamuelSchmidgall/AgentLaboratory",
+      "dst": "framework:pytorch",
+      "type": "uses"
+    },
+    {
+      "src": "repo:SamuelSchmidgall/AgentLaboratory",
+      "dst": "framework:tensorflow",
+      "type": "uses"
+    },
+    {
+      "src": "repo:SamuelSchmidgall/AgentLaboratory",
+      "dst": "framework:transformers",
+      "type": "uses"
+    },
+    {
+      "src": "repo:SamuelSchmidgall/AgentLaboratory",
+      "dst": "framework:openai",
+      "type": "uses"
+    },
+    {
+      "src": "repo:SamuelSchmidgall/AgentLaboratory",
+      "dst": "framework:anthropic",
+      "type": "uses"
+    }
+  ],
+  "content_hash": "5cb991f72309beff"
+}

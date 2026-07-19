@@ -1,0 +1,138 @@
+{
+  "count": 19,
+  "skills": [
+    {
+      "slug": "andylow92-file-system-like-github",
+      "name": "file-system-like-github",
+      "tier": "🥈 Verified",
+      "skill": "skills/andylow92-file-system-like-github/SKILL.md",
+      "kg": "knowledge/repos/andylow92-file-system-like-github/graph.json"
+    },
+    {
+      "slug": "bitrouter-bitrouter",
+      "name": "bitrouter",
+      "tier": "🥈 Verified",
+      "skill": "skills/bitrouter-bitrouter/SKILL.md",
+      "kg": "knowledge/repos/bitrouter-bitrouter/graph.json"
+    },
+    {
+      "slug": "dsifry-metaswarm",
+      "name": "metaswarm",
+      "tier": "🥈 Verified",
+      "skill": "skills/dsifry-metaswarm/SKILL.md",
+      "kg": "knowledge/repos/dsifry-metaswarm/graph.json"
+    },
+    {
+      "slug": "facebookresearch-hyperagents",
+      "name": "HyperAgents",
+      "tier": "🥈 Verified",
+      "skill": "skills/facebookresearch-hyperagents/SKILL.md",
+      "kg": "knowledge/repos/facebookresearch-hyperagents/graph.json"
+    },
+    {
+      "slug": "facebookresearch-mlgym",
+      "name": "MLGym",
+      "tier": "🥈 Verified",
+      "skill": "skills/facebookresearch-mlgym/SKILL.md",
+      "kg": "knowledge/repos/facebookresearch-mlgym/graph.json"
+    },
+    {
+      "slug": "getnao-sylph",
+      "name": "sylph",
+      "tier": "🥈 Verified",
+      "skill": "skills/getnao-sylph/SKILL.md",
+      "kg": "knowledge/repos/getnao-sylph/graph.json"
+    },
+    {
+      "slug": "hashwarlock-nobody-plans-for-pi",
+      "name": "nobody-plans-for-pi",
+      "tier": "🥈 Verified",
+      "skill": "skills/hashwarlock-nobody-plans-for-pi/SKILL.md",
+      "kg": "knowledge/repos/hashwarlock-nobody-plans-for-pi/graph.json"
+    },
+    {
+      "slug": "jennyzzt-dgm",
+      "name": "dgm",
+      "tier": "🥈 Verified",
+      "skill": "skills/jennyzzt-dgm/SKILL.md",
+      "kg": "knowledge/repos/jennyzzt-dgm/graph.json"
+    },
+    {
+      "slug": "kiliman-codemesh",
+      "name": "codemesh",
+      "tier": "🥈 Verified",
+      "skill": "skills/kiliman-codemesh/SKILL.md",
+      "kg": "knowledge/repos/kiliman-codemesh/graph.json"
+    },
+    {
+      "slug": "kulaxyz-self-learning-skills",
+      "name": "self-learning-skills",
+      "tier": "🥈 Verified",
+      "skill": "skills/kulaxyz-self-learning-skills/SKILL.md",
+      "kg": "knowledge/repos/kulaxyz-self-learning-skills/graph.json"
+    },
+    {
+      "slug": "letta-ai-letta",
+      "name": "letta",
+      "tier": "🥈 Verified",
+      "skill": "skills/letta-ai-letta/SKILL.md",
+      "kg": "knowledge/repos/letta-ai-letta/graph.json"
+    },
+    {
+      "slug": "mervinpraison-praisonai",
+      "name": "PraisonAI",
+      "tier": "🥈 Verified",
+      "skill": "skills/mervinpraison-praisonai/SKILL.md",
+      "kg": "knowledge/repos/mervinpraison-praisonai/graph.json"
+    },
+    {
+      "slug": "metauto-ai-agent-as-a-judge",
+      "name": "agent-as-a-judge",
+      "tier": "🥈 Verified",
+      "skill": "skills/metauto-ai-agent-as-a-judge/SKILL.md",
+      "kg": "knowledge/repos/metauto-ai-agent-as-a-judge/graph.json"
+    },
+    {
+      "slug": "openai-mle-bench",
+      "name": "mle-bench",
+      "tier": "🥈 Verified",
+      "skill": "skills/openai-mle-bench/SKILL.md",
+      "kg": "knowledge/repos/openai-mle-bench/graph.json"
+    },
+    {
+      "slug": "sakanaai-ai-scientist",
+      "name": "AI-Scientist",
+      "tier": "🥈 Verified",
+      "skill": "skills/sakanaai-ai-scientist/SKILL.md",
+      "kg": "knowledge/repos/sakanaai-ai-scientist/graph.json"
+    },
+    {
+      "slug": "sakanaai-ai-scientist-v2",
+      "name": "AI-Scientist-v2",
+      "tier": "🥈 Verified",
+      "skill": "skills/sakanaai-ai-scientist-v2/SKILL.md",
+      "kg": "knowledge/repos/sakanaai-ai-scientist-v2/graph.json"
+    },
+    {
+      "slug": "samuelschmidgall-agentlaboratory",
+      "name": "AgentLaboratory",
+      "tier": "🥈 Verified",
+      "skill": "skills/samuelschmidgall-agentlaboratory/SKILL.md",
+      "kg": "knowledge/repos/samuelschmidgall-agentlaboratory/graph.json"
+    },
+    {
+      "slug": "stanfordnlp-dspy",
+      "name": "dspy",
+      "tier": "🥈 Verified",
+      "skill": "skills/stanfordnlp-dspy/SKILL.md",
+      "kg": "knowledge/repos/stanfordnlp-dspy/graph.json"
+    },
+    {
+      "slug": "undertone0809-rudder",
+      "name": "rudder",
+      "tier": "🥈 Verified",
+      "skill": "skills/undertone0809-rudder/SKILL.md",
+      "kg": "knowledge/repos/undertone0809-rudder/graph.json"
+    }
+  ]
+}

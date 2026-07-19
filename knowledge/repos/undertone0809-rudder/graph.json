@@ -1,0 +1,401 @@
+{
+  "stats": {
+    "nodes": 27,
+    "edges": 49
+  },
+  "repo": "Undertone0809/rudder",
+  "nodes": [
+    {
+      "id": "repo:Undertone0809/rudder",
+      "type": "repo",
+      "name": "Undertone0809/rudder",
+      "links": [
+        "https://github.com/Undertone0809/rudder"
+      ]
+    },
+    {
+      "id": "module:Undertone0809/rudder/LICENSES",
+      "type": "module",
+      "name": "LICENSES"
+    },
+    {
+      "id": "module:Undertone0809/rudder/agent-skills-bak",
+      "type": "module",
+      "name": "agent-skills-bak"
+    },
+    {
+      "id": "module:Undertone0809/rudder/cli",
+      "type": "module",
+      "name": "cli"
+    },
+    {
+      "id": "module:Undertone0809/rudder/desktop",
+      "type": "module",
+      "name": "desktop"
+    },
+    {
+      "id": "module:Undertone0809/rudder/doc",
+      "type": "module",
+      "name": "doc"
+    },
+    {
+      "id": "module:Undertone0809/rudder/docker",
+      "type": "module",
+      "name": "docker"
+    },
+    {
+      "id": "module:Undertone0809/rudder/docs",
+      "type": "module",
+      "name": "docs"
+    },
+    {
+      "id": "module:Undertone0809/rudder/packages",
+      "type": "module",
+      "name": "packages"
+    },
+    {
+      "id": "module:Undertone0809/rudder/releases",
+      "type": "module",
+      "name": "releases"
+    },
+    {
+      "id": "module:Undertone0809/rudder/scripts",
+      "type": "module",
+      "name": "scripts"
+    },
+    {
+      "id": "module:Undertone0809/rudder/server",
+      "type": "module",
+      "name": "server"
+    },
+    {
+      "id": "module:Undertone0809/rudder/tests",
+      "type": "module",
+      "name": "tests"
+    },
+    {
+      "id": "module:Undertone0809/rudder/ui",
+      "type": "module",
+      "name": "ui"
+    },
+    {
+      "id": "file:Undertone0809/rudder/package.json",
+      "type": "file",
+      "name": "package.json",
+      "links": [
+        "https://github.com/Undertone0809/rudder/blob/HEAD/package.json"
+      ]
+    },
+    {
+      "id": "file:Undertone0809/rudder/Dockerfile",
+      "type": "file",
+      "name": "Dockerfile",
+      "links": [
+        "https://github.com/Undertone0809/rudder/blob/HEAD/docker/Dockerfile"
+      ]
+    },
+    {
+      "id": "concept:Undertone0809/rudder/rudder",
+      "type": "concept",
+      "name": "Rudder"
+    },
+    {
+      "id": "concept:Undertone0809/rudder/the-work-loop",
+      "type": "concept",
+      "name": "The Work Loop"
+    },
+    {
+      "id": "concept:Undertone0809/rudder/the-design-idea",
+      "type": "concept",
+      "name": "The Design Idea"
+    },
+    {
+      "id": "concept:Undertone0809/rudder/what-rudder-is",
+      "type": "concept",
+      "name": "What Rudder Is"
+    },
+    {
+      "id": "concept:Undertone0809/rudder/get-started",
+      "type": "concept",
+      "name": "Get Started"
+    },
+    {
+      "id": "concept:Undertone0809/rudder/try-rudder",
+      "type": "concept",
+      "name": "Try Rudder"
+    },
+    {
+      "id": "concept:Undertone0809/rudder/develop-rudder",
+      "type": "concept",
+      "name": "Develop Rudder"
+    },
+    {
+      "id": "concept:Undertone0809/rudder/a-typical-rudder-flow",
+      "type": "concept",
+      "name": "A Typical Rudder Flow"
+    },
+    {
+      "id": "concept:Undertone0809/rudder/community",
+      "type": "concept",
+      "name": "Community"
+    },
+    {
+      "id": "framework:openai",
+      "type": "framework",
+      "name": "openai"
+    },
+    {
+      "id": "framework:mcp",
+      "type": "framework",
+      "name": "mcp"
+    }
+  ],
+  "edges": [
+    {
+      "src": "repo:Undertone0809/rudder",
+      "dst": "module:Undertone0809/rudder/LICENSES",
+      "type": "contains"
+    },
+    {
+      "src": "repo:Undertone0809/rudder",
+      "dst": "module:Undertone0809/rudder/agent-skills-bak",
+      "type": "contains"
+    },
+    {
+      "src": "repo:Undertone0809/rudder",
+      "dst": "module:Undertone0809/rudder/cli",
+      "type": "contains"
+    },
+    {
+      "src": "repo:Undertone0809/rudder",
+      "dst": "module:Undertone0809/rudder/desktop",
+      "type": "contains"
+    },
+    {
+      "src": "repo:Undertone0809/rudder",
+      "dst": "module:Undertone0809/rudder/doc",
+      "type": "contains"
+    },
+    {
+      "src": "repo:Undertone0809/rudder",
+      "dst": "module:Undertone0809/rudder/docker",
+      "type": "contains"
+    },
+    {
+      "src": "repo:Undertone0809/rudder",
+      "dst": "module:Undertone0809/rudder/docs",
+      "type": "contains"
+    },
+    {
+      "src": "repo:Undertone0809/rudder",
+      "dst": "module:Undertone0809/rudder/packages",
+      "type": "contains"
+    },
+    {
+      "src": "repo:Undertone0809/rudder",
+      "dst": "module:Undertone0809/rudder/releases",
+      "type": "contains"
+    },
+    {
+      "src": "repo:Undertone0809/rudder",
+      "dst": "module:Undertone0809/rudder/scripts",
+      "type": "contains"
+    },
+    {
+      "src": "repo:Undertone0809/rudder",
+      "dst": "module:Undertone0809/rudder/server",
+      "type": "contains"
+    },
+    {
+      "src": "repo:Undertone0809/rudder",
+      "dst": "module:Undertone0809/rudder/tests",
+      "type": "contains"
+    },
+    {
+      "src": "repo:Undertone0809/rudder",
+      "dst": "module:Undertone0809/rudder/ui",
+      "type": "contains"
+    },
+    {
+      "src": "repo:Undertone0809/rudder",
+      "dst": "file:Undertone0809/rudder/package.json",
+      "type": "contains"
+    },
+    {
+      "src": "repo:Undertone0809/rudder",
+      "dst": "file:Undertone0809/rudder/package.json",
+      "type": "contains"
+    },
+    {
+      "src": "repo:Undertone0809/rudder",
+      "dst": "file:Undertone0809/rudder/Dockerfile",
+      "type": "contains"
+    },
+    {
+      "src": "repo:Undertone0809/rudder",
+      "dst": "file:Undertone0809/rudder/package.json",
+      "type": "contains"
+    },
+    {
+      "src": "repo:Undertone0809/rudder",
+      "dst": "file:Undertone0809/rudder/package.json",
+      "type": "contains"
+    },
+    {
+      "src": "repo:Undertone0809/rudder",
+      "dst": "file:Undertone0809/rudder/package.json",
+      "type": "contains"
+    },
+    {
+      "src": "repo:Undertone0809/rudder",
+      "dst": "file:Undertone0809/rudder/package.json",
+      "type": "contains"
+    },
+    {
+      "src": "repo:Undertone0809/rudder",
+      "dst": "file:Undertone0809/rudder/package.json",
+      "type": "contains"
+    },
+    {
+      "src": "repo:Undertone0809/rudder",
+      "dst": "file:Undertone0809/rudder/package.json",
+      "type": "contains"
+    },
+    {
+      "src": "repo:Undertone0809/rudder",
+      "dst": "file:Undertone0809/rudder/package.json",
+      "type": "contains"
+    },
+    {
+      "src": "repo:Undertone0809/rudder",
+      "dst": "file:Undertone0809/rudder/package.json",
+      "type": "contains"
+    },
+    {
+      "src": "repo:Undertone0809/rudder",
+      "dst": "file:Undertone0809/rudder/package.json",
+      "type": "contains"
+    },
+    {
+      "src": "repo:Undertone0809/rudder",
+      "dst": "file:Undertone0809/rudder/package.json",
+      "type": "contains"
+    },
+    {
+      "src": "repo:Undertone0809/rudder",
+      "dst": "file:Undertone0809/rudder/package.json",
+      "type": "contains"
+    },
+    {
+      "src": "repo:Undertone0809/rudder",
+      "dst": "file:Undertone0809/rudder/package.json",
+      "type": "contains"
+    },
+    {
+      "src": "repo:Undertone0809/rudder",
+      "dst": "file:Undertone0809/rudder/package.json",
+      "type": "contains"
+    },
+    {
+      "src": "repo:Undertone0809/rudder",
+      "dst": "file:Undertone0809/rudder/package.json",
+      "type": "contains"
+    },
+    {
+      "src": "repo:Undertone0809/rudder",
+      "dst": "file:Undertone0809/rudder/package.json",
+      "type": "contains"
+    },
+    {
+      "src": "repo:Undertone0809/rudder",
+      "dst": "file:Undertone0809/rudder/package.json",
+      "type": "contains"
+    },
+    {
+      "src": "repo:Undertone0809/rudder",
+      "dst": "file:Undertone0809/rudder/package.json",
+      "type": "contains"
+    },
+    {
+      "src": "repo:Undertone0809/rudder",
+      "dst": "file:Undertone0809/rudder/package.json",
+      "type": "contains"
+    },
+    {
+      "src": "repo:Undertone0809/rudder",
+      "dst": "file:Undertone0809/rudder/package.json",
+      "type": "contains"
+    },
+    {
+      "src": "repo:Undertone0809/rudder",
+      "dst": "file:Undertone0809/rudder/package.json",
+      "type": "contains"
+    },
+    {
+      "src": "repo:Undertone0809/rudder",
+      "dst": "file:Undertone0809/rudder/Dockerfile",
+      "type": "contains"
+    },
+    {
+      "src": "repo:Undertone0809/rudder",
+      "dst": "file:Undertone0809/rudder/Dockerfile",
+      "type": "contains"
+    },
+    {
+      "src": "repo:Undertone0809/rudder",
+      "dst": "concept:Undertone0809/rudder/rudder",
+      "type": "documents"
+    },
+    {
+      "src": "repo:Undertone0809/rudder",
+      "dst": "concept:Undertone0809/rudder/the-work-loop",
+      "type": "documents"
+    },
+    {
+      "src": "repo:Undertone0809/rudder",
+      "dst": "concept:Undertone0809/rudder/the-design-idea",
+      "type": "documents"
+    },
+    {
+      "src": "repo:Undertone0809/rudder",
+      "dst": "concept:Undertone0809/rudder/what-rudder-is",
+      "type": "documents"
+    },
+    {
+      "src": "repo:Undertone0809/rudder",
+      "dst": "concept:Undertone0809/rudder/get-started",
+      "type": "documents"
+    },
+    {
+      "src": "repo:Undertone0809/rudder",
+      "dst": "concept:Undertone0809/rudder/try-rudder",
+      "type": "documents"
+    },
+    {
+      "src": "repo:Undertone0809/rudder",
+      "dst": "concept:Undertone0809/rudder/develop-rudder",
+      "type": "documents"
+    },
+    {
+      "src": "repo:Undertone0809/rudder",
+      "dst": "concept:Undertone0809/rudder/a-typical-rudder-flow",
+      "type": "documents"
+    },
+    {
+      "src": "repo:Undertone0809/rudder",
+      "dst": "concept:Undertone0809/rudder/community",
+      "type": "documents"
+    },
+    {
+      "src": "repo:Undertone0809/rudder",
+      "dst": "framework:openai",
+      "type": "uses"
+    },
+    {
+      "src": "repo:Undertone0809/rudder",
+      "dst": "framework:mcp",
+      "type": "uses"
+    }
+  ],
+  "content_hash": "cc255370205e4f1b"
+}

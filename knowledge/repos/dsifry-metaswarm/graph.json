@@ -1,0 +1,333 @@
+{
+  "stats": {
+    "nodes": 32,
+    "edges": 31
+  },
+  "repo": "dsifry/metaswarm",
+  "nodes": [
+    {
+      "id": "repo:dsifry/metaswarm",
+      "type": "repo",
+      "name": "dsifry/metaswarm",
+      "links": [
+        "https://github.com/dsifry/metaswarm"
+      ]
+    },
+    {
+      "id": "module:dsifry/metaswarm/agents",
+      "type": "module",
+      "name": "agents"
+    },
+    {
+      "id": "module:dsifry/metaswarm/bin",
+      "type": "module",
+      "name": "bin"
+    },
+    {
+      "id": "module:dsifry/metaswarm/cli",
+      "type": "module",
+      "name": "cli"
+    },
+    {
+      "id": "module:dsifry/metaswarm/commands",
+      "type": "module",
+      "name": "commands"
+    },
+    {
+      "id": "module:dsifry/metaswarm/docs",
+      "type": "module",
+      "name": "docs"
+    },
+    {
+      "id": "module:dsifry/metaswarm/guides",
+      "type": "module",
+      "name": "guides"
+    },
+    {
+      "id": "module:dsifry/metaswarm/hooks",
+      "type": "module",
+      "name": "hooks"
+    },
+    {
+      "id": "module:dsifry/metaswarm/knowledge",
+      "type": "module",
+      "name": "knowledge"
+    },
+    {
+      "id": "module:dsifry/metaswarm/lib",
+      "type": "module",
+      "name": "lib"
+    },
+    {
+      "id": "module:dsifry/metaswarm/rubrics",
+      "type": "module",
+      "name": "rubrics"
+    },
+    {
+      "id": "module:dsifry/metaswarm/scripts",
+      "type": "module",
+      "name": "scripts"
+    },
+    {
+      "id": "module:dsifry/metaswarm/skills",
+      "type": "module",
+      "name": "skills"
+    },
+    {
+      "id": "module:dsifry/metaswarm/templates",
+      "type": "module",
+      "name": "templates"
+    },
+    {
+      "id": "module:dsifry/metaswarm/tests",
+      "type": "module",
+      "name": "tests"
+    },
+    {
+      "id": "file:dsifry/metaswarm/package.json",
+      "type": "file",
+      "name": "package.json",
+      "links": [
+        "https://github.com/dsifry/metaswarm/blob/HEAD/package.json"
+      ]
+    },
+    {
+      "id": "concept:dsifry/metaswarm/metaswarm",
+      "type": "concept",
+      "name": "metaswarm"
+    },
+    {
+      "id": "concept:dsifry/metaswarm/what-is-this",
+      "type": "concept",
+      "name": "What Is This?"
+    },
+    {
+      "id": "concept:dsifry/metaswarm/architecture",
+      "type": "concept",
+      "name": "Architecture"
+    },
+    {
+      "id": "concept:dsifry/metaswarm/repository-structure",
+      "type": "concept",
+      "name": "Repository Structure"
+    },
+    {
+      "id": "concept:dsifry/metaswarm/claude-code-recommended",
+      "type": "concept",
+      "name": "Claude Code (recommended)"
+    },
+    {
+      "id": "concept:dsifry/metaswarm/gemini-cli",
+      "type": "concept",
+      "name": "Gemini CLI"
+    },
+    {
+      "id": "concept:dsifry/metaswarm/codex-cli",
+      "type": "concept",
+      "name": "Codex CLI"
+    },
+    {
+      "id": "concept:dsifry/metaswarm/start-building",
+      "type": "concept",
+      "name": "Start building"
+    },
+    {
+      "id": "concept:dsifry/metaswarm/self-learning-system",
+      "type": "concept",
+      "name": "Self-Learning System"
+    },
+    {
+      "id": "concept:dsifry/metaswarm/automatic-reflection",
+      "type": "concept",
+      "name": "Automatic Reflection"
+    },
+    {
+      "id": "concept:dsifry/metaswarm/conversation-introspection",
+      "type": "concept",
+      "name": "Conversation Introspection"
+    },
+    {
+      "id": "concept:dsifry/metaswarm/selective-knowledge-priming",
+      "type": "concept",
+      "name": "Selective Knowledge Priming"
+    },
+    {
+      "id": "concept:dsifry/metaswarm/design-principles",
+      "type": "concept",
+      "name": "Design Principles"
+    },
+    {
+      "id": "concept:dsifry/metaswarm/supported-platforms",
+      "type": "concept",
+      "name": "Supported Platforms"
+    },
+    {
+      "id": "framework:openai",
+      "type": "framework",
+      "name": "openai"
+    },
+    {
+      "id": "framework:anthropic",
+      "type": "framework",
+      "name": "anthropic"
+    }
+  ],
+  "edges": [
+    {
+      "src": "repo:dsifry/metaswarm",
+      "dst": "module:dsifry/metaswarm/agents",
+      "type": "contains"
+    },
+    {
+      "src": "repo:dsifry/metaswarm",
+      "dst": "module:dsifry/metaswarm/bin",
+      "type": "contains"
+    },
+    {
+      "src": "repo:dsifry/metaswarm",
+      "dst": "module:dsifry/metaswarm/cli",
+      "type": "contains"
+    },
+    {
+      "src": "repo:dsifry/metaswarm",
+      "dst": "module:dsifry/metaswarm/commands",
+      "type": "contains"
+    },
+    {
+      "src": "repo:dsifry/metaswarm",
+      "dst": "module:dsifry/metaswarm/docs",
+      "type": "contains"
+    },
+    {
+      "src": "repo:dsifry/metaswarm",
+      "dst": "module:dsifry/metaswarm/guides",
+      "type": "contains"
+    },
+    {
+      "src": "repo:dsifry/metaswarm",
+      "dst": "module:dsifry/metaswarm/hooks",
+      "type": "contains"
+    },
+    {
+      "src": "repo:dsifry/metaswarm",
+      "dst": "module:dsifry/metaswarm/knowledge",
+      "type": "contains"
+    },
+    {
+      "src": "repo:dsifry/metaswarm",
+      "dst": "module:dsifry/metaswarm/lib",
+      "type": "contains"
+    },
+    {
+      "src": "repo:dsifry/metaswarm",
+      "dst": "module:dsifry/metaswarm/rubrics",
+      "type": "contains"
+    },
+    {
+      "src": "repo:dsifry/metaswarm",
+      "dst": "module:dsifry/metaswarm/scripts",
+      "type": "contains"
+    },
+    {
+      "src": "repo:dsifry/metaswarm",
+      "dst": "module:dsifry/metaswarm/skills",
+      "type": "contains"
+    },
+    {
+      "src": "repo:dsifry/metaswarm",
+      "dst": "module:dsifry/metaswarm/templates",
+      "type": "contains"
+    },
+    {
+      "src": "repo:dsifry/metaswarm",
+      "dst": "module:dsifry/metaswarm/tests",
+      "type": "contains"
+    },
+    {
+      "src": "repo:dsifry/metaswarm",
+      "dst": "file:dsifry/metaswarm/package.json",
+      "type": "contains"
+    },
+    {
+      "src": "repo:dsifry/metaswarm",
+      "dst": "concept:dsifry/metaswarm/metaswarm",
+      "type": "documents"
+    },
+    {
+      "src": "repo:dsifry/metaswarm",
+      "dst": "concept:dsifry/metaswarm/what-is-this",
+      "type": "documents"
+    },
+    {
+      "src": "repo:dsifry/metaswarm",
+      "dst": "concept:dsifry/metaswarm/architecture",
+      "type": "documents"
+    },
+    {
+      "src": "repo:dsifry/metaswarm",
+      "dst": "concept:dsifry/metaswarm/repository-structure",
+      "type": "documents"
+    },
+    {
+      "src": "repo:dsifry/metaswarm",
+      "dst": "concept:dsifry/metaswarm/claude-code-recommended",
+      "type": "documents"
+    },
+    {
+      "src": "repo:dsifry/metaswarm",
+      "dst": "concept:dsifry/metaswarm/gemini-cli",
+      "type": "documents"
+    },
+    {
+      "src": "repo:dsifry/metaswarm",
+      "dst": "concept:dsifry/metaswarm/codex-cli",
+      "type": "documents"
+    },
+    {
+      "src": "repo:dsifry/metaswarm",
+      "dst": "concept:dsifry/metaswarm/start-building",
+      "type": "documents"
+    },
+    {
+      "src": "repo:dsifry/metaswarm",
+      "dst": "concept:dsifry/metaswarm/self-learning-system",
+      "type": "documents"
+    },
+    {
+      "src": "repo:dsifry/metaswarm",
+      "dst": "concept:dsifry/metaswarm/automatic-reflection",
+      "type": "documents"
+    },
+    {
+      "src": "repo:dsifry/metaswarm",
+      "dst": "concept:dsifry/metaswarm/conversation-introspection",
+      "type": "documents"
+    },
+    {
+      "src": "repo:dsifry/metaswarm",
+      "dst": "concept:dsifry/metaswarm/selective-knowledge-priming",
+      "type": "documents"
+    },
+    {
+      "src": "repo:dsifry/metaswarm",
+      "dst": "concept:dsifry/metaswarm/design-principles",
+      "type": "documents"
+    },
+    {
+      "src": "repo:dsifry/metaswarm",
+      "dst": "concept:dsifry/metaswarm/supported-platforms",
+      "type": "documents"
+    },
+    {
+      "src": "repo:dsifry/metaswarm",
+      "dst": "framework:openai",
+      "type": "uses"
+    },
+    {
+      "src": "repo:dsifry/metaswarm",
+      "dst": "framework:anthropic",
+      "type": "uses"
+    }
+  ],
+  "content_hash": "0c0d37e10cdc29a3"
+}

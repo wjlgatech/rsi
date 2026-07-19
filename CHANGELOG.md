@@ -6,6 +6,19 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 ## [Unreleased]
 
 ### Added
+- **Repo→{KG, skill} factory + backbone registry** — rsi is now the hub of 1) knowledge
+  2) tooling 3) experts. For each Certified/Verified repo, `scripts/repo_factory.py` mints
+  (static, zero-LLM core; `--enrich` adds a content-hash-cached `anyagent reverse` summary):
+  a **knowledge graph** (`knowledge/repos/<slug>/graph.json`, field-graph schema so
+  `docs/index.html` renders it) and an **agentic skill** (`skills/<slug>/SKILL.md` — the
+  frontmatter `description` is the progressive-disclosure trigger; body = what-it-does ·
+  how-to-apply · links to KG+repo). `scripts/build_repo_tools.py` orchestrates the set and
+  emits the **backbone registry** (`skills/registry.json` + `skills/README.md`) that `/rsi`
+  loads always-on, while each skill body loads on-demand. **19 toolsets minted** from the
+  Verified set. Fast/cheap (static + hash-cached), up-to-date (re-mint only on content-hash
+  change), future-proof (pure data artifacts + portable skills), quality-gated (only
+  Certified/Verified repos; distinctive-vocabulary triggers, boilerplate stoplisted).
+  `make repo-tools` regenerates; `make check` drift-gates `skills/registry.json`.
 - **AI-native self-audit** — `data/ainative.yml` encodes the loop-engineering /
   physical-ai-native principles (loops-not-oneshot · independent-referee · no-evidence⇒No ·
   regression-gated · spec-as-data · agent-native · compounding-memory · human-gated ·
