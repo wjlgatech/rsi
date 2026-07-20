@@ -17,7 +17,7 @@ runs:
       shell: bash
       run: |
         mkdir -p /tmp/rsi/scripts /tmp/rsi/data
-        base=https://raw.githubusercontent.com/wjlgatech/rsi/main
+        base=https://raw.githubusercontent.com/wjlgatech/rsi-os/main
         curl -fsSL $base/scripts/certify_repo.py -o /tmp/rsi/scripts/certify_repo.py
         curl -fsSL $base/scripts/rsidata.py     -o /tmp/rsi/scripts/rsidata.py
         curl -fsSL $base/data/certify.yml        -o /tmp/rsi/data/certify.yml

@@ -4,9 +4,9 @@
 
 [![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
-[![Last Updated](https://img.shields.io/github/last-commit/wjlgatech/rsi?style=flat-square&label=last%20updated)](https://github.com/wjlgatech/rsi/commits/main)
-[![Stars](https://img.shields.io/github/stars/wjlgatech/rsi?style=flat-square)](https://github.com/wjlgatech/rsi/stargazers)
-[![Contributors](https://img.shields.io/github/contributors/wjlgatech/rsi?style=flat-square)](https://github.com/wjlgatech/rsi/graphs/contributors)
+[![Last Updated](https://img.shields.io/github/last-commit/wjlgatech/rsi-os?style=flat-square&label=last%20updated)](https://github.com/wjlgatech/rsi-os/commits/main)
+[![Stars](https://img.shields.io/github/stars/wjlgatech/rsi-os?style=flat-square)](https://github.com/wjlgatech/rsi-os/stargazers)
+[![Contributors](https://img.shields.io/github/contributors/wjlgatech/rsi-os?style=flat-square)](https://github.com/wjlgatech/rsi-os/graphs/contributors)
 
 **The most comprehensive, community-driven, living resource on Automated AI Research.**
 
