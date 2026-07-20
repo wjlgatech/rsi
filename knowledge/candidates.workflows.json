@@ -7,11 +7,11 @@
       "id": "bitrouter/bitrouter",
       "title": "bitrouter/bitrouter",
       "url": "https://github.com/bitrouter/bitrouter",
-      "score": 204,
+      "score": 208,
       "action": "add",
       "evidence": {
-        "stars": 204,
-        "pushed": "2026-07-15",
+        "stars": 208,
+        "pushed": "2026-07-20",
         "desc": "The self-improving LLM router that optimize your agentic workflows with every runs, works with any harnesses, any models, any loops.",
         "matched": "agent workflow self-improving"
       }

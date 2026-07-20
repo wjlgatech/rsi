@@ -4,16 +4,33 @@
     {
       "domain": "tooling",
       "kind": "skill",
+      "id": "K-Dense-AI/scientific-agent-skills",
+      "title": "K-Dense-AI/scientific-agent-skills",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+      "score": 31265,
+      "action": "add",
+      "evidence": {
+        "stars": 31265,
+        "pushed": "2026-07-15",
+        "desc": "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 160,000+ scientists worldwide. 148 ready-to-use ski",
+        "matched": "claude code skill agent",
+        "has_skill_md": true
+      }
+    },
+    {
+      "domain": "tooling",
+      "kind": "skill",
       "id": "Kulaxyz/self-learning-skills",
       "title": "Kulaxyz/self-learning-skills",
       "url": "https://github.com/Kulaxyz/self-learning-skills",
-      "score": 867,
+      "score": 897,
       "action": "add",
       "evidence": {
-        "stars": 867,
+        "stars": 897,
         "pushed": "2026-07-01",
         "desc": "A self-improving skill for AI coding agents (Claude Code, Cursor, AGENTS.md): recognize a hard-won golden path in a session and harvest it i",
-        "matched": "agent skill self-improving"
+        "matched": "agent skill self-improving",
+        "has_skill_md": true
       }
     },
     {
@@ -22,43 +39,30 @@
       "id": "dsifry/metaswarm",
       "title": "dsifry/metaswarm",
       "url": "https://github.com/dsifry/metaswarm",
-      "score": 354,
+      "score": 357,
       "action": "add",
       "evidence": {
-        "stars": 354,
+        "stars": 357,
         "pushed": "2026-06-19",
         "desc": "A self-improving multi-agent orchestration framework for Claude Code, Gemini CLI, and Codex CLI \u2014 18 agents, 13 skills, 15 commands, TDD enf",
-        "matched": "agent skill self-improving"
+        "matched": "agent skill self-improving",
+        "has_skill_md": true
       }
     },
     {
       "domain": "tooling",
       "kind": "skill",
-      "id": "Undertone0809/rudder",
-      "title": "Undertone0809/rudder",
-      "url": "https://github.com/Undertone0809/rudder",
-      "score": 231,
+      "id": "IncomeStreamSurfer/paperclip-surfers",
+      "title": "IncomeStreamSurfer/paperclip-surfers",
+      "url": "https://github.com/IncomeStreamSurfer/paperclip-surfers",
+      "score": 69,
       "action": "add",
       "evidence": {
-        "stars": 231,
-        "pushed": "2026-07-14",
-        "desc": "Open-source local Agent orchestration for self-improving agent teams: run agents, review work, and turn feedback into reusable skills.",
-        "matched": "agent skill self-improving"
-      }
-    },
-    {
-      "domain": "tooling",
-      "kind": "skill",
-      "id": "getnao/sylph",
-      "title": "getnao/sylph",
-      "url": "https://github.com/getnao/sylph",
-      "score": 165,
-      "action": "add",
-      "evidence": {
-        "stars": 165,
-        "pushed": "2026-05-21",
-        "desc": "The open-source company brain. Run your entire company with AI agents, skills, and a self-improving context.",
-        "matched": "self-improving skill AI agent"
+        "stars": 69,
+        "pushed": "2026-03-30",
+        "desc": "Self-improving AI agent companies \u2014 Paperclip V2 fork with persistent memory, MCPs, skills management, and KPI tracking. Built by HarborSEO ",
+        "matched": "self-improving skill AI agent",
+        "has_skill_md": true
       }
     }
   ]

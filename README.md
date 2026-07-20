@@ -254,7 +254,7 @@ python3 scripts/check_freshness.py README.md
 
 ## 🏅 Certified Tooling
 
-Tools here earn an **evidence-backed** tier, not an install count — the trust layer [skills.sh](https://www.skills.sh/) lacks. **0 🥇 Certified · 19 🥈 Verified · 21 🥉 Listed.**
+Tools here earn an **evidence-backed** tier, not an install count — the trust layer [skills.sh](https://www.skills.sh/) lacks. **0 🥇 Certified · 20 🥈 Verified · 19 🥉 Listed.**
 
 🥈 Verified = relevant + maintained (machine-checked). 🥇 adds *works* + *safe* via `anyagent analyze`/`brace`; no-evidence ⇒ no badge. → **[Full certified list](docs/CERTIFIED.md)** · [raw data](knowledge/certifications.json)
 

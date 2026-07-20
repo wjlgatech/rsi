@@ -47,8 +47,27 @@
         "safe": "not_measured"
       },
       "evidence": {
-        "stars": 36130,
-        "pushed": "2026-07-14"
+        "stars": 36241,
+        "pushed": "2026-07-16"
+      }
+    },
+    {
+      "id": "K-Dense-AI/scientific-agent-skills",
+      "name": "K-Dense-AI/scientific-agent-skills",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+      "kind": "skill",
+      "category": "\ud83e\udde9 Agent Skill",
+      "tier": "\ud83e\udd48 Verified",
+      "scores": {
+        "relevant": 80,
+        "maintained": 100,
+        "adopted": 100,
+        "works": "not_measured",
+        "safe": "not_measured"
+      },
+      "evidence": {
+        "stars": 31265,
+        "pushed": "2026-07-15"
       }
     },
     {
@@ -66,7 +85,7 @@
         "safe": "not_measured"
       },
       "evidence": {
-        "stars": 23793,
+        "stars": 23875,
         "pushed": "2026-07-03"
       }
     },
@@ -85,7 +104,7 @@
         "safe": "not_measured"
       },
       "evidence": {
-        "stars": 14224,
+        "stars": 14253,
         "pushed": "2025-12-19"
       }
     },
@@ -104,8 +123,8 @@
         "safe": "not_measured"
       },
       "evidence": {
-        "stars": 8448,
-        "pushed": "2026-07-14"
+        "stars": 8497,
+        "pushed": "2026-07-20"
       }
     },
     {
@@ -123,7 +142,7 @@
         "safe": "not_measured"
       },
       "evidence": {
-        "stars": 6824,
+        "stars": 6878,
         "pushed": "2025-12-19"
       }
     },
@@ -142,7 +161,7 @@
         "safe": "not_measured"
       },
       "evidence": {
-        "stars": 5749,
+        "stars": 5760,
         "pushed": "2025-08-20"
       }
     },
@@ -161,8 +180,27 @@
         "safe": "not_measured"
       },
       "evidence": {
-        "stars": 2637,
+        "stars": 2643,
         "pushed": "2026-05-09"
+      }
+    },
+    {
+      "id": "EverMind-AI/Raven",
+      "name": "EverMind-AI/Raven",
+      "url": "https://github.com/EverMind-AI/Raven",
+      "kind": "repo",
+      "category": "\ud83c\udd95 Tool",
+      "tier": "\ud83e\udd48 Verified",
+      "scores": {
+        "relevant": 80,
+        "maintained": 100,
+        "adopted": 80,
+        "works": "not_measured",
+        "safe": "not_measured"
+      },
+      "evidence": {
+        "stars": 2378,
+        "pushed": "2026-07-19"
       }
     },
     {
@@ -176,22 +214,31 @@
         "relevant": 100,
         "maintained": 60,
         "adopted": 80,
-        "works": 46,
-        "safe": 20
+        "works": "not_measured",
+        "safe": "not_measured"
       },
       "evidence": {
-        "stars": 2177,
-        "pushed": "2025-08-13",
-        "deep": {
-          "works": 46,
-          "safe": 20,
-          "safety_findings": [
-            "risky exec pattern in DGM_outer.py",
-            "risky exec pattern in self_improve_step.py",
-            "risky exec pattern in initial/predictions/initial_0/sphinx-doc__sphinx-7748.md",
-            "risky exec pattern in polyglot/dockerfiles.py"
-          ]
-        }
+        "stars": 2184,
+        "pushed": "2025-08-13"
+      }
+    },
+    {
+      "id": "chrisworsey55/atlas-gic",
+      "name": "chrisworsey55/atlas-gic",
+      "url": "https://github.com/chrisworsey55/atlas-gic",
+      "kind": "repo",
+      "category": "\ud83c\udd95 Tool",
+      "tier": "\ud83e\udd48 Verified",
+      "scores": {
+        "relevant": 80,
+        "maintained": 100,
+        "adopted": 80,
+        "works": "not_measured",
+        "safe": "not_measured"
+      },
+      "evidence": {
+        "stars": 2023,
+        "pushed": "2026-05-27"
       }
     },
     {
@@ -209,8 +256,27 @@
         "safe": "not_measured"
       },
       "evidence": {
-        "stars": 1624,
+        "stars": 1642,
         "pushed": "2026-04-24"
+      }
+    },
+    {
+      "id": "repo:metauto-ai-gptswarm",
+      "name": "metauto-ai/GPTSwarm",
+      "url": "https://github.com/metauto-ai/GPTSwarm",
+      "kind": "repo",
+      "category": "Core Frameworks",
+      "tier": "\ud83e\udd48 Verified",
+      "scores": {
+        "relevant": 60,
+        "maintained": 100,
+        "adopted": 80,
+        "works": "not_measured",
+        "safe": "not_measured"
+      },
+      "evidence": {
+        "stars": 1029,
+        "pushed": "2026-02-05"
       }
     },
     {
@@ -228,7 +294,7 @@
         "safe": "not_measured"
       },
       "evidence": {
-        "stars": 867,
+        "stars": 897,
         "pushed": "2026-07-01"
       }
     },
@@ -247,7 +313,7 @@
         "safe": "not_measured"
       },
       "evidence": {
-        "stars": 798,
+        "stars": 800,
         "pushed": "2026-03-28"
       }
     },
@@ -285,46 +351,8 @@
         "safe": "not_measured"
       },
       "evidence": {
-        "stars": 354,
+        "stars": 357,
         "pushed": "2026-06-19"
-      }
-    },
-    {
-      "id": "andylow92/file-system-like-github",
-      "name": "andylow92/file-system-like-github",
-      "url": "https://github.com/andylow92/file-system-like-github",
-      "kind": "mcp",
-      "category": "\ud83d\udd0c MCP Server",
-      "tier": "\ud83e\udd48 Verified",
-      "scores": {
-        "relevant": 80,
-        "maintained": 100,
-        "adopted": 60,
-        "works": "not_measured",
-        "safe": "not_measured"
-      },
-      "evidence": {
-        "stars": 294,
-        "pushed": "2026-07-11"
-      }
-    },
-    {
-      "id": "Undertone0809/rudder",
-      "name": "Undertone0809/rudder",
-      "url": "https://github.com/Undertone0809/rudder",
-      "kind": "skill",
-      "category": "\ud83e\udde9 Agent Skill",
-      "tier": "\ud83e\udd48 Verified",
-      "scores": {
-        "relevant": 80,
-        "maintained": 100,
-        "adopted": 60,
-        "works": "not_measured",
-        "safe": "not_measured"
-      },
-      "evidence": {
-        "stars": 231,
-        "pushed": "2026-07-14"
       }
     },
     {
@@ -342,27 +370,27 @@
         "safe": "not_measured"
       },
       "evidence": {
-        "stars": 204,
-        "pushed": "2026-07-15"
+        "stars": 208,
+        "pushed": "2026-07-20"
       }
     },
     {
-      "id": "getnao/sylph",
-      "name": "getnao/sylph",
-      "url": "https://github.com/getnao/sylph",
+      "id": "IncomeStreamSurfer/paperclip-surfers",
+      "name": "IncomeStreamSurfer/paperclip-surfers",
+      "url": "https://github.com/IncomeStreamSurfer/paperclip-surfers",
       "kind": "skill",
       "category": "\ud83e\udde9 Agent Skill",
       "tier": "\ud83e\udd48 Verified",
       "scores": {
         "relevant": 80,
         "maintained": 100,
-        "adopted": 60,
+        "adopted": 40,
         "works": "not_measured",
         "safe": "not_measured"
       },
       "evidence": {
-        "stars": 165,
-        "pushed": "2026-05-21"
+        "stars": 69,
+        "pushed": "2026-03-30"
       }
     },
     {
@@ -382,30 +410,6 @@
       "evidence": {
         "stars": 34,
         "pushed": "2026-03-30"
-      }
-    },
-    {
-      "id": "kiliman/codemesh",
-      "name": "kiliman/codemesh",
-      "url": "https://github.com/kiliman/codemesh",
-      "kind": "mcp",
-      "category": "\ud83d\udd0c MCP Server",
-      "tier": "\ud83e\udd48 Verified",
-      "scores": {
-        "relevant": 80,
-        "maintained": 60,
-        "adopted": 40,
-        "works": 0,
-        "safe": 100
-      },
-      "evidence": {
-        "stars": 24,
-        "pushed": "2025-11-03",
-        "deep": {
-          "works": 0,
-          "safe": 100,
-          "safety_findings": []
-        }
       }
     },
     {
@@ -442,7 +446,7 @@
         "safe": "not_measured"
       },
       "evidence": {
-        "stars": 7052,
+        "stars": 7069,
         "pushed": "2024-04-03"
       }
     },
@@ -476,19 +480,12 @@
         "relevant": 60,
         "maintained": 20,
         "adopted": 80,
-        "works": 49,
-        "safe": 80
+        "works": "not_measured",
+        "safe": "not_measured"
       },
       "evidence": {
-        "stars": 3175,
-        "pushed": "2024-05-03",
-        "deep": {
-          "works": 49,
-          "safe": 80,
-          "safety_findings": [
-            "risky exec pattern in isaacgymenvs/assets/urdf/kuka_allegro_description/meshes/convert_stl2obj.py"
-          ]
-        }
+        "stars": 3174,
+        "pushed": "2024-05-03"
       }
     },
     {
@@ -506,7 +503,7 @@
         "safe": "not_measured"
       },
       "evidence": {
-        "stars": 2979,
+        "stars": 3002,
         "pushed": "2024-12-14"
       }
     },
@@ -525,7 +522,7 @@
         "safe": "not_measured"
       },
       "evidence": {
-        "stars": 1614,
+        "stars": 1615,
         "pushed": "2025-01-28"
       }
     },
@@ -544,7 +541,7 @@
         "safe": "not_measured"
       },
       "evidence": {
-        "stars": 1091,
+        "stars": 1094,
         "pushed": "2024-02-05"
       }
     },
@@ -563,7 +560,7 @@
         "safe": "not_measured"
       },
       "evidence": {
-        "stars": 1025,
+        "stars": 1034,
         "pushed": "2026-06-11"
       }
     },
@@ -758,49 +755,11 @@
       }
     },
     {
-      "id": "repo:metauto-ai-gptswarm",
-      "name": "metauto-ai/GPTSwarm",
-      "url": "https://github.com/metauto-ai/GPTSwarm",
-      "kind": "repo",
-      "category": "Core Frameworks",
-      "tier": "\ud83e\udd49 Listed",
-      "scores": {
-        "relevant": 60,
-        "maintained": "not_measured",
-        "adopted": 40,
-        "works": "not_measured",
-        "safe": "not_measured"
-      },
-      "evidence": {
-        "stars": 1,
-        "pushed": null
-      }
-    },
-    {
       "id": "repo:wjlgatech-tooluniverse",
       "name": "wjlgatech/ToolUniverse",
       "url": "https://github.com/wjlgatech/ToolUniverse",
       "kind": "repo",
       "category": "Infrastructure & Utilities",
-      "tier": "\ud83e\udd49 Listed",
-      "scores": {
-        "relevant": 60,
-        "maintained": "not_measured",
-        "adopted": "not_measured",
-        "works": "not_measured",
-        "safe": "not_measured"
-      },
-      "evidence": {
-        "stars": null,
-        "pushed": null
-      }
-    },
-    {
-      "id": "repo:elianovg-awesome-automated-research",
-      "name": "Elianovg/awesome-automated-research",
-      "url": "https://github.com/Elianovg/awesome-automated-research",
-      "kind": "repo",
-      "category": "Existing \"Awesome\" Lists & What's Missing",
       "tier": "\ud83e\udd49 Listed",
       "scores": {
         "relevant": 60,
