@@ -375,6 +375,23 @@ Every top repo cited here is minted into a reusable **agentic skill** + a knowle
 
 ---
 
+## 🛰️ Frontier Radar
+
+_The latest surfaced from the people we follow via open arXiv/GitHub APIs (`scripts/track.py`, refreshed weekly). Surname-matched — verify the author._
+
+| Researcher | Most recent work | Date |
+|-----------|------------------|------|
+| Caiming Xiong | [Pancasila-Dilemmas: Evaluating Large Language Models on Indonesian Human Value Dilemmas Grounded in Pancasila](http://arxiv.org/abs/2607.18066v1) | 2026-07-20 |
+| Chris Lu | [Automated Discovery Has No Universally Superior Harness](http://arxiv.org/abs/2607.18235v1) | 2026-07-20 |
+| Cong Lu | [Automated Discovery Has No Universally Superior Harness](http://arxiv.org/abs/2607.18235v1) | 2026-07-20 |
+| David Ha | [Simple Domain Generalization for Strong Pixel-Level Image Tampering Detection in Modern VLMs](http://arxiv.org/abs/2607.18230v1) | 2026-07-20 |
+| Jakob Foerster | [How the Quantum Sorites Phenomenon Strengthens the Bell Argument and How a Random-Matrix Collapse Dynamics Answers It](http://arxiv.org/abs/2607.17894v1) | 2026-07-20 |
+| Jenny Zhang | [Color superconductors and holon metals from doping a Fractional Chern insulator](http://arxiv.org/abs/2607.18238v1) | 2026-07-20 |
+| Jianguo Zhang | [Color superconductors and holon metals from doping a Fractional Chern insulator](http://arxiv.org/abs/2607.18238v1) | 2026-07-20 |
+| Minqi Jiang | [HOMIE: Human-object Centric Video Personalization via Multimodal Intelligent Enchancement](http://arxiv.org/abs/2607.18217v1) | 2026-07-20 |
+
+---
+
 ## 📅 Timeline: Key Milestones
 
 ```
