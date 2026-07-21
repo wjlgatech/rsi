@@ -30,5 +30,37 @@
         "evidence": "CLAUDE.md sub-projects section; sourced from .gitignore 2026-07-15 note"
       }
     ]
+  },
+  {
+    "id": "rc0002",
+    "delivery": "Gold deep-scan of top 5 Verified tools: 0 promoted (honest gate hold), works/safe evidence recorded + shipped",
+    "objective": "Mint the first evidence-backed gold certifications so the trust-tier claim has teeth",
+    "created_at": "2026-07-21T20:48:34Z",
+    "key_results": [
+      {
+        "text": "First gold badge minted",
+        "target": ">=1 tool at gold",
+        "score": 0.0,
+        "evidence": "all 5 stayed Verified: dspy 71/40, letta 74/0, AI-Scientist 46/80, PraisonAI 84/0, AI-Scientist-v2 50/100"
+      },
+      {
+        "text": "Top-5 Verified measured with named evidence",
+        "target": "works+safe replace not_measured for 5 repos",
+        "score": 1.0,
+        "evidence": "certifications.json deep blocks @ 5532773"
+      },
+      {
+        "text": "Gate integrity held",
+        "target": "no fake pass, findings named",
+        "score": 1.0,
+        "evidence": "committed-secret + exec-pattern findings per repo; no-evidence-no-badge enforced"
+      },
+      {
+        "text": "No regression",
+        "target": "make check green",
+        "score": 1.0,
+        "evidence": "full gate passed post-run; pushed 8a49e74..5532773"
+      }
+    ]
   }
 ]
