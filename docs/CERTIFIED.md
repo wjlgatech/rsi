@@ -1,4 +1,4 @@
-# 🏅 RSI Certified Tooling  ·  _auto-updated 2026-07-15_
+# 🏅 RSI Certified Tooling  ·  _auto-updated 2026-07-21_
 
 Every tool earns an **evidence-backed** tier — not an install count (that's the layer [skills.sh](https://www.skills.sh/) lacks). 🥉 Listed · 🥈 Verified (relevant + maintained, machine-checked) · 🥇 RSI-Certified (adds *works* + *safe* via `anyagent analyze`/`brace`). No-evidence ⇒ no badge. Machine-readable: [`knowledge/certifications.json`](../knowledge/certifications.json).
 
